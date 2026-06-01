@@ -52,8 +52,8 @@ CN = {
 
 
 TARGET_LABELS = {
-    "phys_pct_135": "135%+ increased Physical Damage / 135%+ 物理百分比",
-    "phys_pct_155": "155%+ increased Physical Damage / 155%+ 物理百分比",
+    "phys_pct_135": "T3+ increased Physical Damage / T3+ 物理百分比（135%+）",
+    "phys_pct_155": "T2+ increased Physical Damage / T2+ 物理百分比（155%+）",
     "flat_phys_t3": "T3+ Adds Physical Damage / T3+ 物理点伤",
     "flat_phys_t2": "T2+ Adds Physical Damage / T2+ 物理点伤",
     "element_t3": "T3+ Elemental Damage / T3+ 元素点伤",
@@ -512,10 +512,10 @@ def startup_candidates(
     ]
 
     target_routes = {
-        "phys_pct_135": "路线 1、路线 3",
-        "flat_phys_t3": "路线 2",
+        "phys_pct_135": "暴击弓 A、非暴击弓",
+        "flat_phys_t3": "暴击弓 B",
         "phys_pct_155": "高端备选",
-        "flat_phys_t2": "路线 2 高端备选",
+        "flat_phys_t2": "暴击弓 B 高端备选",
     }
 
     target_tiers = {
@@ -566,7 +566,7 @@ def startup_candidates(
                     f"单把垃圾弓低于 {fmt(s7_break_even)}E 才比直接买 135-154% 底便宜；"
                     f"若只按单随机词保守估算，概率 {pct(s7_one_affix_probability)}"
                 ),
-                "路线 1、路线 3 的垃圾底回收",
+                "暴击弓 A、非暴击弓的垃圾底回收",
                 "条件备选",
             ),
             Candidate(
@@ -578,7 +578,7 @@ def startup_candidates(
                 1.0,
                 direct_phys_135,
                 "手动价 9div",
-                "路线 1、路线 3",
+                "暴击弓 A、非暴击弓",
             ),
             Candidate(
                 "S4-P155",
@@ -589,7 +589,7 @@ def startup_candidates(
                 1.0,
                 direct_phys_155,
                 "手动价 14div",
-                "路线 1、路线 3 高端备选",
+                "暴击弓 A、非暴击弓高端备选",
             ),
             Candidate(
                 "S5-F3",
@@ -600,7 +600,7 @@ def startup_candidates(
                 1.0,
                 direct_flat_t3,
                 "手动价 4E",
-                "路线 2",
+                "暴击弓 B",
             ),
             Candidate(
                 "S5-F2",
@@ -611,7 +611,7 @@ def startup_candidates(
                 1.0,
                 direct_flat_t2,
                 "手动价 10E",
-                "路线 2 高端备选",
+                "暴击弓 B 高端备选",
             ),
         ]
     )
@@ -641,7 +641,7 @@ def startup_candidates(
                 probability,
                 average,
                 f"后缀底低于 {fmt(max(break_even, 0))}E 才比同目标直接买便宜；目标权重 {fmt(target_weight)} / 前缀池 {fmt(total)}",
-                "路线 1、路线 3 的低价捡漏",
+                "暴击弓 A、非暴击弓的低价捡漏",
                 "条件备选",
             )
         )
@@ -751,6 +751,69 @@ def render_startup_table(candidates: list[Candidate]) -> str:
         "<table>"
         "<thead><tr><th>状态</th><th>目标起始状态</th><th>生成方式</th><th>材料</th><th>单次成本</th><th>成功率</th><th>平均次数</th><th>平均成本</th><th>临界比较</th><th>适用路线</th><th>选择</th></tr></thead>"
         f"<tbody>{''.join(rows)}</tbody>"
+        "</table>"
+    )
+
+
+def render_effective_mod_rules() -> str:
+    rows = [
+        (
+            "暴击弓 A/B 必须词",
+            "前缀",
+            f"<code>{TARGET_LABELS['phys_pct_135']}</code> + <code>{TARGET_LABELS['flat_phys_t3']}</code>",
+            "两条物理前缀都要有；路线 A 从物理百分比底开始，路线 B 从物理点伤底反做。",
+        ),
+        (
+            "暴击弓 A/B 必须词",
+            "后缀",
+            "<code>Critical Hit Chance / 暴击率</code>",
+            "<code>Greater Essence of Seeking / 高阶追寻精髓</code> 固定得到；这是两条暴击弓路线的共同目标。",
+        ),
+        (
+            "非暴击弓必须词",
+            "前缀",
+            f"<code>{TARGET_LABELS['phys_pct_135']}</code> + <code>{TARGET_LABELS['flat_phys_t3']}</code>",
+            "非暴击弓不强求暴击率；核心是双物理前缀，再补有效伤害词。",
+        ),
+        (
+            "有效前缀",
+            "前缀",
+            f"<code>{TARGET_LABELS['element_t3']}</code>、高阶物理百分比、物理点伤、深渊高价值伤害前缀",
+            "<code>+# to Accuracy Rating / 命中值</code> 和 <code>#% increased Elemental Damage with Attacks / 武器元素攻击伤害</code> 不算本报告有效词。",
+        ),
+        (
+            "有效后缀",
+            "后缀",
+            f"<code>{TARGET_LABELS['crit_multi_t3']}</code>、<code>{TARGET_LABELS['projectile_skills']}</code>、<code>{TARGET_LABELS['additional_arrows']}</code>、攻速、暴击率",
+            "非暴击弓虽然不强求暴击率，但出暴击类后缀也算有效，只是不把暴击率作为必需目标。",
+        ),
+        (
+            "随机双加成功定义",
+            "前/后缀",
+            "新增 2 条都必须有效",
+            "如果只出 1 条有效，报告只作为临界比较，不计入主成功率。",
+        ),
+        (
+            "深渊封口成功定义",
+            "通常只剩 1 个空位",
+            "暴击弓 A 最优分支补 T3+ 物理点伤；暴击弓 B 必须补 T3+ 物理百分比；非暴击弓通常补 T3+ 元素/有效伤害前缀",
+            "深渊失败按光明预兆剥离循环，不按炸底重买。",
+        ),
+    ]
+    body = []
+    for scope, side, mods, note in rows:
+        body.append(
+            "<tr>"
+            f"<td>{esc(scope)}</td>"
+            f"<td>{esc(side)}</td>"
+            f"<td>{mods}</td>"
+            f"<td>{note}</td>"
+            "</tr>"
+        )
+    return (
+        "<table>"
+        "<thead><tr><th>分类</th><th>位置</th><th>词缀</th><th>说明</th></tr></thead>"
+        f"<tbody>{''.join(body)}</tbody>"
         "</table>"
     )
 
@@ -1507,7 +1570,7 @@ def render_routes(
         )
 
     route1_price_distribution = render_route1_cost_breakdown(
-        "路线 1 价格分布：高阶双加和深渊封口分开循环",
+        "暴击弓 A 价格分布：物理百分比底起手，高阶双加和深渊封口分开循环",
         [
             (
                 "起步 + 暴击精髓",
@@ -1593,7 +1656,7 @@ def render_routes(
         ],
     )
     route1_timing_compare = render_route_candidate_table(
-        "路线 1 物理点伤时机比较",
+        "暴击弓 A 物理点伤时机比较",
         [
             (
                 "A：双崇高阶段出 T3+ 物理点伤",
@@ -1618,11 +1681,11 @@ def render_routes(
         ],
     )
     route1_step_costs = step_cost_table(
-        "路线 1 最优路径分步骤成本：S4-P135 + 高阶双加不强求点伤 + Ancient Echo 洗点伤",
+        "暴击弓 A 最优路径分步骤成本：物理百分比底 + 暴击精髓 + 高阶双加 + Ancient Echo 洗点伤",
         [
             (
                 "1. 基底",
-                f"<code>{phys_start.code}</code>：135-154% 物理百分比魔法底",
+                f"<code>{phys_start.code}</code>：{TARGET_LABELS[phys_start.target]} 起步底",
                 phys_cost,
                 phys_cost,
                 "本步只算第一次买入基底；双崇高失败导致的重买成本归到第 3 步。"
@@ -1651,9 +1714,9 @@ def render_routes(
         ],
     )
     route1_material_share = expected_material_table(
-        "路线 1 最优路径物品期望消耗",
+        "暴击弓 A 最优路径物品期望消耗",
         [
-            (f"<code>{phys_start.code}</code> 135-154% 物理百分比魔法底", r1_greater_attempts, r1_base_component, "双崇高失败会炸底，所以这里是最大成本项。"),
+            (f"<code>{phys_start.code}</code> {TARGET_LABELS[phys_start.target]} 起步底", r1_greater_attempts, r1_base_component, "双崇高失败会炸底，所以这里是最大成本项。"),
             (f"<code>{label('Greater Essence of Seeking')}</code>", r1_greater_attempts, r1_seeking_component, "每次重做基底都要重新打暴击精髓。"),
             (f"<code>{label('Omen of Greater Exaltation')}</code>", r1_greater_attempts, r1_greater_omen_component, "用于一次补 2 条随机词。"),
             (f"<code>{label('Greater Exalted Orb')}</code>", r1_greater_attempts, r1_greater_exalt_component, "与高阶崇高预兆配套。"),
@@ -1664,9 +1727,9 @@ def render_routes(
         ],
     )
     route1_ops = render_route_candidate_table(
-        "路线 1 候选路径表：第二步确定，第三步以后按候选池比较",
+        "暴击弓 A 候选路径表：第二步确定，第三步以后按候选池比较",
         [
-            (f"R1-BASE：{TARGET_LABELS['phys_pct_135']} 起步底", "统一起步模块推荐", f"<code>{phys_start.code}</code>：{phys_start.materials}", phys_cost, 1.0, "基底价格进入路线 1 总成本", "推荐"),
+            (f"R1-BASE：{TARGET_LABELS['phys_pct_135']} 起步底", "统一起步模块推荐", f"<code>{phys_start.code}</code>：{phys_start.materials}", phys_cost, 1.0, "基底价格进入暴击弓 A 总成本", "推荐"),
             ("R1-S1：物理百分比 + 暴击率 + 随机词", "确定步骤：精髓补暴击", material("Greater Essence of Seeking", seeking), seeking, 1.0, "第二步必做；本行是第二步最优解", "推荐"),
             ("R1-S2：随机补 2 词，2 条都有效，不强求物理点伤", "大幅提升预兆 + 高阶崇高，一次加 2 词", f"{material('Omen of Greater Exaltation', greater_omen)} + {material('Greater Exalted Orb', greater_exalt)}", greater_omen + greater_exalt, r1_two_no_flat_greater[1], f"前置期望 {money(r1_no_flat_greater_preloop_expected)}；后续深渊洗物理点伤", "推荐", money(r1_no_flat_greater_preloop_expected)),
             ("R1-S2：随机补 2 词，2 条都有效且含物理点伤", "2 个普通崇高直接连点", material_x(2, "Exalted Orb", exalt), exalt * 2, r1_two_normal[1], f"至少 1 条有效：{pct(r1_two_normal[0])}", "低端备选"),
@@ -1682,12 +1745,12 @@ def render_routes(
         ],
     )
     route2_states = render_state_table(
-        "路线 2：暴击物理点伤反做",
+        "暴击弓 B：点伤底反做物理百分比",
         [
             ("R2-S0", f"来自起步池 <code>{flat_start.code}</code>：{TARGET_LABELS['flat_phys_t3']}", "需要保留 1 个前缀空位", f"<code>{label('Greater Essence of Seeking')}</code>", "低成本入口；不需要先付高价物理百分比底。"),
-            ("R2-S1", "<code>T3+ Physical Damage / T3+ 物理点伤</code> + <code>Critical Hit Chance / 暴击率</code> + 精髓随机词", "只继续有前缀空位的胚", "深渊定向洗 135%+ 物理百分比", "若随机词占满前缀或价值差，直接卖/跳过。"),
-            ("R2-S2", "物理点伤 + 暴击率 + 135%+ 物理百分比", "三核心成立", "再补元素前缀或好后缀", "命中三核心后先估价，通常可以卖。"),
-            ("R2-S3", "三核心 + 高元素/暴伤/攻速之一", "接近毕业", "只做高价值封口", "不把元素前缀算作路线 2 第三步成功。"),
+            ("R2-S1", "<code>T3+ Physical Damage / T3+ 物理点伤</code> + <code>Critical Hit Chance / 暴击率</code> + 精髓随机词", "只继续有前缀空位的胚", "深渊定向洗 T3+ 物理百分比", "若随机词占满前缀或价值差，直接卖/跳过。"),
+            ("R2-S2", "物理点伤 + 暴击率 + T3+ 物理百分比", "三核心成立", "再补元素前缀或好后缀", "命中三核心后先估价，通常可以卖。"),
+            ("R2-S3", "三核心 + 高元素/暴伤/攻速之一", "接近毕业", "只做高价值封口", "不把元素前缀算作暴击弓 B 第三步成功。"),
         ],
     )
     route2_transitions = render_transition_table(
@@ -1695,11 +1758,11 @@ def render_routes(
             ("起步池", "R2-S0", "选择最低成本 T3+ 物理点伤候选", "由统一起步模块计算", f"{fmt(flat_cost)}E", "当前手动 4E 直接买通常是低成本基准。"),
             ("R2-S0", "R2-S1", f"<code>{label('Greater Essence of Seeking')}</code>", "精髓固定暴击率", f"{fmt(seeking)}E", "进入 2 词稀有。"),
             ("R2-S1", "R2-S2", f"<code>{label('Omen of Greater Exaltation')}</code> + <code>{label('Exalted Orb')}</code>", f"双加两条都有效 {pct(r2_two_normal[1])}", f"前置期望 {money(r2_low_preloop_expected)}", "先做会炸底的步骤；失败从点伤底重做。"),
-            ("R2-S2", "R2-S3", f"<code>{label('Ancient Jawbone')}</code> + <code>{label('Omen of Abyssal Echoes')}</code>，失败后 <code>{label('Omen of Light')}</code> 剥离重试", f"最后补 135%+ 物理百分比，六选：1 - (1 - {pct(r2_phys_abyss_ancient_single)})^6 = {pct(r2_phys_abyss_ancient_six)}", f"重试期望 {money(r2_phys_abyss_ancient_six_retry)}", "深渊能无限洗，放在最后；分母加入 Craft of Exile 深渊前缀权重。"),
+            ("R2-S2", "R2-S3", f"<code>{label('Ancient Jawbone')}</code> + <code>{label('Omen of Abyssal Echoes')}</code>，失败后 <code>{label('Omen of Light')}</code> 剥离重试", f"最后补 T3+ 物理百分比，六选：1 - (1 - {pct(r2_phys_abyss_ancient_single)})^6 = {pct(r2_phys_abyss_ancient_six)}", f"重试期望 {money(r2_phys_abyss_ancient_six_retry)}", "深渊能无限洗，放在最后；分母加入 Craft of Exile 深渊前缀权重。"),
         ]
     )
     route2_price_distribution = render_route1_cost_breakdown(
-        "路线 2 价格分布：物理百分比必须靠深渊循环",
+        "暴击弓 B 价格分布：物理百分比必须靠深渊循环",
         [
             (
                 "起步 + 暴击精髓",
@@ -1735,7 +1798,7 @@ def render_routes(
                 f"三选 {pct(r2_phys_abyss_three)}",
                 f"深渊失败剥离 {money(light_omen)}",
                 f"{money(r2_low_preloop_expected + r2_phys_abyss_three_retry)} = {money(r2_low_preloop_expected)} + {money(r2_phys_abyss_three_retry)}",
-                "最后一步只认 135%+ 物理百分比；失败不报废，分母加入 Craft of Exile 深渊前缀权重。"
+                "最后一步只认 T3+ 物理百分比；失败不报废，分母加入 Craft of Exile 深渊前缀权重。"
             ),
             (
                 "Preserved Echo 定向物理百分比",
@@ -1762,25 +1825,25 @@ def render_routes(
                 f"Ancient Echo 六选 {pct(r2_phys_abyss_ancient_six)}",
                 f"深渊失败剥离 {money(light_omen)}",
                 f"{money(r2_best_total_expected)} = {money(r2_low_preloop_expected)} + {money(r2_phys_abyss_ancient_six_retry)}",
-                "当前路线 2 最低期望；使用 Craft of Exile 外推深渊前缀权重。"
+                "当前暴击弓 B 最低期望；使用 Craft of Exile 外推深渊前缀权重。"
             ),
         ],
     )
     route2_ops = render_route_candidate_table(
-        "路线 2 候选路径表：点伤底 + 暴击后，必须深渊补物理百分比",
+        "暴击弓 B 候选路径表：点伤底 + 暴击后，必须深渊补物理百分比",
         [
-            (f"R2-BASE：{TARGET_LABELS['flat_phys_t3']} 起步底", "统一起步模块推荐", f"<code>{flat_start.code}</code>：{flat_start.materials}", flat_cost, 1.0, "基底价格进入路线 2 总成本", "推荐"),
+            (f"R2-BASE：{TARGET_LABELS['flat_phys_t3']} 起步底", "统一起步模块推荐", f"<code>{flat_start.code}</code>：{flat_start.materials}", flat_cost, 1.0, "基底价格进入暴击弓 B 总成本", "推荐"),
             ("R2-S1：物理点伤 + 暴击率 + 随机词", "确定步骤：精髓补暴击", material("Greater Essence of Seeking", seeking), seeking, 1.0, "第二步必做；本行是第二步最优解", "推荐"),
             ("R2-S2：深渊前先补 2 条有效词", "大幅提升预兆 + 普通崇高，一次加 2 词", f"{material('Omen of Greater Exaltation', greater_omen)} + {material('Exalted Orb', exalt)}", greater_omen + exalt, r2_two_normal[1], f"深渊前置步骤；失败炸底重做，前置期望 {money(r2_low_preloop_expected)}", "低端推荐"),
             ("R2-S2：深渊前先补 2 条有效词", "大幅提升预兆 + 高阶崇高，一次加 2 词", f"{material('Omen of Greater Exaltation', greater_omen)} + {material('Greater Exalted Orb', greater_exalt)}", greater_omen + greater_exalt, r2_two_greater[1], f"深渊前置步骤；失败炸底重做，前置期望 {money(r2_high_preloop_expected)}", "高端备选"),
-            ("R2-S2：深渊补 135%+ 物理百分比", "Preserved 三选一，可循环重试", f"{material('Preserved Jawbone', preserved)}；失败后 {material('Omen of Light', light_omen)} 剥离深渊词", preserved_prefix_cost, r2_phys_abyss_three, f"单抽权重 {fmt(r2_phys_abyss_w)} / {fmt(r2_phys_abyss_total_with_desecrated)}；失败不报废", "低端备选", money(r2_phys_abyss_three_retry)),
-            ("R2-S2：深渊补 135%+ 物理百分比", "Preserved + Echo 六选，可循环重试", f"{material('Preserved Jawbone', preserved)} + {material('Omen of Abyssal Echoes', echoes)}；失败后 {material('Omen of Light', light_omen)} 剥离深渊词", preserved_prefix_echo_cost, r2_phys_abyss_six, "只认 135%+ 物理百分比；Echo 六选", "备选", money(r2_phys_abyss_six_retry)),
-            ("R2-S2：深渊补 135%+ 物理百分比", "Ancient 三选一，可循环重试", f"{material('Ancient Jawbone', ancient)}；失败后 {material('Omen of Light', light_omen)} 剥离深渊词", ancient_prefix_cost, r2_phys_abyss_ancient_three, f"Ancient 权重 {fmt(r2_phys_abyss_ancient_w)} / {fmt(r2_phys_abyss_ancient_total_with_desecrated)}", "高价备选", money(r2_phys_abyss_ancient_three_retry)),
-            ("R2-S3：最后深渊补 135%+ 物理百分比", "Ancient + Echo 六选，可循环重试", f"{material('Ancient Jawbone', ancient)} + {material('Omen of Abyssal Echoes', echoes)}；失败后 {material('Omen of Light', light_omen)} 剥离深渊词", ancient_prefix_echo_cost, r2_phys_abyss_ancient_six, "使用 Craft of Exile 外推深渊前缀权重", "高价推荐", money(r2_phys_abyss_ancient_six_retry)),
+            ("R2-S2：深渊补 T3+ 物理百分比", "Preserved 三选一，可循环重试", f"{material('Preserved Jawbone', preserved)}；失败后 {material('Omen of Light', light_omen)} 剥离深渊词", preserved_prefix_cost, r2_phys_abyss_three, f"单抽权重 {fmt(r2_phys_abyss_w)} / {fmt(r2_phys_abyss_total_with_desecrated)}；失败不报废", "低端备选", money(r2_phys_abyss_three_retry)),
+            ("R2-S2：深渊补 T3+ 物理百分比", "Preserved + Echo 六选，可循环重试", f"{material('Preserved Jawbone', preserved)} + {material('Omen of Abyssal Echoes', echoes)}；失败后 {material('Omen of Light', light_omen)} 剥离深渊词", preserved_prefix_echo_cost, r2_phys_abyss_six, "只认 T3+ 物理百分比；Echo 六选", "备选", money(r2_phys_abyss_six_retry)),
+            ("R2-S2：深渊补 T3+ 物理百分比", "Ancient 三选一，可循环重试", f"{material('Ancient Jawbone', ancient)}；失败后 {material('Omen of Light', light_omen)} 剥离深渊词", ancient_prefix_cost, r2_phys_abyss_ancient_three, f"Ancient 权重 {fmt(r2_phys_abyss_ancient_w)} / {fmt(r2_phys_abyss_ancient_total_with_desecrated)}", "高价备选", money(r2_phys_abyss_ancient_three_retry)),
+            ("R2-S3：最后深渊补 T3+ 物理百分比", "Ancient + Echo 六选，可循环重试", f"{material('Ancient Jawbone', ancient)} + {material('Omen of Abyssal Echoes', echoes)}；失败后 {material('Omen of Light', light_omen)} 剥离深渊词", ancient_prefix_echo_cost, r2_phys_abyss_ancient_six, "使用 Craft of Exile 外推深渊前缀权重", "高价推荐", money(r2_phys_abyss_ancient_six_retry)),
         ],
     )
     route2_share = expected_material_table(
-        "路线 2 最优路径成本占比：Ancient Echo 洗 135%+ 物理百分比",
+        "暴击弓 B 最优路径成本占比：Ancient Echo 洗 T3+ 物理百分比",
         [
             ("T3+ 物理点伤起步底", r2_low_attempts, flat_cost * r2_low_attempts, "双加失败会炸底，所以要重买点伤底。"),
             (f"<code>{label('Greater Essence of Seeking')}</code>", r2_low_attempts, seeking * r2_low_attempts, "每次重做基底都要重新打暴击精髓。"),
@@ -1792,7 +1855,7 @@ def render_routes(
         ],
     )
     route2_step_costs = step_cost_table(
-        "路线 2 分步骤成本：点伤底反做物理百分比",
+        "暴击弓 B 分步骤成本：点伤底反做物理百分比",
         [
             (
                 "1. 基底",
@@ -1820,37 +1883,37 @@ def render_routes(
                 f"上一步 + <code>{label('Ancient Jawbone')}</code> + <code>{label('Omen of Abyssal Echoes')}</code>，失败用 <code>{label('Omen of Light')}</code>",
                 r2_phys_abyss_ancient_six_retry,
                 r2_best_total_expected,
-                f"只认 135%+ 物理百分比；六选估算 {pct(r2_phys_abyss_ancient_six)}，失败可无限洗。"
+                f"只认 T3+ 物理百分比；六选估算 {pct(r2_phys_abyss_ancient_six)}，失败可无限洗。"
             ),
         ],
     )
 
     route3_states = render_state_table(
-        "路线 3：非暴击 pDPS 量产",
+        "非暴击弓：双物理 pDPS 量产",
         [
             ("R3-S0", f"来自起步池 <code>{phys_start.code}</code>：{TARGET_LABELS['phys_pct_135']}", "2 前缀 / 2-3 后缀", f"<code>{label('Greater Essence of Abrasion')}</code>", "不强求暴击；暴击后缀出现也只算有效词之一。"),
-            ("R3-S1", "<code>135%+ Physical Damage / 135%+ 物理百分比</code> + <code>Physical Damage / 物理点伤</code>", "1 前缀 / 3 后缀", "补元素、攻速、暴击、暴伤", "2 条物理前缀已经可卖，低价货优先周转。"),
+            ("R3-S1", "<code>T3+ Physical Damage / T3+ 物理百分比</code> + <code>Physical Damage / 物理点伤</code>", "1 前缀 / 3 后缀", "补元素、攻速、暴击、暴伤", "2 条物理前缀已经可卖，低价货优先周转。"),
             ("R3-S2", "双物理前缀 + 2 条有效词", "0-1 前缀 / 1-2 后缀", "大幅提升预兆 + 崇高继续补有效词", "3-4 条有效词为中间过渡，可按 pDPS/eDPS 定价。"),
             ("R3-S3", "双物理 + 元素 + 2 个好后缀", "0 前缀 / 0-1 后缀", "只做符文/品质补强", "接近毕业；完美毕业要求核心多为 T1/T2。"),
         ],
     )
     route3_transitions = render_transition_table(
         [
-            ("起步池", "R3-S0", "选择最低成本 135%+ 物理百分比候选", "由统一起步模块计算", f"{fmt(phys_cost)}E", "与路线 1 共用起步池。"),
+            ("起步池", "R3-S0", "选择最低成本 T3+ 物理百分比候选", "由统一起步模块计算", f"{fmt(phys_cost)}E", "与暴击弓 A 共用起步池。"),
             ("R3-S0", "R3-S1", f"<code>{label('Greater Essence of Abrasion')}</code>", "精髓固定物理点伤", f"{fmt(abrasion)}E", "稳定形成双物理前缀。"),
             ("R3-S1", "R3-S2", f"<code>{label('Omen of Greater Exaltation')}</code> + 崇高", f"普通双加两条都有效 {pct(r3_two_normal[1])}；高阶 {pct(r3_two_greater[1])}", f"{money(greater_omen + exalt)} / {money(greater_omen + greater_exalt)}", "先用大幅提升找有效词；暴击后缀也算有效。"),
             ("R3-S2", "R3-S3", "深渊或继续崇高补最后有效词", f"深渊元素三选 {pct(r3_abyss_three)}；Echo 六选 {pct(r3_abyss_six)}", f"{fmt(preserved_prefix_cost)}E / {fmt(preserved_prefix_echo_cost)}E", "深渊放在后段，失败可光明剥离重试；分母加入 Craft of Exile 深渊前缀权重。"),
         ]
     )
     route3_step_costs = step_cost_table(
-        "路线 3 最优路径分步骤成本：S4-P135 + 高阶磨蚀 + 低端双加 + Ancient Echo",
+        "非暴击弓最优路径分步骤成本：物理百分比底 + 高阶磨蚀 + 低端双加 + Ancient Echo",
         [
             (
                 "1. 基底",
-                f"<code>{phys_start.code}</code>：135-154% 物理百分比魔法底",
+                f"<code>{phys_start.code}</code>：{TARGET_LABELS[phys_start.target]} 起步底",
                 phys_cost,
                 phys_cost,
-                "与路线 1 共用统一起步池；本步只算第一次买入基底。"
+                "与暴击弓 A 共用统一起步池；本步只算第一次买入基底。"
             ),
             (
                 "2. 基底 + 物理点伤",
@@ -1876,9 +1939,9 @@ def render_routes(
         ],
     )
     route3_material_share = expected_material_table(
-        "路线 3 最优路径物品期望消耗",
+        "非暴击弓最优路径物品期望消耗",
         [
-            (f"<code>{phys_start.code}</code> 135-154% 物理百分比魔法底", r3_low_attempts, r3_base_component, "双加失败会炸底，所以要重买基底。"),
+            (f"<code>{phys_start.code}</code> {TARGET_LABELS[phys_start.target]} 起步底", r3_low_attempts, r3_base_component, "双加失败会炸底，所以要重买基底。"),
             (f"<code>{label('Greater Essence of Abrasion')}</code>", r3_low_attempts, r3_abrasion_component, "每次重做基底都要重新打磨蚀精髓。"),
             (f"<code>{label('Omen of Greater Exaltation')}</code>", r3_low_attempts, r3_greater_omen_component, "用于一次补 2 条随机词。"),
             (f"<code>{label('Exalted Orb')}</code>", r3_low_attempts, r3_exalt_component, "低端量产用普通崇高配大幅提升预兆。"),
@@ -1888,7 +1951,7 @@ def render_routes(
         ],
     )
     route3_price_distribution = render_route1_cost_breakdown(
-        "路线 3 价格分布：不强求暴击，只要求双加有效",
+        "非暴击弓价格分布：不强求暴击，只要求双加有效",
         [
             (
                 "起步 + 磨蚀精髓",
@@ -1942,14 +2005,14 @@ def render_routes(
                 f"Ancient Echo 六选 {pct(r3_abyss_ancient_six)}",
                 f"深渊失败剥离 {money(light_omen)}",
                 f"{money(r3_optimal_total)} = {money(r3_low_preloop_expected)} + {money(r3_abyss_ancient_six_retry)}",
-                "当前路线 3 最低期望；适合已有可卖双物理胚时封口。"
+                "当前非暴击弓最低期望；适合已有可卖双物理胚时封口。"
             ),
         ],
     )
     route3_ops = render_route_candidate_table(
-        "路线 3 候选路径表：双物理后补有效词",
+        "非暴击弓候选路径表：双物理后补有效词",
         [
-            (f"R3-BASE：{TARGET_LABELS['phys_pct_135']} 起步底", "统一起步模块推荐", f"<code>{phys_start.code}</code>：{phys_start.materials}", phys_cost, 1.0, "基底价格进入路线 3 总成本", "推荐"),
+            (f"R3-BASE：{TARGET_LABELS['phys_pct_135']} 起步底", "统一起步模块推荐", f"<code>{phys_start.code}</code>：{phys_start.materials}", phys_cost, 1.0, "基底价格进入非暴击弓总成本", "推荐"),
             ("R3-S1：双物理前缀 + 随机词", "确定步骤：磨蚀精髓补物理点伤", material("Greater Essence of Abrasion", abrasion), abrasion, 1.0, "第二步必做；本行是第二步最优解", "推荐"),
             ("R3-S2：随机补 2 词，2 条都有效", "大幅提升预兆 + 普通崇高，一次加 2 词", f"{material('Omen of Greater Exaltation', greater_omen)} + {material('Exalted Orb', exalt)}", greater_omen + exalt, r3_two_normal[1], f"至少 1 条有效：{pct(r3_two_normal[0])}", "低端推荐"),
             ("R3-S2：随机补 2 词，2 条都有效", "大幅提升预兆 + 高阶崇高，一次加 2 词", f"{material('Omen of Greater Exaltation', greater_omen)} + {material('Greater Exalted Orb', greater_exalt)}", greater_omen + greater_exalt, r3_two_greater[1], f"至少 1 条有效：{pct(r3_two_greater[0])}", "高端备选"),
@@ -1970,7 +2033,7 @@ def render_routes(
           <tr><td>深渊回响六选</td><td><code>1 - (1 - p)^6</code></td><td>Echo 成本单独加入，不只看概率翻倍。</td></tr>
           <tr><td>深渊失败重试</td><td><code>期望 = (尝试成本 + (1 - p) x 光明预兆成本) / p</code></td><td>失败后用 <code>Omen of Light / 光明预兆</code> 剥离深渊词，回到同一个胚子继续洗。</td></tr>
           <tr><td>Ancient Jawbone</td><td><code>最低词缀等级 40</code></td><td>低级前缀被过滤，目标词权重占比上升，所以成功率高于 Preserved；但材料单价也更高。</td></tr>
-          <tr><td>路线 1 双加成功</td><td><code>P = sum(P(第一条有效) x P(第二条有效 | 剔除同族))</code></td><td>额外要求两条都有效，且其中至少一条是 <code>T3+ Adds Physical Damage / T3+ 物理点伤</code>。</td></tr>
+          <tr><td>暴击弓 A 双加成功</td><td><code>P = sum(P(第一条有效) x P(第二条有效 | 剔除同族))</code></td><td>额外要求两条都有效，点伤前置分支还要求其中至少一条是 <code>T3+ Adds Physical Damage / T3+ 物理点伤</code>。</td></tr>
         </tbody>
       </table>
       <div class="callout">深渊封口现在按“只剩 1 个词缀空位”建模：Jawbone 必然占这个空位，所以不叠加左向/右向死灵预兆。失败后用 <code>Omen of Light / 光明预兆</code> 剥离这条深渊词并重试，因此深渊步骤是可循环期望，不像崇高失败那样必须重买底材。<code>Ancient Jawbone / 远古颚骨</code> 成功率更高，是因为它过滤掉 40 级以下低级词缀，使目标词在剩余前缀池中的权重占比上升。</div>
@@ -1980,16 +2043,16 @@ def render_routes(
 
     return f"""
     <section>
-      <h2>三条路线状态机</h2>
-      <div class="callout">候选表里的“成功率”是当前这一步的概率，不是整条路线最终成品率。随机补 2 词的主成功定义已改为 2 条都有效；“至少 1 条有效”只放在临界比较里。有效词翻译：<code>Critical Damage Bonus / 暴击伤害加成</code>、<code>Level of all Projectile Skills / 所有投射物技能等级</code>、<code>Surpassing chance to fire an additional Arrow / 超越概率发射额外箭矢</code>。路线 1 的价格分布另列“无回收期望”，它按从基底重做且失败不卖回收来估，实际成本会因半成品可卖而下降。</div>
+      <h2>路线状态机</h2>
+      <div class="callout">暴击弓 A 和暴击弓 B 的最终目标一致：物理百分比 + 物理点伤 + 暴击率，再补有效伤害词；区别只在起步底和物理百分比/点伤的获取顺序。候选表里的“成功率”是当前这一步的概率，不是整条路线最终成品率。随机补 2 词的主成功定义是 2 条都有效；“至少 1 条有效”只放在临界比较里。</div>
       <div class="tabs">
         <input checked id="route-1" name="route-tab" type="radio">
         <input id="route-2" name="route-tab" type="radio">
         <input id="route-3" name="route-tab" type="radio">
         <div class="tab-labels">
-          <label for="route-1">路线 1：物理百分比暴击</label>
-          <label for="route-2">路线 2：点伤反做</label>
-          <label for="route-3">路线 3：非暴击 pDPS</label>
+          <label for="route-1">暴击弓 A：物理百分比起手</label>
+          <label for="route-2">暴击弓 B：点伤底反做</label>
+          <label for="route-3">非暴击弓：pDPS</label>
         </div>
         <div class="tab-panel route-1-panel">{route1_timing_compare}{route1_step_costs}{route1_material_share}{route1_price_distribution}{route1_ops}</div>
         <div class="tab-panel route-2-panel">{route2_step_costs}{route2_share}{route2_price_distribution}{route2_ops}</div>
@@ -2038,7 +2101,6 @@ def render_report() -> None:
 
     phys_start = best["phys_pct_135"]
     flat_start = best["flat_phys_t3"]
-    recommended_route = "路线 2：点伤反做" if (flat_start.average_cost or 0) + cost(prices_by_name, "Greater Essence of Seeking") < (phys_start.average_cost or 0) else "路线 1/3：物理百分比起步"
 
     required_price_names = [
         "Orb of Transmutation",
@@ -2129,17 +2191,26 @@ def render_report() -> None:
 </head>
 <body>
 <main>
-  <h1>POE2 Obliterator Bow 打造报告：统一起步池 + 状态机路线</h1>
-  <section class="top">
-    <div class="box"><strong>快照时间</strong><code>{esc(snapshot_time)}</code></div>
-    <div class="box"><strong>手动价格输入</strong>白底 {fmt(MANUAL_PRICES['normal_base_ex'])}E；135-154% 物理魔法底 {fmt(MANUAL_PRICES['phys_pct_135_154_magic_base_div'])}div；155%+ 物理魔法底 {fmt(MANUAL_PRICES['phys_pct_155_magic_base_div'])}div；T3+ 物理点伤魔法底 {fmt(MANUAL_PRICES['flat_phys_t3_magic_base_ex'])}E；T2+ 物理点伤魔法底 {fmt(MANUAL_PRICES['flat_phys_t2_magic_base_ex'])}E；垃圾魔法弓 {money(MANUAL_PRICES['trash_magic_bow_ex'])}。</div>
-    <div class="box"><strong>当前最便宜起步</strong>物理百分比：<code>{phys_start.code}</code> {fmt(phys_start.average_cost)}E；物理点伤：<code>{flat_start.code}</code> {fmt(flat_start.average_cost)}E。</div>
-    <div class="box"><strong>当前推荐路线</strong>{esc(recommended_route)}。深渊封口只作为各路线最后一步，不再单独列为路线。</div>
+  <h1>POE2 Obliterator Bow 打造报告：起步池 + 暴击/非暴击路线</h1>
+
+  <section>
+    <h2>统一起步模块</h2>
+    <div class="callout">报告先看起步池：所有路线都从这里选择底子，不把“直接买某个魔法底”硬编码为路线起点。<code>P135</code> 表示 T3+ 物理百分比（135%+），<code>P155</code> 表示 T2+ 物理百分比（155%+）；<code>F3</code> 表示 T3+ 物理点伤，<code>F2</code> 表示 T2+ 物理点伤。</div>
+    {render_startup_table(candidates)}
+    <div class="callout good">暴击弓 A 和非暴击弓读取 <code>{TARGET_LABELS['phys_pct_135']}</code> 的推荐起步状态；暴击弓 B 读取 <code>{TARGET_LABELS['flat_phys_t3']}</code> 的推荐起步状态。直接买底只是候选之一，不是唯一入口。</div>
   </section>
 
   <section>
+    <h2>必须词与有效词定义</h2>
+    <div class="callout">先定义“成功”再看概率：暴击弓 A/B 的目标一致，只是路线顺序不同；非暴击弓不强求暴击率，但暴击类后缀仍可算有效。</div>
+    {render_effective_mod_rules()}
+  </section>
+
+  {routes_html}
+
+  <section>
     <h2>价格索引与手动输入</h2>
-    <div class="callout">所有 ninja 能查到的材料都来自本地快照。缺失项：<code>{esc(missing_text)}</code>。手动价只用于交易站指定底子，当前未设置“一词后缀魔法底”价格，因此 S6 只显示临界价。</div>
+    <div class="callout">快照时间 <code>{esc(snapshot_time)}</code>。所有 ninja 能查到的材料都来自本地快照。缺失项：<code>{esc(missing_text)}</code>。手动价只用于交易站指定底子：白底 {fmt(MANUAL_PRICES['normal_base_ex'])}E；T3 物理百分比底 {fmt(MANUAL_PRICES['phys_pct_135_154_magic_base_div'])}div；T2+ 物理百分比底 {fmt(MANUAL_PRICES['phys_pct_155_magic_base_div'])}div；T3+ 物理点伤底 {fmt(MANUAL_PRICES['flat_phys_t3_magic_base_ex'])}E；T2+ 物理点伤底 {fmt(MANUAL_PRICES['flat_phys_t2_magic_base_ex'])}E。</div>
     <table>
       <thead><tr><th>材料</th><th>Exalted</th><th>Divine</th><th>Chaos</th></tr></thead>
       <tbody>{''.join(price_line(name, prices_by_name) for name in required_price_names)}</tbody>
@@ -2159,15 +2230,6 @@ def render_report() -> None:
       </tbody>
     </table>
   </section>
-
-  <section>
-    <h2>统一起步模块</h2>
-    <div class="callout">状态 ID 是唯一的：<code>S0</code> 是白底重开基准；<code>S1/S2/S3</code> 表示普通/高阶/完美蜕变增幅；后缀 <code>P135</code> 表示目标 135%+ 物理百分比，<code>P155</code> 表示目标 155%+ 物理百分比，<code>F3</code> 表示目标 T3+ 物理点伤，<code>F2</code> 表示目标 T2+ 物理点伤。因为完美蜕变/增幅最低等级 70，起步池不会再列 <code>S3-P135</code> 或 <code>S3-F3</code>。</div>
-    {render_startup_table(candidates)}
-    <div class="callout good">路线 1 和路线 3 只读取 <code>{TARGET_LABELS['phys_pct_135']}</code> 的推荐起步状态；路线 2 只读取 <code>{TARGET_LABELS['flat_phys_t3']}</code> 的推荐起步状态。直接买底只是候选之一，不再是路线硬编码起点。</div>
-  </section>
-
-  {routes_html}
 
   <section>
     <h2>物理点伤 T 级范围</h2>
