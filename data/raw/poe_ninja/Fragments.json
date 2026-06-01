@@ -24,8 +24,8 @@
       }
     ],
     "rates": {
-      "divine": 0.01719,
-      "chaos": 1.38
+      "divine": 0.01735,
+      "chaos": 1.34
     },
     "primary": "exalted",
     "secondary": "divine"
@@ -33,12 +33,12 @@
   "lines": [
     {
       "id": "azmeri-reliquary-key",
-      "primaryValue": 2793,
-      "volumePrimaryValue": 465.5,
+      "primaryValue": 2652,
+      "volumePrimaryValue": 884.0,
       "maxVolumeCurrency": "divine",
-      "maxVolumeRate": 0.02083,
+      "maxVolumeRate": 0.02174,
       "sparkline": {
-        "totalChange": 392.3,
+        "totalChange": 371.8,
         "data": [
           null,
           null,
@@ -46,18 +46,18 @@
           null,
           null,
           0,
-          392.3
+          371.8
         ]
       }
     },
     {
       "id": "breachlord-sac",
-      "primaryValue": 270.0,
-      "volumePrimaryValue": 1125,
+      "primaryValue": 262.4,
+      "volumePrimaryValue": 1268,
       "maxVolumeCurrency": "divine",
-      "maxVolumeRate": 0.2155,
+      "maxVolumeRate": 0.2197,
       "sparkline": {
-        "totalChange": -4.63,
+        "totalChange": -5.45,
         "data": [
           null,
           null,
@@ -65,90 +65,71 @@
           null,
           null,
           null,
-          -4.63
+          -5.45
         ]
       }
     },
     {
       "id": "cowardly-fate",
-      "primaryValue": 26.59,
-      "volumePrimaryValue": 3231,
+      "primaryValue": 31.27,
+      "volumePrimaryValue": 3315,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.03761,
+      "maxVolumeRate": 0.03198,
       "sparkline": {
-        "totalChange": 95.96,
+        "totalChange": 114.8,
         "data": [
           null,
           null,
           null,
           null,
           0,
-          13.4,
-          95.96
-        ]
-      }
-    },
-    {
-      "id": "deadly-fate",
-      "primaryValue": 30.98,
-      "volumePrimaryValue": 3335,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.03228,
-      "sparkline": {
-        "totalChange": 59.81,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -15.57,
-          59.81
+          4.62,
+          114.8
         ]
       }
     },
     {
       "id": "kulemaks-invitation",
-      "primaryValue": 10.73,
-      "volumePrimaryValue": 4528,
+      "primaryValue": 10.47,
+      "volumePrimaryValue": 4639,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.09317,
+      "maxVolumeRate": 0.09553,
       "sparkline": {
-        "totalChange": -71.32,
+        "totalChange": -71.53,
         "data": [
           null,
           null,
           null,
           null,
           0,
-          -26.58,
-          -71.32
+          -28.79,
+          -71.53
         ]
       }
     },
     {
       "id": "twilight-reliquary-key",
-      "primaryValue": 4.47,
-      "volumePrimaryValue": 2706,
+      "primaryValue": 4.32,
+      "volumePrimaryValue": 2567,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.2237,
+      "maxVolumeRate": 0.2313,
       "sparkline": {
-        "totalChange": 47.39,
+        "totalChange": 70.65,
         "data": [
           null,
           null,
           null,
           null,
           0,
-          10.48,
-          47.39
+          29.62,
+          70.65
         ]
       }
     },
     {
       "id": "against-the-darkness",
-      "primaryValue": 349.1,
-      "volumePrimaryValue": 58.19,
+      "primaryValue": 345.9,
+      "volumePrimaryValue": 57.65,
       "maxVolumeCurrency": "divine",
       "maxVolumeRate": 0.1667,
       "sparkline": {
@@ -166,46 +147,65 @@
     },
     {
       "id": "ancient-crisis-fragment",
-      "primaryValue": 107.4,
-      "volumePrimaryValue": 13887,
+      "primaryValue": 109.1,
+      "volumePrimaryValue": 15897,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.009313,
+      "maxVolumeRate": 0.009163,
       "sparkline": {
-        "totalChange": 876.2,
+        "totalChange": 892.1,
         "data": [
           null,
           null,
           null,
           null,
           0,
-          564.9,
-          876.2
+          586.5,
+          892.1
+        ]
+      }
+    },
+    {
+      "id": "deadly-fate",
+      "primaryValue": 36.26,
+      "volumePrimaryValue": 3366,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.02758,
+      "sparkline": {
+        "totalChange": 99.65,
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          0,
+          -10.97,
+          99.65
         ]
       }
     },
     {
       "id": "faded-crisis-fragment",
-      "primaryValue": 37.87,
-      "volumePrimaryValue": 5428,
+      "primaryValue": 37.84,
+      "volumePrimaryValue": 6161,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.02641,
+      "maxVolumeRate": 0.02643,
       "sparkline": {
-        "totalChange": -15.84,
+        "totalChange": -15.92,
         "data": [
           null,
           null,
           null,
           null,
           0,
-          17.94,
-          -15.84
+          34.62,
+          -15.92
         ]
       }
     },
     {
       "id": "olroths-reliquary-key",
-      "primaryValue": 174.6,
-      "volumePrimaryValue": 29.09,
+      "primaryValue": 173.0,
+      "volumePrimaryValue": 28.83,
       "maxVolumeCurrency": "divine",
       "maxVolumeRate": 0.3333,
       "sparkline": {
@@ -223,8 +223,8 @@
     },
     {
       "id": "simulacrum",
-      "primaryValue": 349.1,
-      "volumePrimaryValue": 407.3,
+      "primaryValue": 345.9,
+      "volumePrimaryValue": 403.6,
       "maxVolumeCurrency": "divine",
       "maxVolumeRate": 0.1667,
       "sparkline": {
@@ -242,12 +242,12 @@
     },
     {
       "id": "ritualistic-reliquary-key",
-      "primaryValue": 7.5,
-      "volumePrimaryValue": 2.5,
+      "primaryValue": 13.75,
+      "volumePrimaryValue": 9.17,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.1333,
+      "maxVolumeRate": 0.07273,
       "sparkline": {
-        "totalChange": 25.0,
+        "totalChange": 129.2,
         "data": [
           null,
           null,
@@ -255,18 +255,18 @@
           null,
           null,
           0,
-          25.0
+          129.2
         ]
       }
     },
     {
       "id": "simulacrum-splinter",
-      "primaryValue": 1.02,
-      "volumePrimaryValue": 1308,
+      "primaryValue": 0.9999,
+      "volumePrimaryValue": 1229,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.9827,
+      "maxVolumeRate": 1.0,
       "sparkline": {
-        "totalChange": 119.6,
+        "totalChange": 94.8,
         "data": [
           null,
           null,
@@ -274,18 +274,18 @@
           null,
           null,
           0,
-          119.6
+          94.8
         ]
       }
     },
     {
       "id": "the-arbiters-reliquary-key",
-      "primaryValue": 320.0,
-      "volumePrimaryValue": 106.7,
+      "primaryValue": 288.3,
+      "volumePrimaryValue": 144.1,
       "maxVolumeCurrency": "divine",
-      "maxVolumeRate": 0.1818,
+      "maxVolumeRate": 0.2,
       "sparkline": {
-        "totalChange": -12,
+        "totalChange": -16.67,
         "data": [
           null,
           null,
@@ -293,14 +293,14 @@
           null,
           null,
           null,
-          -12
+          -16.67
         ]
       }
     },
     {
       "id": "the-trialmasters-reliquary-key",
-      "primaryValue": 174.6,
-      "volumePrimaryValue": 29.09,
+      "primaryValue": 173.0,
+      "volumePrimaryValue": 28.83,
       "maxVolumeCurrency": "divine",
       "maxVolumeRate": 0.3333,
       "sparkline": {
@@ -318,31 +318,31 @@
     },
     {
       "id": "victorious-fate",
-      "primaryValue": 28.35,
-      "volumePrimaryValue": 3308,
+      "primaryValue": 34.3,
+      "volumePrimaryValue": 3378,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.03527,
+      "maxVolumeRate": 0.02916,
       "sparkline": {
-        "totalChange": 70.04,
+        "totalChange": 110.4,
         "data": [
           null,
           null,
           null,
           null,
           0,
-          -11.27,
-          70.04
+          -9.26,
+          110.4
         ]
       }
     },
     {
       "id": "weathered-crisis-fragment",
-      "primaryValue": 110.9,
-      "volumePrimaryValue": 13783,
+      "primaryValue": 114.8,
+      "volumePrimaryValue": 14831,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.009021,
+      "maxVolumeRate": 0.008709,
       "sparkline": {
-        "totalChange": 90.05,
+        "totalChange": 92.68,
         "data": [
           null,
           null,
@@ -350,14 +350,14 @@
           null,
           null,
           0,
-          90.05
+          92.68
         ]
       }
     },
     {
       "id": "xeshts-reliquary-key",
-      "primaryValue": 407.3,
-      "volumePrimaryValue": 67.89,
+      "primaryValue": 403.6,
+      "volumePrimaryValue": 67.26,
       "maxVolumeCurrency": "divine",
       "maxVolumeRate": 0.1429,
       "sparkline": {
@@ -397,13 +397,6 @@
       "detailsId": "cowardly-fate"
     },
     {
-      "id": "deadly-fate",
-      "name": "Deadly Fate",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1RyaWFsbWFzdGVyS2V5MiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/cccae44832/TrialmasterKey2.png",
-      "category": "Fragments",
-      "detailsId": "deadly-fate"
-    },
-    {
       "id": "kulemaks-invitation",
       "name": "Kulemak's Invitation",
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvS3VsZW1ha3NJbnZpdGF0aW9uIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c7e6e86681/KulemaksInvitation.png",
@@ -430,6 +423,13 @@
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9QaW5uYWNsZUtleTEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ef329c74d1/PinnacleKey1.png",
       "category": "Fragments",
       "detailsId": "ancient-crisis-fragment"
+    },
+    {
+      "id": "deadly-fate",
+      "name": "Deadly Fate",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1RyaWFsbWFzdGVyS2V5MiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/cccae44832/TrialmasterKey2.png",
+      "category": "Fragments",
+      "detailsId": "deadly-fate"
     },
     {
       "id": "faded-crisis-fragment",
