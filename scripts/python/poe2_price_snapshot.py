@@ -13,8 +13,8 @@ import requests
 
 ROOT = Path(__file__).resolve().parents[2]
 RAW_DIR = ROOT / "data" / "raw" / "poe_ninja"
-PROCESSED_DIR = ROOT / "data" / "processed"
-TYPE_CSV_DIR = PROCESSED_DIR / "poe_ninja_prices_by_type"
+PRICE_DIR = ROOT / "data" / "processed" / "prices" / "poe_ninja"
+TYPE_CSV_DIR = PRICE_DIR / "by_type"
 
 LEAGUE = "Runes of Aldur"
 LEAGUE_URL = "runesofaldur"
@@ -89,11 +89,10 @@ def write_csv(rows: list[dict[str, Any]], path: Path) -> None:
 
 def snapshot_once() -> dict[str, Any]:
     RAW_DIR.mkdir(parents=True, exist_ok=True)
-    PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+    PRICE_DIR.mkdir(parents=True, exist_ok=True)
     TYPE_CSV_DIR.mkdir(parents=True, exist_ok=True)
 
     snapshot_time = datetime.now(timezone.utc).isoformat(timespec="seconds")
-    all_rows: list[dict[str, Any]] = []
     raw_summary: dict[str, Any] = {
         "snapshot_time_utc": snapshot_time,
         "league": LEAGUE,
@@ -106,7 +105,6 @@ def snapshot_once() -> dict[str, Any]:
         data = fetch_overview(type_name)
         (RAW_DIR / f"{type_name}.json").write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
         rows = normalize_rows(type_name, data, snapshot_time)
-        all_rows.extend(rows)
         type_csv = TYPE_CSV_DIR / f"{type_name}.csv"
         write_csv(rows, type_csv)
         raw_summary[type_name] = {
@@ -117,16 +115,10 @@ def snapshot_once() -> dict[str, Any]:
         }
         print(f"{type_name}: {len(rows)} rows")
 
-    write_csv(all_rows, PROCESSED_DIR / "poe_ninja_prices.csv")
-    (PROCESSED_DIR / "poe_ninja_prices.json").write_text(
-        json.dumps(all_rows, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
-    (PROCESSED_DIR / "poe_ninja_price_summary.json").write_text(
+    (PRICE_DIR / "summary.json").write_text(
         json.dumps(raw_summary, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    print(f"Wrote {PROCESSED_DIR / 'poe_ninja_prices.csv'}")
     print(f"Wrote per-type CSVs under {TYPE_CSV_DIR}")
     return raw_summary
 

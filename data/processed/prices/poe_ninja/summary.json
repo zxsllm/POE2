@@ -1,0 +1,50 @@
+{
+  "snapshot_time_utc": "2026-06-01T06:32:00+00:00",
+  "league": "Runes of Aldur",
+  "league_url": "runesofaldur",
+  "source": "https://poe.ninja/poe2/economy/runesofaldur/currency",
+  "types": [
+    "Currency",
+    "Essences",
+    "Runes",
+    "Ritual",
+    "Abyss",
+    "Fragments"
+  ],
+  "Currency": {
+    "items": 49,
+    "lines": 49,
+    "rows": 49,
+    "csv": "data\\processed\\prices\\poe_ninja\\by_type\\Currency.csv"
+  },
+  "Essences": {
+    "items": 82,
+    "lines": 82,
+    "rows": 82,
+    "csv": "data\\processed\\prices\\poe_ninja\\by_type\\Essences.csv"
+  },
+  "Runes": {
+    "items": 129,
+    "lines": 129,
+    "rows": 129,
+    "csv": "data\\processed\\prices\\poe_ninja\\by_type\\Runes.csv"
+  },
+  "Ritual": {
+    "items": 66,
+    "lines": 66,
+    "rows": 66,
+    "csv": "data\\processed\\prices\\poe_ninja\\by_type\\Ritual.csv"
+  },
+  "Abyss": {
+    "items": 15,
+    "lines": 15,
+    "rows": 15,
+    "csv": "data\\processed\\prices\\poe_ninja\\by_type\\Abyss.csv"
+  },
+  "Fragments": {
+    "items": 18,
+    "lines": 18,
+    "rows": 18,
+    "csv": "data\\processed\\prices\\poe_ninja\\by_type\\Fragments.csv"
+  }
+}

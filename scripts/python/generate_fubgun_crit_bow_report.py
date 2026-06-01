@@ -11,7 +11,11 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[2]
 PROCESSED_DIR = ROOT / "data" / "processed"
-REPORT_FILE = ROOT / "reports" / "fubgun_crit_bow_report.html"
+PRICE_DIR = PROCESSED_DIR / "prices" / "poe_ninja"
+PRICE_TYPE_DIR = PRICE_DIR / "by_type"
+MODS_DIR = PROCESSED_DIR / "mods"
+ITEMS_DIR = PROCESSED_DIR / "items"
+REPORT_FILE = ROOT / "reports" / "bow" / "fubgun_crit_bow_report.html"
 MOD_ILVL = 80
 CRAFT_OF_EXILE_DESECRATED_PREFIX_WEIGHT = 8.0
 CRAFT_OF_EXILE_DESECRATED_SUFFIX_WEIGHT = 9.0
@@ -100,6 +104,13 @@ def read_csv(path: Path) -> list[dict[str, str]]:
         return list(csv.DictReader(file))
 
 
+def read_csv_dir(path: Path) -> list[dict[str, str]]:
+    rows: list[dict[str, str]] = []
+    for csv_path in sorted(path.glob("*.csv")):
+        rows.extend(read_csv(csv_path))
+    return rows
+
+
 def read_json(path: Path) -> dict[str, Any]:
     if not path.exists():
         return {}
@@ -156,7 +167,7 @@ def tries(probability: float | None) -> str:
 
 
 def load_prices() -> tuple[list[dict[str, str]], dict[str, dict[str, str]]]:
-    rows = read_csv(PROCESSED_DIR / "poe_ninja_prices.csv")
+    rows = read_csv_dir(PRICE_TYPE_DIR)
     return rows, {row["name"].lower(): row for row in rows}
 
 
@@ -2009,9 +2020,15 @@ def render_desecrated_rows(bow_mods: list[dict[str, str]]) -> str:
 
 def render_report() -> None:
     prices, prices_by_name = load_prices()
-    summary = read_json(PROCESSED_DIR / "poe_ninja_price_summary.json")
-    bow_mods = read_csv(PROCESSED_DIR / "poe2db_bow_mods.csv")
-    bases = read_csv(PROCESSED_DIR / "poe2db_bow_bases.csv")
+    summary = read_json(PRICE_DIR / "summary.json")
+    bow_mods = [
+        row for row in read_csv(MODS_DIR / "poe2db_mods.csv")
+        if row.get("item_class_href") == "Bows"
+    ]
+    bases = [
+        row for row in read_csv(ITEMS_DIR / "poe2db_base_items.csv")
+        if row.get("page") == "Bows"
+    ]
     obliterator = next((row for row in bases if row.get("name") == "Obliterator Bow"), {})
 
     snapshot_time = summary.get("snapshot_time_utc") or (prices[0]["snapshot_time_utc"] if prices else "未抓取")

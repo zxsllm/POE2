@@ -1,0 +1,1731 @@
+name,href,page,physical_damage,min_physical_damage,max_physical_damage,avg_physical_damage,critical_hit_chance,attacks_per_second,requirements,required_level,required_dex,implicit
+Crude Claw,Crude_Claw,Claws,4-10,4,10,7.0,5%,1.65,,,,
+Pict Claw,Pict_Claw,Claws,4-16,4,16,10.0,5%,1.7,"Level 6 , 14 Dex",6,14,
+Wolfbone Claw,Wolfbone_Claw,Claws,7-23,7,23,15.0,5%,1.6,"Level 12 , 24 Dex",12,24,Grants 8 Life per Enemy Hit
+Forked Claw,Forked_Claw,Claws,10-26,10,26,18.0,5%,1.55,"Level 16 , 31 Dex",16,31,
+Plated Claw,Plated_Claw,Claws,13-31,13,31,22.0,5%,1.6,"Level 22 , 41 Dex",22,41,
+Edged Claw,Edged_Claw,Claws,11-38,11,38,24.5,5%,1.7,"Level 28 , 52 Dex",28,52,(15 - 25) % chance to Blind Enemies on hit
+Arced Claw,Arced_Claw,Claws,12-46,12,46,29.0,5%,1.65,"Level 33 , 60 Dex",33,60,
+Hooked Claw,Hooked_Claw,Claws,16-49,16,49,32.5,5%,1.55,"Level 36 , 65 Dex",36,65,
+Razorglass Claw,Razorglass_Claw,Claws,23-54,23,54,38.5,5%,1.6,"Level 45 , 80 Dex",45,80,
+Sharktooth Claw,Sharktooth_Claw,Claws,25-52,25,52,38.5,5%,1.7,"Level 49 , 87 Dex",49,87,
+Armoured Claw,Armoured_Claw,Claws,27-63,27,63,45.0,5%,1.55,"Level 52 , 92 Dex",52,92,
+Piercing Claw,Piercing_Claw,Claws,23-68,23,68,45.5,5%,1.6,"Level 55 , 97 Dex",55,97,
+Talon Claw,Talon_Claw,Claws,23-79,23,79,51.0,5%,1.65,"Level 65 , 114 Dex",65,114,
+Ethereal Blade,Ethereal_Blade,Daggers,5-10,5,10,7.5,6%,1.5,,,,
+Glass Shank,Glass_Shank,Daggers,3-10,3,10,6.5,15%,1.55,,,,
+Crone Knife,Crone_Knife,Daggers,4-15,4,15,9.5,15%,1.55,"Level 6 , 9 Dex , 9 Int",6,9,Leeches 4 % of Physical Damage as Mana
+Simple Dagger,Simple_Dagger,Daggers,8-19,8,19,13.5,15%,1.55,"Level 12 , 15 Dex , 15 Int",12,15,
+Skinning Knife,Skinning_Knife,Daggers,8-22,8,22,15.0,13.5%,1.65,"Level 16 , 19 Dex , 19 Int",16,19,
+Moon Dagger,Moon_Dagger,Daggers,,,,,15%,1.55,"Level 20 , 22 Dex , 22 Int",20,22,local weapon implicit hidden % base damage is cold [100]
+Engraved Knife,Engraved_Knife,Daggers,11-34,11,34,22.5,13.5%,1.55,"Level 27 , 29 Dex , 29 Int",27,29,
+Obsidian Dagger,Obsidian_Dagger,Daggers,13-39,13,39,26.0,15%,1.55,"Level 33 , 34 Dex , 34 Int",33,34,
+Bloodletting Dagger,Bloodletting_Dagger,Daggers,18-42,18,42,30.0,15%,1.5,"Level 39 , 39 Dex , 39 Int",39,39,25 % of Spell Mana Cost Converted to Life Cost
+Mail Breaker,Mail_Breaker,Daggers,19-44,19,44,31.5,15%,1.5,"Level 45 , 45 Dex , 45 Int",45,45,Breaks (400 - 500) Armour on Critical Hit
+Kris Knife,Kris_Knife,Daggers,16-48,16,48,32.0,15%,1.65,"Level 49 , 49 Dex , 49 Int",49,49,
+Parrying Dagger,Parrying_Dagger,Daggers,16-55,16,55,35.5,15%,1.55,"Level 52 , 51 Dex , 51 Int",52,51,
+Arcane Dirk,Arcane_Dirk,Daggers,22-52,22,52,37.0,15%,1.55,"Level 56 , 55 Dex , 55 Int",56,55,
+Cinquedea,Cinquedea,Daggers,21-62,21,62,41.5,15%,1.55,"Level 65 , 63 Dex , 63 Int",65,63,
+Withered Wand,Withered_Wand,Wands,,,,,,,6 Int,,,Grants Skill: Chaos Bolt
+Bone Wand,Bone_Wand,Wands,,,,,,,"Level 2 , 7 Int",2,,Grants Skill: Bone Blast
+Attuned Wand,Attuned_Wand,Wands,,,,,,,"Level 2 , 7 Int",2,,Grants Skill: Mana Drain
+Siphoning Wand,Siphoning_Wand,Wands,,,,,,,"Level 11 , 23 Int",11,,Grants Skill: Power Siphon
+Volatile Wand,Volatile_Wand,Wands,,,,,,,"Level 16 , 31 Int",16,,Grants Skill: Volatile Dead
+Galvanic Wand,Galvanic_Wand,Wands,,,,,,,"Level 25 , 46 Int",25,,Grants Skill: Galvanic Field
+Acrid Wand,Acrid_Wand,Wands,,,,,,,"Level 33 , 60 Int",33,,Grants Skill: Decompose
+Offering Wand,Offering_Wand,Wands,,,,,,,"Level 38 , 69 Int",38,,Grants Skill: Exsanguinate
+Frigid Wand,Frigid_Wand,Wands,,,,,,,"Level 45 , 80 Int",45,,Grants Skill: Chaos Bolt
+Torture Wand,Torture_Wand,Wands,,,,,,,"Level 49 , 87 Int",49,,Grants Skill: Chaos Bolt
+Critical Wand,Critical_Wand,Wands,,,,,,,"Level 52 , 92 Int",52,,Grants Skill: Chaos Bolt
+Primordial Wand,Primordial_Wand,Wands,,,,,,,"Level 56 , 99 Int",56,,Grants Skill: Wither
+Dueling Wand,Dueling_Wand,Wands,,,,,,,"Level 65 , 114 Int",65,,Grants Skill: Spellslinger
+Twisted Wand,Twisted_Wand,Wands,,,,,,,"Level 65 , 114 Int",65,,Grants Skill: Coiling Bolts
+Runic Fork,Runic_Fork,Wands,,,,,,,"Level 65 , 114 Int",65,,
+Runemastered Runic Fork,Runemastered_Runic_Fork,Wands,,,,,,,"Level 65 , 114 Int",65,,(30 - 50) % chance for Spell Skills to fire 2 additional Projectiles
+Runemastered Runic Fork,Runemastered_Runic_Fork,Wands,,,,,,,"Level 65 , 114 Int",65,,(30 - 50) % increased Mana Regeneration Rate
+Runemastered Runic Fork,Runemastered_Runic_Fork,Wands,,,,,,,"Level 65 , 114 Int",65,,+300 to maximum Runic Ward
+Golden Blade,Golden_Blade,One_Hand_Swords,3-28,3,28,15.5,5%,1.1,,,,+(16 - 24) to all Attributes
+Energy Blade,Energy_Blade,One_Hand_Swords,,,,,7%,1.7,,,,Adds to Lightning Damage
+Shortsword,Shortsword,One_Hand_Swords,6-9,6,9,7.5,5%,1.55,,,,
+Broadsword,Broadsword,One_Hand_Swords,8-13,8,13,10.5,5%,1.6,"Level 6 , 9 Str , 9 Dex",6,9,
+Vampiric Blade,Vampiric_Blade,One_Hand_Swords,11-20,11,20,15.5,5%,1.5,"Level 11 , 14 Str , 14 Dex",11,14,
+Scimitar,Scimitar,One_Hand_Swords,14-23,14,23,18.5,5%,1.55,"Level 16 , 19 Str , 19 Dex",16,19,
+Charred Shortsword,Charred_Shortsword,One_Hand_Swords,19-34,19,34,26.5,5%,1.6,"Level 21 , 23 Str , 23 Dex",21,23,
+Sickle Sword,Sickle_Sword,One_Hand_Swords,18-38,18,38,28.0,5%,1.5,"Level 28 , 29 Str , 29 Dex",28,29,
+Falchion,Falchion,One_Hand_Swords,27-37,27,37,32.0,5%,1.5,"Level 33 , 34 Str , 34 Dex",33,34,
+Treasured Blade,Treasured_Blade,One_Hand_Swords,27-45,27,45,36.0,5%,1.55,"Level 40 , 40 Str , 40 Dex",40,40,
+Cutlass,Cutlass,One_Hand_Swords,33-49,33,49,41.0,5%,1.5,"Level 45 , 45 Str , 45 Dex",45,45,
+Runic Shortsword,Runic_Shortsword,One_Hand_Swords,26-55,26,55,40.5,5%,1.65,"Level 50 , 49 Str , 49 Dex",50,49,
+Messer,Messer,One_Hand_Swords,30-56,30,56,43.0,5%,1.6,"Level 52 , 51 Str , 51 Dex",52,51,
+Commander Sword,Commander_Sword,One_Hand_Swords,36-60,36,60,48.0,5%,1.5,"Level 54 , 53 Str , 53 Dex",54,53,
+Dark Blade,Dark_Blade,One_Hand_Swords,43-65,43,65,54.0,5%,1.55,"Level 65 , 63 Str , 63 Dex",65,63,
+Golden Blade,Golden_Blade,One_Hand_Swords,6-9,6,9,7.5,5%,1.55,,,,
+Dull Hatchet,Dull_Hatchet,One_Hand_Axes,4-10,4,10,7.0,5%,1.5,,,,
+Hook Axe,Hook_Axe,One_Hand_Axes,5-14,5,14,9.5,5%,1.45,"Level 4 , 9 Str",4,,Grants 1 Rage on Hit
+Bearded Axe,Bearded_Axe,One_Hand_Axes,8-21,8,21,14.5,5%,1.45,"Level 10 , 17 Str , 9 Dex",10,9,
+Extended Cleaver,Extended_Cleaver,One_Hand_Axes,8-25,8,25,16.5,5%,1.5,"Level 16 , 25 Str , 12 Dex",16,12,Has no Accuracy Penalty from Range
+Bandit Hatchet,Bandit_Hatchet,One_Hand_Axes,13-31,13,31,22.0,5%,1.5,"Level 20 , 30 Str , 14 Dex",20,14,
+Crescent Axe,Crescent_Axe,One_Hand_Axes,18-37,18,37,27.5,6.5%,1.4,"Level 26 , 38 Str , 17 Dex",26,17,
+Carving Hatchet,Carving_Hatchet,One_Hand_Axes,19-44,19,44,31.5,5%,1.5,"Level 33 , 47 Str , 20 Dex",33,20,
+Sacrificial Axe,Sacrificial_Axe,One_Hand_Axes,20-42,20,42,31.0,5%,1.5,"Level 37 , 52 Str , 22 Dex",37,22,Gain (28 - 35) Mana per enemy killed
+Boarding Hatchet,Boarding_Hatchet,One_Hand_Axes,24-55,24,55,39.5,5%,1.55,"Level 45 , 63 Str , 26 Dex",45,26,
+Fury Cleaver,Fury_Cleaver,One_Hand_Axes,30-62,30,62,46.0,5%,1.55,"Level 48 , 67 Str , 27 Dex",48,27,10 % increased Damage taken
+Battle Axe,Battle_Axe,One_Hand_Axes,28-65,28,65,46.5,5%,1.5,"Level 52 , 72 Str , 29 Dex",52,29,
+Profane Cleaver,Profane_Cleaver,One_Hand_Axes,26-69,26,69,47.5,5%,1.5,"Level 54 , 75 Str , 30 Dex",54,30,
+Dread Hatchet,Dread_Hatchet,One_Hand_Axes,34-79,34,79,56.5,5%,1.5,"Level 65 , 89 Str , 36 Dex",65,36,
+Wooden Club,Wooden_Club,One_Hand_Maces,6-10,6,10,8.0,5%,1.45,,,,
+Smithing Hammer,Smithing_Hammer,One_Hand_Maces,5.5-9,5,9,7.0,5%,1.45,"Level 4 , 11 Str",4,,local weapon implicit hidden % base damage is fire [50]
+Slim Mace,Slim_Mace,One_Hand_Maces,11-17,11,17,14.0,5%,1.55,"Level 10 , 21 Str",10,,
+Spiked Club,Spiked_Club,One_Hand_Maces,15-24,15,24,19.5,5%,1.45,"Level 16 , 31 Str",16,,
+Warpick,Warpick,One_Hand_Maces,18-24,18,24,21.0,7%,1.45,"Level 22 , 41 Str",22,,+(5 - 10) % to Critical Damage Bonus
+Plated Mace,Plated_Mace,One_Hand_Maces,18-38,18,38,28.0,5%,1.4,"Level 26 , 48 Str",26,,
+Brigand Mace,Brigand_Mace,One_Hand_Maces,28-38,28,38,33.0,5%,1.45,"Level 33 , 60 Str",33,,
+Construct Hammer,Construct_Hammer,One_Hand_Maces,31-38,31,38,34.5,5%,1.4,"Level 36 , 65 Str",36,,40 % chance to Daze on Hit
+Morning Star,Morning_Star,One_Hand_Maces,33-49,33,49,41.0,6.5%,1.45,"Level 45 , 80 Str",45,,
+Jade Club,Jade_Club,One_Hand_Maces,31-51,31,51,41.0,5%,1.45,"Level 49 , 87 Str",49,,Always Hits
+Lumen Mace,Lumen_Mace,One_Hand_Maces,36-60,36,60,48.0,5%,1.45,"Level 52 , 92 Str",52,,
+Execratus Hammer,Execratus_Hammer,One_Hand_Maces,40-60,40,60,50.0,5%,1.45,"Level 55 , 97 Str",55,,
+Torment Club,Torment_Club,One_Hand_Maces,44-73,44,73,58.5,5%,1.45,"Level 65 , 114 Str",65,,
+Runemastered Torment Club,Runemastered_Torment_Club,One_Hand_Maces,,,,,5%,1.45,"Level 65 , 114 Str",65,,100 % of Lightning Damage Converted to Cold Damage | local weapon implicit hidden % base damage is cold [100]
+Runemastered Torment Club,Runemastered_Torment_Club,One_Hand_Maces,44-73,44,73,58.5,5%,1.45,"Level 65 , 114 Str",65,,Skills Gain (4 - 6) % of damage as Extra Lightning damage per 50 Runic Ward Cost
+Runemastered Torment Club,Runemastered_Torment_Club,One_Hand_Maces,44-73,44,73,58.5,5%,1.45,"Level 65 , 114 Str",65,,+(1.5 - 2) metres to Melee Strike Range
+Runemastered Torment Club,Runemastered_Torment_Club,One_Hand_Maces,,,,,5%,1.45,"Level 65 , 114 Str",65,,(40 - 60) % increased Lightning Damage | local weapon implicit hidden % base damage is lightning [100]
+Runemastered Torment Club,Runemastered_Torment_Club,One_Hand_Maces,44-73,44,73,58.5,5%,1.45,"Level 65 , 114 Str",65,,(50 - 100) % chance for Lightning Skills to Chain an additional time
+Runemastered Torment Club,Runemastered_Torment_Club,One_Hand_Maces,54-91,54,91,72.5,5%,1.45,"Level 65 , 124 Str",65,,
+Kalguuran Forgehammer,Kalguuran_Forgehammer,One_Hand_Maces,33-55,33,55,44.0,5%,1.45,Level 47,47,,Has 3 Sockets
+Calescent Hammer,Calescent_Hammer,One_Hand_Maces,22-37,22,37,29.5,5%,1.45,"Level 45 , 80 Str",45,,local weapon implicit hidden % base damage is fire [50]
+Flared Mace,Flared_Mace,One_Hand_Maces,33-50,33,50,41.5,5%,1.55,"Level 48 , 86 Str",48,,
+Battle Pick,Battle_Pick,One_Hand_Maces,35-47,35,47,41.0,7%,1.45,"Level 51 , 91 Str",51,,+(5 - 10) % to Critical Damage Bonus
+Marching Mace,Marching_Mace,One_Hand_Maces,33-69,33,69,51.0,5%,1.4,"Level 54 , 96 Str",54,,
+Runeforged Marching Mace,Runeforged_Marching_Mace,One_Hand_Maces,46-96,46,96,71.0,7.5%,1.4,"Level 65 , 114 Str",65,,
+Bandit Mace,Bandit_Mace,One_Hand_Maces,45-61,45,61,53.0,5%,1.45,"Level 59 , 104 Str",59,,
+Structured Hammer,Structured_Hammer,One_Hand_Maces,49-60,49,60,54.5,5%,1.4,"Level 62 , 109 Str",62,,40 % chance to Daze on Hit
+Runeforged Wooden Club,Runeforged_Wooden_Club,One_Hand_Maces,83-138,83,138,110.5,5%,1.45,"Level 38 , 68 Str",38,,(20 - 30) % increased Area of Effect for Attacks
+Runemastered Wooden Club,Runemastered_Wooden_Club,One_Hand_Maces,132-220,132,220,176.0,5%,1.45,"Level 55 , 97 Str",55,,(20 - 30) % increased Area of Effect for Attacks
+Runeforged Slim Mace,Runeforged_Slim_Mace,One_Hand_Maces,48-72.5,48,72,60.0,5%,1.55,"Level 38 , 68 Str",38,,local weapon implicit hidden % base damage is cold [50]
+Runeforged Spiked Club,Runeforged_Spiked_Club,One_Hand_Maces,56-93,56,93,74.5,5%,1.5,"Level 40 , 72 Str",40,,
+Runeforged Warpick,Runeforged_Warpick,One_Hand_Maces,75-102,75,102,88.5,7%,1.45,"Level 38 , 68 Str",38,,(30 - 40) % increased effect of Fully Broken Armour
+Runeforged Kalguuran Forgehammer,Runeforged_Kalguuran_Forgehammer,One_Hand_Maces,59-99,59,99,79.0,5%,1.75,Level 65,65,,Has 3 Sockets
+Runeforged Kalguuran Forgehammer,Runeforged_Kalguuran_Forgehammer,One_Hand_Maces,98-163,98,163,130.5,5%,1.45,Level 65,65,,Has 3 Sockets
+Runeforged Kalguuran Forgehammer,Runeforged_Kalguuran_Forgehammer,One_Hand_Maces,59-99,59,99,79.0,10%,1.45,Level 65,65,,Has 3 Sockets
+Runeforged Kalguuran Forgehammer,Runeforged_Kalguuran_Forgehammer,One_Hand_Maces,59-99,59,99,79.0,5%,1.45,Level 65,65,,Has 3 Sockets | +(100 - 150) to maximum Runic Ward
+Runeforged Morning Star,Runeforged_Morning_Star,One_Hand_Maces,,,,,6.5%,1.45,"Level 65 , 114 Str",65,,local weapon implicit hidden % base damage is fire [100]
+Flanged Mace,Flanged_Mace,One_Hand_Maces,45-67,45,67,56.0,5%,1.55,"Level 67 , 134 Str",67,,
+Crown Mace,Crown_Mace,One_Hand_Maces,43-89,43,89,66.0,5%,1.4,"Level 72 , 149 Str",72,,
+Molten Hammer,Molten_Hammer,One_Hand_Maces,35.5-59,5,59,32.0,5%,1.45,"Level 77 , 163 Str",77,,local weapon implicit hidden % base damage is fire [50]
+Strife Pick,Strife_Pick,One_Hand_Maces,49-66,49,66,57.5,7%,1.45,"Level 78 , 163 Str",78,,+(5 - 10) % to Critical Damage Bonus
+Fortified Hammer,Fortified_Hammer,One_Hand_Maces,60-73,60,73,66.5,5%,1.4,"Level 79 , 163 Str",79,,40 % chance to Daze on Hit
+Marauding Mace,Marauding_Mace,One_Hand_Maces,51-84,51,84,67.5,5%,1.45,"Level 77 , 163 Str",77,,
+Akoyan Club,Akoyan_Club,One_Hand_Maces,46-76,46,76,61.0,5%,1.45,"Level 78 , 163 Str",78,,Always Hits
+Rattling Sceptre,Rattling_Sceptre,Sceptres,,,,,,,"4 Str , 5 Int",,,Grants Skill: Skeletal Warrior
+Stoic Sceptre,Stoic_Sceptre,Sceptres,,,,,,,"Level 6 , 7 Str , 12 Int",6,,Grants Skill: Discipline
+Lupine Sceptre,Lupine_Sceptre,Sceptres,,,,,,,"Level 12 , 10 Str , 20 Int",12,,Grants Skill: Skeletal Warrior
+Omen Sceptre,Omen_Sceptre,Sceptres,,,,,,,"Level 16 , 12 Str , 25 Int",16,,Grants Skill: Malice
+Ochre Sceptre,Ochre_Sceptre,Sceptres,,,,,,,"Level 21 , 14 Str , 31 Int",21,,Grants Skill: Skeletal Warrior
+Shrine Sceptre,Shrine_Sceptre,Sceptres,,,,,,,"Level 26 , 17 Str , 38 Int",26,,Grants Skill: Purity of Fire
+Shrine Sceptre,Shrine_Sceptre,Sceptres,,,,,,,"Level 26 , 17 Str , 38 Int",26,,Grants Skill: Purity of Ice
+Shrine Sceptre,Shrine_Sceptre,Sceptres,,,,,,,"Level 26 , 17 Str , 38 Int",26,,Grants Skill: Purity of Lightning
+Devouring Sceptre,Devouring_Sceptre,Sceptres,,,,,,,"Level 33 , 20 Str , 47 Int",33,,Grants Skill: Skeletal Warrior
+Clasped Sceptre,Clasped_Sceptre,Sceptres,,,,,,,"Level 36 , 22 Str , 51 Int",36,,Grants Skill: Heart of Ice
+Devotional Sceptre,Devotional_Sceptre,Sceptres,,,,,,,"Level 45 , 26 Str , 63 Int",45,,Grants Skill: Skeletal Warrior
+Wrath Sceptre,Wrath_Sceptre,Sceptres,,,,,,,"Level 49 , 28 Str , 68 Int",49,,Grants Skill: Fulmination
+Aromatic Sceptre,Aromatic_Sceptre,Sceptres,,,,,,,"Level 52 , 29 Str , 72 Int",52,,Grants Skill: Skeletal Warrior
+Pious Sceptre,Pious_Sceptre,Sceptres,,,,,,,"Level 58 , 32 Str , 80 Int",58,,Grants Skill: Skeletal Warrior
+Hallowed Sceptre,Hallowed_Sceptre,Sceptres,,,,,,,"Level 65 , 36 Str , 89 Int",65,,Grants Skill: Skeletal Warrior
+Shrine Sceptre,Shrine_Sceptre,Sceptres,,,,,,,"Level 26 , 17 Str , 38 Int",26,,Grants Skill: Impurity
+Hardwood Spear,Hardwood_Spear,Spears,5-9,5,9,7.0,5%,1.6,,,,Grants Skill: Spear Throw
+Ironhead Spear,Ironhead_Spear,Spears,9-12,9,12,10.5,5%,1.6,"Level 5 , 10 Dex",5,10,Grants Skill: Spear Throw
+Hunting Spear,Hunting_Spear,Spears,10-17,10,17,13.5,5%,1.55,"Level 10 , 9 Str , 17 Dex",10,17,Grants Skill: Spear Throw | (15 - 25) % chance to Maim on Hit
+Winged Spear,Winged_Spear,Spears,12-22,12,22,17.0,5%,1.7,"Level 16 , 12 Str , 25 Dex",16,25,Grants Skill: Spear Throw
+War Spear,War_Spear,Spears,16-27,16,27,21.5,5%,1.6,"Level 21 , 14 Str , 31 Dex",21,31,Grants Skill: Spear Throw | (25 - 35) % increased Projectile Speed with this Weapon
+Forked Spear,Forked_Spear,Spears,13-38,13,38,25.5,5%,1.55,"Level 26 , 17 Str , 38 Dex",26,38,Grants Skill: Spear Throw
+Barbed Spear,Barbed_Spear,Spears,20-38,20,38,29.0,6%,1.5,"Level 33 , 20 Str , 47 Dex",33,47,Grants Skill: Spear Throw | Bleeding you inflict deals Damage (10 - 20) % faster
+Broad Spear,Broad_Spear,Spears,32-48,32,48,40.0,5%,1.4,"Level 40 , 26 Str , 55 Dex",40,55,Grants Skill: Spear Throw | 25 % increased Melee Strike Range with this weapon
+Crossblade Spear,Crossblade_Spear,Spears,25-52,25,52,38.5,5%,1.6,"Level 45 , 26 Str , 63 Dex",45,63,Grants Skill: Spear Throw | Prevent +(3 - 7) % of Damage from Deflected Hits
+Seaglass Spear,Seaglass_Spear,Spears,29-53,29,53,41.0,7%,1.6,"Level 51 , 29 Str , 71 Dex , 50 Int",51,71,Grants Skill: Spear Throw
+Sword Spear,Sword_Spear,Spears,30-56,30,56,43.0,5%,1.6,"Level 52 , 29 Str , 72 Dex",52,72,Grants Skill: Spear Throw
+Striking Spear,Striking_Spear,Spears,11.5-45.5,5,45,25.0,5%,1.6,"Level 55 , 31 Str , 76 Dex",55,76,Grants Skill: Spear Throw | local weapon implicit hidden % base damage is lightning [50]
+Helix Spear,Helix_Spear,Spears,37-68,37,68,52.5,5%,1.6,"Level 65 , 36 Str , 89 Dex",65,89,Grants Skill: Spear Throw
+Steelhead Spear,Steelhead_Spear,Spears,33-44,33,44,38.5,5%,1.6,"Level 45 , 26 Str , 63 Dex",45,63,Grants Skill: Spear Throw
+Coursing Spear,Coursing_Spear,Spears,31-52,31,52,41.5,5%,1.55,"Level 48 , 27 Str , 67 Dex",48,67,Grants Skill: Spear Throw | (15 - 25) % chance to Maim on Hit
+Swift Spear,Swift_Spear,Spears,32-53,32,53,42.5,5%,1.6,"Level 51 , 29 Str , 71 Dex",51,71,Grants Skill: Spear Throw | (25 - 35) % increased Projectile Speed with this Weapon
+Branched Spear,Branched_Spear,Spears,23-69,23,69,46.0,5%,1.55,"Level 54 , 30 Str , 75 Dex",54,75,Grants Skill: Spear Throw
+Jagged Spear,Jagged_Spear,Spears,33-61,33,61,47.0,6%,1.5,"Level 59 , 33 Str , 81 Dex",59,81,Grants Skill: Spear Throw | Bleeding you inflict deals Damage (10 - 20) % faster
+Massive Spear,Massive_Spear,Spears,46-69,46,69,57.5,5%,1.4,"Level 62 , 40 Str , 80 Dex",62,80,Grants Skill: Spear Throw | 25 % increased Melee Strike Range with this weapon
+Runeforged Hardwood Spear,Runeforged_Hardwood_Spear,Spears,24-45,24,45,34.5,5%,1.6,"Level 40 , 23 Str , 56 Dex",40,56,Grants Skill: Spear Throw
+Runeforged Ironhead Spear,Runeforged_Ironhead_Spear,Spears,40-54,40,54,47.0,5%,1.6,"Level 38 , 23 Str , 54 Dex",38,54,Grants Skill: Spear Throw
+Runemastered Ironhead Spear,Runemastered_Ironhead_Spear,Spears,94-127,94,127,110.5,5%,1.25,"Level 55 , 31 Str , 76 Dex",55,76,Grants Skill: Spear Throw
+Runeforged Hunting Spear,Runeforged_Hunting_Spear,Spears,65-108,65,108,86.5,5%,1.55,"Level 38 , 23 Str , 54 Dex",38,54,Grants Skill: Spear Throw | (15 - 25) % chance to Maim on Hit
+Runeforged Winged Spear,Runeforged_Winged_Spear,Spears,,,,,5%,1.7,"Level 40 , 23 Str , 56 Dex",40,56,Grants Skill: Spear Throw | local weapon implicit hidden % base damage is lightning [100]
+Runeforged War Spear,Runeforged_War_Spear,Spears,59-98,59,98,78.5,5%,1.6,"Level 40 , 23 Str , 56 Dex",40,56,Grants Skill: Spear Throw | (25 - 35) % increased Projectile Speed with this Weapon
+Runeforged Forked Spear,Runeforged_Forked_Spear,Spears,8-57,8,57,32.5,7%,1.6,"Level 55 , 31 Str , 76 Dex",55,76,Grants Skill: Spear Throw
+Runeforged Barbed Spear,Runeforged_Barbed_Spear,Spears,26.52-49.3,52,49,50.5,6%,1.5,"Level 55 , 31 Str , 76 Dex",55,76,Grants Skill: Spear Throw | Bleeding you inflict deals Damage (10 - 20) % faster | local weapon implicit hidden % base damage is fire [66]
+Orichalcum Spear,Orichalcum_Spear,Spears,46-62,46,62,54.0,5%,1.6,"Level 67 , 41 Str , 104 Dex",67,104,Grants Skill: Spear Throw
+Soaring Spear,Soaring_Spear,Spears,35-65,35,65,50.0,5%,1.7,"Level 70 , 41 Str , 115 Dex",70,115,Grants Skill: Spear Throw
+Pronged Spear,Pronged_Spear,Spears,30-89,30,89,59.5,5%,1.55,"Level 72 , 46 Str , 115 Dex",72,115,Grants Skill: Spear Throw
+Stalking Spear,Stalking_Spear,Spears,47-79,47,79,63.0,5%,1.55,"Level 77 , 50 Str , 127 Dex",77,127,Grants Skill: Spear Throw | (15 - 25) % chance to Maim on Hit
+Flying Spear,Flying_Spear,Spears,46-77,46,77,61.5,5%,1.6,"Level 78 , 50 Str , 127 Dex",78,127,Grants Skill: Spear Throw | (25 - 35) % increased Projectile Speed with this Weapon
+Grand Spear,Grand_Spear,Spears,56-84,56,84,70.0,5%,1.4,"Level 79 , 68 Str , 109 Dex",79,109,Grants Skill: Spear Throw | 25 % increased Melee Strike Range with this weapon
+Spiked Spear,Spiked_Spear,Spears,41-76,41,76,58.5,6%,1.5,"Level 77 , 50 Str , 127 Dex",77,127,Grants Skill: Spear Throw | Bleeding you inflict deals Damage (10 - 20) % faster
+Guardian Spear,Guardian_Spear,Spears,38-79,38,79,58.5,5%,1.55,"Level 75 , 50 Str , 127 Dex",75,127,Grants Skill: Spear Throw | Prevent +(3 - 7) % of Damage from Deflected Hits
+Akoyan Spear,Akoyan_Spear,Spears,39-72,39,72,55.5,7%,1.6,"Level 78 , 50 Str , 127 Dex , 90 Int",78,127,Grants Skill: Spear Throw
+Splintered Flail,Splintered_Flail,Flails,6-9,6,9,7.5,10%,1.45,,,,
+Chain Flail,Chain_Flail,Flails,8-14,8,14,11.0,10%,1.45,"Level 6 , 12 Str",6,,
+Holy Flail,Holy_Flail,Flails,10-17,10,17,13.5,10%,1.45,"Level 11 , 18 Str , 9 Int",11,,
+Iron Flail,Iron_Flail,Flails,14-23,14,23,18.5,10%,1.45,"Level 16 , 25 Str , 12 Int",16,,
+Twin Flail,Twin_Flail,Flails,8-18,8,18,13.0,10%,1.4,"Level 20 , 30 Str , 14 Int",20,,Bifurcates Critical Hits
+Slender Flail,Slender_Flail,Flails,19-32,19,32,25.5,8%,1.5,"Level 26 , 38 Str , 17 Int",26,,
+Stone Flail,Stone_Flail,Flails,23-38,23,38,30.5,10%,1.45,"Level 33 , 47 Str , 20 Int",33,,Unblockable
+Ring Flail,Ring_Flail,Flails,23-44,23,44,33.5,10%,1.45,"Level 38 , 54 Str , 23 Int",38,,
+Guarded Flail,Guarded_Flail,Flails,31-57,31,57,44.0,10%,1.4,"Level 45 , 63 Str , 26 Int",45,,
+Icicle Flail,Icicle_Flail,Flails,,,,,10%,1.45,"Level 47 , 66 Str , 27 Int",47,,local weapon implicit hidden % base damage is cold [100]
+Tearing Flail,Tearing_Flail,Flails,27-56,27,56,41.5,12.5%,1.4,"Level 52 , 72 Str , 29 Int",52,,
+Great Flail,Great_Flail,Flails,35-58,35,58,46.5,10%,1.45,"Level 58 , 80 Str , 32 Int",58,,
+Abyssal Flail,Abyssal_Flail,Flails,36-66,36,66,51.0,10%,1.45,"Level 65 , 89 Str , 36 Int",65,,
+Crude Bow,Crude_Bow,Bows,6-9,6,9,7.5,5%,1.2,,,,
+Shortbow,Shortbow,Bows,7-14,7,14,10.5,5%,1.25,"Level 5 , 12 Dex",5,12,
+Warden Bow,Warden_Bow,Bows,12-20,12,20,16.0,5%,1.15,"Level 11 , 23 Dex",11,23,(25 - 35) % chance to Chain an additional time
+Recurve Bow,Recurve_Bow,Bows,15-31,15,31,23.0,5%,1.1,"Level 16 , 31 Dex",16,31,
+Composite Bow,Composite_Bow,Bows,19-31,19,31,25.0,5%,1.2,"Level 22 , 41 Dex",22,41,
+Dualstring Bow,Dualstring_Bow,Bows,19-35,19,35,27.0,5%,1.15,"Level 28 , 52 Dex",28,52,+50 % Surpassing chance to fire an additional Arrow
+Cultist Bow,Cultist_Bow,Bows,22-36,22,36,29.0,5%,1.2,"Level 33 , 60 Dex",33,60,local weapon implicit hidden added maximum chaos damage [19] local weapon implicit hidden added minimum chaos damage [7]
+Zealot Bow,Zealot_Bow,Bows,31-47,31,47,39.0,5%,1.2,"Level 39 , 70 Dex",39,70,
+Artillery Bow,Artillery_Bow,Bows,39-72,39,72,55.5,5%,1.1,"Level 45 , 80 Dex",45,80,50 % reduced Projectile Range
+Tribal Bow,Tribal_Bow,Bows,38-57,38,57,47.5,5%,1.2,"Level 50 , 89 Dex",50,89,
+Greatbow,Greatbow,Bows,40-82,40,82,61.0,6.5%,1.15,"Level 52 , 92 Str , 92 Dex",52,92,
+Double Limb Bow,Double_Limb_Bow,Bows,42-63,42,63,52.5,5%,1.2,"Level 56 , 99 Dex",56,99,
+Heavy Bow,Heavy_Bow,Bows,45-75,45,75,60.0,5%,1.2,"Level 65 , 114 Dex",65,114,
+Snakewood Shortbow,Snakewood_Shortbow,Bows,29-54,29,54,41.5,5%,1.25,"Level 45 , 80 Dex",45,80,
+Protector Bow,Protector_Bow,Bows,35-53,35,53,44.0,5%,1.15,"Level 48 , 86 Dex",48,86,(25 - 35) % chance to Chain an additional time
+Rider Bow,Rider_Bow,Bows,36-61,36,61,48.5,5%,1.2,"Level 51 , 91 Dex",51,91,
+Twin Bow,Twin_Bow,Bows,32-60,32,60,46.0,5%,1.15,"Level 54 , 96 Dex",54,96,+50 % Surpassing chance to fire an additional Arrow
+Adherent Bow,Adherent_Bow,Bows,35-59,35,59,47.0,5%,1.2,"Level 59 , 104 Dex",59,104,local weapon implicit hidden added maximum chaos damage [32] local weapon implicit hidden added minimum chaos damage [14]
+Militant Bow,Militant_Bow,Bows,46-69,46,69,57.5,5%,1.2,"Level 62 , 109 Dex",62,109,
+Runeforged Crude Bow,Runeforged_Crude_Bow,Bows,,,,,5%,1.2,"Level 55 , 97 Dex",55,97,local weapon implicit hidden % base damage is chaos [100]
+Runeforged Shortbow,Runeforged_Shortbow,Bows,30-56,30,56,43.0,5%,1.25,"Level 38 , 68 Dex",38,68,
+Runeforged Shortbow,Runeforged_Shortbow,Bows,44-81,44,81,62.5,5%,1.4,"Level 55 , 97 Dex",55,97,Projectiles have 50 % chance for an additional Projectile when Forking
+Runeforged Recurve Bow,Runeforged_Recurve_Bow,Bows,41-84,41,84,62.5,5%,1.1,"Level 40 , 72 Dex",40,72,
+Runeforged Composite Bow,Runeforged_Composite_Bow,Bows,53-88,53,88,70.5,5%,1.2,"Level 55 , 97 Dex",55,97,
+Runeforged Dualstring Bow,Runeforged_Dualstring_Bow,Bows,45-83,45,83,64.0,6.5%,1.15,"Level 55 , 97 Dex",55,97,+50 % Surpassing chance to fire an additional Arrow
+Runeforged Zealot Bow,Runeforged_Zealot_Bow,Bows,44-67,44,67,55.5,10%,1.2,"Level 55 , 97 Dex",55,97,local weapon implicit hidden added maximum chaos damage [19] local weapon implicit hidden added minimum chaos damage [7]
+Ironwood Shortbow,Ironwood_Shortbow,Bows,41-76,41,76,58.5,5%,1.25,"Level 67 , 134 Dex",67,134,
+Cavalry Bow,Cavalry_Bow,Bows,49-82,49,82,65.5,5%,1.2,"Level 72 , 149 Dex",72,149,
+Guardian Bow,Guardian_Bow,Bows,53-88,53,88,70.5,5%,1.15,"Level 77 , 163 Dex",77,163,(25 - 35) % chance to Chain an additional time
+Gemini Bow,Gemini_Bow,Bows,39-72,39,72,55.5,5%,1.15,"Level 78 , 163 Dex",78,163,+50 % Surpassing chance to fire an additional Arrow
+Fanatic Bow,Fanatic_Bow,Bows,47-79,47,79,63.0,5%,1.2,"Level 79 , 163 Dex",79,163,local weapon implicit hidden added maximum chaos damage [64] local weapon implicit hidden added minimum chaos damage [28]
+Warmonger Bow,Warmonger_Bow,Bows,56-84,56,84,70.0,5%,1.2,"Level 77 , 163 Dex",77,163,
+Obliterator Bow,Obliterator_Bow,Bows,62-115,62,115,88.5,5%,1.1,"Level 78 , 163 Dex",78,163,50 % reduced Projectile Range
+Heartwood Shortbow,Heartwood_Shortbow,Bows,41-76,41,76,58.5,5%,1.25,"Level 67 , 134 Dex",67,134,
+Ashen Staff,Ashen_Staff,Staves,,,,,,,6 Int,,,Grants Skill: Firebolt
+Gelid Staff,Gelid_Staff,Staves,,,,,,,"Level 2 , 7 Int",2,,Grants Skill: Freezing Shards
+Voltaic Staff,Voltaic_Staff,Staves,,,,,,,"Level 2 , 7 Int",2,,Grants Skill: Lightning Bolt
+Spriggan Staff,Spriggan_Staff,Staves,,,,,,,"Level 11 , 23 Int",11,,Grants Skill: Firebolt
+Pyrophyte Staff,Pyrophyte_Staff,Staves,,,,,,,"Level 16 , 31 Int",16,,Grants Skill: Solar Orb
+Chiming Staff,Chiming_Staff,Staves,,,,,,,"Level 25 , 46 Int",25,,Grants Skill: Sigil of Power
+Rending Staff,Rending_Staff,Staves,,,,,,,"Level 33 , 60 Int",33,,Grants Skill: Soulrend
+Reaping Staff,Reaping_Staff,Staves,,,,,,,"Level 38 , 69 Int",38,,Grants Skill: Reap
+Icicle Staff,Icicle_Staff,Staves,,,,,,,"Level 45 , 80 Int",45,,Grants Skill: Firebolt
+Roaring Staff,Roaring_Staff,Staves,,,,,,,"Level 49 , 87 Int",49,,Grants Skill: Unleash
+Paralysing Staff,Paralysing_Staff,Staves,,,,,,,"Level 52 , 92 Int",52,,Grants Skill: Enervating Nova
+Sanctified Staff,Sanctified_Staff,Staves,,,,,,,"Level 56 , 99 Int",56,,Grants Skill: Consecrate
+Dark Staff,Dark_Staff,Staves,,,,,,,"Level 65 , 114 Int",65,,Grants Skill: Dark Pact
+Ravenous Staff,Ravenous_Staff,Staves,,,,,,,"Level 65 , 114 Int",65,,Grants Skill: Feast of Flesh
+Permafrost Staff,Permafrost_Staff,Staves,,,,,,,"Level 75 , 131 Int",75,,Grants Skill: Heart of Ice
+Reflecting Staff,Reflecting_Staff,Staves,,,,,,,"Level 70 , 123 Int",70,,Grants Skill: Mirror of Refraction
+Perching Staff,Perching_Staff,Staves,,,,,,,"Level 65 , 114 Int",65,,Grants Skill: Spiraling Conspiracy
+Energy Blade,Energy_Blade,Two_Hand_Swords,,,,,7%,1.6,,,,Adds to Lightning Damage
+Corroded Longsword,Corroded_Longsword,Two_Hand_Swords,9-16,9,16,12.5,5%,1.3,,,,
+Iron Greatsword,Iron_Greatsword,Two_Hand_Swords,13-23,13,23,18.0,5%,1.35,"Level 6 , 9 Str , 9 Dex",6,9,
+Blessed Claymore,Blessed_Claymore,Two_Hand_Swords,19-32,19,32,25.5,5%,1.3,"Level 11 , 14 Str , 14 Dex",11,14,
+Broad Greatsword,Broad_Greatsword,Two_Hand_Swords,25-42,25,42,33.5,5%,1.25,"Level 16 , 19 Str , 19 Dex",16,19,
+Rippled Greatsword,Rippled_Greatsword,Two_Hand_Swords,28-52,28,52,40.0,5%,1.3,"Level 22 , 24 Str , 24 Dex",22,24,
+Arced Longsword,Arced_Longsword,Two_Hand_Swords,31-58,31,58,44.5,5%,1.35,"Level 28 , 29 Str , 29 Dex",28,29,
+Stone Greatsword,Stone_Greatsword,Two_Hand_Swords,40-67,40,67,53.5,5%,1.3,"Level 33 , 34 Str , 34 Dex",33,34,
+Obsidian Greatsword,Obsidian_Greatsword,Two_Hand_Swords,49-73,49,73,61.0,5%,1.25,"Level 36 , 37 Str , 37 Dex",36,37,
+Keen Greatsword,Keen_Greatsword,Two_Hand_Swords,45-94,45,94,69.5,5%,1.3,"Level 45 , 45 Str , 45 Dex",45,45,
+Ancient Greatblade,Ancient_Greatblade,Two_Hand_Swords,55-103,55,103,79.0,5%,1.25,"Level 49 , 49 Str , 49 Dex",49,49,
+Flanged Greatblade,Flanged_Greatblade,Two_Hand_Swords,51-106,51,106,78.5,5%,1.3,"Level 52 , 51 Str , 51 Dex",52,51,
+Regalia Longsword,Regalia_Longsword,Two_Hand_Swords,61-92,61,92,76.5,5%,1.35,"Level 54 , 53 Str , 53 Dex",54,53,
+Ultra Greatsword,Ultra_Greatsword,Two_Hand_Swords,72-119,72,119,95.5,5%,1.3,"Level 65 , 63 Str , 63 Dex",65,63,
+Splitting Greataxe,Splitting_Greataxe,Two_Hand_Axes,8-20,8,20,14.0,5%,1.2,,,,
+Light Halberd,Light_Halberd,Two_Hand_Axes,10-25,10,25,17.5,5%,1.25,"Level 4 , 9 Str",4,,
+Executioner Greataxe,Executioner_Greataxe,Two_Hand_Axes,10-41,10,41,25.5,5%,1.2,"Level 10 , 17 Str , 9 Dex",10,9,Culling Strike
+Arched Greataxe,Arched_Greataxe,Two_Hand_Axes,17-59,17,59,38.0,5%,1.15,"Level 16 , 25 Str , 12 Dex",16,12,
+Elegant Glaive,Elegant_Glaive,Two_Hand_Axes,19-64,19,64,41.5,5%,1.2,"Level 20 , 30 Str , 14 Dex",20,14,
+Savage Greataxe,Savage_Greataxe,Two_Hand_Axes,23-70,23,70,46.5,5%,1.2,"Level 27 , 39 Str , 17 Dex",27,17,Gain (34 - 43) Life per enemy killed
+Rending Halberd,Rending_Halberd,Two_Hand_Axes,27-91,27,91,59.0,6.5%,1.2,"Level 33 , 47 Str , 20 Dex",33,20,
+Jagged Greataxe,Jagged_Greataxe,Two_Hand_Axes,43-99,43,99,71.0,5%,1.15,"Level 40 , 56 Str , 23 Dex",40,23,(15 - 25) % chance to cause Bleeding on Hit
+Reaver Glaive,Reaver_Glaive,Two_Hand_Axes,43-113,43,113,78.0,5%,1.2,"Level 45 , 63 Str , 26 Dex",45,26,
+Ember Greataxe,Ember_Greataxe,Two_Hand_Axes,,,,,5%,1.2,"Level 50 , 70 Str , 28 Dex",50,28,local weapon implicit hidden % base damage is fire [100]
+Ceremonial Halberd,Ceremonial_Halberd,Two_Hand_Axes,53-123,53,123,88.0,5%,1.2,"Level 52 , 72 Str , 29 Dex",52,29,Cannot use Projectile Attacks
+Monument Greataxe,Monument_Greataxe,Two_Hand_Axes,48-143,48,143,95.5,5%,1.2,"Level 57 , 79 Str , 32 Dex",57,32,
+Vile Greataxe,Vile_Greataxe,Two_Hand_Axes,59-155,59,155,107.0,5%,1.2,"Level 65 , 89 Str , 36 Dex",65,36,
+Felled Greatclub,Felled_Greatclub,Two_Hand_Maces,13-18,13,18,15.5,5%,1.1,,,,
+Oak Greathammer,Oak_Greathammer,Two_Hand_Maces,16-30,16,30,23.0,5%,1,"Level 4 , 11 Str",4,,Causes (20 - 40) % increased Stun Buildup
+Forge Maul,Forge_Maul,Two_Hand_Maces,26-35,26,35,30.5,5%,1.05,"Level 11 , 23 Str",11,,Crushes Enemies on Hit
+Studded Greatclub,Studded_Greatclub,Two_Hand_Maces,32-48,32,48,40.0,5%,1.1,"Level 16 , 31 Str",16,,
+Cultist Greathammer,Cultist_Greathammer,Two_Hand_Maces,36-49,36,49,42.5,5%,1.05,"Level 22 , 41 Str",22,,Strikes deal Splash Damage
+Temple Maul,Temple_Maul,Two_Hand_Maces,35-72,35,72,53.5,5%,1.2,"Level 28 , 52 Str",28,,
+Leaden Greathammer,Leaden_Greathammer,Two_Hand_Maces,58-78,58,78,68.0,5%,1.1,"Level 33 , 60 Str",33,,
+Crumbling Maul,Crumbling_Maul,Two_Hand_Maces,62-75,62,75,68.5,8%,1.1,"Level 38 , 68 Str",38,,"Causes Enemies to Explode on Critical kill, for 10 % of their Life as Physical Damage"
+Pointed Maul,Pointed_Maul,Two_Hand_Maces,68-102,68,102,85.0,6.5%,1.1,"Level 45 , 80 Str",45,,
+Totemic Greatclub,Totemic_Greatclub,Two_Hand_Maces,77-105,77,105,91.0,5%,1.1,"Level 50 , 89 Str",50,,Warcries Empower an additional Attack
+Greatmace,Greatmace,Two_Hand_Maces,74-124,74,124,99.0,5%,1.1,"Level 52 , 92 Str",52,,
+Precise Greathammer,Precise_Greathammer,Two_Hand_Maces,87-118,87,118,102.5,5%,1.1,"Level 54 , 96 Str",54,,
+Giant Maul,Giant_Maul,Two_Hand_Maces,96-144,96,144,120.0,5%,1.1,"Level 65 , 114 Str",65,,
+Snakewood Greathammer,Snakewood_Greathammer,Two_Hand_Maces,62-115,62,115,88.5,5%,1.05,"Level 45 , 80 Str",45,,Causes (20 - 40) % increased Stun Buildup
+Blacksmith Maul,Blacksmith_Maul,Two_Hand_Maces,75-102,75,102,88.5,5%,1.05,"Level 48 , 86 Str",48,,Crushes Enemies on Hit
+Zealot Greathammer,Zealot_Greathammer,Two_Hand_Maces,70-95,70,95,82.5,5%,1.05,"Level 51 , 91 Str",51,,Strikes deal Splash Damage
+Solemn Maul,Solemn_Maul,Two_Hand_Maces,59-123,59,123,91.0,5%,1.2,"Level 54 , 96 Str",54,,
+Heavy Greathammer,Heavy_Greathammer,Two_Hand_Maces,94-127,94,127,110.5,5%,1.1,"Level 59 , 104 Str",59,,
+Disintegrating Maul,Disintegrating_Maul,Two_Hand_Maces,92-112,92,112,102.0,8%,1.1,"Level 62 , 109 Str",62,,"Causes Enemies to Explode on Critical kill, for 10 % of their Life as Physical Damage"
+Runeforged Felled Greatclub,Runeforged_Felled_Greatclub,Two_Hand_Maces,146-197,146,197,171.5,5%,1.1,"Level 38 , 68 Str",38,,
+Runemastered Felled Greatclub,Runemastered_Felled_Greatclub,Two_Hand_Maces,217-293,217,293,255.0,10%,1.1,"Level 55 , 97 Str",55,,
+Runeforged Oak Greathammer,Runeforged_Oak_Greathammer,Two_Hand_Maces,73-135,73,135,104.0,5%,1,"Level 38 , 68 Str",38,,Causes (20 - 40) % increased Stun Buildup
+Runemastered Oak Greathammer,Runemastered_Oak_Greathammer,Two_Hand_Maces,111-207,111,207,159.0,5%,1,"Level 55 , 97 Str",55,,Causes (20 - 40) % increased Stun Buildup
+Runeforged Forge Maul,Runeforged_Forge_Maul,Two_Hand_Maces,147-199,147,199,173.0,10%,1.05,"Level 40 , 72 Str",40,,Crushes Enemies on Hit
+Runeforged Studded Greatclub,Runeforged_Studded_Greatclub,Two_Hand_Maces,23.5-62.25,5,62,33.5,5%,1.1,"Level 38 , 68 Str",38,,local weapon implicit hidden % base damage is lightning [75]
+Runemastered Studded Greatclub,Runemastered_Studded_Greatclub,Two_Hand_Maces,15.5-140.25,5,140,72.5,5%,1.1,"Level 55 , 97 Str",55,,local weapon implicit hidden % base damage is lightning [75]
+Runeforged Cultist Greathammer,Runeforged_Cultist_Greathammer,Two_Hand_Maces,144-194,144,194,169.0,5%,1.05,"Level 40 , 72 Str",40,,Strikes deal Splash Damage | (20 - 30) % increased Bleeding Duration
+Runeforged Temple Maul,Runeforged_Temple_Maul,Two_Hand_Maces,64-134,64,134,99.0,5%,1.3,"Level 55 , 76 Str , 40 Dex",55,40,
+Runeforged Leaden Greathammer,Runeforged_Leaden_Greathammer,Two_Hand_Maces,132-179,132,179,155.5,5%,1.1,"Level 55 , 60 Str , 50 Int",55,,
+Runeforged Crumbling Maul,Runeforged_Crumbling_Maul,Two_Hand_Maces,105-128,105,128,116.5,8%,1.1,"Level 55 , 97 Str",55,,"Causes Enemies to Explode on Critical kill, for 10 % of their Life as Physical Damage"
+Runeforged Pointed Maul,Runeforged_Pointed_Maul,Two_Hand_Maces,125-188,125,188,156.5,6.5%,1.1,"Level 65 , 114 Str",65,,Strikes deal Splash Damage
+Anvil Maul,Anvil_Maul,Two_Hand_Maces,101-136,101,136,118.5,5%,1.05,"Level 67 , 134 Str",67,,Crushes Enemies on Hit
+Sacred Maul,Sacred_Maul,Two_Hand_Maces,76-158,76,158,117.0,5%,1.2,"Level 72 , 149 Str",72,,
+Ironwood Greathammer,Ironwood_Greathammer,Two_Hand_Maces,105-196,105,196,150.5,5%,1,"Level 77 , 163 Str",77,,Causes (30 - 50) % increased Stun Buildup
+Fanatic Greathammer,Fanatic_Greathammer,Two_Hand_Maces,101-137,101,137,119.0,5%,1.05,"Level 78 , 163 Str",78,,Strikes deal Splash Damage
+Ruination Maul,Ruination_Maul,Two_Hand_Maces,104-127,104,127,115.5,8%,1.1,"Level 79 , 163 Str",79,,"Causes Enemies to Explode on Critical kill, for 10 % of their Life as Physical Damage"
+Massive Greathammer,Massive_Greathammer,Two_Hand_Maces,119-161,119,161,140.0,5%,1.1,"Level 77 , 163 Str",77,,
+Tawhoan Greatclub,Tawhoan_Greatclub,Two_Hand_Maces,113-153,113,153,133.0,5%,1.1,"Level 78 , 163 Str",78,,Warcries Empower an additional Attack
+Aberrant Sledge,Aberrant_Sledge,Two_Hand_Maces,74-154,74,154,114.0,5%,1.2,"Level 70 , 163 Str",70,,
+Runemastered Aberrant Sledge,Runemastered_Aberrant_Sledge,Two_Hand_Maces,151-315,151,315,233.0,5%,1,"Level 70 , 163 Str",70,,
+Runemastered Aberrant Sledge,Runemastered_Aberrant_Sledge,Two_Hand_Maces,74-154,74,154,114.0,5%,1.2,"Level 70 , 163 Str",70,,Skills which create Fissures have a 50 % chance to create an additional Fissure
+Runemastered Aberrant Sledge,Runemastered_Aberrant_Sledge,Two_Hand_Maces,74-154,74,154,114.0,5%,1.2,"Level 70 , 163 Str",70,,(200 - 300) % increased Freeze Buildup
+Runemastered Aberrant Sledge,Runemastered_Aberrant_Sledge,Two_Hand_Maces,29.6-61.6,6,61,33.5,5%,1.2,"Level 70 , 163 Str",70,,local weapon implicit hidden % base damage is cold [80]
+Wrapped Quarterstaff,Wrapped_Quarterstaff,Quarterstaves,7-12,7,12,9.5,10%,1.4,,,,
+Long Quarterstaff,Long_Quarterstaff,Quarterstaves,9-18,9,18,13.5,10%,1.4,"Level 4 , 9 Dex",4,9,16 % increased Melee Strike Range with this weapon
+Gothic Quarterstaff,Gothic_Quarterstaff,Quarterstaves,16-26,16,26,21.0,12%,1.4,"Level 11 , 18 Dex , 9 Int",11,18,
+Crackling Quarterstaff,Crackling_Quarterstaff,Quarterstaves,5-22,5,22,13.5,10%,1.4,"Level 16 , 25 Dex , 12 Int",16,25,local weapon implicit hidden added maximum lightning damage [35] local weapon implicit hidden added minimum lightning damage [1]
+Crescent Quarterstaff,Crescent_Quarterstaff,Quarterstaves,19-39,19,39,29.0,10%,1.5,"Level 20 , 30 Dex , 14 Int",20,30,
+Steelpoint Quarterstaff,Steelpoint_Quarterstaff,Quarterstaves,28-51,28,51,39.5,10%,1.4,"Level 28 , 41 Dex , 18 Int",28,41,
+Slicing Quarterstaff,Slicing_Quarterstaff,Quarterstaves,29-60,29,60,44.5,10%,1.4,"Level 33 , 47 Dex , 20 Int",33,47,
+Barrier Quarterstaff,Barrier_Quarterstaff,Quarterstaves,35-58,35,58,46.5,10%,1.4,"Level 37 , 52 Dex , 22 Int",37,52,+(12 - 18) % to Block chance
+Hefty Quarterstaff,Hefty_Quarterstaff,Quarterstaves,39-81,39,81,60.0,10%,1.3,"Level 45 , 63 Dex , 26 Int",45,63,(20 - 50) % chance to Daze on Hit
+Smooth Quarterstaff,Smooth_Quarterstaff,Quarterstaves,59-79,59,79,69.0,0%,1.5,"Level 49 , 68 Dex , 28 Int",49,68,
+Anima Quarterstaff,Anima_Quarterstaff,Quarterstaves,47-79,47,79,63.0,10%,1.4,"Level 52 , 72 Dex , 29 Int",52,72,
+Graceful Quarterstaff,Graceful_Quarterstaff,Quarterstaves,47-87,47,87,67.0,10%,1.4,"Level 56 , 77 Dex , 31 Int",56,77,
+Wyrm Quarterstaff,Wyrm_Quarterstaff,Quarterstaves,57-94,57,94,75.5,10%,1.4,"Level 65 , 89 Dex , 36 Int",65,89,
+Reaching Quarterstaff,Reaching_Quarterstaff,Quarterstaves,35-72,35,72,53.5,10%,1.4,"Level 45 , 63 Dex , 26 Int",45,63,16 % increased Melee Strike Range with this weapon
+Barbarous Quarterstaff,Barbarous_Quarterstaff,Quarterstaves,42-71,42,71,56.5,12%,1.4,"Level 48 , 67 Dex , 27 Int",48,67,
+Arcing Quarterstaff,Arcing_Quarterstaff,Quarterstaves,14-55,14,55,34.5,10%,1.4,"Level 51 , 71 Dex , 29 Int",51,71,local weapon implicit hidden added maximum lightning damage [75] local weapon implicit hidden added minimum lightning damage [1]
+Waxing Quarterstaff,Waxing_Quarterstaff,Quarterstaves,39-82,39,82,60.5,10%,1.5,"Level 54 , 75 Dex , 30 Int",54,75,
+Bladed Quarterstaff,Bladed_Quarterstaff,Quarterstaves,45-94,45,94,69.5,10%,1.4,"Level 59 , 81 Dex , 33 Int",59,81,
+Guardian Quarterstaff,Guardian_Quarterstaff,Quarterstaves,52-86,52,86,69.0,10%,1.4,"Level 62 , 85 Dex , 34 Int",62,85,+(12 - 18) % to Block chance
+Runeforged Wrapped Quarterstaff,Runeforged_Wrapped_Quarterstaff,Quarterstaves,93-155,93,155,124.0,10%,1.4,"Level 38 , 54 Dex , 23 Int",38,54,50 % increased Magnitude of Bleeding you inflict
+Runeforged Long Quarterstaff,Runeforged_Long_Quarterstaff,Quarterstaves,21-43,21,43,32.0,10%,1.4,"Level 38 , 54 Dex , 23 Int",38,54,16 % increased Melee Strike Range with this weapon
+Runemastered Long Quarterstaff,Runemastered_Long_Quarterstaff,Quarterstaves,,,,,10%,1.4,"Level 55 , 76 Dex , 31 Int",55,76,16 % increased Melee Strike Range with this weapon | local weapon implicit hidden % base damage is cold [100]
+Runeforged Gothic Quarterstaff,Runeforged_Gothic_Quarterstaff,Quarterstaves,,,,,12%,1.4,"Level 38 , 54 Dex , 23 Int",38,54,local weapon implicit hidden % base damage is fire [100]
+Runemastered Gothic Quarterstaff,Runemastered_Gothic_Quarterstaff,Quarterstaves,,,,,12%,1.4,"Level 55 , 76 Dex , 31 Int",55,76,local weapon implicit hidden % base damage is fire [100] | Ignites you inflict deal Damage (30 - 40) % faster
+Runeforged Crescent Quarterstaff,Runeforged_Crescent_Quarterstaff,Quarterstaves,,,,,10%,1.5,"Level 40 , 56 Dex , 23 Int",40,56,local weapon implicit hidden % base damage is cold [50] | local weapon implicit hidden % base damage is lightning [50]
+Runeforged Steelpoint Quarterstaff,Runeforged_Steelpoint_Quarterstaff,Quarterstaves,90-167,90,167,128.5,10%,1.4,"Level 40 , 56 Dex , 23 Int",40,56,
+Sinister Quarterstaff,Sinister_Quarterstaff,Quarterstaves,55-91,55,91,73.0,12%,1.4,"Level 67 , 104 Dex , 41 Int",67,104,
+Lunar Quarterstaff,Lunar_Quarterstaff,Quarterstaves,50-103,50,103,76.5,10%,1.5,"Level 72 , 115 Dex , 46 Int",72,115,
+Striking Quarterstaff,Striking_Quarterstaff,Quarterstaves,53-111,53,111,82.0,10%,1.4,"Level 77 , 127 Dex , 50 Int",77,127,16 % increased Melee Strike Range with this weapon
+Bolting Quarterstaff,Bolting_Quarterstaff,Quarterstaves,24-97,24,97,60.5,10%,1.4,"Level 78 , 127 Dex , 50 Int",78,127,local weapon implicit hidden added maximum lightning damage [100] local weapon implicit hidden added minimum lightning damage [1]
+Aegis Quarterstaff,Aegis_Quarterstaff,Quarterstaves,58-97,58,97,77.5,10%,1.4,"Level 79 , 127 Dex , 50 Int",79,127,+(12 - 18) % to Block chance
+Razor Quarterstaff,Razor_Quarterstaff,Quarterstaves,65-108,65,108,86.5,10%,1.4,"Level 77 , 127 Dex , 50 Int",77,127,
+Skullcrusher Quarterstaff,Skullcrusher_Quarterstaff,Quarterstaves,59-122,59,122,90.5,10%,1.3,"Level 75 , 127 Dex , 50 Int",75,127,(20 - 50) % chance to Daze on Hit
+Dreaming Quarterstaff,Dreaming_Quarterstaff,Quarterstaves,99-133,99,133,116.0,0%,1.5,"Level 78 , 127 Dex , 50 Int",78,127,
+Warding Quarterstaff,Warding_Quarterstaff,Quarterstaves,51-85,51,85,68.0,10%,1.4,"Level 65 , 127 Dex , 50 Int",65,127,+(30 - 50) to maximum Runic Ward
+Runemastered Warding Quarterstaff,Runemastered_Warding_Quarterstaff,Quarterstaves,51-85,51,85,68.0,10%,1.6,"Level 65 , 127 Dex , 50 Int",65,127,+(30 - 50) to maximum Runic Ward
+Runemastered Warding Quarterstaff,Runemastered_Warding_Quarterstaff,Quarterstaves,51-85,51,85,68.0,15%,1.4,"Level 65 , 127 Dex , 50 Int",65,127,+(30 - 50) to maximum Runic Ward
+Runemastered Warding Quarterstaff,Runemastered_Warding_Quarterstaff,Quarterstaves,85-141,85,141,113.0,10%,1.4,"Level 65 , 127 Dex , 50 Int",65,127,+(30 - 50) to maximum Runic Ward
+Makeshift Crossbow,Makeshift_Crossbow,Crossbows,7-12,7,12,9.5,5%,1.6,,,,
+Tense Crossbow,Tense_Crossbow,Crossbows,8-15,8,15,11.5,5%,1.6,"Level 4 , 8 Str , 8 Dex",4,8,(20 - 30) % increased Bolt Speed
+Sturdy Crossbow,Sturdy_Crossbow,Crossbows,11-26,11,26,18.5,5%,1.55,"Level 10 , 13 Str , 13 Dex",10,13,
+Varnished Crossbow,Varnished_Crossbow,Crossbows,12-36,12,36,24.0,5%,1.6,"Level 16 , 19 Str , 19 Dex",16,19,
+Dyad Crossbow,Dyad_Crossbow,Crossbows,9-37,9,37,23.0,5%,1.6,"Level 20 , 22 Str , 22 Dex",20,22,Loads an additional bolt
+Alloy Crossbow,Alloy_Crossbow,Crossbows,12-50,12,50,31.0,5%,1.7,"Level 26 , 28 Str , 28 Dex",26,28,
+Bombard Crossbow,Bombard_Crossbow,Crossbows,14-56,14,56,35.0,5%,1.65,"Level 33 , 34 Str , 34 Dex",33,34,Grenade Skills Fire an additional Projectile
+Construct Crossbow,Construct_Crossbow,Crossbows,18-72,18,72,45.0,5%,1.6,"Level 38 , 39 Str , 39 Dex",38,39,
+Blackfire Crossbow,Blackfire_Crossbow,Crossbows,20-80,20,80,50.0,7%,1.6,"Level 45 , 45 Str , 45 Dex",45,45,
+Piercing Crossbow,Piercing_Crossbow,Crossbows,21-84,21,84,52.5,5%,1.65,"Level 50 , 49 Str , 49 Dex",50,49,(20 - 30) % chance to Pierce an Enemy
+Cumbrous Crossbow,Cumbrous_Crossbow,Crossbows,19-76,19,76,47.5,5%,1.6,"Level 52 , 51 Str , 51 Dex",52,51,+1 to maximum number of Summoned Ballista Totems
+Dedalian Crossbow,Dedalian_Crossbow,Crossbows,25-99,25,99,62.0,7%,1.55,"Level 56 , 55 Str , 55 Dex",56,55,
+Esoteric Crossbow,Esoteric_Crossbow,Crossbows,28-113,28,113,70.5,5%,1.6,"Level 65 , 63 Str , 63 Dex",65,63,
+Taut Crossbow,Taut_Crossbow,Crossbows,20-79,20,79,49.5,5%,1.6,"Level 45 , 45 Str , 45 Dex",45,45,(20 - 30) % increased Bolt Speed
+Robust Crossbow,Robust_Crossbow,Crossbows,22-89,22,89,55.5,5%,1.55,"Level 48 , 48 Str , 48 Dex",48,48,
+Painted Crossbow,Painted_Crossbow,Crossbows,23-92,23,92,57.5,5%,1.6,"Level 51 , 50 Str , 50 Dex",51,50,
+Twin Crossbow,Twin_Crossbow,Crossbows,20-82,20,82,51.0,5%,1.6,"Level 54 , 53 Str , 53 Dex",54,53,Loads an additional bolt
+Cannonade Crossbow,Cannonade_Crossbow,Crossbows,23-90,23,90,56.5,5%,1.65,"Level 59 , 58 Str , 58 Dex",59,58,Grenade Skills Fire an additional Projectile
+Bleak Crossbow,Bleak_Crossbow,Crossbows,27-109,27,109,68.0,5%,1.6,"Level 62 , 60 Str , 60 Dex",62,60,
+Runeforged Makeshift Crossbow,Runeforged_Makeshift_Crossbow,Crossbows,41.25-77,25,77,51.0,5%,1.6,"Level 38 , 39 Str , 39 Dex",38,39,local weapon implicit hidden % base damage is cold [45]
+Runeforged Tense Crossbow,Runeforged_Tense_Crossbow,Crossbows,44-83,44,83,63.5,5%,1.6,"Level 38 , 39 Str , 39 Dex",38,39,
+Runemastered Tense Crossbow,Runemastered_Tense_Crossbow,Crossbows,62-115,62,115,88.5,5%,1.6,"Level 55 , 54 Str , 54 Dex",55,54,
+Runeforged Sturdy Crossbow,Runeforged_Sturdy_Crossbow,Crossbows,4.65-41.4,65,41,53.0,7%,1.6,"Level 38 , 39 Str , 39 Dex",38,39,local weapon implicit hidden added maximum lightning damage [67] local weapon implicit hidden added minimum lightning damage [0] | local weapon implicit hidden % base damage is lightning [85]
+Runeforged Dyad Crossbow,Runeforged_Dyad_Crossbow,Crossbows,32-127,32,127,79.5,5%,1.6,"Level 40 , 40 Str , 40 Dex",40,40,
+Runemastered Dyad Crossbow,Runemastered_Dyad_Crossbow,Crossbows,43-171,43,171,107.0,7%,1.6,"Level 65 , 63 Str , 63 Dex",65,63,
+Runeforged Bombard Crossbow,Runeforged_Bombard_Crossbow,Crossbows,21-85,21,85,53.0,5%,1.65,"Level 55 , 54 Str , 54 Dex",55,54,
+Stout Crossbow,Stout_Crossbow,Crossbows,30-119,30,119,74.5,5%,1.55,"Level 67 , 74 Str , 74 Dex",67,74,
+Engraved Crossbow,Engraved_Crossbow,Crossbows,31-124,31,124,77.5,5%,1.6,"Level 72 , 82 Str , 82 Dex",72,82,
+Flexed Crossbow,Flexed_Crossbow,Crossbows,32-127,32,127,79.5,5%,1.6,"Level 77 , 89 Str , 89 Dex",77,89,(20 - 30) % increased Bolt Speed
+Gemini Crossbow,Gemini_Crossbow,Crossbows,28-112,28,112,70.0,5%,1.6,"Level 78 , 89 Str , 89 Dex",78,89,Loads an additional bolt
+Siege Crossbow,Siege_Crossbow,Crossbows,29-115,29,115,72.0,5%,1.65,"Level 79 , 89 Str , 89 Dex",79,89,Grenade Skills Fire an additional Projectile
+Desolate Crossbow,Desolate_Crossbow,Crossbows,33-132,33,132,82.5,5%,1.6,"Level 77 , 89 Str , 89 Dex",77,89,
+Elegant Crossbow,Elegant_Crossbow,Crossbows,31-123,31,123,77.0,5%,1.65,"Level 78 , 89 Str , 89 Dex",78,89,(20 - 30) % chance to Pierce an Enemy
+Trarthan Cannon,Trarthan_Cannon,Crossbows,58-134,58,134,96.0,5%,1.4,"Level 65 , 114 Str , 63 Dex",65,63,Cannot load or fire Ammunition
+Clay Trap,Clay_Trap,Traps,,,,,,,Level 2,2,,
+Clamping Trap,Clamping_Trap,Traps,,,,,,,Level 6,6,,
+Shrapnel Trap,Shrapnel_Trap,Traps,,,,,,,Level 10,10,,
+Urn Trap,Urn_Trap,Traps,,,,,,,Level 16,16,,
+Incense Trap,Incense_Trap,Traps,,,,,,,Level 22,22,,(20 - 30) % increased Cooldown Recovery Rate for throwing Traps
+Bladed Trap,Bladed_Trap,Traps,,,,,,,Level 27,27,,
+Dart Trap,Dart_Trap,Traps,,,,,,,Level 33,33,,
+Spike Trap,Spike_Trap,Traps,,,,,,,Level 38,38,,
+Coiled Trap,Coiled_Trap,Traps,,,,,,,Level 45,45,,
+Lead Trap,Lead_Trap,Traps,,,,,,,Level 49,49,,
+Medallion Trap,Medallion_Trap,Traps,,,,,,,Level 52,52,,
+Intricate Trap,Intricate_Trap,Traps,,,,,,,Level 56,56,,
+Refined Trap,Refined_Trap,Traps,,,,,,,Level 65,65,,
+Incense Trap,Incense_Trap,Traps,,,,,,,Level 22,22,,(20 - 30) % increased Cooldown Recovery Rate for throwing Traps
+Changeling Talisman,Changeling_Talisman,Talismans,9-15,9,15,12.0,8%,1.25,,,,
+Nettle Talisman,Nettle_Talisman,Talismans,12-20,12,20,16.0,11%,1.25,"Level 5 , 9 Str , 8 Int",5,,
+Cinderbark Talisman,Cinderbark_Talisman,Talismans,12.6-25.2,6,25,15.5,8%,1.2,"Level 10 , 15 Str , 11 Int",10,,(50 - 80) % increased Flammability Magnitude local weapon implicit hidden % base damage is fire [30]
+Familial Talisman,Familial_Talisman,Talismans,20-34,20,34,27.0,8%,1.25,"Level 16 , 21 Str , 16 Int",16,,Minions deal (30 - 50) % increased Damage
+Frenzied Talisman,Frenzied_Talisman,Talismans,23-38,23,38,30.5,8%,1.4,"Level 22 , 28 Str , 20 Int",22,,
+Primal Talisman,Primal_Talisman,Talismans,31-46,31,46,38.5,9%,1.3,"Level 28 , 34 Str , 25 Int",28,,+(14 - 18) % to Block chance
+Rabid Talisman,Rabid_Talisman,Talismans,31-58,31,58,44.5,8%,1.25,"Level 34 , 40 Str , 29 Int",34,,+(7 - 10) to Maximum Rage
+Vicious Talisman,Vicious_Talisman,Talismans,43-71,43,71,57.0,8%,1.25,"Level 40 , 47 Str , 34 Int",40,,
+Voltfang Talisman,Voltfang_Talisman,Talismans,16.1-91,1,91,46.0,8%,1.3,"Level 46 , 53 Str , 38 Int",46,,(20 - 30) % increased Magnitude of Shock you inflict local weapon implicit hidden % base damage is lightning [30]
+Lumbering Talisman,Lumbering_Talisman,Talismans,71-107,71,107,89.0,5%,1.1,"Level 52 , 60 Str , 43 Int",52,,
+Roaring Talisman,Roaring_Talisman,Talismans,57-96,57,96,76.5,8%,1.25,"Level 58 , 66 Str , 47 Int",58,,+(7 - 10) to Maximum Rage
+Wingbeat Talisman,Wingbeat_Talisman,Talismans,45-83,45,83,64.0,7%,1.45,"Level 65 , 74 Str , 52 Int",65,,
+Condemned Talisman,Condemned_Talisman,Talismans,68-113,68,113,90.5,9%,1.25,"Level 65 , 74 Str , 52 Int",65,,(10 - 20) % increased Effect of your Mark Skills
+Howling Talisman,Howling_Talisman,Talismans,52-78,52,78,65.0,9%,1.3,"Level 55 , 63 Str , 45 Int",55,,+(14 - 18) % to Block chance
+Fury Talisman,Fury_Talisman,Talismans,49-91,49,91,70.0,8%,1.25,"Level 59 , 67 Str , 48 Int",59,,+(7 - 10) to Maximum Rage
+Cruel Talisman,Cruel_Talisman,Talismans,62-103,62,103,82.5,8%,1.25,"Level 63 , 72 Str , 51 Int",63,,
+Runeforged Changeling Talisman,Runeforged_Changeling_Talisman,Talismans,91-151,91,151,121.0,8%,1.25,"Level 38 , 45 Str , 32 Int",38,,
+Runeforged Nettle Talisman,Runeforged_Nettle_Talisman,Talismans,51-86,51,86,68.5,11%,1.25,"Level 38 , 45 Str , 32 Int",38,,
+Runemastered Nettle Talisman,Runemastered_Nettle_Talisman,Talismans,68-114,68,114,91.0,11%,1.25,"Level 55 , 63 Str , 45 Int",55,,
+Runeforged Familial Talisman,Runeforged_Familial_Talisman,Talismans,54-91,54,91,72.5,8%,1.25,"Level 38 , 45 Str , 32 Int",38,,Minions deal (30 - 50) % increased Damage
+Runemastered Familial Talisman,Runemastered_Familial_Talisman,Talismans,73-122,73,122,97.5,8%,1.25,"Level 55 , 63 Str , 45 Int",55,,Minions deal (51 - 100) % increased Damage
+Runeforged Vicious Talisman,Runeforged_Vicious_Talisman,Talismans,123-205,123,205,164.0,8%,1.25,"Level 65 , 74 Str , 52 Int",65,,
+Spiny Talisman,Spiny_Talisman,Talismans,60-99,60,99,79.5,11%,1.25,"Level 67 , 86 Str , 65 Int",67,,
+Ashbark Talisman,Ashbark_Talisman,Talismans,50.4-105,4,105,54.5,8%,1.2,"Level 72 , 94 Str , 67 Int",72,,(50 - 80) % increased Flammability Magnitude local weapon implicit hidden % base damage is fire [30]
+Fang Talisman,Fang_Talisman,Talismans,70-116,70,116,93.0,8%,1.25,"Level 77 , 89 Str , 68 Int",77,,Minions deal (30 - 50) % increased Damage
+Fungal Talisman,Fungal_Talisman,Talismans,59-98,59,98,78.5,8%,1.4,"Level 78 , 96 Str , 70 Int",78,,
+Alpha Talisman,Alpha_Talisman,Talismans,63-94,63,94,78.5,9%,1.3,"Level 75 , 98 Str , 72 Int",75,,+(14 - 18) % to Block chance
+Maji Talisman,Maji_Talisman,Talismans,61-114,61,114,87.5,8%,1.25,"Level 79 , 100 Str , 67 Int",79,,+(7 - 10) to Maximum Rage
+Wildwood Talisman,Wildwood_Talisman,Talismans,67-112,67,112,89.5,8%,1.25,"Level 70 , 98 Str , 72 Int",70,,
+Thunder Talisman,Thunder_Talisman,Talismans,23.1-130.9,1,130,65.5,8%,1.3,"Level 77 , 102 Str , 72 Int",77,,(20 - 30) % increased Magnitude of Shock you inflict local weapon implicit hidden % base damage is lightning [30]
+Jade Talisman,Jade_Talisman,Talismans,101-151,101,151,126.0,5%,1.1,"Level 78 , 109 Str , 65 Int",78,,
+Crimson Amulet,Crimson_Amulet,Amulets,,,,,,,,,,(2 - 4) Life Regeneration per second
+Azure Amulet,Azure_Amulet,Amulets,,,,,,,,,,(20 - 30) % increased Mana Regeneration Rate
+Amber Amulet,Amber_Amulet,Amulets,,,,,,,Level 8,8,,+(10 - 15) to Strength
+Jade Amulet,Jade_Amulet,Amulets,,,,,,,Level 8,8,,+(10 - 15) to Dexterity
+Lapis Amulet,Lapis_Amulet,Amulets,,,,,,,Level 8,8,,+(10 - 15) to Intelligence
+Lunar Amulet,Lunar_Amulet,Amulets,,,,,,,Level 14,14,,+(20 - 30) to maximum Energy Shield
+Bloodstone Amulet,Bloodstone_Amulet,Amulets,,,,,,,Level 18,18,,+(30 - 40) to maximum Life
+Stellar Amulet,Stellar_Amulet,Amulets,,,,,,,Level 25,25,,+(5 - 7) to all Attributes
+Solar Amulet,Solar_Amulet,Amulets,,,,,,,Level 30,30,,+(10 - 15) to Spirit
+Gold Amulet,Gold_Amulet,Amulets,,,,,,,Level 35,35,,(12 - 20) % increased Rarity of Items found
+Pearlescent Amulet,Pearlescent_Amulet,Amulets,,,,,,,Level 8,8,,+(7 - 10) % to all Elemental Resistances
+Veridical Chain,Veridical_Chain,Amulets,,,,,,,Level 52,52,,+(30 - 40) to maximum Runic Ward
+Runemastered Veridical Chain,Runemastered_Veridical_Chain,Amulets,,,,,,,Level 65,65,,+(30 - 40) to maximum Runic Ward | +(2 - 3) % to Maximum Cold Resistance
+Runemastered Veridical Chain,Runemastered_Veridical_Chain,Amulets,,,,,,,Level 65,65,,+(30 - 40) to maximum Runic Ward | +(1 - 2) to Level of all Cold Skills
+Runemastered Veridical Chain,Runemastered_Veridical_Chain,Amulets,,,,,,,Level 65,65,,(15 - 20) % increased maximum Runic Ward
+Lament Amulet,Lament_Amulet,Amulets,,,,,,,Level 42,42,,Grants Skill: Level 11 Arctic Armour | Grants Skill: Level 11 Herald of Ash | Grants Skill: Level 11 Herald of Ice | Grants Skill: Level 11 Herald of Thunder | Grants Skill: Level 11 Plague Bearer | Grants Skill: Level 11 Barrier Invocation | Grants Skill: Level 11 Lingering Illusion | Grants Skill: Level 11 Ghost Dance | Grants Skill: Level 11 Mana Remnants | Grants Skill: Level 11 Magma Barrier | Grants Skill: Level 11 Raging Spirits | Grants Skill: Level 11 Wind Dancer | Grants Skill: Level 11 Cast on Minion Death | Grants Skill: Level 11 Scavenged Plating | Grants Skill: Level 11 War Banner | Grants Skill: Level 11 Defiance Banner | Grants Skill: Level 11 Dread Banner | Grants Skill: Level 11 Time of Need | Grants Skill: Level 11 Attrition | Grants Skill: Level 11 Charge Regulation | Grants Skill: Level 11 Shard Scavenger | Grants Skill: Level 11 Overwhelming Presence | Grants Skill: Level 11 Alchemist's Boon | Grants Skill: Level 11 Reaper's Invocation | Grants Skill: Level 11 Berserk | Grants Skill: Level 11 Herald of Plague | Grants Skill: Level 11 Herald of Blood | Grants Skill: Level 11 Withering Presence | Grants Skill: Level 11 Ravenous Swarm | Grants Skill: Level 11 Combat Frenzy | Grants Skill: Level 11 Trail of Caltrops | Grants Skill: Level 11 Convalescence | Grants Skill: Level 11 Iron Ward | Grants Skill: Level 11 Siphon Elements | Grants Skill: Level 11 Briarpatch | Grants Skill: Level 11 Savage Fury | Grants Skill: Level 11 Barkskin | -1 Prefix Modifier allowed
+Portent Amulet,Portent_Amulet,Amulets,,,,,,,Level 42,42,,Grants Skill: Level 11 Wolf Pack | Grants Skill: Level 11 Blink | Grants Skill: Level 11 Elemental Invocation | Grants Skill: Level 11 Elemental Conflux | Grants Skill: Level 11 Sacrifice | Grants Skill: Level 11 Mirage Archer | Grants Skill: Level 11 Feral Invocation | -1 Suffix Modifier allowed
+Absent Amulet,Absent_Amulet,Amulets,,,,,,,Level 50,50,,Grants Skill: Level 12 Cast on Elemental Ailment | Grants Skill: Level 12 Cast on Critical | Grants Skill: Level 12 Cast on Dodge | Grants Skill: Level 12 Rhoa Mount | Grants Skill: Level 12 Archmage | Grants Skill: Level 12 Trinity | Grants Skill: Level 12 Eternal Rage | -1 Prefix Modifier allowed -1 Suffix Modifier allowed
+Corona Amulet,Corona_Amulet,Amulets,,,,,,,Level 40,40,,This item gains bonuses from Socketed Items as though it was a Helmet
+Dusk Amulet,Dusk_Amulet,Amulets,,,,,,,,,,+1 Prefix Modifier allowed -1 Suffix Modifier allowed
+Gloam Amulet,Gloam_Amulet,Amulets,,,,,,,,,,-1 Prefix Modifier allowed +1 Suffix Modifier allowed
+Penumbra Amulet,Penumbra_Amulet,Amulets,,,,,,,,,,+2 Prefix Modifiers allowed -2 Suffix Modifiers allowed
+Tenebrous Amulet,Tenebrous_Amulet,Amulets,,,,,,,,,,-2 Prefix Modifiers allowed +2 Suffix Modifiers allowed
+Twisted Amulet,Twisted_Amulet,Amulets,,,,,,,,,,-1 Prefix Modifier allowed
+Distorted Amulet,Distorted_Amulet,Amulets,,,,,,,,,,-1 Suffix Modifier allowed
+Golden Hoop,Golden_Hoop,Rings,,,,,,,Level 12,12,,+(8 - 12) to all Attributes
+Iron Ring,Iron_Ring,Rings,,,,,,,,,,Adds 1 to 4 Physical Damage to Attacks
+Lazuli Ring,Lazuli_Ring,Rings,,,,,,,,,,+(20 - 30) to maximum Mana
+Ruby Ring,Ruby_Ring,Rings,,,,,,,Level 8,8,,+(20 - 30) % to Fire Resistance
+Sapphire Ring,Sapphire_Ring,Rings,,,,,,,Level 12,12,,+(20 - 30) % to Cold Resistance
+Topaz Ring,Topaz_Ring,Rings,,,,,,,Level 16,16,,+(20 - 30) % to Lightning Resistance
+Amethyst Ring,Amethyst_Ring,Rings,,,,,,,Level 20,20,,+(7 - 13) % to Chaos Resistance
+Emerald Ring,Emerald_Ring,Rings,,,,,,,Level 26,26,,+(120 - 160) to Accuracy Rating
+Pearl Ring,Pearl_Ring,Rings,,,,,,,Level 32,32,,(7 - 10) % increased Cast Speed
+Prismatic Ring,Prismatic_Ring,Rings,,,,,,,Level 35,35,,+(7 - 10) % to all Elemental Resistances
+Gold Ring,Gold_Ring,Rings,,,,,,,Level 40,40,,(6 - 15) % increased Rarity of Items found
+Unset Ring,Unset_Ring,Rings,,,,,,,Level 44,44,,Grants 1 additional Skill Slot
+Abyssal Signet,Abyssal_Signet,Rings,,,,,,,Level 40,40,,Inflict Abyssal Wasting on Hit
+Two-Stone Ring,Two-Stone_Ring,Rings,,,,,,,Level 35,35,,+(12 - 16) % to Fire and Cold Resistances
+Two-Stone Ring,Two-Stone_Ring,Rings,,,,,,,Level 35,35,,+(12 - 16) % to Fire and Lightning Resistances
+Two-Stone Ring,Two-Stone_Ring,Rings,,,,,,,Level 35,35,,+(12 - 16) % to Cold and Lightning Resistances
+Biostatic Ring,Biostatic_Ring,Rings,,,,,,,Level 52,52,,+1 % to all maximum Resistances
+Vitalic Ring,Vitalic_Ring,Rings,,,,,,,Level 40,40,,(4 - 6) % increased maximum Life
+Mnemonic Ring,Mnemonic_Ring,Rings,,,,,,,Level 40,40,,(4 - 6) % increased maximum Mana
+Kinetic Ring,Kinetic_Ring,Rings,,,,,,,Level 40,40,,Adds (6 - 9) to (11 - 15) Physical Damage to Attacks
+Oneiric Ring,Oneiric_Ring,Rings,,,,,,,Level 47,47,,(11 - 23) % increased Chaos Damage
+Grasping Ring,Grasping_Ring,Rings,,,,,,,Level 40,40,,This item gains bonuses from Socketed Items as though it was Gloves
+Ring,Ring,Rings,,,,,,,,,,
+Dusk Ring,Dusk_Ring,Rings,,,,,,,,,,+1 Prefix Modifier allowed -1 Suffix Modifier allowed
+Gloam Ring,Gloam_Ring,Rings,,,,,,,,,,-1 Prefix Modifier allowed +1 Suffix Modifier allowed
+Penumbra Ring,Penumbra_Ring,Rings,,,,,,,,,,+2 Prefix Modifiers allowed -2 Suffix Modifiers allowed
+Tenebrous Ring,Tenebrous_Ring,Rings,,,,,,,,,,-2 Prefix Modifiers allowed +2 Suffix Modifiers allowed
+Breach Ring,Breach_Ring,Rings,,,,,,,Level 40,40,,+20 % to Maximum Quality
+Refined Breach Ring,Refined_Breach_Ring,Rings,,,,,,,Level 40,40,,+25 % to Maximum Quality
+Golden Obi,Golden_Obi,Belts,,,,,,,Level 12,12,,Has (1 - 3) Charm Slot | (20 - 30) % increased Rarity of Items found
+Rawhide Belt,Rawhide_Belt,Belts,,,,,,,,,,Has (1 - 3) Charm Slot | (20 - 30) % increased Life Recovery from Flasks
+Linen Belt,Linen_Belt,Belts,,,,,,,,,,Has (1 - 3) Charm Slot | (20 - 30) % increased Mana Recovery from Flasks
+Wide Belt,Wide_Belt,Belts,,,,,,,Level 14,14,,Has (1 - 3) Charm Slot | (20 - 30) % increased Flask Charges gained
+Long Belt,Long_Belt,Belts,,,,,,,Level 20,20,,Has (1 - 3) Charm Slot | (15 - 20) % increased Charm Effect Duration
+Plate Belt,Plate_Belt,Belts,,,,,,,Level 25,25,,Has (1 - 3) Charm Slot | +(140 - 180) to Armour
+Ornate Belt,Ornate_Belt,Belts,,,,,,,Level 31,31,,Has (1 - 3) Charm Slot | (10 - 15) % reduced Charm Charges used
+Mail Belt,Mail_Belt,Belts,,,,,,,Level 40,40,,Has (1 - 3) Charm Slot | (10 - 15) % reduced Flask Charges used
+Double Belt,Double_Belt,Belts,,,,,,,Level 44,44,,Has (1 - 3) Charm Slot | (20 - 30) % increased Charm Charges gained
+Heavy Belt,Heavy_Belt,Belts,,,,,,,Level 50,50,,Has (1 - 3) Charm Slot | (20 - 30) % increased Stun Threshold
+Runemastered Heavy Belt,Runemastered_Heavy_Belt,Belts,,,,,,,Level 65,65,,Has (1 - 3) Charm Slot | (20 - 30) % increased Stun Threshold | (15 - 25) % Life Recovery from Flasks also applies to Runic Ward
+Runemastered Heavy Belt,Runemastered_Heavy_Belt,Belts,,,,,,,Level 65,65,,Has (1 - 3) Charm Slot | (20 - 30) % increased Stun Threshold | (20 - 40) % increased Runic Ward Regeneration Rate
+Runemastered Heavy Belt,Runemastered_Heavy_Belt,Belts,,,,,,,Level 65,65,,Has (1 - 3) Charm Slot | (20 - 30) % increased Stun Threshold | Runic Ward recovery can can Overflow maximum Runic Ward
+Runemastered Heavy Belt,Runemastered_Heavy_Belt,Belts,,,,,,,Level 65,65,,Has (1 - 3) Charm Slot | (20 - 30) % increased Stun Threshold | Flasks gain (0.5 - 1) charges per Second
+Utility Belt,Utility_Belt,Belts,,,,,,,Level 55,55,,Has (1 - 3) Charm Slot | 20 % of Flask Recovery applied Instantly
+Fine Belt,Fine_Belt,Belts,,,,,,,Level 62,62,,Has (1 - 3) Charm Slot | Flasks gain 0.17 charges per Second
+Stalking Belt,Stalking_Belt,Belts,,,,,,,Level 50,50,,Has (1 - 3) Charm Slot | Has 1 Charm Slot | This item gains bonuses from Socketed Items as though it was Boots
+Invoking Belt,Invoking_Belt,Belts,,,,,,,Level 32,32,,Has (1 - 3) Charm Slot | Has 1 Charm Slot | (8 - 12) % increased Cast Speed
+Sinew Belt,Sinew_Belt,Belts,,,,,,,Level 32,32,,Has (1 - 3) Charm Slot | Has 1 Charm Slot | +(15 - 20) to Strength
+Forking Belt,Forking_Belt,Belts,,,,,,,Level 32,32,,Has (1 - 3) Charm Slot | Has 1 Charm Slot | Adds 1 to (20 - 30) Lightning damage to Attacks
+Stocky Mitts,Stocky_Mitts,Gloves_str,,,,,,,,,,
+Riveted Mitts,Riveted_Mitts,Gloves_str,,,,,,,"Level 11 , 16 Str",11,,
+Tempered Mitts,Tempered_Mitts,Gloves_str,,,,,,,"Level 16 , 22 Str",16,,
+Bolstered Mitts,Bolstered_Mitts,Gloves_str,,,,,,,"Level 27 , 35 Str",27,,
+Moulded Mitts,Moulded_Mitts,Gloves_str,,,,,,,"Level 33 , 42 Str",33,,
+Detailed Mitts,Detailed_Mitts,Gloves_str,,,,,,,"Level 45 , 56 Str",45,,
+Titan Mitts,Titan_Mitts,Gloves_str,,,,,,,"Level 52 , 64 Str",52,,
+Grand Mitts,Grand_Mitts,Gloves_str,,,,,,,"Level 65 , 80 Str",65,,
+Plated Mitts,Plated_Mitts,Gloves_str,,,,,,,"Level 45 , 56 Str",45,,
+Elegant Mitts,Elegant_Mitts,Gloves_str,,,,,,,"Level 51 , 64 Str",51,,
+Ancient Mitts,Ancient_Mitts,Gloves_str,,,,,,,"Level 54 , 67 Str",54,,
+Feathered Mitts,Feathered_Mitts,Gloves_str,,,,,,,"Level 59 , 73 Str",59,,
+Knightly Mitts,Knightly_Mitts,Gloves_str,,,,,,,"Level 65 , 80 Str",65,,
+Ornate Mitts,Ornate_Mitts,Gloves_str,,,,,,,"Level 70 , 87 Str",70,,
+Vaal Mitts,Vaal_Mitts,Gloves_str,,,,,,,"Level 75 , 94 Str",75,,
+Massive Mitts,Massive_Mitts,Gloves_str,,,,,,,"Level 80 , 101 Str",80,,
+Runeforged Stocky Mitts,Runeforged_Stocky_Mitts,Gloves_str,,,,,,,,,,
+Runeforged Riveted Mitts,Runeforged_Riveted_Mitts,Gloves_str,,,,,,,"Level 11 , 16 Str",11,,
+Runeforged Tempered Mitts,Runeforged_Tempered_Mitts,Gloves_str,,,,,,,"Level 16 , 22 Str",16,,
+Runeforged Bolstered Mitts,Runeforged_Bolstered_Mitts,Gloves_str,,,,,,,"Level 27 , 35 Str",27,,
+Runeforged Moulded Mitts,Runeforged_Moulded_Mitts,Gloves_str,,,,,,,"Level 33 , 42 Str",33,,
+Runeforged Detailed Mitts,Runeforged_Detailed_Mitts,Gloves_str,,,,,,,"Level 45 , 56 Str",45,,
+Runeforged Ancient Mitts,Runeforged_Ancient_Mitts,Gloves_str,,,,,,,"Level 54 , 67 Str",54,,
+Runeforged Feathered Mitts,Runeforged_Feathered_Mitts,Gloves_str,,,,,,,"Level 59 , 73 Str",59,,
+Runeforged Knightly Mitts,Runeforged_Knightly_Mitts,Gloves_str,,,,,,,"Level 65 , 80 Str",65,,
+Runeforged Ornate Mitts,Runeforged_Ornate_Mitts,Gloves_str,,,,,,,"Level 70 , 87 Str",70,,
+Runeforged Vaal Mitts,Runeforged_Vaal_Mitts,Gloves_str,,,,,,,"Level 75 , 94 Str",75,,
+Runeforged Massive Mitts,Runeforged_Massive_Mitts,Gloves_str,,,,,,,"Level 80 , 101 Str",80,,
+Runemastered Stocky Mitts,Runemastered_Stocky_Mitts,Gloves_str,,,,,,,"Level 38 , 48 Str",38,,
+Runemastered Riveted Mitts,Runemastered_Riveted_Mitts,Gloves_str,,,,,,,"Level 38 , 48 Str",38,,
+Runemastered Tempered Mitts,Runemastered_Tempered_Mitts,Gloves_str,,,,,,,"Level 38 , 48 Str",38,,
+Runemastered Bolstered Mitts,Runemastered_Bolstered_Mitts,Gloves_str,,,,,,,"Level 38 , 48 Str",38,,
+Runemastered Moulded Mitts,Runemastered_Moulded_Mitts,Gloves_str,,,,,,,"Level 55 , 68 Str",55,,
+Runemastered Titan Mitts,Runemastered_Titan_Mitts,Gloves_str,,,,,,,"Level 65 , 80 Str",65,,
+Suede Bracers,Suede_Bracers,Gloves_dex,,,,,,,,,,
+Firm Bracers,Firm_Bracers,Gloves_dex,,,,,,,"Level 11 , 16 Dex",11,16,
+Bound Bracers,Bound_Bracers,Gloves_dex,,,,,,,"Level 16 , 22 Dex",16,22,
+Sectioned Bracers,Sectioned_Bracers,Gloves_dex,,,,,,,"Level 28 , 36 Dex",28,36,
+Spined Bracers,Spined_Bracers,Gloves_dex,,,,,,,"Level 33 , 42 Dex",33,42,
+Fine Bracers,Fine_Bracers,Gloves_dex,,,,,,,"Level 45 , 56 Dex",45,56,
+Hardened Bracers,Hardened_Bracers,Gloves_dex,,,,,,,"Level 52 , 64 Dex",52,64,
+Engraved Bracers,Engraved_Bracers,Gloves_dex,,,,,,,"Level 65 , 80 Dex",65,80,
+Hunting Bracers,Hunting_Bracers,Gloves_dex,,,,,,,"Level 45 , 56 Dex",45,56,
+Swift Bracers,Swift_Bracers,Gloves_dex,,,,,,,"Level 51 , 64 Dex",51,64,
+Refined Bracers,Refined_Bracers,Gloves_dex,,,,,,,"Level 54 , 67 Dex",54,67,
+Spiked Bracers,Spiked_Bracers,Gloves_dex,,,,,,,"Level 59 , 73 Dex",59,73,
+Stalking Bracers,Stalking_Bracers,Gloves_dex,,,,,,,"Level 65 , 80 Dex",65,80,
+Grand Bracers,Grand_Bracers,Gloves_dex,,,,,,,"Level 70 , 87 Dex",70,87,
+Barbed Bracers,Barbed_Bracers,Gloves_dex,,,,,,,"Level 75 , 94 Dex",75,94,
+Polished Bracers,Polished_Bracers,Gloves_dex,,,,,,,"Level 80 , 101 Dex",80,101,
+Runeforged Suede Bracers,Runeforged_Suede_Bracers,Gloves_dex,,,,,,,,,,
+Runeforged Firm Bracers,Runeforged_Firm_Bracers,Gloves_dex,,,,,,,"Level 11 , 16 Dex",11,16,
+Runeforged Bound Bracers,Runeforged_Bound_Bracers,Gloves_dex,,,,,,,"Level 16 , 22 Dex",16,22,
+Runeforged Sectioned Bracers,Runeforged_Sectioned_Bracers,Gloves_dex,,,,,,,"Level 28 , 36 Dex",28,36,
+Runeforged Spined Bracers,Runeforged_Spined_Bracers,Gloves_dex,,,,,,,"Level 33 , 42 Dex",33,42,
+Runeforged Fine Bracers,Runeforged_Fine_Bracers,Gloves_dex,,,,,,,"Level 45 , 56 Dex",45,56,
+Runeforged Engraved Bracers,Runeforged_Engraved_Bracers,Gloves_dex,,,,,,,"Level 65 , 80 Dex",65,80,
+Runeforged Refined Bracers,Runeforged_Refined_Bracers,Gloves_dex,,,,,,,"Level 54 , 67 Dex",54,67,
+Runeforged Spiked Bracers,Runeforged_Spiked_Bracers,Gloves_dex,,,,,,,"Level 59 , 73 Dex",59,73,
+Runeforged Stalking Bracers,Runeforged_Stalking_Bracers,Gloves_dex,,,,,,,"Level 65 , 80 Dex",65,80,
+Runeforged Grand Bracers,Runeforged_Grand_Bracers,Gloves_dex,,,,,,,"Level 70 , 87 Dex",70,87,
+Runeforged Barbed Bracers,Runeforged_Barbed_Bracers,Gloves_dex,,,,,,,"Level 75 , 94 Dex",75,94,
+Runeforged Polished Bracers,Runeforged_Polished_Bracers,Gloves_dex,,,,,,,"Level 80 , 101 Dex",80,101,
+Runemastered Suede Bracers,Runemastered_Suede_Bracers,Gloves_dex,,,,,,,"Level 38 , 48 Dex",38,48,
+Runemastered Firm Bracers,Runemastered_Firm_Bracers,Gloves_dex,,,,,,,"Level 38 , 48 Dex",38,48,
+Runemastered Sectioned Bracers,Runemastered_Sectioned_Bracers,Gloves_dex,,,,,,,"Level 38 , 48 Dex",38,48,
+Runemastered Spined Bracers,Runemastered_Spined_Bracers,Gloves_dex,,,,,,,"Level 38 , 48 Dex",38,48,
+Runemastered Fine Bracers,Runemastered_Fine_Bracers,Gloves_dex,,,,,,,"Level 45 , 56 Dex",45,56,
+Torn Gloves,Torn_Gloves,Gloves_int,,,,,,,,,,
+Sombre Gloves,Sombre_Gloves,Gloves_int,,,,,,,"Level 12 , 17 Int",12,,
+Stitched Gloves,Stitched_Gloves,Gloves_int,,,,,,,"Level 16 , 22 Int",16,,
+Jewelled Gloves,Jewelled_Gloves,Gloves_int,,,,,,,"Level 26 , 34 Int",26,,
+Intricate Gloves,Intricate_Gloves,Gloves_int,,,,,,,"Level 33 , 42 Int",33,,
+Pauascale Gloves,Pauascale_Gloves,Gloves_int,,,,,,,"Level 45 , 56 Int",45,,
+Embroidered Gloves,Embroidered_Gloves,Gloves_int,,,,,,,"Level 52 , 64 Int",52,,
+Adorned Gloves,Adorned_Gloves,Gloves_int,,,,,,,"Level 65 , 80 Int",65,,
+Ominous Gloves,Ominous_Gloves,Gloves_int,,,,,,,"Level 45 , 56 Int",45,,
+Embellished Gloves,Embellished_Gloves,Gloves_int,,,,,,,"Level 51 , 64 Int",51,,
+Baroque Gloves,Baroque_Gloves,Gloves_int,,,,,,,"Level 54 , 67 Int",54,,
+Gold Gloves,Gold_Gloves,Gloves_int,,,,,,,"Level 59 , 73 Int",59,,
+Grim Gloves,Grim_Gloves,Gloves_int,,,,,,,"Level 65 , 80 Int",65,,
+Opulent Gloves,Opulent_Gloves,Gloves_int,,,,,,,"Level 70 , 87 Int",70,,
+Vaal Gloves,Vaal_Gloves,Gloves_int,,,,,,,"Level 75 , 94 Int",75,,
+Sirenscale Gloves,Sirenscale_Gloves,Gloves_int,,,,,,,"Level 80 , 101 Int",80,,
+Runeforged Torn Gloves,Runeforged_Torn_Gloves,Gloves_int,,,,,,,,,,
+Runeforged Sombre Gloves,Runeforged_Sombre_Gloves,Gloves_int,,,,,,,"Level 12 , 17 Int",12,,
+Runeforged Stitched Gloves,Runeforged_Stitched_Gloves,Gloves_int,,,,,,,"Level 16 , 22 Int",16,,
+Runeforged Jewelled Gloves,Runeforged_Jewelled_Gloves,Gloves_int,,,,,,,"Level 26 , 34 Int",26,,
+Runeforged Intricate Gloves,Runeforged_Intricate_Gloves,Gloves_int,,,,,,,"Level 33 , 42 Int",33,,
+Runeforged Pauascale Gloves,Runeforged_Pauascale_Gloves,Gloves_int,,,,,,,"Level 45 , 56 Int",45,,
+Runeforged Baroque Gloves,Runeforged_Baroque_Gloves,Gloves_int,,,,,,,"Level 54 , 67 Int",54,,
+Runeforged Gold Gloves,Runeforged_Gold_Gloves,Gloves_int,,,,,,,"Level 59 , 73 Int",59,,
+Runeforged Grim Gloves,Runeforged_Grim_Gloves,Gloves_int,,,,,,,"Level 65 , 80 Int",65,,
+Runeforged Opulent Gloves,Runeforged_Opulent_Gloves,Gloves_int,,,,,,,"Level 70 , 87 Int",70,,
+Runeforged Vaal Gloves,Runeforged_Vaal_Gloves,Gloves_int,,,,,,,"Level 75 , 94 Int",75,,
+Runeforged Sirenscale Gloves,Runeforged_Sirenscale_Gloves,Gloves_int,,,,,,,"Level 80 , 101 Int",80,,
+Runemastered Torn Gloves,Runemastered_Torn_Gloves,Gloves_int,,,,,,,"Level 38 , 48 Int",38,,
+Runemastered Sombre Gloves,Runemastered_Sombre_Gloves,Gloves_int,,,,,,,"Level 39 , 49 Int",39,,
+Runemastered Stitched Gloves,Runemastered_Stitched_Gloves,Gloves_int,,,,,,,"Level 38 , 48 Int",38,,
+Runemastered Jewelled Gloves,Runemastered_Jewelled_Gloves,Gloves_int,,,,,,,"Level 38 , 48 Int",38,,
+Runemastered Intricate Gloves,Runemastered_Intricate_Gloves,Gloves_int,,,,,,,"Level 55 , 68 Int",55,,
+Runemastered Pauascale Gloves,Runemastered_Pauascale_Gloves,Gloves_int,,,,,,,"Level 55 , 68 Int",55,,
+Runemastered Embroidered Gloves,Runemastered_Embroidered_Gloves,Gloves_int,,,,,,,"Level 52 , 64 Int",52,,
+Ringmail Gauntlets,Ringmail_Gauntlets,Gloves_str_dex,,,,,,,"Level 6 , 6 Str , 6 Dex",6,6,
+Layered Gauntlets,Layered_Gauntlets,Gloves_str_dex,,,,,,,"Level 16 , 13 Str , 13 Dex",16,13,
+Doubled Gauntlets,Doubled_Gauntlets,Gloves_str_dex,,,,,,,"Level 33 , 24 Str , 24 Dex",33,24,
+Plate Gauntlets,Plate_Gauntlets,Gloves_str_dex,,,,,,,"Level 45 , 32 Str , 32 Dex",45,32,
+Burnished Gauntlets,Burnished_Gauntlets,Gloves_str_dex,,,,,,,"Level 52 , 36 Str , 36 Dex",52,36,
+Ornate Gauntlets,Ornate_Gauntlets,Gloves_str_dex,,,,,,,"Level 65 , 44 Str , 44 Dex",65,44,
+Ancient Gauntlets,Ancient_Gauntlets,Gloves_str_dex,,,,,,,"Level 70 , 52 Str , 52 Dex",70,52,
+Ironmail Gauntlets,Ironmail_Gauntlets,Gloves_str_dex,,,,,,,"Level 45 , 32 Str , 32 Dex",45,32,
+Captain Gauntlets,Captain_Gauntlets,Gloves_str_dex,,,,,,,"Level 51 , 35 Str , 35 Dex",51,35,
+Zealot Gauntlets,Zealot_Gauntlets,Gloves_str_dex,,,,,,,"Level 59 , 41 Str , 41 Dex",59,41,
+Steelmail Gauntlets,Steelmail_Gauntlets,Gloves_str_dex,,,,,,,"Level 65 , 44 Str , 44 Dex",65,44,
+Commander Gauntlets,Commander_Gauntlets,Gloves_str_dex,,,,,,,"Level 70 , 48 Str , 48 Dex",70,48,
+Cultist Gauntlets,Cultist_Gauntlets,Gloves_str_dex,,,,,,,"Level 75 , 52 Str , 52 Dex",75,52,
+Blacksteel Gauntlets,Blacksteel_Gauntlets,Gloves_str_dex,,,,,,,"Level 80 , 55 Str , 55 Dex",80,55,
+Runeforged Ringmail Gauntlets,Runeforged_Ringmail_Gauntlets,Gloves_str_dex,,,,,,,"Level 6 , 6 Str , 6 Dex",6,6,
+Runeforged Layered Gauntlets,Runeforged_Layered_Gauntlets,Gloves_str_dex,,,,,,,"Level 16 , 13 Str , 13 Dex",16,13,
+Runeforged Doubled Gauntlets,Runeforged_Doubled_Gauntlets,Gloves_str_dex,,,,,,,"Level 33 , 24 Str , 24 Dex",33,24,
+Runeforged Plate Gauntlets,Runeforged_Plate_Gauntlets,Gloves_str_dex,,,,,,,"Level 45 , 32 Str , 32 Dex",45,32,
+Runeforged Zealot Gauntlets,Runeforged_Zealot_Gauntlets,Gloves_str_dex,,,,,,,"Level 59 , 41 Str , 41 Dex",59,41,
+Runeforged Steelmail Gauntlets,Runeforged_Steelmail_Gauntlets,Gloves_str_dex,,,,,,,"Level 65 , 44 Str , 44 Dex",65,44,
+Runeforged Commander Gauntlets,Runeforged_Commander_Gauntlets,Gloves_str_dex,,,,,,,"Level 70 , 48 Str , 48 Dex",70,48,
+Runeforged Cultist Gauntlets,Runeforged_Cultist_Gauntlets,Gloves_str_dex,,,,,,,"Level 75 , 52 Str , 52 Dex",75,52,
+Runeforged Blacksteel Gauntlets,Runeforged_Blacksteel_Gauntlets,Gloves_str_dex,,,,,,,"Level 80 , 55 Str , 55 Dex",80,55,
+Runemastered Ringmail Gauntlets,Runemastered_Ringmail_Gauntlets,Gloves_str_dex,,,,,,,"Level 38 , 27 Str , 27 Dex",38,27,
+Runemastered Layered Gauntlets,Runemastered_Layered_Gauntlets,Gloves_str_dex,,,,,,,"Level 38 , 27 Str , 27 Dex",38,27,
+Runemastered Doubled Gauntlets,Runemastered_Doubled_Gauntlets,Gloves_str_dex,,,,,,,"Level 55 , 38 Str , 38 Dex",55,38,
+Runemastered Plate Gauntlets,Runemastered_Plate_Gauntlets,Gloves_str_dex,,,,,,,"Level 55 , 38 Str , 38 Dex",55,38,
+Runemastered Burnished Gauntlets,Runemastered_Burnished_Gauntlets,Gloves_str_dex,,,,,,,"Level 52 , 36 Str , 36 Dex",52,36,
+Rope Cuffs,Rope_Cuffs,Gloves_str_int,,,,,,,"Level 5 , 6 Str , 6 Int",5,,
+Aged Cuffs,Aged_Cuffs,Gloves_str_int,,,,,,,"Level 16 , 13 Str , 13 Int",16,,
+Goldcast Cuffs,Goldcast_Cuffs,Gloves_str_int,,,,,,,"Level 33 , 24 Str , 24 Int",33,,
+Kalguuran Cuffs,Kalguuran_Cuffs,Gloves_str_int,,,,,,,"Level 45 , 32 Str , 32 Int",45,,
+Righteous Cuffs,Righteous_Cuffs,Gloves_str_int,,,,,,,"Level 52 , 36 Str , 36 Int",52,,
+Signet Cuffs,Signet_Cuffs,Gloves_str_int,,,,,,,"Level 65 , 44 Str , 44 Int",65,,
+Braided Cuffs,Braided_Cuffs,Gloves_str_int,,,,,,,"Level 45 , 32 Str , 32 Int",45,,
+Heirloom Cuffs,Heirloom_Cuffs,Gloves_str_int,,,,,,,"Level 51 , 35 Str , 35 Int",51,,
+Ornate Cuffs,Ornate_Cuffs,Gloves_str_int,,,,,,,"Level 59 , 41 Str , 41 Int",59,,
+Bound Cuffs,Bound_Cuffs,Gloves_str_int,,,,,,,"Level 65 , 44 Str , 44 Int",65,,
+Ancient Cuffs,Ancient_Cuffs,Gloves_str_int,,,,,,,"Level 70 , 48 Str , 48 Int",70,,
+Gleaming Cuffs,Gleaming_Cuffs,Gloves_str_int,,,,,,,"Level 75 , 52 Str , 52 Int",75,,
+Adherent Cuffs,Adherent_Cuffs,Gloves_str_int,,,,,,,"Level 80 , 55 Str , 55 Int",80,,
+Runeforged Rope Cuffs,Runeforged_Rope_Cuffs,Gloves_str_int,,,,,,,"Level 5 , 6 Str , 6 Int",5,,
+Runeforged Aged Cuffs,Runeforged_Aged_Cuffs,Gloves_str_int,,,,,,,"Level 16 , 13 Str , 13 Int",16,,
+Runeforged Goldcast Cuffs,Runeforged_Goldcast_Cuffs,Gloves_str_int,,,,,,,"Level 33 , 24 Str , 24 Int",33,,
+Runeforged Kalguuran Cuffs,Runeforged_Kalguuran_Cuffs,Gloves_str_int,,,,,,,"Level 45 , 32 Str , 32 Int",45,,
+Runeforged Ornate Cuffs,Runeforged_Ornate_Cuffs,Gloves_str_int,,,,,,,"Level 59 , 41 Str , 41 Int",59,,
+Runeforged Bound Cuffs,Runeforged_Bound_Cuffs,Gloves_str_int,,,,,,,"Level 65 , 44 Str , 44 Int",65,,
+Runeforged Ancient Cuffs,Runeforged_Ancient_Cuffs,Gloves_str_int,,,,,,,"Level 70 , 48 Str , 48 Int",70,,
+Runeforged Gleaming Cuffs,Runeforged_Gleaming_Cuffs,Gloves_str_int,,,,,,,"Level 75 , 52 Str , 52 Int",75,,
+Runeforged Adherent Cuffs,Runeforged_Adherent_Cuffs,Gloves_str_int,,,,,,,"Level 80 , 55 Str , 55 Int",80,,
+Runemastered Rope Cuffs,Runemastered_Rope_Cuffs,Gloves_str_int,,,,,,,"Level 38 , 27 Str , 27 Int",38,,
+Runemastered Aged Cuffs,Runemastered_Aged_Cuffs,Gloves_str_int,,,,,,,"Level 38 , 27 Str , 27 Int",38,,
+Runemastered Goldcast Cuffs,Runemastered_Goldcast_Cuffs,Gloves_str_int,,,,,,,"Level 55 , 38 Str , 38 Int",55,,
+Runemastered Verisium Cuffs,Runemastered_Verisium_Cuffs,Gloves_str_int,,,,,,,"Level 55 , 38 Str , 38 Int",55,,
+Gauze Wraps,Gauze_Wraps,Gloves_dex_int,,,,,,,"Level 4 , 6 Dex , 6 Int",4,6,
+Linen Wraps,Linen_Wraps,Gloves_dex_int,,,,,,,"Level 16 , 13 Dex , 13 Int",16,13,
+Spiral Wraps,Spiral_Wraps,Gloves_dex_int,,,,,,,"Level 33 , 24 Dex , 24 Int",33,24,
+Buckled Wraps,Buckled_Wraps,Gloves_dex_int,,,,,,,"Level 45 , 32 Dex , 32 Int",45,32,
+Furtive Wraps,Furtive_Wraps,Gloves_dex_int,,,,,,,"Level 52 , 36 Dex , 36 Int",52,36,
+Utility Wraps,Utility_Wraps,Gloves_dex_int,,,,,,,"Level 65 , 44 Dex , 44 Int",65,44,
+Bandage Wraps,Bandage_Wraps,Gloves_dex_int,,,,,,,"Level 45 , 32 Dex , 32 Int",45,32,
+Cambric Wraps,Cambric_Wraps,Gloves_dex_int,,,,,,,"Level 51 , 35 Dex , 35 Int",51,35,
+Adorned Wraps,Adorned_Wraps,Gloves_dex_int,,,,,,,"Level 59 , 41 Dex , 41 Int",59,41,
+War Wraps,War_Wraps,Gloves_dex_int,,,,,,,"Level 65 , 44 Dex , 44 Int",65,44,
+Elegant Wraps,Elegant_Wraps,Gloves_dex_int,,,,,,,"Level 70 , 48 Dex , 48 Int",70,48,
+Vaal Wraps,Vaal_Wraps,Gloves_dex_int,,,,,,,"Level 75 , 52 Dex , 52 Int",75,52,
+Secured Wraps,Secured_Wraps,Gloves_dex_int,,,,,,,"Level 80 , 55 Dex , 55 Int",80,55,
+Runeforged Gauze Wraps,Runeforged_Gauze_Wraps,Gloves_dex_int,,,,,,,"Level 4 , 6 Dex , 6 Int",4,6,
+Runeforged Linen Wraps,Runeforged_Linen_Wraps,Gloves_dex_int,,,,,,,"Level 16 , 13 Dex , 13 Int",16,13,
+Runeforged Spiral Wraps,Runeforged_Spiral_Wraps,Gloves_dex_int,,,,,,,"Level 33 , 24 Dex , 24 Int",33,24,
+Runeforged Buckled Wraps,Runeforged_Buckled_Wraps,Gloves_dex_int,,,,,,,"Level 45 , 32 Dex , 32 Int",45,32,
+Runeforged Adorned Wraps,Runeforged_Adorned_Wraps,Gloves_dex_int,,,,,,,"Level 59 , 41 Dex , 41 Int",59,41,
+Runeforged War Wraps,Runeforged_War_Wraps,Gloves_dex_int,,,,,,,"Level 65 , 44 Dex , 44 Int",65,44,
+Runeforged Elegant Wraps,Runeforged_Elegant_Wraps,Gloves_dex_int,,,,,,,"Level 70 , 48 Dex , 48 Int",70,48,
+Runeforged Vaal Wraps,Runeforged_Vaal_Wraps,Gloves_dex_int,,,,,,,"Level 75 , 52 Dex , 52 Int",75,52,
+Runeforged Secured Wraps,Runeforged_Secured_Wraps,Gloves_dex_int,,,,,,,"Level 80 , 55 Dex , 55 Int",80,55,
+Runemastered Linen Wraps,Runemastered_Linen_Wraps,Gloves_dex_int,,,,,,,"Level 38 , 27 Dex , 27 Int",38,27,
+Runemastered Spiral Wraps,Runemastered_Spiral_Wraps,Gloves_dex_int,,,,,,,"Level 55 , 38 Dex , 38 Int",55,38,
+Runemastered Furtive Wraps,Runemastered_Furtive_Wraps,Gloves_dex_int,,,,,,,"Level 55 , 38 Dex , 38 Int",55,38,
+Runemastered Utility Wraps,Runemastered_Utility_Wraps,Gloves_dex_int,,,,,,,"Level 65 , 44 Dex , 44 Int",65,44,
+Rough Greaves,Rough_Greaves,Boots_str,,,,,,,,,,
+Iron Greaves,Iron_Greaves,Boots_str,,,,,,,"Level 11 , 17 Str",11,,
+Bronze Greaves,Bronze_Greaves,Boots_str,,,,,,,"Level 16 , 23 Str",16,,
+Trimmed Greaves,Trimmed_Greaves,Boots_str,,,,,,,"Level 27 , 38 Str",27,,
+Stone Greaves,Stone_Greaves,Boots_str,,,,,,,"Level 33 , 45 Str",33,,
+Reefsteel Greaves,Reefsteel_Greaves,Boots_str,,,,,,,"Level 45 , 60 Str",45,,
+Monument Greaves,Monument_Greaves,Boots_str,,,,,,,"Level 52 , 69 Str",52,,
+Totemic Greaves,Totemic_Greaves,Boots_str,,,,,,,"Level 65 , 86 Str",65,,
+Plated Greaves,Plated_Greaves,Boots_str,,,,,,,"Level 45 , 60 Str",45,,
+Lionheart Greaves,Lionheart_Greaves,Boots_str,,,,,,,"Level 51 , 68 Str",51,,
+Elegant Greaves,Elegant_Greaves,Boots_str,,,,,,,"Level 54 , 72 Str",54,,
+Carved Greaves,Carved_Greaves,Boots_str,,,,,,,"Level 59 , 78 Str",59,,
+Bulwark Greaves,Bulwark_Greaves,Boots_str,,,,,,,"Level 65 , 86 Str",65,,
+Ornate Greaves,Ornate_Greaves,Boots_str,,,,,,,"Level 70 , 93 Str",70,,
+Vaal Greaves,Vaal_Greaves,Boots_str,,,,,,,"Level 75 , 101 Str",75,,
+Tasalian Greaves,Tasalian_Greaves,Boots_str,,,,,,,"Level 80 , 108 Str",80,,
+Runeforged Rough Greaves,Runeforged_Rough_Greaves,Boots_str,,,,,,,,,,
+Runeforged Iron Greaves,Runeforged_Iron_Greaves,Boots_str,,,,,,,"Level 11 , 17 Str",11,,
+Runeforged Bronze Greaves,Runeforged_Bronze_Greaves,Boots_str,,,,,,,"Level 16 , 23 Str",16,,
+Runeforged Trimmed Greaves,Runeforged_Trimmed_Greaves,Boots_str,,,,,,,"Level 27 , 38 Str",27,,
+Runeforged Stone Greaves,Runeforged_Stone_Greaves,Boots_str,,,,,,,"Level 33 , 45 Str",33,,
+Runeforged Reefsteel Greaves,Runeforged_Reefsteel_Greaves,Boots_str,,,,,,,"Level 45 , 60 Str",45,,
+Runeforged Elegant Greaves,Runeforged_Elegant_Greaves,Boots_str,,,,,,,"Level 54 , 72 Str",54,,
+Runeforged Carved Greaves,Runeforged_Carved_Greaves,Boots_str,,,,,,,"Level 59 , 78 Str",59,,
+Runeforged Bulwark Greaves,Runeforged_Bulwark_Greaves,Boots_str,,,,,,,"Level 65 , 86 Str",65,,
+Runeforged Ornate Greaves,Runeforged_Ornate_Greaves,Boots_str,,,,,,,"Level 70 , 93 Str",70,,
+Runeforged Vaal Greaves,Runeforged_Vaal_Greaves,Boots_str,,,,,,,"Level 75 , 101 Str",75,,
+Runeforged Tasalian Greaves,Runeforged_Tasalian_Greaves,Boots_str,,,,,,,"Level 80 , 108 Str",80,,
+Runemastered Rough Greaves,Runemastered_Rough_Greaves,Boots_str,,,,,,,"Level 38 , 51 Str",38,,10 % increased Movement Speed
+Runemastered Iron Greaves,Runemastered_Iron_Greaves,Boots_str,,,,,,,"Level 38 , 51 Str",38,,5 % increased Movement Speed
+Runemastered Bronze Greaves,Runemastered_Bronze_Greaves,Boots_str,,,,,,,"Level 38 , 51 Str",38,,5 % increased Movement Speed
+Runemastered Trimmed Greaves,Runemastered_Trimmed_Greaves,Boots_str,,,,,,,"Level 40 , 54 Str",40,,5 % increased Movement Speed
+Runemastered Stone Greaves,Runemastered_Stone_Greaves,Boots_str,,,,,,,"Level 55 , 73 Str",55,,
+Rawhide Boots,Rawhide_Boots,Boots_dex,,,,,,,,,,
+Laced Boots,Laced_Boots,Boots_dex,,,,,,,"Level 11 , 17 Dex",11,17,
+Embossed Boots,Embossed_Boots,Boots_dex,,,,,,,"Level 16 , 23 Dex",16,23,
+Steeltoe Boots,Steeltoe_Boots,Boots_dex,,,,,,,"Level 28 , 39 Dex",28,39,
+Lizardscale Boots,Lizardscale_Boots,Boots_dex,,,,,,,"Level 33 , 45 Dex",33,45,
+Flared Boots,Flared_Boots,Boots_dex,,,,,,,"Level 45 , 60 Dex",45,60,
+Leatherplate Boots,Leatherplate_Boots,Boots_dex,,,,,,,"Level 52 , 69 Dex",52,69,
+Embroidered Boots,Embroidered_Boots,Boots_dex,,,,,,,"Level 65 , 86 Dex",65,86,
+Bound Boots,Bound_Boots,Boots_dex,,,,,,,"Level 45 , 60 Dex",45,60,
+Sleek Boots,Sleek_Boots,Boots_dex,,,,,,,"Level 51 , 68 Dex",51,68,
+Studded Boots,Studded_Boots,Boots_dex,,,,,,,"Level 54 , 72 Dex",54,72,
+Serpentscale Boots,Serpentscale_Boots,Boots_dex,,,,,,,"Level 59 , 78 Dex",59,78,
+Cinched Boots,Cinched_Boots,Boots_dex,,,,,,,"Level 65 , 86 Dex",65,86,
+Cavalry Boots,Cavalry_Boots,Boots_dex,,,,,,,"Level 70 , 93 Dex",70,93,
+Dragonscale Boots,Dragonscale_Boots,Boots_dex,,,,,,,"Level 75 , 101 Dex",75,101,
+Drakeskin Boots,Drakeskin_Boots,Boots_dex,,,,,,,"Level 80 , 108 Dex",80,108,
+Runeforged Rawhide Boots,Runeforged_Rawhide_Boots,Boots_dex,,,,,,,,,,
+Runeforged Laced Boots,Runeforged_Laced_Boots,Boots_dex,,,,,,,"Level 11 , 17 Dex",11,17,
+Runeforged Embossed Boots,Runeforged_Embossed_Boots,Boots_dex,,,,,,,"Level 16 , 23 Dex",16,23,
+Runeforged Steeltoe Boots,Runeforged_Steeltoe_Boots,Boots_dex,,,,,,,"Level 28 , 39 Dex",28,39,
+Runeforged Lizardscale Boots,Runeforged_Lizardscale_Boots,Boots_dex,,,,,,,"Level 33 , 45 Dex",33,45,
+Runeforged Flared Boots,Runeforged_Flared_Boots,Boots_dex,,,,,,,"Level 45 , 60 Dex",45,60,
+Runeforged Studded Boots,Runeforged_Studded_Boots,Boots_dex,,,,,,,"Level 54 , 72 Dex",54,72,
+Runeforged Serpentscale Boots,Runeforged_Serpentscale_Boots,Boots_dex,,,,,,,"Level 59 , 78 Dex",59,78,
+Runeforged Cinched Boots,Runeforged_Cinched_Boots,Boots_dex,,,,,,,"Level 65 , 86 Dex",65,86,
+Runeforged Cavalry Boots,Runeforged_Cavalry_Boots,Boots_dex,,,,,,,"Level 70 , 93 Dex",70,93,
+Runeforged Dragonscale Boots,Runeforged_Dragonscale_Boots,Boots_dex,,,,,,,"Level 75 , 101 Dex",75,101,
+Runeforged Drakeskin Boots,Runeforged_Drakeskin_Boots,Boots_dex,,,,,,,"Level 80 , 108 Dex",80,108,
+Runemastered Laced Boots,Runemastered_Laced_Boots,Boots_dex,,,,,,,"Level 38 , 51 Dex",38,51,5 % increased Movement Speed
+Runemastered Embossed Boots,Runemastered_Embossed_Boots,Boots_dex,,,,,,,"Level 38 , 51 Dex",38,51,5 % increased Movement Speed
+Runemastered Steeltoe Boots,Runemastered_Steeltoe_Boots,Boots_dex,,,,,,,"Level 40 , 54 Dex",40,54,
+Runemastered Lizardscale Boots,Runemastered_Lizardscale_Boots,Boots_dex,,,,,,,"Level 40 , 54 Dex",40,54,
+Runemastered Cinched Boots,Runemastered_Cinched_Boots,Boots_dex,,,,,,,"Level 65 , 86 Dex",65,86,
+Straw Sandals,Straw_Sandals,Boots_int,,,,,,,,,,
+Wrapped Sandals,Wrapped_Sandals,Boots_int,,,,,,,"Level 11 , 17 Int",11,,
+Lattice Sandals,Lattice_Sandals,Boots_int,,,,,,,"Level 16 , 23 Int",16,,
+Silk Slippers,Silk_Slippers,Boots_int,,,,,,,"Level 27 , 38 Int",27,,
+Feathered Sandals,Feathered_Sandals,Boots_int,,,,,,,"Level 33 , 45 Int",33,,
+Flax Sandals,Flax_Sandals,Boots_int,,,,,,,"Level 45 , 60 Int",45,,
+Studded Sandals,Studded_Sandals,Boots_int,,,,,,,"Level 52 , 69 Int",52,,
+Elaborate Sandals,Elaborate_Sandals,Boots_int,,,,,,,"Level 65 , 86 Int",65,,
+Laced Sandals,Laced_Sandals,Boots_int,,,,,,,"Level 45 , 60 Int",45,,
+Bangled Sandals,Bangled_Sandals,Boots_int,,,,,,,"Level 51 , 68 Int",51,,
+Elegant Slippers,Elegant_Slippers,Boots_int,,,,,,,"Level 54 , 72 Int",54,,
+Dunerunner Sandals,Dunerunner_Sandals,Boots_int,,,,,,,"Level 59 , 78 Int",59,,
+Bound Sandals,Bound_Sandals,Boots_int,,,,,,,"Level 65 , 86 Int",65,,
+Luxurious Slippers,Luxurious_Slippers,Boots_int,,,,,,,"Level 70 , 93 Int",70,,
+Sandsworn Sandals,Sandsworn_Sandals,Boots_int,,,,,,,"Level 75 , 101 Int",75,,
+Sekhema Sandals,Sekhema_Sandals,Boots_int,,,,,,,"Level 80 , 108 Int",80,,
+Runeforged Straw Sandals,Runeforged_Straw_Sandals,Boots_int,,,,,,,,,,
+Runeforged Wrapped Sandals,Runeforged_Wrapped_Sandals,Boots_int,,,,,,,"Level 11 , 17 Int",11,,
+Runeforged Lattice Sandals,Runeforged_Lattice_Sandals,Boots_int,,,,,,,"Level 16 , 23 Int",16,,
+Runeforged Silk Slippers,Runeforged_Silk_Slippers,Boots_int,,,,,,,"Level 27 , 38 Int",27,,
+Runeforged Feathered Sandals,Runeforged_Feathered_Sandals,Boots_int,,,,,,,"Level 33 , 45 Int",33,,
+Runeforged Flax Sandals,Runeforged_Flax_Sandals,Boots_int,,,,,,,"Level 45 , 60 Int",45,,
+Runeforged Elegant Slippers,Runeforged_Elegant_Slippers,Boots_int,,,,,,,"Level 54 , 72 Int",54,,
+Runeforged Dunerunner Sandals,Runeforged_Dunerunner_Sandals,Boots_int,,,,,,,"Level 59 , 78 Int",59,,
+Runeforged Bound Sandals,Runeforged_Bound_Sandals,Boots_int,,,,,,,"Level 65 , 86 Int",65,,
+Runeforged Luxurious Slippers,Runeforged_Luxurious_Slippers,Boots_int,,,,,,,"Level 70 , 93 Int",70,,
+Runeforged Sandsworn Sandals,Runeforged_Sandsworn_Sandals,Boots_int,,,,,,,"Level 75 , 101 Int",75,,
+Runeforged Sekhema Sandals,Runeforged_Sekhema_Sandals,Boots_int,,,,,,,"Level 80 , 108 Int",80,,
+Runemastered Straw Sandals,Runemastered_Straw_Sandals,Boots_int,,,,,,,"Level 38 , 51 Int",38,,5 % increased Movement Speed
+Runemastered Wrapped Sandals,Runemastered_Wrapped_Sandals,Boots_int,,,,,,,"Level 38 , 51 Int",38,,5 % increased Movement Speed
+Runemastered Lattice Sandals,Runemastered_Lattice_Sandals,Boots_int,,,,,,,"Level 38 , 51 Int",38,,5 % increased Movement Speed
+Runemastered Silk Slippers,Runemastered_Silk_Slippers,Boots_int,,,,,,,"Level 38 , 51 Int",38,,
+Runemastered Feathered Sandals,Runemastered_Feathered_Sandals,Boots_int,,,,,,,"Level 40 , 54 Int",40,,
+Mail Sabatons,Mail_Sabatons,Boots_str_dex,,,,,,,"Level 6 , 7 Str , 7 Dex",6,7,
+Braced Sabatons,Braced_Sabatons,Boots_str_dex,,,,,,,"Level 16 , 14 Str , 14 Dex",16,14,
+Stacked Sabatons,Stacked_Sabatons,Boots_str_dex,,,,,,,"Level 33 , 26 Str , 26 Dex",33,26,
+Covered Sabatons,Covered_Sabatons,Boots_str_dex,,,,,,,"Level 45 , 34 Str , 34 Dex",45,34,
+Flexile Sabatons,Flexile_Sabatons,Boots_str_dex,,,,,,,"Level 52 , 38 Str , 38 Dex",52,38,
+Bold Sabatons,Bold_Sabatons,Boots_str_dex,,,,,,,"Level 65 , 47 Str , 47 Dex",65,47,
+Soldiering Sabatons,Soldiering_Sabatons,Boots_str_dex,,,,,,,"Level 45 , 34 Str , 34 Dex",45,34,
+Goldwork Sabatons,Goldwork_Sabatons,Boots_str_dex,,,,,,,"Level 51 , 38 Str , 38 Dex",51,38,
+Bastion Sabatons,Bastion_Sabatons,Boots_str_dex,,,,,,,"Level 59 , 44 Str , 44 Dex",59,44,
+Veteran Sabatons,Veteran_Sabatons,Boots_str_dex,,,,,,,"Level 65 , 47 Str , 47 Dex",65,47,
+Noble Sabatons,Noble_Sabatons,Boots_str_dex,,,,,,,"Level 70 , 51 Str , 51 Dex",70,51,
+Fortress Sabatons,Fortress_Sabatons,Boots_str_dex,,,,,,,"Level 75 , 56 Str , 56 Dex",75,56,
+Blacksteel Sabatons,Blacksteel_Sabatons,Boots_str_dex,,,,,,,"Level 80 , 59 Str , 59 Dex",80,59,
+Runeforged Mail Sabatons,Runeforged_Mail_Sabatons,Boots_str_dex,,,,,,,"Level 6 , 7 Str , 7 Dex",6,7,
+Runeforged Braced Sabatons,Runeforged_Braced_Sabatons,Boots_str_dex,,,,,,,"Level 16 , 14 Str , 14 Dex",16,14,
+Runeforged Stacked Sabatons,Runeforged_Stacked_Sabatons,Boots_str_dex,,,,,,,"Level 33 , 26 Str , 26 Dex",33,26,
+Runeforged Covered Sabatons,Runeforged_Covered_Sabatons,Boots_str_dex,,,,,,,"Level 45 , 34 Str , 34 Dex",45,34,
+Runeforged Bastion Sabatons,Runeforged_Bastion_Sabatons,Boots_str_dex,,,,,,,"Level 59 , 44 Str , 44 Dex",59,44,
+Runeforged Veteran Sabatons,Runeforged_Veteran_Sabatons,Boots_str_dex,,,,,,,"Level 65 , 47 Str , 47 Dex",65,47,
+Runeforged Noble Sabatons,Runeforged_Noble_Sabatons,Boots_str_dex,,,,,,,"Level 70 , 51 Str , 51 Dex",70,51,
+Runeforged Fortress Sabatons,Runeforged_Fortress_Sabatons,Boots_str_dex,,,,,,,"Level 75 , 56 Str , 56 Dex",75,56,
+Runeforged Blacksteel Sabatons,Runeforged_Blacksteel_Sabatons,Boots_str_dex,,,,,,,"Level 80 , 59 Str , 59 Dex",80,59,
+Runemastered Mail Sabatons,Runemastered_Mail_Sabatons,Boots_str_dex,,,,,,,"Level 38 , 29 Str , 29 Dex",38,29,5 % increased Movement Speed
+Runemastered Braced Sabatons,Runemastered_Braced_Sabatons,Boots_str_dex,,,,,,,"Level 38 , 29 Str , 29 Dex",38,29,5 % increased Movement Speed
+Runemastered Stacked Sabatons,Runemastered_Stacked_Sabatons,Boots_str_dex,,,,,,,"Level 40 , 30 Str , 30 Dex",40,30,10 % increased Movement Speed
+Runemastered Covered Sabatons,Runemastered_Covered_Sabatons,Boots_str_dex,,,,,,,"Level 55 , 41 Str , 41 Dex",55,41,
+Padded Leggings,Padded_Leggings,Boots_str_int,,,,,,,"Level 5 , 7 Str , 7 Int",5,,
+Secured Leggings,Secured_Leggings,Boots_str_int,,,,,,,"Level 16 , 14 Str , 14 Int",16,,
+Pelt Leggings,Pelt_Leggings,Boots_str_int,,,,,,,"Level 33 , 26 Str , 26 Int",33,,
+Weaver Leggings,Weaver_Leggings,Boots_str_int,,,,,,,"Level 45 , 34 Str , 34 Int",45,,
+Gilt Leggings,Gilt_Leggings,Boots_str_int,,,,,,,"Level 52 , 38 Str , 38 Int",52,,
+Pious Leggings,Pious_Leggings,Boots_str_int,,,,,,,"Level 65 , 47 Str , 47 Int",65,,
+Ancient Leggings,Ancient_Leggings,Boots_str_int,,,,,,,"Level 65 , 56 Str , 56 Int",65,,
+Adherent Leggings,Adherent_Leggings,Boots_str_int,,,,,,,"Level 45 , 34 Str , 34 Int",45,,
+Bound Leggings,Bound_Leggings,Boots_str_int,,,,,,,"Level 51 , 38 Str , 38 Int",51,,
+Shamanistic Leggings,Shamanistic_Leggings,Boots_str_int,,,,,,,"Level 59 , 44 Str , 44 Int",59,,
+Faithful Leggings,Faithful_Leggings,Boots_str_int,,,,,,,"Level 65 , 47 Str , 47 Int",65,,
+Apostle Leggings,Apostle_Leggings,Boots_str_int,,,,,,,"Level 70 , 51 Str , 51 Int",70,,
+Warlock Leggings,Warlock_Leggings,Boots_str_int,,,,,,,"Level 75 , 56 Str , 56 Int",75,,
+Cryptic Leggings,Cryptic_Leggings,Boots_str_int,,,,,,,"Level 80 , 59 Str , 59 Int",80,,
+Runeforged Padded Leggings,Runeforged_Padded_Leggings,Boots_str_int,,,,,,,"Level 5 , 7 Str , 7 Int",5,,
+Runeforged Secured Leggings,Runeforged_Secured_Leggings,Boots_str_int,,,,,,,"Level 16 , 14 Str , 14 Int",16,,
+Runeforged Pelt Leggings,Runeforged_Pelt_Leggings,Boots_str_int,,,,,,,"Level 33 , 26 Str , 26 Int",33,,
+Runeforged Weaver Leggings,Runeforged_Weaver_Leggings,Boots_str_int,,,,,,,"Level 45 , 34 Str , 34 Int",45,,
+Runeforged Shamanistic Leggings,Runeforged_Shamanistic_Leggings,Boots_str_int,,,,,,,"Level 59 , 44 Str , 44 Int",59,,
+Runeforged Faithful Leggings,Runeforged_Faithful_Leggings,Boots_str_int,,,,,,,"Level 65 , 47 Str , 47 Int",65,,
+Runeforged Apostle Leggings,Runeforged_Apostle_Leggings,Boots_str_int,,,,,,,"Level 70 , 51 Str , 51 Int",70,,
+Runeforged Warlock Leggings,Runeforged_Warlock_Leggings,Boots_str_int,,,,,,,"Level 75 , 56 Str , 56 Int",75,,
+Runeforged Cryptic Leggings,Runeforged_Cryptic_Leggings,Boots_str_int,,,,,,,"Level 80 , 59 Str , 59 Int",80,,
+Runemastered Secured Leggings,Runemastered_Secured_Leggings,Boots_str_int,,,,,,,"Level 38 , 29 Str , 29 Int",38,,5 % increased Movement Speed
+Runemastered Ancient Leggings,Runemastered_Ancient_Leggings,Boots_str_int,,,,,,,"Level 65 , 56 Str , 56 Int",65,,
+Frayed Shoes,Frayed_Shoes,Boots_dex_int,,,,,,,"Level 5 , 7 Dex , 7 Int",5,7,
+Threaded Shoes,Threaded_Shoes,Boots_dex_int,,,,,,,"Level 16 , 14 Dex , 14 Int",16,14,
+Hunting Shoes,Hunting_Shoes,Boots_dex_int,,,,,,,"Level 33 , 26 Dex , 26 Int",33,26,
+Steelpoint Shoes,Steelpoint_Shoes,Boots_dex_int,,,,,,,"Level 45 , 34 Dex , 34 Int",45,34,
+Velour Shoes,Velour_Shoes,Boots_dex_int,,,,,,,"Level 52 , 38 Dex , 38 Int",52,38,
+Bladed Shoes,Bladed_Shoes,Boots_dex_int,,,,,,,"Level 65 , 47 Dex , 47 Int",65,47,
+Wayfarer Shoes,Wayfarer_Shoes,Boots_dex_int,,,,,,,"Level 45 , 34 Dex , 34 Int",45,34,
+Silverbuckled Shoes,Silverbuckled_Shoes,Boots_dex_int,,,,,,,"Level 51 , 38 Dex , 38 Int",51,38,
+Treerunner Shoes,Treerunner_Shoes,Boots_dex_int,,,,,,,"Level 59 , 44 Dex , 44 Int",59,44,
+Wanderer Shoes,Wanderer_Shoes,Boots_dex_int,,,,,,,"Level 65 , 47 Dex , 47 Int",65,47,
+Charmed Shoes,Charmed_Shoes,Boots_dex_int,,,,,,,"Level 70 , 51 Dex , 51 Int",70,51,
+Quickslip Shoes,Quickslip_Shoes,Boots_dex_int,,,,,,,"Level 75 , 56 Dex , 56 Int",75,56,
+Daggerfoot Shoes,Daggerfoot_Shoes,Boots_dex_int,,,,,,,"Level 80 , 59 Dex , 59 Int",80,59,
+Runeforged Frayed Shoes,Runeforged_Frayed_Shoes,Boots_dex_int,,,,,,,"Level 5 , 7 Dex , 7 Int",5,7,
+Runeforged Threaded Shoes,Runeforged_Threaded_Shoes,Boots_dex_int,,,,,,,"Level 16 , 14 Dex , 14 Int",16,14,
+Runeforged Hunting Shoes,Runeforged_Hunting_Shoes,Boots_dex_int,,,,,,,"Level 33 , 26 Dex , 26 Int",33,26,
+Runeforged Steelpoint Shoes,Runeforged_Steelpoint_Shoes,Boots_dex_int,,,,,,,"Level 45 , 34 Dex , 34 Int",45,34,
+Runeforged Treerunner Shoes,Runeforged_Treerunner_Shoes,Boots_dex_int,,,,,,,"Level 59 , 44 Dex , 44 Int",59,44,
+Runeforged Wanderer Shoes,Runeforged_Wanderer_Shoes,Boots_dex_int,,,,,,,"Level 65 , 47 Dex , 47 Int",65,47,
+Runeforged Charmed Shoes,Runeforged_Charmed_Shoes,Boots_dex_int,,,,,,,"Level 70 , 51 Dex , 51 Int",70,51,
+Runeforged Quickslip Shoes,Runeforged_Quickslip_Shoes,Boots_dex_int,,,,,,,"Level 75 , 56 Dex , 56 Int",75,56,
+Runeforged Daggerfoot Shoes,Runeforged_Daggerfoot_Shoes,Boots_dex_int,,,,,,,"Level 80 , 59 Dex , 59 Int",80,59,
+Runemastered Threaded Shoes,Runemastered_Threaded_Shoes,Boots_dex_int,,,,,,,"Level 38 , 29 Dex , 29 Int",38,29,5 % increased Movement Speed
+Runemastered Hunting Shoes,Runemastered_Hunting_Shoes,Boots_dex_int,,,,,,,"Level 40 , 30 Dex , 30 Int",40,30,
+Runemastered Velour Shoes,Runemastered_Velour_Shoes,Boots_dex_int,,,,,,,"Level 65 , 47 Dex , 47 Int",65,47,
+Rusted Cuirass,Rusted_Cuirass,Body_Armours_str,,,,,,,,,,
+Fur Plate,Fur_Plate,Body_Armours_str,,,,,,,"Level 4 , 10 Str",4,,
+Iron Cuirass,Iron_Cuirass,Body_Armours_str,,,,,,,"Level 11 , 21 Str",11,,
+Raider Plate,Raider_Plate,Body_Armours_str,,,,,,,"Level 16 , 28 Str",16,,
+Maraketh Cuirass,Maraketh_Cuirass,Body_Armours_str,,,,,,,"Level 20 , 34 Str",20,,
+Steel Plate,Steel_Plate,Body_Armours_str,,,,,,,"Level 27 , 45 Str",27,,
+Full Plate,Full_Plate,Body_Armours_str,,,,,,,"Level 33 , 54 Str",33,,
+Vaal Cuirass,Vaal_Cuirass,Body_Armours_str,,,,,,,"Level 37 , 60 Str",37,,
+Juggernaut Plate,Juggernaut_Plate,Body_Armours_str,,,,,,,"Level 45 , 72 Str",45,,
+Chieftain Cuirass,Chieftain_Cuirass,Body_Armours_str,,,,,,,"Level 50 , 80 Str",50,,
+Colosseum Plate,Colosseum_Plate,Body_Armours_str,,,,,,,"Level 52 , 83 Str",52,,
+Champion Cuirass,Champion_Cuirass,Body_Armours_str,,,,,,,"Level 58 , 92 Str",58,,
+Glorious Plate,Glorious_Plate,Body_Armours_str,,,,,,,"Level 65 , 121 Str",65,,
+Conqueror Plate,Conqueror_Plate,Body_Armours_str,,,,,,,"Level 68 , 121 Str",68,,(30 - 40) % increased Stun Threshold
+Abyssal Cuirass,Abyssal_Cuirass,Body_Armours_str,,,,,,,"Level 73 , 121 Str",73,,Regenerate (1.5 - 2.5) % of maximum Life per second
+Runemastered Grasping Mail,Runemastered_Grasping_Mail,Body_Armours_str,,,,,,,"Level 65 , 112 Str",65,,Can roll Ring Modifiers | Catalysts can be applied to this item
+Barbarian Plate,Barbarian_Plate,Body_Armours_str,,,,,,,"Level 45 , 72 Str",45,,
+Rugged Cuirass,Rugged_Cuirass,Body_Armours_str,,,,,,,"Level 48 , 77 Str",48,,
+Sandsworn Cuirass,Sandsworn_Cuirass,Body_Armours_str,,,,,,,"Level 51 , 82 Str",51,,
+Elegant Plate,Elegant_Plate,Body_Armours_str,,,,,,,"Level 54 , 86 Str",54,,
+Heavy Plate,Heavy_Plate,Body_Armours_str,,,,,,,"Level 59 , 94 Str",59,,
+Stone Cuirass,Stone_Cuirass,Body_Armours_str,,,,,,,"Level 62 , 98 Str",62,,
+Soldier Cuirass,Soldier_Cuirass,Body_Armours_str,,,,,,,"Level 65 , 121 Str",65,,
+Ornate Plate,Ornate_Plate,Body_Armours_str,,,,,,,"Level 70 , 121 Str",70,,Regenerate (1.5 - 2.5) % of maximum Life per second
+Utzaal Cuirass,Utzaal_Cuirass,Body_Armours_str,,,,,,,"Level 75 , 121 Str",75,,(30 - 40) % increased Stun Threshold
+Warlord Cuirass,Warlord_Cuirass,Body_Armours_str,,,,,,,"Level 80 , 121 Str",80,,+(15 - 25) % of Armour also applies to Elemental Damage
+Runeforged Rusted Cuirass,Runeforged_Rusted_Cuirass,Body_Armours_str,,,,,,,,,,
+Runeforged Fur Plate,Runeforged_Fur_Plate,Body_Armours_str,,,,,,,"Level 4 , 10 Str",4,,
+Runeforged Iron Cuirass,Runeforged_Iron_Cuirass,Body_Armours_str,,,,,,,"Level 11 , 21 Str",11,,
+Runeforged Raider Plate,Runeforged_Raider_Plate,Body_Armours_str,,,,,,,"Level 16 , 28 Str",16,,
+Runeforged Maraketh Cuirass,Runeforged_Maraketh_Cuirass,Body_Armours_str,,,,,,,"Level 20 , 34 Str",20,,
+Runeforged Steel Plate,Runeforged_Steel_Plate,Body_Armours_str,,,,,,,"Level 27 , 45 Str",27,,
+Runeforged Full Plate,Runeforged_Full_Plate,Body_Armours_str,,,,,,,"Level 33 , 54 Str",33,,
+Runeforged Vaal Cuirass,Runeforged_Vaal_Cuirass,Body_Armours_str,,,,,,,"Level 37 , 60 Str",37,,
+Runeforged Juggernaut Plate,Runeforged_Juggernaut_Plate,Body_Armours_str,,,,,,,"Level 45 , 72 Str",45,,
+Runeforged Chieftain Cuirass,Runeforged_Chieftain_Cuirass,Body_Armours_str,,,,,,,"Level 50 , 80 Str",50,,
+Runeforged Conqueror Plate,Runeforged_Conqueror_Plate,Body_Armours_str,,,,,,,"Level 68 , 121 Str",68,,(30 - 40) % increased Stun Threshold
+Runeforged Elegant Plate,Runeforged_Elegant_Plate,Body_Armours_str,,,,,,,"Level 54 , 86 Str",54,,
+Runeforged Heavy Plate,Runeforged_Heavy_Plate,Body_Armours_str,,,,,,,"Level 59 , 94 Str",59,,
+Runeforged Stone Cuirass,Runeforged_Stone_Cuirass,Body_Armours_str,,,,,,,"Level 62 , 98 Str",62,,
+Runeforged Soldier Cuirass,Runeforged_Soldier_Cuirass,Body_Armours_str,,,,,,,"Level 65 , 121 Str",65,,
+Runeforged Ornate Plate,Runeforged_Ornate_Plate,Body_Armours_str,,,,,,,"Level 70 , 121 Str",70,,Regenerate (1.5 - 2.5) % of maximum Life per second
+Runeforged Utzaal Cuirass,Runeforged_Utzaal_Cuirass,Body_Armours_str,,,,,,,"Level 75 , 121 Str",75,,(30 - 40) % increased Stun Threshold
+Runeforged Warlord Cuirass,Runeforged_Warlord_Cuirass,Body_Armours_str,,,,,,,"Level 80 , 121 Str",80,,+(15 - 25) % of Armour also applies to Elemental Damage
+Runemastered Rusted Cuirass,Runemastered_Rusted_Cuirass,Body_Armours_str,,,,,,,"Level 38 , 61 Str",38,,
+Runeforged Fur Plate,Runeforged_Fur_Plate,Body_Armours_str,,,,,,,"Level 38 , 61 Str",38,,
+Runemastered Iron Cuirass,Runemastered_Iron_Cuirass,Body_Armours_str,,,,,,,"Level 38 , 61 Str",38,,
+Runemastered Raider Plate,Runemastered_Raider_Plate,Body_Armours_str,,,,,,,"Level 38 , 61 Str",38,,
+Runemastered Maraketh Cuirass,Runemastered_Maraketh_Cuirass,Body_Armours_str,,,,,,,"Level 38 , 61 Str",38,,
+Runemastered Steel Plate,Runemastered_Steel_Plate,Body_Armours_str,,,,,,,"Level 40 , 65 Str",40,,
+Runemastered Full Plate,Runemastered_Full_Plate,Body_Armours_str,,,,,,,"Level 45 , 72 Str",45,,
+Runemastered Vaal Cuirass,Runemastered_Vaal_Cuirass,Body_Armours_str,,,,,,,"Level 55 , 87 Str",55,,
+Leather Vest,Leather_Vest,Body_Armours_dex,,,,,,,,,,
+Quilted Vest,Quilted_Vest,Body_Armours_dex,,,,,,,"Level 4 , 10 Dex",4,10,
+Pathfinder Coat,Pathfinder_Coat,Body_Armours_dex,,,,,,,"Level 11 , 21 Dex",11,21,
+Shrouded Vest,Shrouded_Vest,Body_Armours_dex,,,,,,,"Level 16 , 28 Dex",16,28,
+Rhoahide Coat,Rhoahide_Coat,Body_Armours_dex,,,,,,,"Level 22 , 37 Dex",22,37,
+Studded Vest,Studded_Vest,Body_Armours_dex,,,,,,,"Level 26 , 43 Dex",26,43,
+Scout's Vest,Scouts_Vest,Body_Armours_dex,,,,,,,"Level 33 , 54 Dex",33,54,
+Serpentscale Coat,Serpentscale_Coat,Body_Armours_dex,,,,,,,"Level 36 , 59 Dex",36,59,
+Corsair Vest,Corsair_Vest,Body_Armours_dex,,,,,,,"Level 45 , 72 Dex",45,72,
+Smuggler Coat,Smuggler_Coat,Body_Armours_dex,,,,,,,"Level 51 , 82 Dex",51,82,
+Strider Vest,Strider_Vest,Body_Armours_dex,,,,,,,"Level 52 , 83 Dex",52,83,
+Hardleather Coat,Hardleather_Coat,Body_Armours_dex,,,,,,,"Level 56 , 89 Dex",56,89,
+Exquisite Vest,Exquisite_Vest,Body_Armours_dex,,,,,,,"Level 65 , 121 Dex",65,121,
+Mail Coat,Mail_Coat,Body_Armours_dex,,,,,,,"Level 68 , 121 Dex",68,121,(20 - 30) % reduced Slowing Potency of Debuffs on You
+Armoured Vest,Armoured_Vest,Body_Armours_dex,,,,,,,"Level 73 , 121 Dex",73,121,(30 - 40) % increased Elemental Ailment Threshold
+Runemastered Grasping Mail,Runemastered_Grasping_Mail,Body_Armours_dex,,,,,,,"Level 65 , 112 Dex",65,112,Can roll Ring Modifiers | Catalysts can be applied to this item
+Patchwork Vest,Patchwork_Vest,Body_Armours_dex,,,,,,,"Level 45 , 72 Dex",45,72,
+Hunting Coat,Hunting_Coat,Body_Armours_dex,,,,,,,"Level 48 , 77 Dex",48,77,
+Riding Coat,Riding_Coat,Body_Armours_dex,,,,,,,"Level 51 , 82 Dex",51,82,
+Layered Vest,Layered_Vest,Body_Armours_dex,,,,,,,"Level 54 , 86 Dex",54,86,
+Runner Vest,Runner_Vest,Body_Armours_dex,,,,,,,"Level 59 , 94 Dex",59,94,
+Lizardscale Coat,Lizardscale_Coat,Body_Armours_dex,,,,,,,"Level 62 , 98 Dex",62,98,
+Swiftstalker Coat,Swiftstalker_Coat,Body_Armours_dex,,,,,,,"Level 65 , 121 Dex",65,121,(20 - 30) % reduced Slowing Potency of Debuffs on You
+Slipstrike Vest,Slipstrike_Vest,Body_Armours_dex,,,,,,,"Level 70 , 121 Dex",70,121,
+Wyrmscale Coat,Wyrmscale_Coat,Body_Armours_dex,,,,,,,"Level 75 , 121 Dex",75,121,(30 - 40) % increased Elemental Ailment Threshold
+Corsair Coat,Corsair_Coat,Body_Armours_dex,,,,,,,"Level 80 , 121 Dex",80,121,5 % increased Movement Speed
+Runeforged Leather Vest,Runeforged_Leather_Vest,Body_Armours_dex,,,,,,,,,,
+Runeforged Quilted Vest,Runeforged_Quilted_Vest,Body_Armours_dex,,,,,,,"Level 4 , 10 Dex",4,10,
+Runeforged Pathfinder Coat,Runeforged_Pathfinder_Coat,Body_Armours_dex,,,,,,,"Level 11 , 21 Dex",11,21,
+Runeforged Shrouded Vest,Runeforged_Shrouded_Vest,Body_Armours_dex,,,,,,,"Level 16 , 28 Dex",16,28,
+Runeforged Rhoahide Coat,Runeforged_Rhoahide_Coat,Body_Armours_dex,,,,,,,"Level 22 , 37 Dex",22,37,
+Runeforged Studded Vest,Runeforged_Studded_Vest,Body_Armours_dex,,,,,,,"Level 26 , 43 Dex",26,43,
+Runeforged Scout's Vest,Runeforged_Scouts_Vest,Body_Armours_dex,,,,,,,"Level 33 , 54 Dex",33,54,
+Runeforged Serpentscale Coat,Runeforged_Serpentscale_Coat,Body_Armours_dex,,,,,,,"Level 36 , 59 Dex",36,59,
+Runeforged Corsair Vest,Runeforged_Corsair_Vest,Body_Armours_dex,,,,,,,"Level 45 , 72 Dex",45,72,
+Runeforged Smuggler Coat,Runeforged_Smuggler_Coat,Body_Armours_dex,,,,,,,"Level 51 , 82 Dex",51,82,
+Runeforged Layered Vest,Runeforged_Layered_Vest,Body_Armours_dex,,,,,,,"Level 54 , 86 Dex",54,86,
+Runeforged Runner Vest,Runeforged_Runner_Vest,Body_Armours_dex,,,,,,,"Level 59 , 94 Dex",59,94,
+Runeforged Lizardscale Coat,Runeforged_Lizardscale_Coat,Body_Armours_dex,,,,,,,"Level 62 , 98 Dex",62,98,
+Runeforged Swiftstalker Coat,Runeforged_Swiftstalker_Coat,Body_Armours_dex,,,,,,,"Level 65 , 121 Dex",65,121,(20 - 30) % reduced Slowing Potency of Debuffs on You
+Runeforged Slipstrike Vest,Runeforged_Slipstrike_Vest,Body_Armours_dex,,,,,,,"Level 70 , 121 Dex",70,121,
+Runeforged Wyrmscale Coat,Runeforged_Wyrmscale_Coat,Body_Armours_dex,,,,,,,"Level 75 , 121 Dex",75,121,(30 - 40) % increased Elemental Ailment Threshold
+Runeforged Corsair Coat,Runeforged_Corsair_Coat,Body_Armours_dex,,,,,,,"Level 80 , 121 Dex",80,121,5 % increased Movement Speed
+Runemastered Leather Vest,Runemastered_Leather_Vest,Body_Armours_dex,,,,,,,"Level 38 , 61 Dex",38,61,
+Runemastered Quilted Vest,Runemastered_Quilted_Vest,Body_Armours_dex,,,,,,,"Level 38 , 61 Dex",38,61,
+Runemastered Pathfinder Coat,Runemastered_Pathfinder_Coat,Body_Armours_dex,,,,,,,"Level 38 , 61 Dex",38,61,
+Runemastered Shrouded Vest,Runemastered_Shrouded_Vest,Body_Armours_dex,,,,,,,"Level 38 , 61 Dex",38,61,
+Runemastered Rhoahide Coat,Runemastered_Rhoahide_Coat,Body_Armours_dex,,,,,,,"Level 38 , 61 Dex",38,61,
+Runemastered Studded Vest,Runemastered_Studded_Vest,Body_Armours_dex,,,,,,,"Level 40 , 65 Dex",40,65,
+Runemastered Scout's Vest,Runemastered_Scouts_Vest,Body_Armours_dex,,,,,,,"Level 55 , 87 Dex",55,87,
+Runemastered Serpentscale Coat,Runemastered_Serpentscale_Coat,Body_Armours_dex,,,,,,,"Level 55 , 87 Dex",55,87,
+Runemastered Smuggler Coat,Runemastered_Smuggler_Coat,Body_Armours_dex,,,,,,,"Level 65 , 103 Dex",65,103,
+Runemastered Strider Vest,Runemastered_Strider_Vest,Body_Armours_dex,,,,,,,"Level 70 , 103 Dex",70,103,
+Runemastered Exquisite Vest,Runemastered_Exquisite_Vest,Body_Armours_dex,,,,,,,"Level 70 , 121 Dex",70,121,
+Runemastered Armoured Vest,Runemastered_Armoured_Vest,Body_Armours_dex,,,,,,,"Level 80 , 121 Dex",80,121,(30 - 40) % increased Elemental Ailment Threshold
+Tattered Robe,Tattered_Robe,Body_Armours_int,,,,,,,,,,
+Feathered Robe,Feathered_Robe,Body_Armours_int,,,,,,,"Level 5 , 11 Int",5,,
+Hexer's Robe,Hexers_Robe,Body_Armours_int,,,,,,,"Level 11 , 21 Int",11,,
+Bone Raiment,Bone_Raiment,Body_Armours_int,,,,,,,"Level 16 , 28 Int",16,,
+Silk Robe,Silk_Robe,Body_Armours_int,,,,,,,"Level 22 , 37 Int",22,,
+Keth Raiment,Keth_Raiment,Body_Armours_int,,,,,,,"Level 28 , 47 Int",28,,
+Votive Raiment,Votive_Raiment,Body_Armours_int,,,,,,,"Level 33 , 54 Int",33,,
+Altar Robe,Altar_Robe,Body_Armours_int,,,,,,,"Level 40 , 65 Int",40,,
+Elementalist Robe,Elementalist_Robe,Body_Armours_int,,,,,,,"Level 45 , 72 Int",45,,
+Mystic Raiment,Mystic_Raiment,Body_Armours_int,,,,,,,"Level 49 , 78 Int",49,,
+Imperial Robe,Imperial_Robe,Body_Armours_int,,,,,,,"Level 52 , 83 Int",52,,
+Plated Raiment,Plated_Raiment,Body_Armours_int,,,,,,,"Level 58 , 92 Int",58,,
+Havoc Raiment,Havoc_Raiment,Body_Armours_int,,,,,,,"Level 65 , 121 Int",65,,
+Enlightened Robe,Enlightened_Robe,Body_Armours_int,,,,,,,"Level 68 , 121 Int",68,,(40 - 50) % increased Mana Regeneration Rate
+Arcane Raiment,Arcane_Raiment,Body_Armours_int,,,,,,,"Level 73 , 121 Int",73,,(20 - 25) % increased Energy Shield Recharge Rate
+Runemastered Grasping Mail,Runemastered_Grasping_Mail,Body_Armours_int,,,,,,,"Level 65 , 112 Int",65,,Can roll Ring Modifiers | Catalysts can be applied to this item
+Avian Robe,Avian_Robe,Body_Armours_int,,,,,,,"Level 45 , 72 Int",45,,
+Cursespeaker's Robe,Cursespeakers_Robe,Body_Armours_int,,,,,,,"Level 48 , 77 Int",48,,
+Luxurious Robe,Luxurious_Robe,Body_Armours_int,,,,,,,"Level 51 , 82 Int",51,,
+River Raiment,River_Raiment,Body_Armours_int,,,,,,,"Level 54 , 86 Int",54,,
+Adherent's Raiment,Adherents_Raiment,Body_Armours_int,,,,,,,"Level 59 , 94 Int",59,,
+Ceremonial Robe,Ceremonial_Robe,Body_Armours_int,,,,,,,"Level 62 , 98 Int",62,,
+Vile Robe,Vile_Robe,Body_Armours_int,,,,,,,"Level 65 , 121 Int",65,,
+Flowing Raiment,Flowing_Raiment,Body_Armours_int,,,,,,,"Level 70 , 121 Int",70,,(40 - 50) % increased Mana Regeneration Rate
+Sacramental Robe,Sacramental_Robe,Body_Armours_int,,,,,,,"Level 75 , 121 Int",75,,(20 - 25) % increased Energy Shield Recharge Rate
+Feathered Raiment,Feathered_Raiment,Body_Armours_int,,,,,,,"Level 80 , 121 Int",80,,(5 - 10) % of Damage is taken from Mana before Life
+Runeforged Tattered Robe,Runeforged_Tattered_Robe,Body_Armours_int,,,,,,,,,,
+Runeforged Feathered Robe,Runeforged_Feathered_Robe,Body_Armours_int,,,,,,,"Level 5 , 11 Int",5,,
+Runeforged Hexer's Robe,Runeforged_Hexers_Robe,Body_Armours_int,,,,,,,"Level 11 , 21 Int",11,,
+Runeforged Bone Raiment,Runeforged_Bone_Raiment,Body_Armours_int,,,,,,,"Level 16 , 28 Int",16,,
+Runeforged Silk Robe,Runeforged_Silk_Robe,Body_Armours_int,,,,,,,"Level 22 , 37 Int",22,,
+Runeforged Keth Raiment,Runeforged_Keth_Raiment,Body_Armours_int,,,,,,,"Level 28 , 47 Int",28,,
+Runeforged Votive Raiment,Runeforged_Votive_Raiment,Body_Armours_int,,,,,,,"Level 33 , 54 Int",33,,
+Runeforged Altar Robe,Runeforged_Altar_Robe,Body_Armours_int,,,,,,,"Level 40 , 65 Int",40,,
+Runeforged Elementalist Robe,Runeforged_Elementalist_Robe,Body_Armours_int,,,,,,,"Level 45 , 72 Int",45,,
+Runeforged Mystic Raiment,Runeforged_Mystic_Raiment,Body_Armours_int,,,,,,,"Level 49 , 78 Int",49,,
+Runeforged River Raiment,Runeforged_River_Raiment,Body_Armours_int,,,,,,,"Level 54 , 86 Int",54,,
+Runeforged Adherent's Raiment,Runeforged_Adherents_Raiment,Body_Armours_int,,,,,,,"Level 59 , 94 Int",59,,
+Runeforged Ceremonial Robe,Runeforged_Ceremonial_Robe,Body_Armours_int,,,,,,,"Level 62 , 98 Int",62,,
+Runeforged Vile Robe,Runeforged_Vile_Robe,Body_Armours_int,,,,,,,"Level 65 , 121 Int",65,,
+Runeforged Flowing Raiment,Runeforged_Flowing_Raiment,Body_Armours_int,,,,,,,"Level 70 , 121 Int",70,,(30 - 40) % increased Runic Ward Regeneration Rate
+Runeforged Sacramental Robe,Runeforged_Sacramental_Robe,Body_Armours_int,,,,,,,"Level 75 , 121 Int",75,,(20 - 25) % increased Energy Shield Recharge Rate
+Runeforged Feathered Raiment,Runeforged_Feathered_Raiment,Body_Armours_int,,,,,,,"Level 80 , 121 Int",80,,(5 - 10) % of Damage is taken from Mana before Life
+Runemastered Tattered Robe,Runemastered_Tattered_Robe,Body_Armours_int,,,,,,,"Level 38 , 61 Int",38,,
+Runemastered Feathered Robe,Runemastered_Feathered_Robe,Body_Armours_int,,,,,,,"Level 38 , 61 Int",38,,
+Runemastered Hexer's Robe,Runemastered_Hexers_Robe,Body_Armours_int,,,,,,,"Level 38 , 61 Int",38,,
+Runemastered Bone Raiment,Runemastered_Bone_Raiment,Body_Armours_int,,,,,,,"Level 38 , 61 Int",38,,
+Runemastered Silk Robe,Runemastered_Silk_Robe,Body_Armours_int,,,,,,,"Level 38 , 61 Int",38,,
+Runemastered Keth Raiment,Runemastered_Keth_Raiment,Body_Armours_int,,,,,,,"Level 38 , 61 Int",38,,
+Runemastered Votive Raiment,Runemastered_Votive_Raiment,Body_Armours_int,,,,,,,"Level 55 , 87 Int",55,,
+Runemastered Altar Robe,Runemastered_Altar_Robe,Body_Armours_int,,,,,,,"Level 55 , 87 Int",55,,
+Runemastered Elementalist Robe,Runemastered_Elementalist_Robe,Body_Armours_int,,,,,,,"Level 55 , 87 Int",55,,
+Runemastered Plated Raiment,Runemastered_Plated_Raiment,Body_Armours_int,,,,,,,"Level 65 , 103 Int",65,,
+Runemastered Havoc Raiment,Runemastered_Havoc_Raiment,Body_Armours_int,,,,,,,"Level 70 , 121 Int",70,,
+Runemastered Enlightened Robe,Runemastered_Enlightened_Robe,Body_Armours_int,,,,,,,"Level 75 , 121 Int",75,,(40 - 50) % increased Mana Regeneration Rate
+Chain Mail,Chain_Mail,Body_Armours_str_dex,,,,,,,,,,
+Rogue Armour,Rogue_Armour,Body_Armours_str_dex,,,,,,,"Level 11 , 13 Str , 13 Dex",11,13,
+Vagabond Armour,Vagabond_Armour,Body_Armours_str_dex,,,,,,,"Level 16 , 17 Str , 17 Dex",16,17,
+Cloaked Mail,Cloaked_Mail,Body_Armours_str_dex,,,,,,,"Level 26 , 25 Str , 25 Dex",26,25,
+Explorer Armour,Explorer_Armour,Body_Armours_str_dex,,,,,,,"Level 33 , 31 Str , 31 Dex",33,31,
+Scale Mail,Scale_Mail,Body_Armours_str_dex,,,,,,,"Level 37 , 34 Str , 34 Dex",37,34,
+Knight Armour,Knight_Armour,Body_Armours_str_dex,,,,,,,"Level 45 , 41 Str , 41 Dex",45,41,
+Ancestral Mail,Ancestral_Mail,Body_Armours_str_dex,,,,,,,"Level 50 , 44 Str , 44 Dex",50,44,
+Lamellar Mail,Lamellar_Mail,Body_Armours_str_dex,,,,,,,"Level 52 , 46 Str , 46 Dex",52,46,
+Gladiator Armour,Gladiator_Armour,Body_Armours_str_dex,,,,,,,"Level 58 , 51 Str , 51 Dex",58,51,
+Heroic Armour,Heroic_Armour,Body_Armours_str_dex,,,,,,,"Level 65 , 67 Str , 67 Dex",65,67,+(60 - 80) to maximum Life
+Tournament Mail,Tournament_Mail,Body_Armours_str_dex,,,,,,,"Level 68 , 67 Str , 67 Dex",68,67,+(20 - 25) % to Fire Resistance
+Tournament Mail,Tournament_Mail,Body_Armours_str_dex,,,,,,,"Level 68 , 67 Str , 67 Dex",68,67,+(20 - 25) % to Cold Resistance
+Tournament Mail,Tournament_Mail,Body_Armours_str_dex,,,,,,,"Level 68 , 67 Str , 67 Dex",68,67,+(20 - 25) % to Lightning Resistance
+Slayer Armour,Slayer_Armour,Body_Armours_str_dex,,,,,,,"Level 73 , 67 Str , 67 Dex",73,67,
+Runeforged Grasping Mail,Runeforged_Grasping_Mail,Body_Armours_str_dex,,,,,,,"Level 65 , 61 Str , 61 Dex",65,61,Can roll Ring Modifiers | Catalysts can be applied to this item
+Ring Mail,Ring_Mail,Body_Armours_str_dex,,,,,,,"Level 45 , 41 Str , 41 Dex",45,41,
+Scoundrel Armour,Scoundrel_Armour,Body_Armours_str_dex,,,,,,,"Level 48 , 43 Str , 43 Dex",48,43,
+Wanderer Armour,Wanderer_Armour,Body_Armours_str_dex,,,,,,,"Level 51 , 45 Str , 45 Dex",51,45,
+Mantled Mail,Mantled_Mail,Body_Armours_str_dex,,,,,,,"Level 54 , 48 Str , 48 Dex",54,48,
+Trailblazer Armour,Trailblazer_Armour,Body_Armours_str_dex,,,,,,,"Level 59 , 52 Str , 52 Dex",59,52,
+Golden Mail,Golden_Mail,Body_Armours_str_dex,,,,,,,"Level 62 , 54 Str , 54 Dex",62,54,
+Dastard Armour,Dastard_Armour,Body_Armours_str_dex,,,,,,,"Level 65 , 67 Str , 67 Dex",65,67,+(60 - 80) to maximum Life
+Shrouded Mail,Shrouded_Mail,Body_Armours_str_dex,,,,,,,"Level 70 , 67 Str , 67 Dex",70,67,+(20 - 25) % to Fire Resistance
+Shrouded Mail,Shrouded_Mail,Body_Armours_str_dex,,,,,,,"Level 70 , 67 Str , 67 Dex",70,67,+(20 - 25) % to Cold Resistance
+Shrouded Mail,Shrouded_Mail,Body_Armours_str_dex,,,,,,,"Level 70 , 67 Str , 67 Dex",70,67,+(20 - 25) % to Lightning Resistance
+Death Mail,Death_Mail,Body_Armours_str_dex,,,,,,,"Level 75 , 67 Str , 67 Dex",75,67,
+Thane Mail,Thane_Mail,Body_Armours_str_dex,,,,,,,"Level 80 , 67 Str , 67 Dex",80,67,Hits against you have (15 - 25) % reduced Critical Damage Bonus
+Runeforged Chain Mail,Runeforged_Chain_Mail,Body_Armours_str_dex,,,,,,,,,,
+Runeforged Rogue Armour,Runeforged_Rogue_Armour,Body_Armours_str_dex,,,,,,,"Level 11 , 13 Str , 13 Dex",11,13,
+Runeforged Vagabond Armour,Runeforged_Vagabond_Armour,Body_Armours_str_dex,,,,,,,"Level 16 , 17 Str , 17 Dex",16,17,
+Runeforged Cloaked Mail,Runeforged_Cloaked_Mail,Body_Armours_str_dex,,,,,,,"Level 26 , 25 Str , 25 Dex",26,25,
+Runeforged Explorer Armour,Runeforged_Explorer_Armour,Body_Armours_str_dex,,,,,,,"Level 33 , 31 Str , 31 Dex",33,31,
+Runeforged Scale Mail,Runeforged_Scale_Mail,Body_Armours_str_dex,,,,,,,"Level 37 , 34 Str , 34 Dex",37,34,
+Runeforged Knight Armour,Runeforged_Knight_Armour,Body_Armours_str_dex,,,,,,,"Level 45 , 41 Str , 41 Dex",45,41,
+Runeforged Ancestral Mail,Runeforged_Ancestral_Mail,Body_Armours_str_dex,,,,,,,"Level 50 , 44 Str , 44 Dex",50,44,
+Runeforged Slayer Armour,Runeforged_Slayer_Armour,Body_Armours_str_dex,,,,,,,"Level 73 , 67 Str , 67 Dex",73,67,
+Runeforged Sacrificial Regalia,Runeforged_Sacrificial_Regalia,Body_Armours_str_dex,,,,,,,"Level 65 , 80 Str , 80 Dex",65,80,+1 to Level of all Corrupted Skill Gems | 1 % increased Maximum Life for each Corrupted Item Equipped
+Runeforged Mantled Mail,Runeforged_Mantled_Mail,Body_Armours_str_dex,,,,,,,"Level 54 , 48 Str , 48 Dex",54,48,
+Runeforged Trailblazer Armour,Runeforged_Trailblazer_Armour,Body_Armours_str_dex,,,,,,,"Level 59 , 52 Str , 52 Dex",59,52,
+Runeforged Golden Mail,Runeforged_Golden_Mail,Body_Armours_str_dex,,,,,,,"Level 62 , 54 Str , 54 Dex",62,54,
+Runeforged Dastard Armour,Runeforged_Dastard_Armour,Body_Armours_str_dex,,,,,,,"Level 65 , 67 Str , 67 Dex",65,67,+(60 - 80) to maximum Life
+Runeforged Shrouded Mail,Runeforged_Shrouded_Mail,Body_Armours_str_dex,,,,,,,"Level 70 , 67 Str , 67 Dex",70,67,+(20 - 25) % to Fire Resistance
+Runeforged Shrouded Mail,Runeforged_Shrouded_Mail,Body_Armours_str_dex,,,,,,,"Level 70 , 67 Str , 67 Dex",70,67,+(20 - 25) % to Cold Resistance
+Runeforged Shrouded Mail,Runeforged_Shrouded_Mail,Body_Armours_str_dex,,,,,,,"Level 70 , 67 Str , 67 Dex",70,67,+(20 - 25) % to Lightning Resistance
+Runeforged Death Mail,Runeforged_Death_Mail,Body_Armours_str_dex,,,,,,,"Level 75 , 67 Str , 67 Dex",75,67,
+Runeforged Thane Mail,Runeforged_Thane_Mail,Body_Armours_str_dex,,,,,,,"Level 80 , 67 Str , 67 Dex",80,67,Hits against you have (15 - 25) % reduced Critical Damage Bonus
+Runemastered Chain Mail,Runemastered_Chain_Mail,Body_Armours_str_dex,,,,,,,"Level 38 , 35 Str , 35 Dex",38,35,
+Runemastered Rogue Armour,Runemastered_Rogue_Armour,Body_Armours_str_dex,,,,,,,"Level 38 , 35 Str , 35 Dex",38,35,
+Runemastered Vagabond Armour,Runemastered_Vagabond_Armour,Body_Armours_str_dex,,,,,,,"Level 38 , 35 Str , 35 Dex",38,35,
+Runemastered Cloaked Mail,Runemastered_Cloaked_Mail,Body_Armours_str_dex,,,,,,,"Level 40 , 36 Str , 36 Dex",40,36,
+Runemastered Explorer Armour,Runemastered_Explorer_Armour,Body_Armours_str_dex,,,,,,,"Level 55 , 49 Str , 49 Dex",55,49,
+Runemastered Scale Mail,Runemastered_Scale_Mail,Body_Armours_str_dex,,,,,,,"Level 55 , 49 Str , 49 Dex",55,49,
+Runemastered Knight Armour,Runemastered_Knight_Armour,Body_Armours_str_dex,,,,,,,"Level 55 , 49 Str , 49 Dex",55,49,
+Runemastered Ancestral Mail,Runemastered_Ancestral_Mail,Body_Armours_str_dex,,,,,,,"Level 65 , 57 Str , 57 Dex",65,57,
+Runemastered Heroic Armour,Runemastered_Heroic_Armour,Body_Armours_str_dex,,,,,,,"Level 65 , 67 Str , 67 Dex",65,67,+(60 - 80) to maximum Life
+Pilgrim Vestments,Pilgrim_Vestments,Body_Armours_str_int,,,,,,,,,,
+Pelt Mantle,Pelt_Mantle,Body_Armours_str_int,,,,,,,"Level 10 , 12 Str , 12 Int",10,,
+Mail Vestments,Mail_Vestments,Body_Armours_str_int,,,,,,,"Level 16 , 17 Str , 17 Int",16,,
+Shaman Mantle,Shaman_Mantle,Body_Armours_str_int,,,,,,,"Level 28 , 26 Str , 26 Int",28,,
+Ironclad Vestments,Ironclad_Vestments,Body_Armours_str_int,,,,,,,"Level 33 , 31 Str , 31 Int",33,,
+Sacrificial Mantle,Sacrificial_Mantle,Body_Armours_str_int,,,,,,,"Level 36 , 33 Str , 33 Int",36,,
+Cleric Vestments,Cleric_Vestments,Body_Armours_str_int,,,,,,,"Level 45 , 41 Str , 41 Int",45,,
+Tideseer Mantle,Tideseer_Mantle,Body_Armours_str_int,,,,,,,"Level 51 , 45 Str , 45 Int",51,,
+Gilded Vestments,Gilded_Vestments,Body_Armours_str_int,,,,,,,"Level 52 , 46 Str , 46 Int",52,,
+Venerated Mantle,Venerated_Mantle,Body_Armours_str_int,,,,,,,"Level 54 , 48 Str , 48 Int",54,,
+Revered Vestments,Revered_Vestments,Body_Armours_str_int,,,,,,,"Level 65 , 67 Str , 67 Int",65,,+1 % to all Maximum Elemental Resistances
+Corvus Mantle,Corvus_Mantle,Body_Armours_str_int,,,,,,,"Level 68 , 67 Str , 67 Int",68,,+(20 - 30) to Spirit
+Zenith Vestments,Zenith_Vestments,Body_Armours_str_int,,,,,,,"Level 73 , 67 Str , 67 Int",73,,
+Ornate Ringmail,Ornate_Ringmail,Body_Armours_str_int,,,,,,,"Level 43 , 45 Str , 45 Int",43,,
+Ancient Mail,Ancient_Mail,Body_Armours_str_int,,,,,,,"Level 70 , 67 Str , 67 Int",70,,
+Runeforged Grasping Mail,Runeforged_Grasping_Mail,Body_Armours_str_int,,,,,,,"Level 65 , 61 Str , 61 Int",65,,Can roll Ring Modifiers | Catalysts can be applied to this item
+Templar Vestments,Templar_Vestments,Body_Armours_str_int,,,,,,,"Level 45 , 41 Str , 41 Int",45,,
+Bearskin Mantle,Bearskin_Mantle,Body_Armours_str_int,,,,,,,"Level 48 , 43 Str , 43 Int",48,,
+Chain Vestments,Chain_Vestments,Body_Armours_str_int,,,,,,,"Level 51 , 45 Str , 45 Int",51,,
+Occultist Mantle,Occultist_Mantle,Body_Armours_str_int,,,,,,,"Level 54 , 48 Str , 48 Int",54,,
+Plated Vestments,Plated_Vestments,Body_Armours_str_int,,,,,,,"Level 59 , 52 Str , 52 Int",59,,
+Heartcarver Mantle,Heartcarver_Mantle,Body_Armours_str_int,,,,,,,"Level 62 , 54 Str , 54 Int",62,,
+Wolfskin Mantle,Wolfskin_Mantle,Body_Armours_str_int,,,,,,,"Level 65 , 67 Str , 67 Int",65,,
+Conjurer Mantle,Conjurer_Mantle,Body_Armours_str_int,,,,,,,"Level 70 , 67 Str , 67 Int",70,,+(20 - 30) to Spirit
+Death Mantle,Death_Mantle,Body_Armours_str_int,,,,,,,"Level 75 , 67 Str , 67 Int",75,,+1 % to all Maximum Elemental Resistances
+Seastorm Mantle,Seastorm_Mantle,Body_Armours_str_int,,,,,,,"Level 80 , 67 Str , 67 Int",80,,(8 - 14) % of Damage taken Recouped as Life
+Runeforged Pilgrim Vestments,Runeforged_Pilgrim_Vestments,Body_Armours_str_int,,,,,,,,,,
+Runeforged Pelt Mantle,Runeforged_Pelt_Mantle,Body_Armours_str_int,,,,,,,"Level 10 , 12 Str , 12 Int",10,,
+Runeforged Mail Vestments,Runeforged_Mail_Vestments,Body_Armours_str_int,,,,,,,"Level 16 , 17 Str , 17 Int",16,,
+Runeforged Shaman Mantle,Runeforged_Shaman_Mantle,Body_Armours_str_int,,,,,,,"Level 28 , 26 Str , 26 Int",28,,
+Runeforged Ironclad Vestments,Runeforged_Ironclad_Vestments,Body_Armours_str_int,,,,,,,"Level 33 , 31 Str , 31 Int",33,,
+Runeforged Sacrificial Mantle,Runeforged_Sacrificial_Mantle,Body_Armours_str_int,,,,,,,"Level 36 , 33 Str , 33 Int",36,,
+Runeforged Cleric Vestments,Runeforged_Cleric_Vestments,Body_Armours_str_int,,,,,,,"Level 45 , 41 Str , 41 Int",45,,
+Runeforged Tideseer Mantle,Runeforged_Tideseer_Mantle,Body_Armours_str_int,,,,,,,"Level 51 , 45 Str , 45 Int",51,,
+Runeforged Sacrificial Regalia,Runeforged_Sacrificial_Regalia,Body_Armours_str_int,,,,,,,"Level 65 , 80 Str , 80 Int",65,,+1 to Level of all Corrupted Skill Gems | (2 - 4) % increased Chaos Damage for each Corrupted Item Equipped
+Runeforged Occultist Mantle,Runeforged_Occultist_Mantle,Body_Armours_str_int,,,,,,,"Level 54 , 48 Str , 48 Int",54,,
+Runeforged Plated Vestments,Runeforged_Plated_Vestments,Body_Armours_str_int,,,,,,,"Level 59 , 52 Str , 52 Int",59,,
+Runeforged Heartcarver Mantle,Runeforged_Heartcarver_Mantle,Body_Armours_str_int,,,,,,,"Level 62 , 54 Str , 54 Int",62,,
+Runeforged Wolfskin Mantle,Runeforged_Wolfskin_Mantle,Body_Armours_str_int,,,,,,,"Level 65 , 67 Str , 67 Int",65,,
+Runeforged Conjurer Mantle,Runeforged_Conjurer_Mantle,Body_Armours_str_int,,,,,,,"Level 70 , 67 Str , 67 Int",70,,+(20 - 30) to Spirit
+Runeforged Death Mantle,Runeforged_Death_Mantle,Body_Armours_str_int,,,,,,,"Level 75 , 67 Str , 67 Int",75,,+1 % to all Maximum Elemental Resistances
+Runeforged Seastorm Mantle,Runeforged_Seastorm_Mantle,Body_Armours_str_int,,,,,,,"Level 80 , 67 Str , 67 Int",80,,(8 - 14) % of Damage taken Recouped as Life
+Runemastered Pilgrim Vestments,Runemastered_Pilgrim_Vestments,Body_Armours_str_int,,,,,,,"Level 38 , 35 Str , 35 Int",38,,
+Runemastered Mail Vestments,Runemastered_Mail_Vestments,Body_Armours_str_int,,,,,,,"Level 38 , 35 Str , 35 Int",38,,
+Runemastered Shaman Mantle,Runemastered_Shaman_Mantle,Body_Armours_str_int,,,,,,,"Level 38 , 35 Str , 35 Int",38,,
+Runemastered Ironclad Vestments,Runemastered_Ironclad_Vestments,Body_Armours_str_int,,,,,,,"Level 55 , 49 Str , 49 Int",55,,
+Runemastered Sacrificial Mantle,Runemastered_Sacrificial_Mantle,Body_Armours_str_int,,,,,,,"Level 55 , 49 Str , 49 Int",55,,
+Runemastered Cleric Vestments,Runemastered_Cleric_Vestments,Body_Armours_str_int,,,,,,,"Level 55 , 49 Str , 49 Int",55,,
+Runemastered Tideseer Mantle,Runemastered_Tideseer_Mantle,Body_Armours_str_int,,,,,,,"Level 65 , 57 Str , 57 Int",65,,
+Runemastered Gilded Vestments,Runemastered_Gilded_Vestments,Body_Armours_str_int,,,,,,,"Level 65 , 57 Str , 57 Int",65,,
+Runemastered Revered Vestments,Runemastered_Revered_Vestments,Body_Armours_str_int,,,,,,,"Level 70 , 67 Str , 67 Int",70,,+1 % to all Maximum Elemental Resistances | (30 - 50) % increased effect of Arcane Surge on you
+Runemastered Revered Vestments,Runemastered_Revered_Vestments,Body_Armours_str_int,,,,,,,"Level 70 , 57 Str , 85 Int",70,,+1 % to all Maximum Elemental Resistances | (10 - 15) % of Damage taken from Hits bypasses Energy Shield if Energy Shield is below half
+Runemastered Revered Vestments,Runemastered_Revered_Vestments,Body_Armours_str_int,,,,,,,"Level 70 , 67 Str , 67 Int",70,,+1 % to all Maximum Elemental Resistances
+Runemastered Corvus Mantle,Runemastered_Corvus_Mantle,Body_Armours_str_int,,,,,,,"Level 70 , 67 Str , 67 Int",70,,+(20 - 30) to Spirit
+Runemastered Ornate Ringmail,Runemastered_Ornate_Ringmail,Body_Armours_str_int,,,,,,,"Level 55 , 57 Str , 57 Int",55,,
+Runemastered Ancient Mail,Runemastered_Ancient_Mail,Body_Armours_str_int,,,,,,,"Level 70 , 67 Str , 67 Int",70,,
+Hermit Garb,Hermit_Garb,Body_Armours_dex_int,,,,,,,,,,
+Waxed Jacket,Waxed_Jacket,Body_Armours_dex_int,,,,,,,"Level 11 , 13 Dex , 13 Int",11,13,
+Marabout Garb,Marabout_Garb,Body_Armours_dex_int,,,,,,,"Level 16 , 17 Dex , 17 Int",16,17,
+Wayfarer Jacket,Wayfarer_Jacket,Body_Armours_dex_int,,,,,,,"Level 28 , 26 Dex , 26 Int",28,26,
+Anchorite Garb,Anchorite_Garb,Body_Armours_dex_int,,,,,,,"Level 33 , 31 Dex , 31 Int",33,31,
+Scalper's Jacket,Scalpers_Jacket,Body_Armours_dex_int,,,,,,,"Level 39 , 35 Dex , 35 Int",39,35,
+Scoundrel Jacket,Scoundrel_Jacket,Body_Armours_dex_int,,,,,,,"Level 45 , 41 Dex , 41 Int",45,41,
+Ascetic Garb,Ascetic_Garb,Body_Armours_dex_int,,,,,,,"Level 51 , 45 Dex , 45 Int",51,45,
+Clandestine Jacket,Clandestine_Jacket,Body_Armours_dex_int,,,,,,,"Level 52 , 46 Dex , 46 Int",52,46,
+Monastic Garb,Monastic_Garb,Body_Armours_dex_int,,,,,,,"Level 56 , 50 Dex , 50 Int",56,50,
+Torment Jacket,Torment_Jacket,Body_Armours_dex_int,,,,,,,"Level 65 , 67 Dex , 67 Int",65,67,
+Devout Garb,Devout_Garb,Body_Armours_dex_int,,,,,,,"Level 68 , 67 Dex , 67 Int",68,67,+(7 - 13) % to Chaos Resistance
+Assassin Garb,Assassin_Garb,Body_Armours_dex_int,,,,,,,"Level 73 , 67 Dex , 67 Int",73,67,5 % increased Movement Speed
+Runeforged Grasping Mail,Runeforged_Grasping_Mail,Body_Armours_dex_int,,,,,,,"Level 65 , 61 Dex , 61 Int",65,61,Can roll Ring Modifiers | Catalysts can be applied to this item
+Ascetic Garb,Ascetic_Garb,Body_Armours_dex_int,,,,,,,"Level 45 , 41 Dex , 41 Int",45,41,
+Oiled Jacket,Oiled_Jacket,Body_Armours_dex_int,,,,,,,"Level 48 , 43 Dex , 43 Int",48,43,
+Evangelist Garb,Evangelist_Garb,Body_Armours_dex_int,,,,,,,"Level 51 , 45 Dex , 45 Int",51,45,
+Itinerant Jacket,Itinerant_Jacket,Body_Armours_dex_int,,,,,,,"Level 54 , 48 Dex , 48 Int",54,48,
+Hatungo Garb,Hatungo_Garb,Body_Armours_dex_int,,,,,,,"Level 59 , 52 Dex , 52 Int",59,52,
+Hawker's Jacket,Hawkers_Jacket,Body_Armours_dex_int,,,,,,,"Level 62 , 54 Dex , 54 Int",62,54,
+Sleek Jacket,Sleek_Jacket,Body_Armours_dex_int,,,,,,,"Level 65 , 67 Dex , 67 Int",65,67,
+Rambler Jacket,Rambler_Jacket,Body_Armours_dex_int,,,,,,,"Level 70 , 67 Dex , 67 Int",70,67,+(7 - 13) % to Chaos Resistance
+Falconer's Jacket,Falconers_Jacket,Body_Armours_dex_int,,,,,,,"Level 75 , 67 Dex , 67 Int",75,67,5 % increased Movement Speed
+Austere Garb,Austere_Garb,Body_Armours_dex_int,,,,,,,"Level 80 , 67 Dex , 67 Int",80,67,(10 - 15) % reduced Elemental Ailment Duration on you
+Primal Markings,Primal_Markings,Body_Armours_dex_int,,,,,,,"Level 70 , 67 Dex , 67 Int",70,67,
+Runeforged Hermit Garb,Runeforged_Hermit_Garb,Body_Armours_dex_int,,,,,,,,,,
+Runeforged Waxed Jacket,Runeforged_Waxed_Jacket,Body_Armours_dex_int,,,,,,,"Level 11 , 13 Dex , 13 Int",11,13,
+Runeforged Marabout Garb,Runeforged_Marabout_Garb,Body_Armours_dex_int,,,,,,,"Level 16 , 17 Dex , 17 Int",16,17,
+Runeforged Wayfarer Jacket,Runeforged_Wayfarer_Jacket,Body_Armours_dex_int,,,,,,,"Level 28 , 26 Dex , 26 Int",28,26,
+Runeforged Anchorite Garb,Runeforged_Anchorite_Garb,Body_Armours_dex_int,,,,,,,"Level 33 , 31 Dex , 31 Int",33,31,
+Runeforged Scalper's Jacket,Runeforged_Scalpers_Jacket,Body_Armours_dex_int,,,,,,,"Level 39 , 35 Dex , 35 Int",39,35,
+Runeforged Scoundrel Jacket,Runeforged_Scoundrel_Jacket,Body_Armours_dex_int,,,,,,,"Level 45 , 41 Dex , 41 Int",45,41,
+Runeforged Ascetic Garb,Runeforged_Ascetic_Garb,Body_Armours_dex_int,,,,,,,"Level 51 , 45 Dex , 45 Int",51,45,
+Runeforged Sacrificial Regalia,Runeforged_Sacrificial_Regalia,Body_Armours_dex_int,,,,,,,"Level 65 , 80 Dex , 80 Int",65,80,+1 to Level of all Corrupted Skill Gems | +1 % to all Resistances for each Corrupted Item Equipped
+Runeforged Itinerant Jacket,Runeforged_Itinerant_Jacket,Body_Armours_dex_int,,,,,,,"Level 54 , 48 Dex , 48 Int",54,48,
+Runeforged Hatungo Garb,Runeforged_Hatungo_Garb,Body_Armours_dex_int,,,,,,,"Level 59 , 52 Dex , 52 Int",59,52,
+Runeforged Hawker's Jacket,Runeforged_Hawkers_Jacket,Body_Armours_dex_int,,,,,,,"Level 62 , 54 Dex , 54 Int",62,54,
+Runeforged Sleek Jacket,Runeforged_Sleek_Jacket,Body_Armours_dex_int,,,,,,,"Level 65 , 67 Dex , 67 Int",65,67,
+Runeforged Rambler Jacket,Runeforged_Rambler_Jacket,Body_Armours_dex_int,,,,,,,"Level 70 , 67 Dex , 67 Int",70,67,+(7 - 13) % to Chaos Resistance
+Runeforged Falconer's Jacket,Runeforged_Falconers_Jacket,Body_Armours_dex_int,,,,,,,"Level 75 , 67 Dex , 67 Int",75,67,5 % increased Movement Speed
+Runeforged Austere Garb,Runeforged_Austere_Garb,Body_Armours_dex_int,,,,,,,"Level 80 , 67 Dex , 67 Int",80,67,(10 - 15) % reduced Elemental Ailment Duration on you
+Runeforged Primal Markings,Runeforged_Primal_Markings,Body_Armours_dex_int,,,,,,,"Level 70 , 67 Dex , 67 Int",70,67,
+Runemastered Hermit Garb,Runemastered_Hermit_Garb,Body_Armours_dex_int,,,,,,,"Level 38 , 35 Dex , 35 Int",38,35,
+Runemastered Waxed Jacket,Runemastered_Waxed_Jacket,Body_Armours_dex_int,,,,,,,"Level 38 , 35 Dex , 35 Int",38,35,
+Runemastered Marabout Garb,Runemastered_Marabout_Garb,Body_Armours_dex_int,,,,,,,"Level 38 , 35 Dex , 35 Int",38,35,
+Runemastered Wayfarer Jacket,Runemastered_Wayfarer_Jacket,Body_Armours_dex_int,,,,,,,"Level 40 , 36 Dex , 36 Int",40,36,
+Runemastered Anchorite Garb,Runemastered_Anchorite_Garb,Body_Armours_dex_int,,,,,,,"Level 55 , 49 Dex , 49 Int",55,49,
+Runemastered Scalper's Jacket,Runemastered_Scalpers_Jacket,Body_Armours_dex_int,,,,,,,"Level 55 , 49 Dex , 49 Int",55,49,
+Runemastered Assassin Garb,Runemastered_Assassin_Garb,Body_Armours_dex_int,,,,,,,"Level 73 , 67 Dex , 67 Int",73,67,5 % increased Movement Speed
+Runemastered Primal Markings,Runemastered_Primal_Markings,Body_Armours_dex_int,,,,,,,"Level 80 , 67 Dex , 67 Int",80,67,
+Golden Mantle,Golden_Mantle,Body_Armours_str_dex_int,,,,,,,"Level 20 , 7 Str , 7 Dex , 7 Int",20,7,+(15 - 25) % to all Elemental Resistances
+Grand Regalia,Grand_Regalia,Body_Armours_str_dex_int,,,,,,,"Level 65 , 41 Str , 41 Dex , 41 Int",65,41,
+Sacrificial Regalia,Sacrificial_Regalia,Body_Armours_str_dex_int,,,,,,,"Level 65 , 72 Str , 72 Dex , 72 Int",65,72,+1 to Level of all Corrupted Skill Gems
+Grasping Mail,Grasping_Mail,Body_Armours_str_dex_int,,,,,,,"Level 65 , 41 Str , 41 Dex , 41 Int",65,41,Can roll Ring Modifiers | Catalysts can be applied to this item
+Runeforged Grasping Mail,Runeforged_Grasping_Mail,Body_Armours_str_dex_int,,,,,,,"Level 65 , 41 Str , 41 Dex , 41 Int",65,41,Can roll Ring Modifiers | Catalysts can be applied to this item
+Runemastered Grasping Mail,Runemastered_Grasping_Mail,Body_Armours_str_dex_int,,,,,,,"Level 65 , 41 Str , 41 Dex , 41 Int",65,41,Can roll Ring Modifiers | Catalysts can be applied to this item
+Runeforged Grand Regalia,Runeforged_Grand_Regalia,Body_Armours_str_dex_int,,,,,,,"Level 65 , 41 Str , 41 Dex , 41 Int",65,41,
+Runeforged Sacrificial Regalia,Runeforged_Sacrificial_Regalia,Body_Armours_str_dex_int,,,,,,,"Level 65 , 72 Str , 72 Dex , 72 Int",65,72,+1 to Level of all Corrupted Skill Gems
+Runemastered Grand Regalia,Runemastered_Grand_Regalia,Body_Armours_str_dex_int,,,,,,,"Level 65 , 41 Str , 41 Dex , 41 Int",65,41,
+Runemastered Sacrificial Regalia,Runemastered_Sacrificial_Regalia,Body_Armours_str_dex_int,,,,,,,"Level 65 , 72 Str , 72 Dex , 72 Int",65,72,+1 to Level of all Corrupted Skill Gems
+Rusted Greathelm,Rusted_Greathelm,Helmets_str,,,,,,,,,,
+Soldier Greathelm,Soldier_Greathelm,Helmets_str,,,,,,,"Level 12 , 19 Str",12,,
+Wrapped Greathelm,Wrapped_Greathelm,Helmets_str,,,,,,,"Level 16 , 25 Str",16,,
+Spired Greathelm,Spired_Greathelm,Helmets_str,,,,,,,"Level 27 , 40 Str",27,,
+Elite Greathelm,Elite_Greathelm,Helmets_str,,,,,,,"Level 33 , 48 Str",33,,
+Warrior Greathelm,Warrior_Greathelm,Helmets_str,,,,,,,"Level 36 , 52 Str",36,,
+Commander Greathelm,Commander_Greathelm,Helmets_str,,,,,,,"Level 45 , 64 Str",45,,
+Fierce Greathelm,Fierce_Greathelm,Helmets_str,,,,,,,"Level 51 , 73 Str",51,,
+Sentinel Greathelm,Sentinel_Greathelm,Helmets_str,,,,,,,"Level 52 , 74 Str",52,,
+Goliath Greathelm,Goliath_Greathelm,Helmets_str,,,,,,,"Level 57 , 81 Str",57,,
+Guardian Greathelm,Guardian_Greathelm,Helmets_str,,,,,,,"Level 65 , 91 Str",65,,
+Corroded Greathelm,Corroded_Greathelm,Helmets_str,,,,,,,"Level 45 , 64 Str",45,,
+Mercenary Greathelm,Mercenary_Greathelm,Helmets_str,,,,,,,"Level 48 , 69 Str",48,,
+Homeguard Greathelm,Homeguard_Greathelm,Helmets_str,,,,,,,"Level 51 , 73 Str",51,,
+Elegant Greathelm,Elegant_Greathelm,Helmets_str,,,,,,,"Level 54 , 77 Str",54,,
+Noble Greathelm,Noble_Greathelm,Helmets_str,,,,,,,"Level 59 , 83 Str",59,,
+Warmonger Greathelm,Warmonger_Greathelm,Helmets_str,,,,,,,"Level 65 , 91 Str",65,,
+Masked Greathelm,Masked_Greathelm,Helmets_str,,,,,,,"Level 70 , 99 Str",70,,
+Paragon Greathelm,Paragon_Greathelm,Helmets_str,,,,,,,"Level 75 , 107 Str",75,,
+Imperial Greathelm,Imperial_Greathelm,Helmets_str,,,,,,,"Level 80 , 115 Str",80,,
+Runeforged Rusted Greathelm,Runeforged_Rusted_Greathelm,Helmets_str,,,,,,,,,,
+Runeforged Soldier Greathelm,Runeforged_Soldier_Greathelm,Helmets_str,,,,,,,"Level 12 , 19 Str",12,,
+Runeforged Wrapped Greathelm,Runeforged_Wrapped_Greathelm,Helmets_str,,,,,,,"Level 16 , 25 Str",16,,
+Runeforged Spired Greathelm,Runeforged_Spired_Greathelm,Helmets_str,,,,,,,"Level 27 , 40 Str",27,,
+Runeforged Elite Greathelm,Runeforged_Elite_Greathelm,Helmets_str,,,,,,,"Level 33 , 48 Str",33,,
+Runeforged Warrior Greathelm,Runeforged_Warrior_Greathelm,Helmets_str,,,,,,,"Level 36 , 52 Str",36,,
+Runeforged Commander Greathelm,Runeforged_Commander_Greathelm,Helmets_str,,,,,,,"Level 45 , 64 Str",45,,
+Runeforged Fierce Greathelm,Runeforged_Fierce_Greathelm,Helmets_str,,,,,,,"Level 51 , 73 Str",51,,
+Runeforged Elegant Greathelm,Runeforged_Elegant_Greathelm,Helmets_str,,,,,,,"Level 54 , 77 Str",54,,
+Runeforged Noble Greathelm,Runeforged_Noble_Greathelm,Helmets_str,,,,,,,"Level 59 , 83 Str",59,,
+Runeforged Warmonger Greathelm,Runeforged_Warmonger_Greathelm,Helmets_str,,,,,,,"Level 65 , 91 Str",65,,
+Runeforged Masked Greathelm,Runeforged_Masked_Greathelm,Helmets_str,,,,,,,"Level 70 , 99 Str",70,,
+Runeforged Paragon Greathelm,Runeforged_Paragon_Greathelm,Helmets_str,,,,,,,"Level 75 , 107 Str",75,,
+Runeforged Imperial Greathelm,Runeforged_Imperial_Greathelm,Helmets_str,,,,,,,"Level 80 , 115 Str",80,,
+Runemastered Rusted Greathelm,Runemastered_Rusted_Greathelm,Helmets_str,,,,,,,"Level 38 , 54 Str",38,,
+Runemastered Soldier Greathelm,Runemastered_Soldier_Greathelm,Helmets_str,,,,,,,"Level 38 , 54 Str",38,,
+Runemastered Wrapped Greathelm,Runemastered_Wrapped_Greathelm,Helmets_str,,,,,,,"Level 38 , 54 Str",38,,
+Runemastered Spired Greathelm,Runemastered_Spired_Greathelm,Helmets_str,,,,,,,"Level 40 , 58 Str",40,,
+Runemastered Elite Greathelm,Runemastered_Elite_Greathelm,Helmets_str,,,,,,,"Level 55 , 78 Str",55,,
+Runemastered Warrior Greathelm,Runemastered_Warrior_Greathelm,Helmets_str,,,,,,,"Level 55 , 78 Str",55,,
+Runemastered Fierce Greathelm,Runemastered_Fierce_Greathelm,Helmets_str,,,,,,,"Level 55 , 78 Str",55,,
+Shabby Hood,Shabby_Hood,Helmets_dex,,,,,,,,,,
+Felt Cap,Felt_Cap,Helmets_dex,,,,,,,"Level 10 , 17 Dex",10,17,
+Lace Hood,Lace_Hood,Helmets_dex,,,,,,,"Level 16 , 25 Dex",16,25,
+Swathed Cap,Swathed_Cap,Helmets_dex,,,,,,,"Level 26 , 38 Dex",26,38,
+Hunter Hood,Hunter_Hood,Helmets_dex,,,,,,,"Level 33 , 48 Dex",33,48,
+Viper Cap,Viper_Cap,Helmets_dex,,,,,,,"Level 38 , 54 Dex",38,54,
+Corsair Cap,Corsair_Cap,Helmets_dex,,,,,,,"Level 45 , 64 Dex",45,64,
+Leatherbound Hood,Leatherbound_Hood,Helmets_dex,,,,,,,"Level 50 , 71 Dex",50,71,
+Velvet Cap,Velvet_Cap,Helmets_dex,,,,,,,"Level 52 , 74 Dex",52,74,
+Covert Hood,Covert_Hood,Helmets_dex,,,,,,,"Level 56 , 79 Dex",56,79,
+Armoured Cap,Armoured_Cap,Helmets_dex,,,,,,,"Level 65 , 91 Dex",65,91,
+Rotted Hood,Rotted_Hood,Helmets_dex,,,,,,,"Level 45 , 64 Dex",45,64,
+Wool Cap,Wool_Cap,Helmets_dex,,,,,,,"Level 48 , 69 Dex",48,69,
+Narrow Hood,Narrow_Hood,Helmets_dex,,,,,,,"Level 51 , 73 Dex",51,73,
+Wrapped Cap,Wrapped_Cap,Helmets_dex,,,,,,,"Level 54 , 77 Dex",54,77,
+Deerstalker Hood,Deerstalker_Hood,Helmets_dex,,,,,,,"Level 59 , 83 Dex",59,83,
+Woven Cap,Woven_Cap,Helmets_dex,,,,,,,"Level 65 , 91 Dex",65,91,
+Desert Cap,Desert_Cap,Helmets_dex,,,,,,,"Level 70 , 99 Dex",70,99,
+Trapper Hood,Trapper_Hood,Helmets_dex,,,,,,,"Level 75 , 107 Dex",75,107,
+Freebooter Cap,Freebooter_Cap,Helmets_dex,,,,,,,"Level 80 , 115 Dex",80,115,
+Runeforged Shabby Hood,Runeforged_Shabby_Hood,Helmets_dex,,,,,,,,,,
+Runeforged Felt Cap,Runeforged_Felt_Cap,Helmets_dex,,,,,,,"Level 10 , 17 Dex",10,17,
+Runeforged Lace Hood,Runeforged_Lace_Hood,Helmets_dex,,,,,,,"Level 16 , 25 Dex",16,25,
+Runeforged Swathed Cap,Runeforged_Swathed_Cap,Helmets_dex,,,,,,,"Level 26 , 38 Dex",26,38,
+Runeforged Hunter Hood,Runeforged_Hunter_Hood,Helmets_dex,,,,,,,"Level 33 , 48 Dex",33,48,
+Runeforged Viper Cap,Runeforged_Viper_Cap,Helmets_dex,,,,,,,"Level 38 , 54 Dex",38,54,
+Runeforged Corsair Cap,Runeforged_Corsair_Cap,Helmets_dex,,,,,,,"Level 45 , 64 Dex",45,64,
+Runeforged Leatherbound Hood,Runeforged_Leatherbound_Hood,Helmets_dex,,,,,,,"Level 50 , 71 Dex",50,71,
+Runeforged Wrapped Cap,Runeforged_Wrapped_Cap,Helmets_dex,,,,,,,"Level 54 , 77 Dex",54,77,
+Runeforged Deerstalker Hood,Runeforged_Deerstalker_Hood,Helmets_dex,,,,,,,"Level 59 , 83 Dex",59,83,
+Runeforged Woven Cap,Runeforged_Woven_Cap,Helmets_dex,,,,,,,"Level 65 , 91 Dex",65,91,
+Runeforged Desert Cap,Runeforged_Desert_Cap,Helmets_dex,,,,,,,"Level 70 , 99 Dex",70,99,
+Runeforged Trapper Hood,Runeforged_Trapper_Hood,Helmets_dex,,,,,,,"Level 75 , 107 Dex",75,107,
+Runeforged Freebooter Cap,Runeforged_Freebooter_Cap,Helmets_dex,,,,,,,"Level 80 , 115 Dex",80,115,
+Runeforged Lace Hood,Runeforged_Lace_Hood,Helmets_dex,,,,,,,"Level 38 , 54 Dex",38,54,(30 - 50) % increased Ignite Magnitude
+Runemastered Felt Cap,Runemastered_Felt_Cap,Helmets_dex,,,,,,,"Level 38 , 54 Dex",38,54,
+Runemastered Hunter Hood,Runemastered_Hunter_Hood,Helmets_dex,,,,,,,"Level 40 , 58 Dex",40,58,
+Runemastered Viper Cap,Runemastered_Viper_Cap,Helmets_dex,,,,,,,"Level 55 , 78 Dex",55,78,
+Runemastered Corsair Cap,Runemastered_Corsair_Cap,Helmets_dex,,,,,,,"Level 55 , 78 Dex",55,78,
+Runemastered Leatherbound Hood,Runemastered_Leatherbound_Hood,Helmets_dex,,,,,,,"Level 65 , 91 Dex",65,91,
+Runemastered Velvet Cap,Runemastered_Velvet_Cap,Helmets_dex,,,,,,,"Level 65 , 91 Dex",65,91,
+Runemastered Covert Hood,Runemastered_Covert_Hood,Helmets_dex,,,,,,,"Level 56 , 79 Dex",56,79,
+Runemastered Armoured Cap,Runemastered_Armoured_Cap,Helmets_dex,,,,,,,"Level 65 , 91 Dex",65,91,
+Twig Circlet,Twig_Circlet,Helmets_int,,,,,,,,,,
+Wicker Tiara,Wicker_Tiara,Helmets_int,,,,,,,"Level 10 , 17 Int",10,,
+Beaded Circlet,Beaded_Circlet,Helmets_int,,,,,,,"Level 16 , 25 Int",16,,
+Chain Tiara,Chain_Tiara,Helmets_int,,,,,,,"Level 26 , 38 Int",26,,
+Feathered Tiara,Feathered_Tiara,Helmets_int,,,,,,,"Level 33 , 48 Int",33,,
+Gold Circlet,Gold_Circlet,Helmets_int,,,,,,,"Level 40 , 58 Int",40,,
+Vermeil Circlet,Vermeil_Circlet,Helmets_int,,,,,,,"Level 45 , 64 Int",45,,
+Jade Tiara,Jade_Tiara,Helmets_int,,,,,,,"Level 50 , 71 Int",50,,
+Noble Circlet,Noble_Circlet,Helmets_int,,,,,,,"Level 52 , 74 Int",52,,
+Twilight Tiara,Twilight_Tiara,Helmets_int,,,,,,,"Level 58 , 82 Int",58,,
+Magus Tiara,Magus_Tiara,Helmets_int,,,,,,,"Level 65 , 91 Int",65,,
+Druidic Circlet,Druidic_Circlet,Helmets_int,,,,,,,"Level 45 , 64 Int",45,,
+Avian Tiara,Avian_Tiara,Helmets_int,,,,,,,"Level 48 , 69 Int",48,,
+Desert Circlet,Desert_Circlet,Helmets_int,,,,,,,"Level 51 , 73 Int",51,,
+Sandsworn Tiara,Sandsworn_Tiara,Helmets_int,,,,,,,"Level 54 , 77 Int",54,,
+Jungle Tiara,Jungle_Tiara,Helmets_int,,,,,,,"Level 59 , 83 Int",59,,
+Skycrown Tiara,Skycrown_Tiara,Helmets_int,,,,,,,"Level 65 , 91 Int",65,,
+Sorcerous Tiara,Sorcerous_Tiara,Helmets_int,,,,,,,"Level 70 , 99 Int",70,,
+Kamasan Tiara,Kamasan_Tiara,Helmets_int,,,,,,,"Level 75 , 107 Int",75,,
+Ancestral Tiara,Ancestral_Tiara,Helmets_int,,,,,,,"Level 80 , 115 Int",80,,
+Runeforged Twig Circlet,Runeforged_Twig_Circlet,Helmets_int,,,,,,,,,,
+Runeforged Wicker Tiara,Runeforged_Wicker_Tiara,Helmets_int,,,,,,,"Level 10 , 17 Int",10,,
+Runeforged Beaded Circlet,Runeforged_Beaded_Circlet,Helmets_int,,,,,,,"Level 16 , 25 Int",16,,
+Runeforged Chain Tiara,Runeforged_Chain_Tiara,Helmets_int,,,,,,,"Level 26 , 38 Int",26,,
+Runeforged Feathered Tiara,Runeforged_Feathered_Tiara,Helmets_int,,,,,,,"Level 33 , 48 Int",33,,
+Runeforged Gold Circlet,Runeforged_Gold_Circlet,Helmets_int,,,,,,,"Level 40 , 58 Int",40,,
+Runeforged Vermeil Circlet,Runeforged_Vermeil_Circlet,Helmets_int,,,,,,,"Level 45 , 64 Int",45,,
+Runeforged Jade Tiara,Runeforged_Jade_Tiara,Helmets_int,,,,,,,"Level 50 , 71 Int",50,,
+Runeforged Sandsworn Tiara,Runeforged_Sandsworn_Tiara,Helmets_int,,,,,,,"Level 54 , 77 Int",54,,
+Runeforged Jungle Tiara,Runeforged_Jungle_Tiara,Helmets_int,,,,,,,"Level 59 , 83 Int",59,,
+Runeforged Skycrown Tiara,Runeforged_Skycrown_Tiara,Helmets_int,,,,,,,"Level 65 , 91 Int",65,,
+Runeforged Sorcerous Tiara,Runeforged_Sorcerous_Tiara,Helmets_int,,,,,,,"Level 70 , 99 Int",70,,
+Runeforged Kamasan Tiara,Runeforged_Kamasan_Tiara,Helmets_int,,,,,,,"Level 75 , 107 Int",75,,
+Runeforged Ancestral Tiara,Runeforged_Ancestral_Tiara,Helmets_int,,,,,,,"Level 80 , 115 Int",80,,
+Runemastered Twig Circlet,Runemastered_Twig_Circlet,Helmets_int,,,,,,,"Level 38 , 54 Int",38,,
+Runemastered Wicker Tiara,Runemastered_Wicker_Tiara,Helmets_int,,,,,,,"Level 38 , 54 Int",38,,
+Runemastered Beaded Circlet,Runemastered_Beaded_Circlet,Helmets_int,,,,,,,"Level 38 , 54 Int",38,,
+Runemastered Chain Tiara,Runemastered_Chain_Tiara,Helmets_int,,,,,,,"Level 40 , 58 Int",40,,
+Runemastered Feathered Tiara,Runemastered_Feathered_Tiara,Helmets_int,,,,,,,"Level 55 , 78 Int",55,,
+Runemastered Gold Circlet,Runemastered_Gold_Circlet,Helmets_int,,,,,,,"Level 55 , 78 Int",55,,
+Runemastered Vermeil Circlet,Runemastered_Vermeil_Circlet,Helmets_int,,,,,,,"Level 55 , 78 Int",55,,
+Runemastered Jade Tiara,Runemastered_Jade_Tiara,Helmets_int,,,,,,,"Level 65 , 91 Int",65,,
+Runemastered Twilight Tiara,Runemastered_Twilight_Tiara,Helmets_int,,,,,,,"Level 65 , 91 Int",65,,
+Runemastered Magus Tiara,Runemastered_Magus_Tiara,Helmets_int,,,,,,,"Level 65 , 91 Int",65,,
+Brimmed Helm,Brimmed_Helm,Helmets_str_dex,,,,,,,"Level 5 , 7 Str , 7 Dex",5,7,
+Guarded Helm,Guarded_Helm,Helmets_str_dex,,,,,,,"Level 11 , 11 Str , 11 Dex",11,11,
+Visored Helm,Visored_Helm,Helmets_str_dex,,,,,,,"Level 16 , 15 Str , 15 Dex",16,15,
+Cowled Helm,Cowled_Helm,Helmets_str_dex,,,,,,,"Level 26 , 22 Str , 22 Dex",26,22,
+Shielded Helm,Shielded_Helm,Helmets_str_dex,,,,,,,"Level 33 , 27 Str , 27 Dex",33,27,
+Closed Helm,Closed_Helm,Helmets_str_dex,,,,,,,"Level 45 , 36 Str , 36 Dex",45,36,
+Decorated Helm,Decorated_Helm,Helmets_str_dex,,,,,,,"Level 52 , 41 Str , 41 Dex",52,41,
+Gallant Helm,Gallant_Helm,Helmets_str_dex,,,,,,,"Level 65 , 50 Str , 50 Dex",65,50,
+Ancient Visor,Ancient_Visor,Helmets_str_dex,,,,,,,"Level 65 , 59 Str , 59 Dex",65,59,
+Domed Helm,Domed_Helm,Helmets_str_dex,,,,,,,"Level 45 , 36 Str , 36 Dex",45,36,
+Engraved Helm,Engraved_Helm,Helmets_str_dex,,,,,,,"Level 48 , 38 Str , 38 Dex",48,38,
+Soldier Helm,Soldier_Helm,Helmets_str_dex,,,,,,,"Level 51 , 40 Str , 40 Dex",51,40,
+Cabalist Helm,Cabalist_Helm,Helmets_str_dex,,,,,,,"Level 54 , 42 Str , 42 Dex",54,42,
+Cassis Helm,Cassis_Helm,Helmets_str_dex,,,,,,,"Level 59 , 46 Str , 46 Dex",59,46,
+Warded Helm,Warded_Helm,Helmets_str_dex,,,,,,,"Level 65 , 50 Str , 50 Dex",65,50,
+Cryptic Helm,Cryptic_Helm,Helmets_str_dex,,,,,,,"Level 70 , 54 Str , 54 Dex",70,54,
+Champion Helm,Champion_Helm,Helmets_str_dex,,,,,,,"Level 75 , 59 Str , 59 Dex",75,59,
+Gladiatorial Helm,Gladiatorial_Helm,Helmets_str_dex,,,,,,,"Level 80 , 63 Str , 63 Dex",80,63,
+Runeforged Brimmed Helm,Runeforged_Brimmed_Helm,Helmets_str_dex,,,,,,,"Level 5 , 7 Str , 7 Dex",5,7,
+Runeforged Guarded Helm,Runeforged_Guarded_Helm,Helmets_str_dex,,,,,,,"Level 11 , 11 Str , 11 Dex",11,11,
+Runeforged Visored Helm,Runeforged_Visored_Helm,Helmets_str_dex,,,,,,,"Level 16 , 15 Str , 15 Dex",16,15,
+Runeforged Cowled Helm,Runeforged_Cowled_Helm,Helmets_str_dex,,,,,,,"Level 26 , 22 Str , 22 Dex",26,22,
+Runeforged Shielded Helm,Runeforged_Shielded_Helm,Helmets_str_dex,,,,,,,"Level 33 , 27 Str , 27 Dex",33,27,
+Runeforged Closed Helm,Runeforged_Closed_Helm,Helmets_str_dex,,,,,,,"Level 45 , 36 Str , 36 Dex",45,36,
+Runeforged Cabalist Helm,Runeforged_Cabalist_Helm,Helmets_str_dex,,,,,,,"Level 54 , 42 Str , 42 Dex",54,42,
+Runeforged Gladiatorial Helm,Runeforged_Gladiatorial_Helm,Helmets_str_dex,,,,,,,"Level 59 , 46 Str , 46 Dex",59,46,
+Runeforged Warded Helm,Runeforged_Warded_Helm,Helmets_str_dex,,,,,,,"Level 65 , 50 Str , 50 Dex",65,50,
+Runeforged Cryptic Helm,Runeforged_Cryptic_Helm,Helmets_str_dex,,,,,,,"Level 70 , 54 Str , 54 Dex",70,54,
+Runeforged Champion Helm,Runeforged_Champion_Helm,Helmets_str_dex,,,,,,,"Level 75 , 59 Str , 59 Dex",75,59,
+Runeforged Gladiatorial Helm,Runeforged_Gladiatorial_Helm,Helmets_str_dex,,,,,,,"Level 80 , 63 Str , 63 Dex",80,63,
+Runemastered Brimmed Helm,Runemastered_Brimmed_Helm,Helmets_str_dex,,,,,,,"Level 38 , 31 Str , 31 Dex",38,31,
+Runemastered Guarded Helm,Runemastered_Guarded_Helm,Helmets_str_dex,,,,,,,"Level 38 , 31 Str , 31 Dex",38,31,
+Runemastered Visored Helm,Runemastered_Visored_Helm,Helmets_str_dex,,,,,,,"Level 38 , 31 Str , 31 Dex",38,31,
+Runemastered Cowled Helm,Runemastered_Cowled_Helm,Helmets_str_dex,,,,,,,"Level 40 , 32 Str , 32 Dex",40,32,
+Runemastered Shielded Helm,Runemastered_Shielded_Helm,Helmets_str_dex,,,,,,,"Level 55 , 43 Str , 43 Dex",55,43,
+Runemastered Decorated Helm,Runemastered_Decorated_Helm,Helmets_str_dex,,,,,,,"Level 65 , 50 Str , 50 Dex",65,50,
+Runemastered Ancient Visor,Runemastered_Ancient_Visor,Helmets_str_dex,,,,,,,"Level 65 , 59 Str , 59 Dex",65,59,
+Iron Crown,Iron_Crown,Helmets_str_int,,,,,,,"Level 5 , 7 Str , 7 Int",5,,
+Horned Crown,Horned_Crown,Helmets_str_int,,,,,,,"Level 10 , 10 Str , 10 Int",10,,
+Cultist Crown,Cultist_Crown,Helmets_str_int,,,,,,,"Level 16 , 15 Str , 15 Int",16,,
+Martyr Crown,Martyr_Crown,Helmets_str_int,,,,,,,"Level 28 , 23 Str , 23 Int",28,,
+Heavy Crown,Heavy_Crown,Helmets_str_int,,,,,,,"Level 33 , 27 Str , 27 Int",33,,
+Spiritbone Crown,Spiritbone_Crown,Helmets_str_int,,,,,,,"Level 45 , 36 Str , 36 Int",45,,
+Lavish Crown,Lavish_Crown,Helmets_str_int,,,,,,,"Level 52 , 41 Str , 41 Int",52,,
+Archon Crown,Archon_Crown,Helmets_str_int,,,,,,,"Level 65 , 50 Str , 50 Int",65,,
+Tenebrous Crown,Tenebrous_Crown,Helmets_str_int,,,,,,,"Level 65 , 59 Str , 59 Int",65,,
+Mailed Crown,Mailed_Crown,Helmets_str_int,,,,,,,"Level 45 , 36 Str , 36 Int",45,,
+Forest Crown,Forest_Crown,Helmets_str_int,,,,,,,"Level 48 , 38 Str , 38 Int",48,,
+Zealot Crown,Zealot_Crown,Helmets_str_int,,,,,,,"Level 51 , 40 Str , 40 Int",51,,
+Hallowed Crown,Hallowed_Crown,Helmets_str_int,,,,,,,"Level 54 , 42 Str , 42 Int",54,,
+Inquisitor Crown,Inquisitor_Crown,Helmets_str_int,,,,,,,"Level 59 , 46 Str , 46 Int",59,,
+Druidic Crown,Druidic_Crown,Helmets_str_int,,,,,,,"Level 65 , 50 Str , 50 Int",65,,
+Saintly Crown,Saintly_Crown,Helmets_str_int,,,,,,,"Level 70 , 54 Str , 54 Int",70,,
+Divine Crown,Divine_Crown,Helmets_str_int,,,,,,,"Level 75 , 59 Str , 59 Int",75,,
+Cryptic Crown,Cryptic_Crown,Helmets_str_int,,,,,,,"Level 80 , 63 Str , 63 Int",80,,
+Runeforged Iron Crown,Runeforged_Iron_Crown,Helmets_str_int,,,,,,,"Level 5 , 7 Str , 7 Int",5,,
+Runeforged Horned Crown,Runeforged_Horned_Crown,Helmets_str_int,,,,,,,"Level 10 , 10 Str , 10 Int",10,,
+Runeforged Cultist Crown,Runeforged_Cultist_Crown,Helmets_str_int,,,,,,,"Level 16 , 15 Str , 15 Int",16,,
+Runeforged Martyr Crown,Runeforged_Martyr_Crown,Helmets_str_int,,,,,,,"Level 28 , 23 Str , 23 Int",28,,
+Runeforged Heavy Crown,Runeforged_Heavy_Crown,Helmets_str_int,,,,,,,"Level 33 , 27 Str , 27 Int",33,,
+Runeforged Spiritbone Crown,Runeforged_Spiritbone_Crown,Helmets_str_int,,,,,,,"Level 45 , 36 Str , 36 Int",45,,
+Runeforged Hallowed Crown,Runeforged_Hallowed_Crown,Helmets_str_int,,,,,,,"Level 54 , 42 Str , 42 Int",54,,
+Runeforged Inquisitor Crown,Runeforged_Inquisitor_Crown,Helmets_str_int,,,,,,,"Level 59 , 46 Str , 46 Int",59,,
+Runeforged Druidic Crown,Runeforged_Druidic_Crown,Helmets_str_int,,,,,,,"Level 65 , 50 Str , 50 Int",65,,
+Runeforged Saintly Crown,Runeforged_Saintly_Crown,Helmets_str_int,,,,,,,"Level 70 , 54 Str , 54 Int",70,,
+Runeforged Divine Crown,Runeforged_Divine_Crown,Helmets_str_int,,,,,,,"Level 75 , 59 Str , 59 Int",75,,
+Runeforged Cryptic Crown,Runeforged_Cryptic_Crown,Helmets_str_int,,,,,,,"Level 80 , 63 Str , 63 Int",80,,
+Runemastered Iron Crown,Runemastered_Iron_Crown,Helmets_str_int,,,,,,,"Level 38 , 31 Str , 31 Int",38,,
+Runemastered Horned Crown,Runemastered_Horned_Crown,Helmets_str_int,,,,,,,"Level 38 , 31 Str , 31 Int",38,,
+Runemastered Cultist Crown,Runemastered_Cultist_Crown,Helmets_str_int,,,,,,,"Level 38 , 31 Str , 31 Int",38,,
+Runemastered Martyr Crown,Runemastered_Martyr_Crown,Helmets_str_int,,,,,,,"Level 40 , 32 Str , 32 Int",40,,
+Runemastered Heavy Crown,Runemastered_Heavy_Crown,Helmets_str_int,,,,,,,"Level 55 , 43 Str , 43 Int",55,,
+Runemastered Spiritbone Crown,Runemastered_Spiritbone_Crown,Helmets_str_int,,,,,,,"Level 65 , 50 Str , 50 Int",65,,Has 3 Sockets
+Runemastered Spiritbone Crown,Runemastered_Spiritbone_Crown,Helmets_str_int,,,,,,,"Level 65 , 50 Str , 50 Int",65,,(25 - 50) % increased Runic Ward Regeneration Rate | +250 Intelligence Requirement | 100 % reduced Duration of Curses on you
+Runemastered Spiritbone Crown,Runemastered_Spiritbone_Crown,Helmets_str_int,,,,,,,"Level 65 , 50 Str , 50 Int",65,,"Every 5 seconds, gain a Verisium Infusion"
+Runemastered Tenebrous Crown,Runemastered_Tenebrous_Crown,Helmets_str_int,,,,,,,"Level 65 , 59 Str , 59 Int",65,,
+Hewn Mask,Hewn_Mask,Helmets_dex_int,,,,,,,"Level 5 , 7 Dex , 7 Int",5,7,
+Face Mask,Face_Mask,Helmets_dex_int,,,,,,,"Level 10 , 10 Dex , 10 Int",10,10,
+Hooded Mask,Hooded_Mask,Helmets_dex_int,,,,,,,"Level 16 , 15 Dex , 15 Int",16,15,
+Veiled Mask,Veiled_Mask,Helmets_dex_int,,,,,,,"Level 28 , 23 Dex , 23 Int",28,23,
+Tribal Mask,Tribal_Mask,Helmets_dex_int,,,,,,,"Level 33 , 27 Dex , 27 Int",33,27,
+Solid Mask,Solid_Mask,Helmets_dex_int,,,,,,,"Level 45 , 36 Dex , 36 Int",45,36,
+Shaded Mask,Shaded_Mask,Helmets_dex_int,,,,,,,"Level 52 , 41 Dex , 41 Int",52,41,
+Death Mask,Death_Mask,Helmets_dex_int,,,,,,,"Level 65 , 50 Dex , 50 Int",65,50,
+Oak Mask,Oak_Mask,Helmets_dex_int,,,,,,,"Level 45 , 36 Dex , 36 Int",45,36,
+Bandit Mask,Bandit_Mask,Helmets_dex_int,,,,,,,"Level 48 , 38 Dex , 38 Int",48,38,
+Skulking Mask,Skulking_Mask,Helmets_dex_int,,,,,,,"Level 51 , 40 Dex , 40 Int",51,40,
+Pariah Mask,Pariah_Mask,Helmets_dex_int,,,,,,,"Level 54 , 42 Dex , 42 Int",54,42,
+Avian Mask,Avian_Mask,Helmets_dex_int,,,,,,,"Level 59 , 46 Dex , 46 Int",59,46,
+Brigand Mask,Brigand_Mask,Helmets_dex_int,,,,,,,"Level 65 , 50 Dex , 50 Int",65,50,
+Faridun Mask,Faridun_Mask,Helmets_dex_int,,,,,,,"Level 70 , 54 Dex , 54 Int",70,54,
+Soaring Mask,Soaring_Mask,Helmets_dex_int,,,,,,,"Level 75 , 59 Dex , 59 Int",75,59,
+Grinning Mask,Grinning_Mask,Helmets_dex_int,,,,,,,"Level 80 , 63 Dex , 63 Int",80,63,
+Runeforged Hewn Mask,Runeforged_Hewn_Mask,Helmets_dex_int,,,,,,,"Level 5 , 7 Dex , 7 Int",5,7,
+Runeforged Face Mask,Runeforged_Face_Mask,Helmets_dex_int,,,,,,,"Level 10 , 10 Dex , 10 Int",10,10,
+Runeforged Hooded Mask,Runeforged_Hooded_Mask,Helmets_dex_int,,,,,,,"Level 16 , 15 Dex , 15 Int",16,15,
+Runeforged Veiled Mask,Runeforged_Veiled_Mask,Helmets_dex_int,,,,,,,"Level 28 , 23 Dex , 23 Int",28,23,
+Runeforged Tribal Mask,Runeforged_Tribal_Mask,Helmets_dex_int,,,,,,,"Level 33 , 27 Dex , 27 Int",33,27,
+Runeforged Solid Mask,Runeforged_Solid_Mask,Helmets_dex_int,,,,,,,"Level 45 , 36 Dex , 36 Int",45,36,
+Runeforged Pariah Mask,Runeforged_Pariah_Mask,Helmets_dex_int,,,,,,,"Level 54 , 42 Dex , 42 Int",54,42,
+Runeforged Avian Mask,Runeforged_Avian_Mask,Helmets_dex_int,,,,,,,"Level 59 , 46 Dex , 46 Int",59,46,
+Runeforged Brigand Mask,Runeforged_Brigand_Mask,Helmets_dex_int,,,,,,,"Level 65 , 50 Dex , 50 Int",65,50,
+Runeforged Faridun Mask,Runeforged_Faridun_Mask,Helmets_dex_int,,,,,,,"Level 70 , 54 Dex , 54 Int",70,54,
+Runeforged Soaring Mask,Runeforged_Soaring_Mask,Helmets_dex_int,,,,,,,"Level 75 , 59 Dex , 59 Int",75,59,
+Runeforged Grinning Mask,Runeforged_Grinning_Mask,Helmets_dex_int,,,,,,,"Level 80 , 63 Dex , 63 Int",80,63,
+Runemastered Hewn Mask,Runemastered_Hewn_Mask,Helmets_dex_int,,,,,,,"Level 38 , 31 Dex , 31 Int",38,31,
+Runemastered Face Mask,Runemastered_Face_Mask,Helmets_dex_int,,,,,,,"Level 38 , 31 Dex , 31 Int",38,31,
+Runemastered Hooded Mask,Runemastered_Hooded_Mask,Helmets_dex_int,,,,,,,"Level 38 , 31 Dex , 31 Int",38,31,
+Runemastered Veiled Mask,Runemastered_Veiled_Mask,Helmets_dex_int,,,,,,,"Level 40 , 32 Dex , 32 Int",40,32,
+Runemastered Tribal Mask,Runemastered_Tribal_Mask,Helmets_dex_int,,,,,,,"Level 52 , 41 Dex , 41 Int",52,41,
+Runemastered Solid Mask,Runemastered_Solid_Mask,Helmets_dex_int,,,,,,,"Level 55 , 43 Dex , 43 Int",55,43,
+Runemastered Death Mask,Runemastered_Death_Mask,Helmets_dex_int,,,,,,,"Level 65 , 50 Dex , 50 Int",65,50,
+Broadhead Quiver,Broadhead_Quiver,Quivers,,,,,,,,,,Adds 1 to 3 Physical Damage to Attacks
+Fire Quiver,Fire_Quiver,Quivers,,,,,,,Level 8,8,,Adds 3 to 5 Fire damage to Attacks
+Sacral Quiver,Sacral_Quiver,Quivers,,,,,,,Level 16,16,,Gain (2 - 3) Life per Enemy Hit with Attacks
+Two-Point Quiver,Two-Point_Quiver,Quivers,,,,,,,Level 24,24,,(20 - 30) % increased Accuracy Rating
+Blunt Quiver,Blunt_Quiver,Quivers,,,,,,,Level 33,33,,(25 - 40) % increased Stun Buildup
+Toxic Quiver,Toxic_Quiver,Quivers,,,,,,,Level 39,39,,(20 - 30) % chance to Poison on Hit with Attacks
+Serrated Quiver,Serrated_Quiver,Quivers,,,,,,,Level 44,44,,Attacks have (20 - 30) % chance to cause Bleeding
+Primed Quiver,Primed_Quiver,Quivers,,,,,,,Level 51,51,,(7 - 10) % increased Attack Speed
+Penetrating Quiver,Penetrating_Quiver,Quivers,,,,,,,Level 55,55,,100 % chance to Pierce an Enemy
+Volant Quiver,Volant_Quiver,Quivers,,,,,,,Level 61,61,,(20 - 30) % increased Arrow Speed
+Visceral Quiver,Visceral_Quiver,Quivers,,,,,,,Level 65,65,,(20 - 30) % increased Critical Hit Chance for Attacks
+Splintered Tower Shield,Splintered_Tower_Shield,Shields_str,,,,,,,,,,Grants Skill: Raise Shield
+Painted Tower Shield,Painted_Tower_Shield,Shields_str,,,,,,,"Level 6 , 11 Str",6,,Grants Skill: Raise Shield
+Braced Tower Shield,Braced_Tower_Shield,Shields_str,,,,,,,"Level 12 , 19 Str",12,,Grants Skill: Raise Shield
+Barricade Tower Shield,Barricade_Tower_Shield,Shields_str,,,,,,,"Level 16 , 25 Str",16,,Grants Skill: Raise Shield
+Effigial Tower Shield,Effigial_Tower_Shield,Shields_str,,,,,,,"Level 21 , 32 Str",21,,Grants Skill: Raise Shield
+Rampart Tower Shield,Rampart_Tower_Shield,Shields_str,,,,,,,"Level 28 , 42 Str",28,,Grants Skill: Raise Shield
+Heraldric Tower Shield,Heraldric_Tower_Shield,Shields_str,,,,,,,"Level 33 , 48 Str",33,,Grants Skill: Raise Shield
+Stone Tower Shield,Stone_Tower_Shield,Shields_str,,,,,,,"Level 36 , 52 Str",36,,Grants Skill: Raise Shield
+Crucible Tower Shield,Crucible_Tower_Shield,Shields_str,,,,,,,"Level 45 , 64 Str",45,,Grants Skill: Raise Shield
+Ancestor Tower Shield,Ancestor_Tower_Shield,Shields_str,,,,,,,"Level 50 , 71 Str",50,,Grants Skill: Raise Shield
+Phalanx Tower Shield,Phalanx_Tower_Shield,Shields_str,,,,,,,"Level 52 , 74 Str",52,,Grants Skill: Raise Shield
+Defiant Tower Shield,Defiant_Tower_Shield,Shields_str,,,,,,,"Level 58 , 82 Str",58,,Grants Skill: Raise Shield
+Blacksteel Tower Shield,Blacksteel_Tower_Shield,Shields_str,,,,,,,"Level 65 , 91 Str",65,,Grants Skill: Raise Shield
+Aged Tower Shield,Aged_Tower_Shield,Shields_str,,,,,,,"Level 45 , 64 Str",45,,Grants Skill: Raise Shield
+Metalworked Tower Shield,Metalworked_Tower_Shield,Shields_str,,,,,,,"Level 48 , 69 Str",48,,Grants Skill: Raise Shield
+Cultist Tower Shield,Cultist_Tower_Shield,Shields_str,,,,,,,"Level 51 , 73 Str",51,,Grants Skill: Raise Shield
+Bulwark Tower Shield,Bulwark_Tower_Shield,Shields_str,,,,,,,"Level 54 , 77 Str",54,,Grants Skill: Raise Shield
+Noble Tower Shield,Noble_Tower_Shield,Shields_str,,,,,,,"Level 59 , 83 Str",59,,Grants Skill: Raise Shield
+Goldworked Tower Shield,Goldworked_Tower_Shield,Shields_str,,,,,,,"Level 61 , 86 Str",61,,Grants Skill: Raise Shield
+Royal Tower Shield,Royal_Tower_Shield,Shields_str,,,,,,,"Level 65 , 91 Str",65,,Grants Skill: Raise Shield
+Fortress Tower Shield,Fortress_Tower_Shield,Shields_str,,,,,,,"Level 70 , 99 Str",70,,Grants Skill: Raise Shield
+Vaal Tower Shield,Vaal_Tower_Shield,Shields_str,,,,,,,"Level 75 , 107 Str",75,,Grants Skill: Raise Shield
+Tawhoan Tower Shield,Tawhoan_Tower_Shield,Shields_str,,,,,,,"Level 80 , 115 Str",80,,Grants Skill: Raise Shield
+Glacial Fortress,Glacial_Fortress,Shields_str,,,,,,,"Level 70 , 99 Str",70,,Grants Skill: Raise Shield
+Runeforged Splintered Tower Shield,Runeforged_Splintered_Tower_Shield,Shields_str,,,,,,,,,,Grants Skill: Raise Shield
+Runeforged Painted Tower Shield,Runeforged_Painted_Tower_Shield,Shields_str,,,,,,,"Level 6 , 11 Str",6,,Grants Skill: Raise Shield
+Runeforged Braced Tower Shield,Runeforged_Braced_Tower_Shield,Shields_str,,,,,,,"Level 12 , 19 Str",12,,Grants Skill: Raise Shield
+Runeforged Barricade Tower Shield,Runeforged_Barricade_Tower_Shield,Shields_str,,,,,,,"Level 16 , 25 Str",16,,Grants Skill: Raise Shield
+Runeforged Effigial Tower Shield,Runeforged_Effigial_Tower_Shield,Shields_str,,,,,,,"Level 21 , 32 Str",21,,Grants Skill: Raise Shield
+Runeforged Rampart Tower Shield,Runeforged_Rampart_Tower_Shield,Shields_str,,,,,,,"Level 28 , 42 Str",28,,Grants Skill: Raise Shield
+Runeforged Heraldric Tower Shield,Runeforged_Heraldric_Tower_Shield,Shields_str,,,,,,,"Level 33 , 48 Str",33,,Grants Skill: Raise Shield
+Runeforged Stone Tower Shield,Runeforged_Stone_Tower_Shield,Shields_str,,,,,,,"Level 36 , 52 Str",36,,Grants Skill: Raise Shield
+Runeforged Crucible Tower Shield,Runeforged_Crucible_Tower_Shield,Shields_str,,,,,,,"Level 45 , 64 Str",45,,Grants Skill: Raise Shield
+Runeforged Bulwark Tower Shield,Runeforged_Bulwark_Tower_Shield,Shields_str,,,,,,,"Level 54 , 77 Str",54,,Grants Skill: Raise Shield
+Runeforged Noble Tower Shield,Runeforged_Noble_Tower_Shield,Shields_str,,,,,,,"Level 59 , 83 Str",59,,Grants Skill: Raise Shield
+Runeforged Goldworked Tower Shield,Runeforged_Goldworked_Tower_Shield,Shields_str,,,,,,,"Level 61 , 86 Str",61,,Grants Skill: Raise Shield
+Runeforged Royal Tower Shield,Runeforged_Royal_Tower_Shield,Shields_str,,,,,,,"Level 65 , 91 Str",65,,Grants Skill: Raise Shield
+Runeforged Fortress Tower Shield,Runeforged_Fortress_Tower_Shield,Shields_str,,,,,,,"Level 70 , 99 Str",70,,Grants Skill: Raise Shield
+Runeforged Vaal Tower Shield,Runeforged_Vaal_Tower_Shield,Shields_str,,,,,,,"Level 75 , 107 Str",75,,Grants Skill: Raise Shield
+Runeforged Tawhoan Tower Shield,Runeforged_Tawhoan_Tower_Shield,Shields_str,,,,,,,"Level 80 , 115 Str",80,,Grants Skill: Raise Shield
+Runemastered Splintered Tower Shield,Runemastered_Splintered_Tower_Shield,Shields_str,,,,,,,"Level 38 , 54 Str",38,,Grants Skill: Raise Shield
+Runemastered Painted Tower Shield,Runemastered_Painted_Tower_Shield,Shields_str,,,,,,,"Level 38 , 54 Str",38,,Grants Skill: Raise Shield
+Runemastered Braced Tower Shield,Runemastered_Braced_Tower_Shield,Shields_str,,,,,,,"Level 38 , 54 Str",38,,Grants Skill: Raise Shield
+Runemastered Barricade Tower Shield,Runemastered_Barricade_Tower_Shield,Shields_str,,,,,,,"Level 38 , 54 Str",38,,Grants Skill: Raise Shield
+Runemastered Rampart Tower Shield,Runemastered_Rampart_Tower_Shield,Shields_str,,,,,,,"Level 40 , 58 Str",40,,Grants Skill: Raise Shield
+Runemastered Heraldric Tower Shield,Runemastered_Heraldric_Tower_Shield,Shields_str,,,,,,,"Level 50 , 71 Str",50,,Grants Skill: Raise Shield
+Runemastered Crucible Tower Shield,Runemastered_Crucible_Tower_Shield,Shields_str,,,,,,,"Level 65 , 91 Str",65,,Grants Skill: Raise Shield | Recover (15 - 25) Runic Ward when you Block
+Runemastered Crucible Tower Shield,Runemastered_Crucible_Tower_Shield,Shields_str,,,,,,,"Level 65 , 91 Str",65,,Grants Skill: Raise Shield | (15 - 25) % of Damage is taken from Mana before Life
+Runemastered Blacksteel Tower Shield,Runemastered_Blacksteel_Tower_Shield,Shields_str,,,,,,,"Level 65 , 91 Str",65,,Grants Skill: Raise Shield
+Runemastered Vaal Tower Shield,Runemastered_Vaal_Tower_Shield,Shields_str,,,,,,,"Level 75 , 107 Str",75,,Grants Skill: Raise Shield
+Runemastered Glacial Fortress,Runemastered_Glacial_Fortress,Shields_str,,,,,,,"Level 70 , 99 Str",70,,Grants Skill: Raise Shield
+Hardwood Targe,Hardwood_Targe,Shields_str_dex,,,,,,,,,,Grants Skill: Raise Shield
+Pelage Targe,Pelage_Targe,Shields_str_dex,,,,,,,"Level 8 , 9 Str , 9 Dex",8,9,Grants Skill: Raise Shield
+Studded Targe,Studded_Targe,Shields_str_dex,,,,,,,"Level 16 , 15 Str , 15 Dex",16,15,Grants Skill: Raise Shield
+Crescent Targe,Crescent_Targe,Shields_str_dex,,,,,,,"Level 26 , 22 Str , 22 Dex",26,22,Grants Skill: Raise Shield
+Chiseled Targe,Chiseled_Targe,Shields_str_dex,,,,,,,"Level 33 , 27 Str , 27 Dex",33,27,Grants Skill: Raise Shield
+Feathered Targe,Feathered_Targe,Shields_str_dex,,,,,,,"Level 37 , 30 Str , 30 Dex",37,30,Grants Skill: Raise Shield
+Stratified Targe,Stratified_Targe,Shields_str_dex,,,,,,,"Level 46 , 37 Str , 37 Dex",46,37,Grants Skill: Raise Shield
+Carved Targe,Carved_Targe,Shields_str_dex,,,,,,,"Level 51 , 40 Str , 40 Dex",51,40,Grants Skill: Raise Shield
+Mosaic Targe,Mosaic_Targe,Shields_str_dex,,,,,,,"Level 52 , 41 Str , 41 Dex",52,41,Grants Skill: Raise Shield
+Aureate Targe,Aureate_Targe,Shields_str_dex,,,,,,,"Level 57 , 45 Str , 45 Dex",57,45,Grants Skill: Raise Shield
+Grand Targe,Grand_Targe,Shields_str_dex,,,,,,,"Level 65 , 50 Str , 50 Dex",65,50,Grants Skill: Raise Shield
+Ironwood Targe,Ironwood_Targe,Shields_str_dex,,,,,,,"Level 45 , 36 Str , 36 Dex",45,36,Grants Skill: Raise Shield
+Fur-lined Targe,Fur-lined_Targe,Shields_str_dex,,,,,,,"Level 48 , 38 Str , 38 Dex",48,38,Grants Skill: Raise Shield
+Mercenary Targe,Mercenary_Targe,Shields_str_dex,,,,,,,"Level 51 , 40 Str , 40 Dex",51,40,Grants Skill: Raise Shield
+Polished Targe,Polished_Targe,Shields_str_dex,,,,,,,"Level 54 , 42 Str , 42 Dex",54,42,Grants Skill: Raise Shield
+Stone Targe,Stone_Targe,Shields_str_dex,,,,,,,"Level 59 , 46 Str , 46 Dex",59,46,Grants Skill: Raise Shield
+Avian Targe,Avian_Targe,Shields_str_dex,,,,,,,"Level 62 , 48 Str , 48 Dex",62,48,Grants Skill: Raise Shield
+Mammoth Targe,Mammoth_Targe,Shields_str_dex,,,,,,,"Level 65 , 50 Str , 50 Dex",65,50,Grants Skill: Raise Shield
+Baroque Targe,Baroque_Targe,Shields_str_dex,,,,,,,"Level 70 , 54 Str , 54 Dex",70,54,Grants Skill: Raise Shield
+Soaring Targe,Soaring_Targe,Shields_str_dex,,,,,,,"Level 75 , 59 Str , 59 Dex",75,59,Grants Skill: Raise Shield
+Golden Targe,Golden_Targe,Shields_str_dex,,,,,,,"Level 80 , 63 Str , 63 Dex",80,63,Grants Skill: Raise Shield
+Venerable Defender,Venerable_Defender,Shields_str_dex,,,,,,,"Level 62 , 64 Str , 64 Dex",62,64,Grants Skill: Raise Shield
+Runeforged Hardwood Targe,Runeforged_Hardwood_Targe,Shields_str_dex,,,,,,,,,,Grants Skill: Raise Shield
+Runeforged Pelage Targe,Runeforged_Pelage_Targe,Shields_str_dex,,,,,,,"Level 8 , 9 Str , 9 Dex",8,9,Grants Skill: Raise Shield
+Runeforged Studded Targe,Runeforged_Studded_Targe,Shields_str_dex,,,,,,,"Level 16 , 15 Str , 15 Dex",16,15,Grants Skill: Raise Shield
+Runeforged Crescent Targe,Runeforged_Crescent_Targe,Shields_str_dex,,,,,,,"Level 26 , 22 Str , 22 Dex",26,22,Grants Skill: Raise Shield
+Runeforged Chiseled Targe,Runeforged_Chiseled_Targe,Shields_str_dex,,,,,,,"Level 33 , 27 Str , 27 Dex",33,27,Grants Skill: Raise Shield
+Runeforged Feathered Targe,Runeforged_Feathered_Targe,Shields_str_dex,,,,,,,"Level 37 , 30 Str , 30 Dex",37,30,Grants Skill: Raise Shield
+Runeforged Stratified Targe,Runeforged_Stratified_Targe,Shields_str_dex,,,,,,,"Level 46 , 37 Str , 37 Dex",46,37,Grants Skill: Raise Shield
+Runeforged Carved Targe,Runeforged_Carved_Targe,Shields_str_dex,,,,,,,"Level 51 , 40 Str , 40 Dex",51,40,Grants Skill: Raise Shield
+Runeforged Polished Targe,Runeforged_Polished_Targe,Shields_str_dex,,,,,,,"Level 54 , 42 Str , 42 Dex",54,42,Grants Skill: Raise Shield
+Runeforged Stone Targe,Runeforged_Stone_Targe,Shields_str_dex,,,,,,,"Level 59 , 46 Str , 46 Dex",59,46,Grants Skill: Raise Shield
+Runeforged Avian Targe,Runeforged_Avian_Targe,Shields_str_dex,,,,,,,"Level 62 , 48 Str , 48 Dex",62,48,Grants Skill: Raise Shield
+Runeforged Mammoth Targe,Runeforged_Mammoth_Targe,Shields_str_dex,,,,,,,"Level 65 , 50 Str , 50 Dex",65,50,Grants Skill: Raise Shield
+Runeforged Baroque Targe,Runeforged_Baroque_Targe,Shields_str_dex,,,,,,,"Level 70 , 54 Str , 54 Dex",70,54,Grants Skill: Raise Shield
+Runeforged Soaring Targe,Runeforged_Soaring_Targe,Shields_str_dex,,,,,,,"Level 75 , 59 Str , 59 Dex",75,59,Grants Skill: Raise Shield
+Runeforged Golden Targe,Runeforged_Golden_Targe,Shields_str_dex,,,,,,,"Level 80 , 63 Str , 63 Dex",80,63,Grants Skill: Raise Shield
+Blazon Crest Shield,Blazon_Crest_Shield,Shields_str_int,,,,,,,,,,Grants Skill: Raise Shield
+Sigil Crest Shield,Sigil_Crest_Shield,Shields_str_int,,,,,,,"Level 7 , 8 Str , 8 Int",7,,Grants Skill: Raise Shield
+Emblem Crest Shield,Emblem_Crest_Shield,Shields_str_int,,,,,,,"Level 16 , 15 Str , 15 Int",16,,Grants Skill: Raise Shield
+Jingling Crest Shield,Jingling_Crest_Shield,Shields_str_int,,,,,,,"Level 28 , 23 Str , 23 Int",28,,Grants Skill: Raise Shield
+Sectarian Crest Shield,Sectarian_Crest_Shield,Shields_str_int,,,,,,,"Level 33 , 27 Str , 27 Int",33,,Grants Skill: Raise Shield
+Omen Crest Shield,Omen_Crest_Shield,Shields_str_int,,,,,,,"Level 36 , 30 Str , 30 Int",36,,Grants Skill: Raise Shield
+Wayward Crest Shield,Wayward_Crest_Shield,Shields_str_int,,,,,,,"Level 45 , 36 Str , 36 Int",45,,Grants Skill: Raise Shield
+Seer Crest Shield,Seer_Crest_Shield,Shields_str_int,,,,,,,"Level 50 , 39 Str , 39 Int",50,,Grants Skill: Raise Shield
+Stoic Crest Shield,Stoic_Crest_Shield,Shields_str_int,,,,,,,"Level 52 , 41 Str , 41 Int",52,,Grants Skill: Raise Shield
+Empyreal Crest Shield,Empyreal_Crest_Shield,Shields_str_int,,,,,,,"Level 57 , 45 Str , 45 Int",57,,Grants Skill: Raise Shield
+Deified Crest Shield,Deified_Crest_Shield,Shields_str_int,,,,,,,"Level 65 , 50 Str , 50 Int",65,,Grants Skill: Raise Shield
+Painted Crest Shield,Painted_Crest_Shield,Shields_str_int,,,,,,,"Level 45 , 36 Str , 36 Int",45,,Grants Skill: Raise Shield
+Engraved Crest Shield,Engraved_Crest_Shield,Shields_str_int,,,,,,,"Level 48 , 38 Str , 38 Int",48,,Grants Skill: Raise Shield
+Descry Crest Shield,Descry_Crest_Shield,Shields_str_int,,,,,,,"Level 51 , 40 Str , 40 Int",51,,Grants Skill: Raise Shield
+Dekharan Crest Shield,Dekharan_Crest_Shield,Shields_str_int,,,,,,,"Level 54 , 42 Str , 42 Int",54,,Grants Skill: Raise Shield
+Quartered Crest Shield,Quartered_Crest_Shield,Shields_str_int,,,,,,,"Level 59 , 46 Str , 46 Int",59,,Grants Skill: Raise Shield
+Glowering Crest Shield,Glowering_Crest_Shield,Shields_str_int,,,,,,,"Level 62 , 48 Str , 48 Int",62,,Grants Skill: Raise Shield
+Intricate Crest Shield,Intricate_Crest_Shield,Shields_str_int,,,,,,,"Level 65 , 50 Str , 50 Int",65,,Grants Skill: Raise Shield
+Sekheman Crest Shield,Sekheman_Crest_Shield,Shields_str_int,,,,,,,"Level 70 , 54 Str , 54 Int",70,,Grants Skill: Raise Shield
+Vaal Crest Shield,Vaal_Crest_Shield,Shields_str_int,,,,,,,"Level 75 , 59 Str , 59 Int",75,,Grants Skill: Raise Shield
+Blacksteel Crest Shield,Blacksteel_Crest_Shield,Shields_str_int,,,,,,,"Level 80 , 63 Str , 63 Int",80,,Grants Skill: Raise Shield
+Runeforged Blazon Crest Shield,Runeforged_Blazon_Crest_Shield,Shields_str_int,,,,,,,,,,Grants Skill: Raise Shield
+Runeforged Sigil Crest Shield,Runeforged_Sigil_Crest_Shield,Shields_str_int,,,,,,,"Level 7 , 8 Str , 8 Int",7,,Grants Skill: Raise Shield
+Runeforged Emblem Crest Shield,Runeforged_Emblem_Crest_Shield,Shields_str_int,,,,,,,"Level 16 , 15 Str , 15 Int",16,,Grants Skill: Raise Shield
+Runeforged Jingling Crest Shield,Runeforged_Jingling_Crest_Shield,Shields_str_int,,,,,,,"Level 28 , 23 Str , 23 Int",28,,Grants Skill: Raise Shield
+Runeforged Sectarian Crest Shield,Runeforged_Sectarian_Crest_Shield,Shields_str_int,,,,,,,"Level 33 , 27 Str , 27 Int",33,,Grants Skill: Raise Shield
+Runeforged Omen Crest Shield,Runeforged_Omen_Crest_Shield,Shields_str_int,,,,,,,"Level 36 , 30 Str , 30 Int",36,,Grants Skill: Raise Shield
+Runeforged Wayward Crest Shield,Runeforged_Wayward_Crest_Shield,Shields_str_int,,,,,,,"Level 45 , 36 Str , 36 Int",45,,Grants Skill: Raise Shield
+Runeforged Seer Crest Shield,Runeforged_Seer_Crest_Shield,Shields_str_int,,,,,,,"Level 50 , 39 Str , 39 Int",50,,Grants Skill: Raise Shield
+Runeforged Dekharan Crest Shield,Runeforged_Dekharan_Crest_Shield,Shields_str_int,,,,,,,"Level 54 , 42 Str , 42 Int",54,,Grants Skill: Raise Shield
+Runeforged Quartered Crest Shield,Runeforged_Quartered_Crest_Shield,Shields_str_int,,,,,,,"Level 59 , 46 Str , 46 Int",59,,Grants Skill: Raise Shield
+Runeforged Glowering Crest Shield,Runeforged_Glowering_Crest_Shield,Shields_str_int,,,,,,,"Level 62 , 48 Str , 48 Int",62,,Grants Skill: Raise Shield
+Runeforged Intricate Crest Shield,Runeforged_Intricate_Crest_Shield,Shields_str_int,,,,,,,"Level 65 , 50 Str , 50 Int",65,,Grants Skill: Raise Shield
+Runeforged Sekheman Crest Shield,Runeforged_Sekheman_Crest_Shield,Shields_str_int,,,,,,,"Level 70 , 54 Str , 54 Int",70,,Grants Skill: Raise Shield
+Runeforged Vaal Crest Shield,Runeforged_Vaal_Crest_Shield,Shields_str_int,,,,,,,"Level 75 , 59 Str , 59 Int",75,,Grants Skill: Raise Shield
+Runeforged Blacksteel Crest Shield,Runeforged_Blacksteel_Crest_Shield,Shields_str_int,,,,,,,"Level 80 , 63 Str , 63 Int",80,,Grants Skill: Raise Shield
+Runemastered Blazon Crest Shield,Runemastered_Blazon_Crest_Shield,Shields_str_int,,,,,,,"Level 40 , 32 Str , 32 Int",40,,Grants Skill: Raise Shield
+Runemastered Sigil Crest Shield,Runemastered_Sigil_Crest_Shield,Shields_str_int,,,,,,,"Level 40 , 32 Str , 32 Int",40,,Grants Skill: Raise Shield
+Runemastered Emblem Crest Shield,Runemastered_Emblem_Crest_Shield,Shields_str_int,,,,,,,"Level 38 , 31 Str , 31 Int",38,,Grants Skill: Raise Shield
+Runemastered Jingling Crest Shield,Runemastered_Jingling_Crest_Shield,Shields_str_int,,,,,,,"Level 38 , 31 Str , 31 Int",38,,Grants Skill: Raise Shield
+Runemastered Omen Crest Shield,Runemastered_Omen_Crest_Shield,Shields_str_int,,,,,,,"Level 48 , 38 Str , 38 Int",48,,Grants Skill: Raise Shield
+Runemastered Intricate Crest Shield,Runemastered_Intricate_Crest_Shield,Shields_str_int,,,,,,,"Level 65 , 50 Str , 50 Int",65,,Grants Skill: Raise Shield
+Leather Buckler,Leather_Buckler,Bucklers,,,,,,,,,,Grants Skill: Parry
+Wooden Buckler,Wooden_Buckler,Bucklers,,,,,,,"Level 5 , 10 Dex",5,10,Grants Skill: Parry
+Plated Buckler,Plated_Buckler,Bucklers,,,,,,,"Level 11 , 18 Dex",11,18,Grants Skill: Parry
+Iron Buckler,Iron_Buckler,Bucklers,,,,,,,"Level 16 , 25 Dex",16,25,Grants Skill: Parry
+Ridged Buckler,Ridged_Buckler,Bucklers,,,,,,,"Level 22 , 33 Dex",22,33,Grants Skill: Parry
+Spiked Buckler,Spiked_Buckler,Bucklers,,,,,,,"Level 26 , 38 Dex",26,38,Grants Skill: Parry
+Ringed Buckler,Ringed_Buckler,Bucklers,,,,,,,"Level 33 , 48 Dex",33,48,Grants Skill: Parry
+Edged Buckler,Edged_Buckler,Bucklers,,,,,,,"Level 39 , 56 Dex",39,56,Grants Skill: Parry
+Laminate Buckler,Laminate_Buckler,Bucklers,,,,,,,"Level 45 , 64 Dex",45,64,Grants Skill: Parry
+Pearl Buckler,Pearl_Buckler,Bucklers,,,,,,,"Level 50 , 71 Dex",50,71,Grants Skill: Parry
+Ornate Buckler,Ornate_Buckler,Bucklers,,,,,,,"Level 52 , 74 Dex",52,74,Grants Skill: Parry
+Array Buckler,Array_Buckler,Bucklers,,,,,,,"Level 55 , 78 Dex",55,78,Grants Skill: Parry
+Aegis Buckler,Aegis_Buckler,Bucklers,,,,,,,"Level 65 , 91 Dex",65,91,Grants Skill: Parry
+Oak Buckler,Oak_Buckler,Bucklers,,,,,,,"Level 45 , 64 Dex",45,64,Grants Skill: Parry
+Painted Buckler,Painted_Buckler,Bucklers,,,,,,,"Level 48 , 69 Dex",48,69,Grants Skill: Parry
+Coiled Buckler,Coiled_Buckler,Bucklers,,,,,,,"Level 51 , 73 Dex",51,73,Grants Skill: Parry
+Spikeward Buckler,Spikeward_Buckler,Bucklers,,,,,,,"Level 54 , 77 Dex",54,77,Grants Skill: Parry
+Jingling Buckler,Jingling_Buckler,Bucklers,,,,,,,"Level 59 , 83 Dex",59,83,Grants Skill: Parry
+Bladeguard Buckler,Bladeguard_Buckler,Bucklers,,,,,,,"Level 61 , 86 Dex",61,86,Grants Skill: Parry
+Ornate Buckler,Ornate_Buckler,Bucklers,,,,,,,"Level 65 , 91 Dex",65,91,Grants Skill: Parry
+Gutspike Buckler,Gutspike_Buckler,Bucklers,,,,,,,"Level 70 , 99 Dex",70,99,Grants Skill: Parry
+Ancient Buckler,Ancient_Buckler,Bucklers,,,,,,,"Level 75 , 107 Dex",75,107,Grants Skill: Parry
+Desert Buckler,Desert_Buckler,Bucklers,,,,,,,"Level 80 , 115 Dex",80,115,Grants Skill: Parry
+Runeforged Leather Buckler,Runeforged_Leather_Buckler,Bucklers,,,,,,,,,,Grants Skill: Parry
+Runeforged Wooden Buckler,Runeforged_Wooden_Buckler,Bucklers,,,,,,,"Level 5 , 10 Dex",5,10,Grants Skill: Parry
+Runeforged Plated Buckler,Runeforged_Plated_Buckler,Bucklers,,,,,,,"Level 11 , 18 Dex",11,18,Grants Skill: Parry
+Runeforged Iron Buckler,Runeforged_Iron_Buckler,Bucklers,,,,,,,"Level 16 , 25 Dex",16,25,Grants Skill: Parry
+Runeforged Ridged Buckler,Runeforged_Ridged_Buckler,Bucklers,,,,,,,"Level 22 , 33 Dex",22,33,Grants Skill: Parry
+Runeforged Spiked Buckler,Runeforged_Spiked_Buckler,Bucklers,,,,,,,"Level 26 , 38 Dex",26,38,Grants Skill: Parry
+Runeforged Ringed Buckler,Runeforged_Ringed_Buckler,Bucklers,,,,,,,"Level 33 , 48 Dex",33,48,Grants Skill: Parry
+Runeforged Edged Buckler,Runeforged_Edged_Buckler,Bucklers,,,,,,,"Level 39 , 56 Dex",39,56,Grants Skill: Parry
+Runeforged Laminate Buckler,Runeforged_Laminate_Buckler,Bucklers,,,,,,,"Level 45 , 64 Dex",45,64,Grants Skill: Parry
+Runeforged Pearl Buckler,Runeforged_Pearl_Buckler,Bucklers,,,,,,,"Level 50 , 71 Dex",50,71,Grants Skill: Parry
+Runeforged Ornate Buckler,Runeforged_Ornate_Buckler,Bucklers,,,,,,,"Level 52 , 74 Dex",52,74,Grants Skill: Parry
+Runeforged Array Buckler,Runeforged_Array_Buckler,Bucklers,,,,,,,"Level 55 , 78 Dex",55,78,Grants Skill: Parry
+Runeforged Aegis Buckler,Runeforged_Aegis_Buckler,Bucklers,,,,,,,"Level 65 , 91 Dex",65,91,Grants Skill: Parry
+Runeforged Spikeward Buckler,Runeforged_Spikeward_Buckler,Bucklers,,,,,,,"Level 54 , 77 Dex",54,77,Grants Skill: Parry
+Runeforged Jingling Buckler,Runeforged_Jingling_Buckler,Bucklers,,,,,,,"Level 59 , 83 Dex",59,83,Grants Skill: Parry
+Runeforged Bladeguard Buckler,Runeforged_Bladeguard_Buckler,Bucklers,,,,,,,"Level 61 , 86 Dex",61,86,Grants Skill: Parry
+Runeforged Ornate Buckler,Runeforged_Ornate_Buckler,Bucklers,,,,,,,"Level 65 , 91 Dex",65,91,Grants Skill: Parry
+Runeforged Gutspike Buckler,Runeforged_Gutspike_Buckler,Bucklers,,,,,,,"Level 70 , 99 Dex",70,99,Grants Skill: Parry
+Runeforged Ancient Buckler,Runeforged_Ancient_Buckler,Bucklers,,,,,,,"Level 75 , 107 Dex",75,107,Grants Skill: Parry
+Runeforged Desert Buckler,Runeforged_Desert_Buckler,Bucklers,,,,,,,"Level 80 , 115 Dex",80,115,Grants Skill: Parry
+Runemastered Hardwood Targe,Runemastered_Hardwood_Targe,Bucklers,,,,,,,"Level 38 , 31 Str , 31 Dex",38,31,Grants Skill: Raise Shield
+Runemastered Crescent Targe,Runemastered_Crescent_Targe,Bucklers,,,,,,,"Level 38 , 31 Str , 31 Dex",38,31,Grants Skill: Raise Shield
+Runemastered Leather Buckler,Runemastered_Leather_Buckler,Bucklers,,,,,,,"Level 38 , 54 Dex",38,54,Grants Skill: Parry
+Runemastered Wooden Buckler,Runemastered_Wooden_Buckler,Bucklers,,,,,,,"Level 38 , 54 Dex",38,54,Grants Skill: Parry
+Runemastered Plated Buckler,Runemastered_Plated_Buckler,Bucklers,,,,,,,"Level 38 , 54 Dex",38,54,Grants Skill: Parry
+Runemastered Iron Buckler,Runemastered_Iron_Buckler,Bucklers,,,,,,,"Level 38 , 54 Dex",38,54,Grants Skill: Parry
+Runemastered Ridged Buckler,Runemastered_Ridged_Buckler,Bucklers,,,,,,,"Level 40 , 58 Dex",40,58,Grants Skill: Parry
+Runemastered Spiked Buckler,Runemastered_Spiked_Buckler,Bucklers,,,,,,,"Level 40 , 58 Dex",40,58,Grants Skill: Parry
+Runemastered Ornate Buckler,Runemastered_Ornate_Buckler,Bucklers,,,,,,,"Level 55 , 78 Dex",55,78,Grants Skill: Parry
+Runemastered Array Buckler,Runemastered_Array_Buckler,Bucklers,,,,,,,"Level 60 , 85 Dex",60,85,Grants Skill: Parry
+Runemastered Venerable Defender,Runemastered_Venerable_Defender,Bucklers,,,,,,,"Level 65 , 107 Str",65,,Grants Skill: Raise Shield
+Runemastered Venerable Defender,Runemastered_Venerable_Defender,Bucklers,,,,,,,"Level 65 , 107 Int",65,,Grants Skill: Raise Shield
+Runemastered Venerable Defender,Runemastered_Venerable_Defender,Bucklers,,,,,,,"Level 65 , 107 Dex",65,107,Grants Skill: Parry
+Runemastered Venerable Defender,Runemastered_Venerable_Defender,Bucklers,,,,,,,"Level 65 , 67 Str , 67 Dex",65,67,Grants Skill: Raise Shield
+Twig Focus,Twig_Focus,Foci,,,,,,,,,,
+Woven Focus,Woven_Focus,Foci,,,,,,,"Level 6 , 11 Int",6,,
+Antler Focus,Antler_Focus,Foci,,,,,,,"Level 10 , 17 Int",10,,
+Engraved Focus,Engraved_Focus,Foci,,,,,,,"Level 16 , 25 Int",16,,
+Tonal Focus,Tonal_Focus,Foci,,,,,,,"Level 22 , 33 Int",22,,
+Crystal Focus,Crystal_Focus,Foci,,,,,,,"Level 26 , 38 Int",26,,
+Voodoo Focus,Voodoo_Focus,Foci,,,,,,,"Level 33 , 48 Int",33,,
+Plumed Focus,Plumed_Focus,Foci,,,,,,,"Level 36 , 52 Int",36,,
+Runed Focus,Runed_Focus,Foci,,,,,,,"Level 45 , 64 Int",45,,
+Whorl Focus,Whorl_Focus,Foci,,,,,,,"Level 51 , 73 Int",51,,
+Elegant Focus,Elegant_Focus,Foci,,,,,,,"Level 52 , 74 Int",52,,
+Attuned Focus,Attuned_Focus,Foci,,,,,,,"Level 57 , 81 Int",57,,
+Magus Focus,Magus_Focus,Foci,,,,,,,"Level 65 , 91 Int",65,,
+Wreath Focus,Wreath_Focus,Foci,,,,,,,"Level 45 , 64 Int",45,,
+Staghorn Focus,Staghorn_Focus,Foci,,,,,,,"Level 48 , 69 Int",48,,
+Jingling Focus,Jingling_Focus,Foci,,,,,,,"Level 51 , 73 Int",51,,
+Arrayed Focus,Arrayed_Focus,Foci,,,,,,,"Level 54 , 77 Int",54,,
+Cultist Focus,Cultist_Focus,Foci,,,,,,,"Level 59 , 83 Int",59,,
+Hallowed Focus,Hallowed_Focus,Foci,,,,,,,"Level 61 , 86 Int",61,,
+Druidic Focus,Druidic_Focus,Foci,,,,,,,"Level 65 , 91 Int",65,,
+Leyline Focus,Leyline_Focus,Foci,,,,,,,"Level 70 , 99 Int",70,,
+Sacred Focus,Sacred_Focus,Foci,,,,,,,"Level 75 , 107 Int",75,,
+Tasalian Focus,Tasalian_Focus,Foci,,,,,,,"Level 80 , 115 Int",80,,
+Runeforged Twig Focus,Runeforged_Twig_Focus,Foci,,,,,,,,,,
+Runeforged Woven Focus,Runeforged_Woven_Focus,Foci,,,,,,,"Level 6 , 11 Int",6,,
+Runeforged Antler Focus,Runeforged_Antler_Focus,Foci,,,,,,,"Level 10 , 17 Int",10,,
+Runeforged Engraved Focus,Runeforged_Engraved_Focus,Foci,,,,,,,"Level 16 , 25 Int",16,,
+Runeforged Tonal Focus,Runeforged_Tonal_Focus,Foci,,,,,,,"Level 22 , 33 Int",22,,
+Runeforged Crystal Focus,Runeforged_Crystal_Focus,Foci,,,,,,,"Level 26 , 38 Int",26,,
+Runeforged Voodoo Focus,Runeforged_Voodoo_Focus,Foci,,,,,,,"Level 33 , 48 Int",33,,
+Runeforged Plumed Focus,Runeforged_Plumed_Focus,Foci,,,,,,,"Level 36 , 52 Int",36,,
+Runeforged Runed Focus,Runeforged_Runed_Focus,Foci,,,,,,,"Level 45 , 64 Int",45,,
+Runeforged Whorl Focus,Runeforged_Whorl_Focus,Foci,,,,,,,"Level 51 , 73 Int",51,,
+Runeforged Elegant Focus,Runeforged_Elegant_Focus,Foci,,,,,,,"Level 52 , 74 Int",52,,
+Runeforged Attuned Focus,Runeforged_Attuned_Focus,Foci,,,,,,,"Level 57 , 81 Int",57,,
+Runeforged Magus Focus,Runeforged_Magus_Focus,Foci,,,,,,,"Level 65 , 91 Int",65,,
+Runeforged Arrayed Focus,Runeforged_Arrayed_Focus,Foci,,,,,,,"Level 54 , 77 Int",54,,
+Runeforged Cultist Focus,Runeforged_Cultist_Focus,Foci,,,,,,,"Level 59 , 83 Int",59,,
+Runeforged Hallowed Focus,Runeforged_Hallowed_Focus,Foci,,,,,,,"Level 61 , 86 Int",61,,
+Runeforged Druidic Focus,Runeforged_Druidic_Focus,Foci,,,,,,,"Level 65 , 91 Int",65,,
+Runeforged Leyline Focus,Runeforged_Leyline_Focus,Foci,,,,,,,"Level 70 , 99 Int",70,,
+Runeforged Sacred Focus,Runeforged_Sacred_Focus,Foci,,,,,,,"Level 75 , 107 Int",75,,
+Runeforged Tasalian Focus,Runeforged_Tasalian_Focus,Foci,,,,,,,"Level 80 , 115 Int",80,,
+Runemastered Twig Focus,Runemastered_Twig_Focus,Foci,,,,,,,"Level 38 , 54 Int",38,,
+Runemastered Woven Focus,Runemastered_Woven_Focus,Foci,,,,,,,"Level 38 , 54 Int",38,,
+Runemastered Antler Focus,Runemastered_Antler_Focus,Foci,,,,,,,"Level 38 , 54 Int",38,,
+Runemastered Engraved Focus,Runemastered_Engraved_Focus,Foci,,,,,,,"Level 38 , 54 Int",38,,
+Runemastered Tonal Focus,Runemastered_Tonal_Focus,Foci,,,,,,,"Level 38 , 54 Int",38,,
+Runemastered Crystal Focus,Runemastered_Crystal_Focus,Foci,,,,,,,"Level 40 , 58 Int",40,,
+Runemastered Voodoo Focus,Runemastered_Voodoo_Focus,Foci,,,,,,,"Level 55 , 78 Int",55,,
+Runemastered Plumed Focus,Runemastered_Plumed_Focus,Foci,,,,,,,"Level 75 , 91 Int",75,,
+Thawing Charm,Thawing_Charm,Charms,,,,,,,Level 12,12,,Used when you become Frozen
+Staunching Charm,Staunching_Charm,Charms,,,,,,,Level 18,18,,Used when you start Bleeding
+Antidote Charm,Antidote_Charm,Charms,,,,,,,Level 24,24,,Used when you become Poisoned
+Dousing Charm,Dousing_Charm,Charms,,,,,,,Level 32,32,,Used when you become Ignited
+Grounding Charm,Grounding_Charm,Charms,,,,,,,Level 32,32,,Used when you become Shocked
+Stone Charm,Stone_Charm,Charms,,,,,,,Level 8,8,,Used when you become Stunned
+Silver Charm,Silver_Charm,Charms,,,,,,,Level 10,10,,Used when you are affected by a Slow
+Ruby Charm,Ruby_Charm,Charms,,,,,,,Level 5,5,,Used when you take Fire damage from a Hit
+Sapphire Charm,Sapphire_Charm,Charms,,,,,,,Level 5,5,,Used when you take Cold damage from a Hit
+Topaz Charm,Topaz_Charm,Charms,,,,,,,Level 5,5,,Used when you take Lightning damage from a Hit
+Amethyst Charm,Amethyst_Charm,Charms,,,,,,,Level 40,40,,Used when you take Chaos damage from a Hit
+Golden Charm,Golden_Charm,Charms,,,,,,,Level 50,50,,Used when you kill a Rare or Unique enemy
+Cleansing Charm,Cleansing_Charm,Charms,,,,,,,Level 40,40,,Used when you become Cursed
+Golden Obi,Golden_Obi,Charms,,,,,,,Level 12,12,,Has (1 - 3) Charm Slot | (20 - 30) % increased Rarity of Items found
+Idol of Maxarius,Idol_of_Maxarius,Charms,,,,,,,Level 50,50,,Body Armours : +1 Charm Slot | Sceptres : Flasks gain 0.2 charges per Second
+Soul Core of Opiloti,Soul_Core_of_Opiloti,Charms,,,,,,,,,,Martial Weapon : 15 % chance to cause Bleeding on Hit | Helmets : 20 % increased Charm Charges gained
+Rawhide Belt,Rawhide_Belt,Charms,,,,,,,,,,Has (1 - 3) Charm Slot | (20 - 30) % increased Life Recovery from Flasks
+Linen Belt,Linen_Belt,Charms,,,,,,,,,,Has (1 - 3) Charm Slot | (20 - 30) % increased Mana Recovery from Flasks
+Wide Belt,Wide_Belt,Charms,,,,,,,Level 14,14,,Has (1 - 3) Charm Slot | (20 - 30) % increased Flask Charges gained
+Long Belt,Long_Belt,Charms,,,,,,,Level 20,20,,Has (1 - 3) Charm Slot | (15 - 20) % increased Charm Effect Duration
+Plate Belt,Plate_Belt,Charms,,,,,,,Level 25,25,,Has (1 - 3) Charm Slot | +(140 - 180) to Armour
+Ornate Belt,Ornate_Belt,Charms,,,,,,,Level 31,31,,Has (1 - 3) Charm Slot | (10 - 15) % reduced Charm Charges used
+Mail Belt,Mail_Belt,Charms,,,,,,,Level 40,40,,Has (1 - 3) Charm Slot | (10 - 15) % reduced Flask Charges used
+Double Belt,Double_Belt,Charms,,,,,,,Level 44,44,,Has (1 - 3) Charm Slot | (20 - 30) % increased Charm Charges gained
+Heavy Belt,Heavy_Belt,Charms,,,,,,,Level 50,50,,Has (1 - 3) Charm Slot | (20 - 30) % increased Stun Threshold
+Runemastered Heavy Belt,Runemastered_Heavy_Belt,Charms,,,,,,,Level 65,65,,Has (1 - 3) Charm Slot | (20 - 30) % increased Stun Threshold | (15 - 25) % Life Recovery from Flasks also applies to Runic Ward
+Runemastered Heavy Belt,Runemastered_Heavy_Belt,Charms,,,,,,,Level 65,65,,Has (1 - 3) Charm Slot | (20 - 30) % increased Stun Threshold | (20 - 40) % increased Runic Ward Regeneration Rate
+Runemastered Heavy Belt,Runemastered_Heavy_Belt,Charms,,,,,,,Level 65,65,,Has (1 - 3) Charm Slot | (20 - 30) % increased Stun Threshold | Runic Ward recovery can can Overflow maximum Runic Ward
+Runemastered Heavy Belt,Runemastered_Heavy_Belt,Charms,,,,,,,Level 65,65,,Has (1 - 3) Charm Slot | (20 - 30) % increased Stun Threshold | Flasks gain (0.5 - 1) charges per Second
+Utility Belt,Utility_Belt,Charms,,,,,,,Level 55,55,,Has (1 - 3) Charm Slot | 20 % of Flask Recovery applied Instantly
+Fine Belt,Fine_Belt,Charms,,,,,,,Level 62,62,,Has (1 - 3) Charm Slot | Flasks gain 0.17 charges per Second
+Stalking Belt,Stalking_Belt,Charms,,,,,,,Level 50,50,,Has (1 - 3) Charm Slot | Has 1 Charm Slot | This item gains bonuses from Socketed Items as though it was Boots
+Invoking Belt,Invoking_Belt,Charms,,,,,,,Level 32,32,,Has (1 - 3) Charm Slot | Has 1 Charm Slot | (8 - 12) % increased Cast Speed
+Sinew Belt,Sinew_Belt,Charms,,,,,,,Level 32,32,,Has (1 - 3) Charm Slot | Has 1 Charm Slot | +(15 - 20) to Strength
+Forking Belt,Forking_Belt,Charms,,,,,,,Level 32,32,,Has (1 - 3) Charm Slot | Has 1 Charm Slot | Adds 1 to (20 - 30) Lightning damage to Attacks
+Legacy of Elevore,Legacy_of_Elevore,Charms,,,,,,,Level 65,65,,"Helmets : Charms gain 1 charge per Second, +1 Charm Slot"
+Lesser Life Flask,Lesser_Life_Flask,Life_Flasks,,,,,,,,,,
+Medium Life Flask,Medium_Life_Flask,Life_Flasks,,,,,,,Level 4,4,,
+Greater Life Flask,Greater_Life_Flask,Life_Flasks,,,,,,,Level 10,10,,
+Grand Life Flask,Grand_Life_Flask,Life_Flasks,,,,,,,Level 16,16,,
+Giant Life Flask,Giant_Life_Flask,Life_Flasks,,,,,,,Level 23,23,,
+Colossal Life Flask,Colossal_Life_Flask,Life_Flasks,,,,,,,Level 30,30,,
+Gargantuan Life Flask,Gargantuan_Life_Flask,Life_Flasks,,,,,,,Level 40,40,,
+Transcendent Life Flask,Transcendent_Life_Flask,Life_Flasks,,,,,,,Level 50,50,,
+Ultimate Life Flask,Ultimate_Life_Flask,Life_Flasks,,,,,,,Level 60,60,,
+Lesser Mana Flask,Lesser_Mana_Flask,Mana_Flasks,,,,,,,,,,
+Medium Mana Flask,Medium_Mana_Flask,Mana_Flasks,,,,,,,Level 4,4,,
+Greater Mana Flask,Greater_Mana_Flask,Mana_Flasks,,,,,,,Level 10,10,,
+Grand Mana Flask,Grand_Mana_Flask,Mana_Flasks,,,,,,,Level 16,16,,
+Giant Mana Flask,Giant_Mana_Flask,Mana_Flasks,,,,,,,Level 23,23,,
+Colossal Mana Flask,Colossal_Mana_Flask,Mana_Flasks,,,,,,,Level 30,30,,
+Gargantuan Mana Flask,Gargantuan_Mana_Flask,Mana_Flasks,,,,,,,Level 40,40,,
+Transcendent Mana Flask,Transcendent_Mana_Flask,Mana_Flasks,,,,,,,Level 50,50,,
+Ultimate Mana Flask,Ultimate_Mana_Flask,Mana_Flasks,,,,,,,Level 60,60,,

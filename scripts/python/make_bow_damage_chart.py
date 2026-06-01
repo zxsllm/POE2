@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 
 ROOT = Path(__file__).resolve().parents[2]
 HTML_FILE = ROOT / "data" / "raw" / "poe2db" / "Bows.html"
-CSV_FILE = ROOT / "data" / "processed" / "poe2_bows_damage.csv"
-PNG_FILE = ROOT / "reports" / "assets" / "poe2_bows_avg_physical_damage.png"
+CSV_FILE = ROOT / "data" / "processed" / "reports" / "bow" / "bows_damage.csv"
+PNG_FILE = ROOT / "reports" / "bow" / "assets" / "poe2_bows_avg_physical_damage.png"
 
 
 def extract_bows(html_path: Path):

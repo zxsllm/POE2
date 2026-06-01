@@ -17,6 +17,10 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[2]
 RAW_DIR = ROOT / "data" / "raw"
 PROCESSED_DIR = ROOT / "data" / "processed"
+MODS_DIR = PROCESSED_DIR / "mods"
+ITEMS_DIR = PROCESSED_DIR / "items"
+PATH_OF_CRAFTING_DIR = PROCESSED_DIR / "mods" / "pathofcrafting"
+METADATA_DIR = PROCESSED_DIR / "metadata"
 
 POE2DB_BASE = "https://poe2db.tw/us/"
 POE2DB_MODIFIERS_URL = urljoin(POE2DB_BASE, "Modifiers")
@@ -119,6 +123,10 @@ class DownloadResult:
 def ensure_dirs() -> None:
     RAW_DIR.mkdir(parents=True, exist_ok=True)
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+    MODS_DIR.mkdir(parents=True, exist_ok=True)
+    ITEMS_DIR.mkdir(parents=True, exist_ok=True)
+    PATH_OF_CRAFTING_DIR.mkdir(parents=True, exist_ok=True)
+    METADATA_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def safe_filename(value: str) -> str:
@@ -375,11 +383,6 @@ def write_csv(rows: list[dict[str, Any]], path: Path) -> None:
         writer.writerows(rows)
 
 
-def write_json(data: Any, path: Path) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-
-
 def build_outputs(poe2db_pages: list[str]) -> dict[str, int]:
     all_mods: list[dict[str, Any]] = []
     all_bases: list[dict[str, Any]] = []
@@ -395,24 +398,17 @@ def build_outputs(poe2db_pages: list[str]) -> dict[str, int]:
             parsed_pages += 1
         all_bases.extend(parse_base_items(path))
 
-    write_json(all_mods, PROCESSED_DIR / "poe2db_mods.json")
-    write_csv(all_mods, PROCESSED_DIR / "poe2db_mods.csv")
-    write_json(all_bases, PROCESSED_DIR / "poe2db_base_items.json")
-    write_csv(all_bases, PROCESSED_DIR / "poe2db_base_items.csv")
-
     bow_mods = [row for row in all_mods if row["item_class_href"] == "Bows"]
     bow_bases = [row for row in all_bases if row["page"] == "Bows"]
-    write_json(bow_mods, PROCESSED_DIR / "poe2db_bow_mods.json")
-    write_csv(bow_mods, PROCESSED_DIR / "poe2db_bow_mods.csv")
-    write_json(bow_bases, PROCESSED_DIR / "poe2db_bow_bases.json")
-    write_csv(bow_bases, PROCESSED_DIR / "poe2db_bow_bases.csv")
+    write_csv(all_mods, MODS_DIR / "poe2db_mods.csv")
+    write_csv(all_bases, ITEMS_DIR / "poe2db_base_items.csv")
 
     poc_path = RAW_DIR / "pathofcrafting" / "modifiers.json"
     poc_count = 0
     if poc_path.exists():
         poc_mods = json.loads(poc_path.read_text(encoding="utf-8"))
         poc_count = len(poc_mods)
-        write_csv(poc_mods, PROCESSED_DIR / "pathofcrafting_modifiers.csv")
+        write_csv(poc_mods, PATH_OF_CRAFTING_DIR / "modifiers.csv")
 
     summary = {
         "poe2db_pages": len(poe2db_pages),
@@ -423,7 +419,10 @@ def build_outputs(poe2db_pages: list[str]) -> dict[str, int]:
         "poe2db_bow_base_rows": len(bow_bases),
         "pathofcrafting_modifier_rows": poc_count,
     }
-    write_json(summary, PROCESSED_DIR / "summary.json")
+    (METADATA_DIR / "source_summary.json").write_text(
+        json.dumps(summary, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
     return summary
 
 
