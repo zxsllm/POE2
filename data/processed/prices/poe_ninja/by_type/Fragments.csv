@@ -1,19 +1,19 @@
 snapshot_time_utc,league,type,id,name,category,details_id,divine_value,exalted_value,chaos_value,max_volume_currency,max_volume_rate,volume_primary_value,sparkline_total_change
-2026-06-01T07:05:02+00:00,Runes of Aldur,Fragments,azmeri-reliquary-key,Azmeri Reliquary Key,Fragments,azmeri-reliquary-key,46.0122,2652.0,3553.6800000000003,divine,0.02174,884.0,371.8
-2026-06-01T07:05:02+00:00,Runes of Aldur,Fragments,breachlord-sac,Breachlord Sac,Fragments,breachlord-sac,4.55264,262.4,351.616,divine,0.2197,1268,-5.45
-2026-06-01T07:05:02+00:00,Runes of Aldur,Fragments,cowardly-fate,Cowardly Fate,Fragments,cowardly-fate,0.5425345,31.27,41.9018,exalted,0.03198,3315,114.8
-2026-06-01T07:05:02+00:00,Runes of Aldur,Fragments,kulemaks-invitation,Kulemak's Invitation,Fragments,kulemaks-invitation,0.18165450000000002,10.47,14.029800000000002,exalted,0.09553,4639,-71.53
-2026-06-01T07:05:02+00:00,Runes of Aldur,Fragments,twilight-reliquary-key,Twilight Reliquary Key,Fragments,twilight-reliquary-key,0.074952,4.32,5.788800000000001,exalted,0.2313,2567,70.65
-2026-06-01T07:05:02+00:00,Runes of Aldur,Fragments,against-the-darkness,Zarokh's Reliquary Key: Against the Darkness,Fragments,zarokhs-reliquary-key:-against-the-darkness,6.001365,345.9,463.506,divine,0.1667,57.65,-4
-2026-06-01T07:05:02+00:00,Runes of Aldur,Fragments,ancient-crisis-fragment,Ancient Crisis Fragment,Fragments,ancient-crisis-fragment,1.892885,109.1,146.194,exalted,0.009163,15897,892.1
-2026-06-01T07:05:02+00:00,Runes of Aldur,Fragments,deadly-fate,Deadly Fate,Fragments,deadly-fate,0.629111,36.26,48.5884,exalted,0.02758,3366,99.65
-2026-06-01T07:05:02+00:00,Runes of Aldur,Fragments,faded-crisis-fragment,Faded Crisis Fragment,Fragments,faded-crisis-fragment,0.6565240000000001,37.84,50.70560000000001,exalted,0.02643,6161,-15.92
-2026-06-01T07:05:02+00:00,Runes of Aldur,Fragments,olroths-reliquary-key,Olroth's Reliquary Key,Fragments,olroths-reliquary-key,3.00155,173.0,231.82000000000002,divine,0.3333,28.83,0
-2026-06-01T07:05:02+00:00,Runes of Aldur,Fragments,simulacrum,Simulacrum,Delirium,simulacrum,6.001365,345.9,463.506,divine,0.1667,403.6,-12.2
-2026-06-01T07:05:02+00:00,Runes of Aldur,Fragments,ritualistic-reliquary-key,Ritualistic Reliquary Key,Fragments,ritualistic-reliquary-key,0.2385625,13.75,18.425,exalted,0.07273,9.17,129.2
-2026-06-01T07:05:02+00:00,Runes of Aldur,Fragments,simulacrum-splinter,Simulacrum Splinter,Delirium,simulacrum-splinter,0.017348265,0.9999,1.339866,exalted,1.0,1229,94.8
-2026-06-01T07:05:02+00:00,Runes of Aldur,Fragments,the-arbiters-reliquary-key,The Arbiter's Reliquary Key,Fragments,the-arbiters-reliquary-key,5.0020050000000005,288.3,386.32200000000006,divine,0.2,144.1,-16.67
-2026-06-01T07:05:02+00:00,Runes of Aldur,Fragments,the-trialmasters-reliquary-key,The Trialmaster's Reliquary Key,Fragments,the-trialmasters-reliquary-key,3.00155,173.0,231.82000000000002,divine,0.3333,28.83,0
-2026-06-01T07:05:02+00:00,Runes of Aldur,Fragments,victorious-fate,Victorious Fate,Fragments,victorious-fate,0.595105,34.3,45.961999999999996,exalted,0.02916,3378,110.4
-2026-06-01T07:05:02+00:00,Runes of Aldur,Fragments,weathered-crisis-fragment,Weathered Crisis Fragment,Fragments,weathered-crisis-fragment,1.99178,114.8,153.832,exalted,0.008709,14831,92.68
-2026-06-01T07:05:02+00:00,Runes of Aldur,Fragments,xeshts-reliquary-key,Xesht's Reliquary Key,Fragments,xeshts-reliquary-key,7.002460000000001,403.6,540.8240000000001,divine,0.1429,67.26,0
+2026-06-01T08:05:02+00:00,Runes of Aldur,Fragments,azmeri-reliquary-key,Azmeri Reliquary Key,Fragments,azmeri-reliquary-key,41.002089999999995,2347.0,3027.63,divine,0.02439,1174,320.5
+2026-06-01T08:05:02+00:00,Runes of Aldur,Fragments,breachlord-sac,Breachlord Sac,Fragments,breachlord-sac,4.678466,267.8,345.46200000000005,divine,0.2138,1383,3.74
+2026-06-01T08:05:02+00:00,Runes of Aldur,Fragments,cowardly-fate,Cowardly Fate,Fragments,cowardly-fate,0.621932,35.6,45.92400000000001,exalted,0.02809,3495,131.6
+2026-06-01T08:05:02+00:00,Runes of Aldur,Fragments,kulemaks-invitation,Kulemak's Invitation,Fragments,kulemaks-invitation,0.1759229,10.07,12.990300000000001,exalted,0.09935,4684,-77.25
+2026-06-01T08:05:02+00:00,Runes of Aldur,Fragments,twilight-reliquary-key,Twilight Reliquary Key,Fragments,twilight-reliquary-key,0.0707535,4.05,5.2245,exalted,0.2471,2402,53.51
+2026-06-01T08:05:02+00:00,Runes of Aldur,Fragments,ancient-crisis-fragment,Ancient Crisis Fragment,Fragments,ancient-crisis-fragment,1.95664,112.0,144.48000000000002,exalted,0.008925,16826,918.6
+2026-06-01T08:05:02+00:00,Runes of Aldur,Fragments,deadly-fate,Deadly Fate,Fragments,deadly-fate,0.6776612999999999,38.79,50.0391,exalted,0.02578,3452,105.4
+2026-06-01T08:05:02+00:00,Runes of Aldur,Fragments,faded-crisis-fragment,Faded Crisis Fragment,Fragments,faded-crisis-fragment,0.6514563,37.29,48.1041,exalted,0.02681,6496,31.63
+2026-06-01T08:05:02+00:00,Runes of Aldur,Fragments,olroths-reliquary-key,Olroth's Reliquary Key,Fragments,olroths-reliquary-key,2.999599,171.7,221.493,divine,0.3333,28.62,0
+2026-06-01T08:05:02+00:00,Runes of Aldur,Fragments,simulacrum,Simulacrum,Delirium,simulacrum,5.700461,326.3,420.927,divine,0.1754,543.8,-9.52
+2026-06-01T08:05:02+00:00,Runes of Aldur,Fragments,ritualistic-reliquary-key,Ritualistic Reliquary Key,Fragments,ritualistic-reliquary-key,0.27375489999999997,15.67,20.2143,exalted,0.06383,7.83,161.1
+2026-06-01T08:05:02+00:00,Runes of Aldur,Fragments,simulacrum-splinter,Simulacrum Splinter,Delirium,simulacrum-splinter,0.017269095,0.9885,1.275165,exalted,1.01,1248,91.93
+2026-06-01T08:05:02+00:00,Runes of Aldur,Fragments,the-arbiters-reliquary-key,The Arbiter's Reliquary Key,Fragments,the-arbiters-reliquary-key,4.9999139999999995,286.2,369.198,divine,0.2,95.41,-9.09
+2026-06-01T08:05:02+00:00,Runes of Aldur,Fragments,victorious-fate,Victorious Fate,Fragments,victorious-fate,0.6731191,38.53,49.703700000000005,exalted,0.02596,3641,142.7
+2026-06-01T08:05:02+00:00,Runes of Aldur,Fragments,weathered-crisis-fragment,Weathered Crisis Fragment,Fragments,weathered-crisis-fragment,2.056219,117.7,151.833,exalted,0.008493,16799,30.83
+2026-06-01T08:05:02+00:00,Runes of Aldur,Fragments,xeshts-reliquary-key,Xesht's Reliquary Key,Fragments,xeshts-reliquary-key,7.000228999999999,400.7,516.903,divine,0.1429,66.79,0
+2026-06-01T08:05:02+00:00,Runes of Aldur,Fragments,against-the-darkness,Zarokh's Reliquary Key: Against the Darkness,Fragments,zarokhs-reliquary-key:-against-the-darkness,6.000945,343.5,443.115,divine,0.1667,57.24,-4
+2026-06-01T08:05:02+00:00,Runes of Aldur,Fragments,the-trialmasters-reliquary-key,The Trialmaster's Reliquary Key,Fragments,the-trialmasters-reliquary-key,2.999599,171.7,221.493,divine,0.3333,28.62,0

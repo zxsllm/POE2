@@ -1,5 +1,5 @@
 {
-  "snapshot_time_utc": "2026-06-01T07:05:02+00:00",
+  "snapshot_time_utc": "2026-06-01T08:05:02+00:00",
   "league": "Runes of Aldur",
   "league_url": "runesofaldur",
   "source": "https://poe.ninja/poe2/economy/runesofaldur/currency",
@@ -24,15 +24,15 @@
     "csv": "data\\processed\\prices\\poe_ninja\\by_type\\Essences.csv"
   },
   "Runes": {
-    "items": 129,
-    "lines": 129,
-    "rows": 129,
+    "items": 130,
+    "lines": 130,
+    "rows": 130,
     "csv": "data\\processed\\prices\\poe_ninja\\by_type\\Runes.csv"
   },
   "Ritual": {
-    "items": 66,
-    "lines": 66,
-    "rows": 66,
+    "items": 65,
+    "lines": 65,
+    "rows": 65,
     "csv": "data\\processed\\prices\\poe_ninja\\by_type\\Ritual.csv"
   },
   "Abyss": {

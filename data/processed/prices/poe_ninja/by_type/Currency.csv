@@ -1,50 +1,50 @@
 snapshot_time_utc,league,type,id,name,category,details_id,divine_value,exalted_value,chaos_value,max_volume_currency,max_volume_rate,volume_primary_value,sparkline_total_change
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,alch,Orb of Alchemy,Currency,orb-of-alchemy,0.0192585,1.11,1.4874000000000003,exalted,0.9028,24304,90.05
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,exalted,Exalted Orb,Currency,exalted-orb,0.01735,1.0,1.34,divine,57.65,1935113,-48.41
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,ancient-infuser,Ancient Infuser,Vaal,ancient-infuser,0.1653455,9.53,12.770199999999999,exalted,0.105,220.7,8.86
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,annul,Orb of Annulment,Currency,orb-of-annulment,0.17991949999999998,10.37,13.8958,exalted,0.09644,44800,161.4
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,architects-orb,Architect's Orb,Vaal,architects-orb,0.413624,23.84,31.945600000000002,exalted,0.04195,1120,376.7
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,chaos,Chaos Orb,Currency,chaos-orb,0.01296739,0.7474,1.001516,exalted,1.34,43804,-43.96
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,divine,Divine Orb,Currency,divine-orb,1.0002275,57.65,77.251,exalted,0.01735,1935113,65.21
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,artificers,Artificer's Orb,Currency,artificers-orb,0.006594735,0.3801,0.5093340000000001,exalted,2.63,3250,-35.01
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,artificers-shard,Artificer's Shard,Currency,artificers-shard,0.003652175,0.2105,0.28207,exalted,4.75,11.33,31.73
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,aug,Orb of Augmentation,Currency,orb-of-augmentation,0.001594118,0.09188,0.12311920000000001,exalted,10.88,3898,93.86
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,bauble,Glassblower's Bauble,Currency,glassblowers-bauble,0.0248105,1.43,1.9162000000000001,exalted,0.6987,8431,436.4
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,chance,Orb of Chance,Currency,orb-of-chance,0.2170485,12.51,16.7634,exalted,0.07994,82519,135.9
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,chance-shard,Chance Shard,Currency,chance-shard,0.0185645,1.07,1.4338000000000002,exalted,0.9332,2584,157.0
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,etcher,Arcanist's Etcher,Currency,arcanists-etcher,0.002257235,0.1301,0.174334,exalted,7.69,645.8,46.89
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,fracturing-orb,Fracturing Orb,Currency,fracturing-orb,3.499495,201.7,270.278,divine,0.2858,23839,110.0
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,greater-regal-orb,Greater Regal Orb,Currency,greater-regal-orb,0.043722000000000004,2.52,3.3768000000000002,exalted,0.3974,5647,-65.44
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,lesser-jewellers-orb,Lesser Jeweller's Orb,Currency,lesser-jewellers-orb,0.001342543,0.07738,0.10368920000000001,exalted,12.92,329.5,-83.7
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,perfect-chaos-orb,Perfect Chaos Orb,Currency,perfect-chaos-orb,1.3114865000000002,75.59,101.29060000000001,exalted,0.01323,12069,117.9
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,perfect-exalted-orb,Perfect Exalted Orb,Currency,perfect-exalted-orb,1.82175,105.0,140.70000000000002,exalted,0.009526,53871,87.99
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,perfect-jewellers-orb,Perfect Jeweller's Orb,Currency,perfect-jewellers-orb,1.305414,75.24,100.8216,exalted,0.01329,201744,92.29
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,perfect-regal-orb,Perfect Regal Orb,Currency,perfect-regal-orb,0.28211100000000006,16.26,21.788400000000003,exalted,0.06152,9081,-7.55
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,regal,Regal Orb,Currency,regal-orb,0.00657218,0.3788,0.507592,exalted,2.64,8906,2.1
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,scrap,Armourer's Scrap,Currency,armourers-scrap,0.012226545,0.7047,0.9442980000000001,exalted,1.42,48047,403.1
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,vaal-armourers-infuser,Vaal Armourer's Infuser,Vaal,vaal-armourers-infuser,0.24081800000000003,13.88,18.599200000000003,exalted,0.07206,832.7,825.2
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,vaal-blacksmiths-infuser,Vaal Blacksmith's Infuser,Vaal,vaal-blacksmiths-infuser,0.7328640000000001,42.24,56.601600000000005,exalted,0.02368,1605,284.0
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,vaal-cultivation-orb,Vaal Cultivation Orb,Vaal,vaal-cultivation-orb,1.621184,93.44,125.20960000000001,exalted,0.0107,6042,387.0
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,core-destabiliser,Core Destabiliser,Vaal,core-destabiliser,0.1080905,6.23,8.3482,exalted,0.1604,190.2,52.31
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,cryptic-key,Cryptic Key,Currency,cryptic-key,0.21808950000000002,12.57,16.8438,exalted,0.07956,272.3,128.5
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,crystallised-corruption,Crystallised Corruption,Vaal,crystallised-corruption,0.48788200000000004,28.12,37.680800000000005,exalted,0.03556,1387,120.5
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,hinekoras-lock,Hinekora's Lock,Currency,hinekoras-lock,107.67410000000001,6206.0,8316.04,divine,0.00929,32064,283.5
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,vaal-arcanists-infuser,Vaal Arcanist's Infuser,Vaal,vaal-arcanists-infuser,0.045457000000000004,2.62,3.5108,exalted,0.3824,5.67,-33.58
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,gcp,Gemcutter's Prism,Currency,gemcutters-prism,0.049968,2.88,3.8592,exalted,0.347,47501,126.1
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,greater-chaos-orb,Greater Chaos Orb,Currency,greater-chaos-orb,0.0529175,3.05,4.087,exalted,0.3278,6109,-19.43
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,greater-exalted-orb,Greater Exalted Orb,Currency,greater-exalted-orb,0.1736735,10.01,13.413400000000001,exalted,0.0999,99991,23.0
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,greater-jewellers-orb,Greater Jeweller's Orb,Currency,greater-jewellers-orb,0.0629805,3.63,4.8642,exalted,0.2754,40726,-15.5
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,greater-orb-of-augmentation,Greater Orb of Augmentation,Currency,greater-orb-of-augmentation,0.004068575,0.2345,0.31423,exalted,4.27,3485,-57.68
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,greater-orb-of-transmutation,Greater Orb of Transmutation,Currency,greater-orb-of-transmutation,0.024984,1.44,1.9296,exalted,0.6962,19078,109.7
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,mirror,Mirror of Kalandra,Currency,mirror-of-kalandra,369.1039,21274.0,28507.160000000003,divine,0.00271,21274,126.4
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,orb-of-extraction,Orb of Extraction,Vaal,orb-of-extraction,2.8419300000000005,163.8,219.49200000000002,exalted,0.006106,1174,991.8
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,perfect-orb-of-augmentation,Perfect Orb of Augmentation,Currency,perfect-orb-of-augmentation,0.11398950000000001,6.57,8.8038,exalted,0.1521,33776,30.46
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,perfect-orb-of-transmutation,Perfect Orb of Transmutation,Currency,perfect-orb-of-transmutation,0.15701750000000003,9.05,12.127000000000002,exalted,0.1105,21054,39.94
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,regal-shard,Regal Shard,Currency,regal-shard,0.001927585,0.1111,0.148874,exalted,9,0.3333,-5.88
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,transmutation-shard,Transmutation Shard,Currency,transmutation-shard,0.002892245,0.1667,0.223378,exalted,6,0.1667,33.33
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,transmute,Orb of Transmutation,Currency,orb-of-transmutation,0.00217916,0.1256,0.168304,exalted,7.96,2889,-59.27
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,vaal-catalysing-infuser,Vaal Catalysing Infuser,Vaal,vaal-catalysing-infuser,0.16708050000000002,9.63,12.904200000000001,exalted,0.1038,101.2,80.22
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,vaal,Vaal Orb,Currency,vaal-orb,0.0192585,1.11,1.4874000000000003,exalted,0.9044,17168,109.4
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,vaal-siphoner,Vaal Siphoner,Vaal,vaal-siphoner,0.0314035,1.81,2.4254000000000002,exalted,0.5517,4.83,-29.77
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,whetstone,Blacksmith's Whetstone,Currency,blacksmiths-whetstone,0.003955800000000001,0.228,0.30552,exalted,4.39,7597,27.33
-2026-06-01T07:05:02+00:00,Runes of Aldur,Currency,wisdom,Scroll of Wisdom,Currency,scroll-of-wisdom,6.953880000000001e-05,0.004008,0.005370720000000001,exalted,249.5,291.5,-24.57
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,alch,Orb of Alchemy,Currency,orb-of-alchemy,0.020614599999999997,1.18,1.5222,exalted,0.8487,25879,78.16
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,exalted,Exalted Orb,Currency,exalted-orb,0.01747,1.0,1.29,divine,57.24,2000408,-38.47
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,ancient-infuser,Ancient Infuser,Vaal,ancient-infuser,0.1675373,9.59,12.3711,exalted,0.1043,242.8,9.55
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,annul,Orb of Annulment,Currency,orb-of-annulment,0.18937479999999998,10.84,13.983600000000001,exalted,0.09228,50143,230.0
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,architects-orb,Architect's Orb,Vaal,architects-orb,0.4067016,23.28,30.031200000000002,exalted,0.04296,1129,365.6
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,chaos,Chaos Orb,Currency,chaos-orb,0.013565454999999999,0.7765,1.001685,exalted,1.29,44253,-46.74
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,divine,Divine Orb,Currency,divine-orb,0.9999828,57.24,73.8396,exalted,0.01747,2000408,52.36
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,artificers,Artificer's Orb,Currency,artificers-orb,0.006757396,0.3868,0.49897199999999997,exalted,2.59,3346,21.18
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,artificers-shard,Artificer's Shard,Currency,artificers-shard,0.003708881,0.2123,0.27386699999999997,exalted,4.71,10.33,35.63
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,aug,Orb of Augmentation,Currency,orb-of-augmentation,0.0017075177999999998,0.09774,0.1260846,exalted,10.23,4116,88.85
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,bauble,Glassblower's Bauble,Currency,glassblowers-bauble,0.0256809,1.47,1.8963,exalted,0.6792,8901,446.8
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,chance,Orb of Chance,Currency,orb-of-chance,0.2180256,12.48,16.0992,exalted,0.08014,83516,150.0
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,chance-shard,Chance Shard,Currency,chance-shard,0.018692900000000002,1.07,1.3803,exalted,0.9316,2482,162.1
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,etcher,Arcanist's Etcher,Currency,arcanists-etcher,0.0024335710000000003,0.1393,0.17969700000000002,exalted,7.18,696.8,61.8
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,fracturing-orb,Fracturing Orb,Currency,fracturing-orb,3.368216,192.8,248.71200000000002,divine,0.2969,24167,102.1
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,greater-regal-orb,Greater Regal Orb,Currency,greater-regal-orb,0.0428015,2.45,3.1605000000000003,exalted,0.4082,5423,-58.03
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,lesser-jewellers-orb,Lesser Jeweller's Orb,Currency,lesser-jewellers-orb,0.0013223043,0.07569,0.0976401,exalted,13.21,296.7,-78.48
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,perfect-chaos-orb,Perfect Chaos Orb,Currency,perfect-chaos-orb,1.3432682999999999,76.89,99.1881,exalted,0.01301,12931,163.1
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,perfect-exalted-orb,Perfect Exalted Orb,Currency,perfect-exalted-orb,1.9059769999999998,109.1,140.739,exalted,0.009167,58725,83.48
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,perfect-jewellers-orb,Perfect Jeweller's Orb,Currency,perfect-jewellers-orb,1.2779305,73.15,94.36350000000002,exalted,0.01367,205366,87.99
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,perfect-regal-orb,Perfect Regal Orb,Currency,perfect-regal-orb,0.2789959,15.97,20.601300000000002,exalted,0.0626,9321,-8.89
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,regal,Regal Orb,Currency,regal-orb,0.006932096,0.3968,0.511872,exalted,2.52,9447,11.58
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,scrap,Armourer's Scrap,Currency,armourers-scrap,0.011883094,0.6802,0.8774580000000001,exalted,1.47,48779,397.7
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,vaal-armourers-infuser,Vaal Armourer's Infuser,Vaal,vaal-armourers-infuser,0.2611765,14.95,19.2855,exalted,0.06691,956.5,1021
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,vaal-blacksmiths-infuser,Vaal Blacksmith's Infuser,Vaal,vaal-blacksmiths-infuser,0.7489389,42.87,55.302299999999995,exalted,0.02333,1515,339.7
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,vaal-cultivation-orb,Vaal Cultivation Orb,Vaal,vaal-cultivation-orb,1.6068906,91.98,118.6542,exalted,0.01087,5779,373.7
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,core-destabiliser,Core Destabiliser,Vaal,core-destabiliser,0.11460319999999999,6.56,8.4624,exalted,0.1525,227.3,56.09
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,cryptic-key,Cryptic Key,Currency,cryptic-key,0.2056219,11.77,15.1833,exalted,0.08494,276.7,169.1
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,crystallised-corruption,Crystallised Corruption,Vaal,crystallised-corruption,0.529341,30.3,39.087,exalted,0.03301,1576,21.54
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,hinekoras-lock,Hinekora's Lock,Currency,hinekoras-lock,107.56278999999999,6157.0,7942.530000000001,divine,0.009298,29758,232.7
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,vaal-arcanists-infuser,Vaal Arcanist's Infuser,Vaal,vaal-arcanists-infuser,0.01747,1.0,1.29,exalted,1,0.6667,-74.68
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,gcp,Gemcutter's Prism,Currency,gemcutters-prism,0.048217199999999995,2.76,3.5604,exalted,0.3617,47393,92.43
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,greater-chaos-orb,Greater Chaos Orb,Currency,greater-chaos-orb,0.0536329,3.07,3.9602999999999997,exalted,0.3253,6027,-15.93
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,greater-exalted-orb,Greater Exalted Orb,Currency,greater-exalted-orb,0.1741759,9.97,12.861300000000002,exalted,0.1003,103293,19.11
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,greater-jewellers-orb,Greater Jeweller's Orb,Currency,greater-jewellers-orb,0.06341609999999999,3.63,4.6827,exalted,0.2759,39562,-27.77
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,greater-orb-of-augmentation,Greater Orb of Augmentation,Currency,greater-orb-of-augmentation,0.0041561129999999995,0.2379,0.306891,exalted,4.2,3624,-54.01
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,greater-orb-of-transmutation,Greater Orb of Transmutation,Currency,greater-orb-of-transmutation,0.0253315,1.45,1.8705,exalted,0.6909,19668,107.2
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,mirror,Mirror of Kalandra,Currency,mirror-of-kalandra,367.83085,21055.0,27160.95,divine,0.002719,17545,125.6
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,orb-of-extraction,Orb of Extraction,Vaal,orb-of-extraction,2.6082710000000002,149.3,192.597,exalted,0.006699,1368,895.2
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,perfect-orb-of-augmentation,Perfect Orb of Augmentation,Currency,perfect-orb-of-augmentation,0.1168743,6.69,8.6301,exalted,0.1496,35344,31.93
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,perfect-orb-of-transmutation,Perfect Orb of Transmutation,Currency,perfect-orb-of-transmutation,0.15775409999999998,9.03,11.6487,exalted,0.1108,21862,28.41
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,regal-shard,Regal Shard,Currency,regal-shard,0.001940917,0.1111,0.143319,exalted,9,0.1667,-5.88
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,transmute,Orb of Transmutation,Currency,orb-of-transmutation,0.002426583,0.1389,0.179181,exalted,7.2,3072,45.05
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,vaal-catalysing-infuser,Vaal Catalysing Infuser,Vaal,vaal-catalysing-infuser,0.1778446,10.18,13.1322,exalted,0.09825,123.8,74.17
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,vaal,Vaal Orb,Currency,vaal-orb,0.020090499999999997,1.15,1.4834999999999998,exalted,0.8691,18095,43.47
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,vaal-siphoner,Vaal Siphoner,Vaal,vaal-siphoner,0.0298737,1.71,2.2059,exalted,0.5862,4.83,-13.39
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,whetstone,Blacksmith's Whetstone,Currency,blacksmiths-whetstone,0.004105449999999999,0.235,0.30315,exalted,4.26,7940,41.33
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,wisdom,Scroll of Wisdom,Currency,scroll-of-wisdom,7.234326999999999e-05,0.004141,0.00534189,exalted,241.5,293.5,-19.93
+2026-06-01T08:05:02+00:00,Runes of Aldur,Currency,transmutation-shard,Transmutation Shard,Currency,transmutation-shard,0.0029122489999999996,0.1667,0.21504299999999998,exalted,6,0.1667,8.64

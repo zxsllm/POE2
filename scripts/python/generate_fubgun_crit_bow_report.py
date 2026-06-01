@@ -960,6 +960,38 @@ def render_cost_distribution(title: str, rows: list[tuple[str, str, float, str]]
     )
 
 
+def one_attempt_table(
+    title: str,
+    rows: list[tuple[str, list[tuple[str, float, float]], str]],
+) -> str:
+    step_totals = [(step, sum(quantity * unit for _, quantity, unit in materials), note) for step, materials, note in rows]
+    total = sum(step_total for _, step_total, _ in step_totals)
+    body = []
+    for step, materials, note in rows:
+        step_total = sum(quantity * unit for _, quantity, unit in materials)
+        material_lines = "<br>".join(f"<code>{name}</code>" for name, _, _ in materials)
+        quantity_lines = "<br>".join(fmt(quantity) for _, quantity, _ in materials)
+        unit_lines = "<br>".join(money(unit) for _, _, unit in materials)
+        share = step_total / total * 100 if total else 0
+        body.append(
+            "<tr>"
+            f"<td>{esc(step)}</td>"
+            f"<td>{material_lines}</td>"
+            f"<td>{quantity_lines}</td>"
+            f"<td>{unit_lines}</td>"
+            f"<td>{money(step_total)}</td>"
+            f"<td>{share:.2f}%</td>"
+            f"<td>{note}</td>"
+            "</tr>"
+        )
+    return (
+        f"<h4>{esc(title)}</h4>"
+        "<table><thead><tr><th>步骤</th><th>消耗材料</th><th>数量</th><th>单价</th><th>本步成本</th><th>占比</th><th>说明</th></tr></thead>"
+        f"<tbody>{''.join(body)}</tbody>"
+        f"<tfoot><tr><th>一次尝试合计</th><th></th><th></th><th></th><th>{money(total)}</th><th>100%</th><th>不按成功率放大，不计失败重做。</th></tr></tfoot></table>"
+    )
+
+
 def render_price_distribution(title: str, rows: list[tuple[Any, ...]]) -> str:
     body = []
     for row in rows:
@@ -1680,6 +1712,38 @@ def render_routes(
             ),
         ],
     )
+    route1_one_attempt = one_attempt_table(
+        "暴击弓 A 一次尝试成本模型：物理百分比底做到一次 Ancient Echo 深渊",
+        [
+            (
+                "1. 买基底",
+                [(f"{phys_start.code} {TARGET_LABELS[phys_start.target]} 起步底", 1, phys_cost)],
+                "只买 1 把当前起步池推荐底，不按失败重买放大。",
+            ),
+            (
+                "2. 暴击精髓",
+                [(label("Greater Essence of Seeking"), 1, seeking)],
+                "固定获得暴击率；无论后续结果如何，本轮只消耗 1 个。",
+            ),
+            (
+                "3. 双崇高",
+                [
+                    (label("Omen of Greater Exaltation"), 1, greater_omen),
+                    (label("Greater Exalted Orb"), 1, greater_exalt),
+                ],
+                "按当前暴击弓 A 推荐的高阶双加做一轮，不看是否两条都有效。",
+            ),
+            (
+                "4. 一次深渊",
+                [
+                    (label("Omen of Sinistral Necromancy"), 1, sin_necro),
+                    (label("Ancient Jawbone"), 1, ancient),
+                    (label("Omen of Abyssal Echoes"), 1, echoes),
+                ],
+                "按一次左向深渊定向 + Ancient Echo 计入；不计光明预兆重洗。",
+            ),
+        ],
+    )
     route1_step_costs = step_cost_table(
         "暴击弓 A 最优路径分步骤成本：物理百分比底 + 暴击精髓 + 高阶双加 + Ancient Echo 洗点伤",
         [
@@ -1840,6 +1904,38 @@ def render_routes(
             ("R2-S2：深渊补 T3+ 物理百分比", "Preserved + Echo 六选，可循环重试", f"{material('Preserved Jawbone', preserved)} + {material('Omen of Abyssal Echoes', echoes)}；失败后 {material('Omen of Light', light_omen)} 剥离深渊词", preserved_prefix_echo_cost, r2_phys_abyss_six, "只认 T3+ 物理百分比；Echo 六选", "备选", money(r2_phys_abyss_six_retry)),
             ("R2-S2：深渊补 T3+ 物理百分比", "Ancient 三选一，可循环重试", f"{material('Ancient Jawbone', ancient)}；失败后 {material('Omen of Light', light_omen)} 剥离深渊词", ancient_prefix_cost, r2_phys_abyss_ancient_three, f"Ancient 权重 {fmt(r2_phys_abyss_ancient_w)} / {fmt(r2_phys_abyss_ancient_total_with_desecrated)}", "高价备选", money(r2_phys_abyss_ancient_three_retry)),
             ("R2-S3：最后深渊补 T3+ 物理百分比", "Ancient + Echo 六选，可循环重试", f"{material('Ancient Jawbone', ancient)} + {material('Omen of Abyssal Echoes', echoes)}；失败后 {material('Omen of Light', light_omen)} 剥离深渊词", ancient_prefix_echo_cost, r2_phys_abyss_ancient_six, "使用 Craft of Exile 外推深渊前缀权重", "高价推荐", money(r2_phys_abyss_ancient_six_retry)),
+        ],
+    )
+    route2_one_attempt = one_attempt_table(
+        "暴击弓 B 一次尝试成本模型：点伤底做到一次 Ancient Echo 深渊",
+        [
+            (
+                "1. 买基底",
+                [(f"{flat_start.code} {TARGET_LABELS[flat_start.target]} 起步底", 1, flat_cost)],
+                "只买 1 把点伤起步底。",
+            ),
+            (
+                "2. 暴击精髓",
+                [(label("Greater Essence of Seeking"), 1, seeking)],
+                "固定获得暴击率；只做一轮。",
+            ),
+            (
+                "3. 双崇高",
+                [
+                    (label("Omen of Greater Exaltation"), 1, greater_omen),
+                    (label("Exalted Orb"), 1, exalt),
+                ],
+                "按当前暴击弓 B 推荐的低端双加做一轮，不看是否两条都有效。",
+            ),
+            (
+                "4. 一次深渊",
+                [
+                    (label("Omen of Sinistral Necromancy"), 1, sin_necro),
+                    (label("Ancient Jawbone"), 1, ancient),
+                    (label("Omen of Abyssal Echoes"), 1, echoes),
+                ],
+                "目标是深渊补 T3+ 物理百分比；这里按一次左向定向成本计入，不计光明预兆重洗。",
+            ),
         ],
     )
     route2_share = expected_material_table(
@@ -2009,6 +2105,38 @@ def render_routes(
             ),
         ],
     )
+    route3_one_attempt = one_attempt_table(
+        "非暴击弓一次尝试成本模型：物理百分比底做到一次 Ancient Echo 深渊",
+        [
+            (
+                "1. 买基底",
+                [(f"{phys_start.code} {TARGET_LABELS[phys_start.target]} 起步底", 1, phys_cost)],
+                "与暴击弓 A 共用物理百分比起步池。",
+            ),
+            (
+                "2. 物理点伤精髓",
+                [(label("Greater Essence of Abrasion"), 1, abrasion)],
+                "固定补物理点伤；不强求暴击率。",
+            ),
+            (
+                "3. 双崇高",
+                [
+                    (label("Omen of Greater Exaltation"), 1, greater_omen),
+                    (label("Exalted Orb"), 1, exalt),
+                ],
+                "按当前非暴击弓推荐的低端双加做一轮。",
+            ),
+            (
+                "4. 一次深渊",
+                [
+                    (label("Omen of Sinistral Necromancy"), 1, sin_necro),
+                    (label("Ancient Jawbone"), 1, ancient),
+                    (label("Omen of Abyssal Echoes"), 1, echoes),
+                ],
+                "按一次左向深渊定向 + Ancient Echo 计入；不计光明预兆重洗。",
+            ),
+        ],
+    )
     route3_ops = render_route_candidate_table(
         "非暴击弓候选路径表：双物理后补有效词",
         [
@@ -2054,9 +2182,9 @@ def render_routes(
           <label for="route-2">暴击弓 B：点伤底反做</label>
           <label for="route-3">非暴击弓：pDPS</label>
         </div>
-        <div class="tab-panel route-1-panel">{route1_timing_compare}{route1_step_costs}{route1_material_share}{route1_price_distribution}{route1_ops}</div>
-        <div class="tab-panel route-2-panel">{route2_step_costs}{route2_share}{route2_price_distribution}{route2_ops}</div>
-        <div class="tab-panel route-3-panel">{route3_step_costs}{route3_material_share}{route3_price_distribution}{route3_ops}</div>
+        <div class="tab-panel route-1-panel">{route1_one_attempt}{route1_timing_compare}{route1_step_costs}{route1_material_share}{route1_price_distribution}{route1_ops}</div>
+        <div class="tab-panel route-2-panel">{route2_one_attempt}{route2_step_costs}{route2_share}{route2_price_distribution}{route2_ops}</div>
+        <div class="tab-panel route-3-panel">{route3_one_attempt}{route3_step_costs}{route3_material_share}{route3_price_distribution}{route3_ops}</div>
       </div>
       {formula_html}
     </section>
