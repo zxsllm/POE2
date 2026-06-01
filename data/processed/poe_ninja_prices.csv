@@ -1,360 +1,360 @@
 snapshot_time_utc,league,type,id,name,category,details_id,divine_value,exalted_value,chaos_value,max_volume_currency,max_volume_rate,volume_primary_value,sparkline_total_change
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,alch,Orb of Alchemy,Currency,orb-of-alchemy,0.0178776,1.04,1.4352,exalted,0.9598,22744,65.35
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,exalted,Exalted Orb,Currency,exalted-orb,0.01719,1.0,1.38,divine,58.19,1880187,-32.99
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,ancient-infuser,Ancient Infuser,Vaal,ancient-infuser,0.15127200000000002,8.8,12.144,exalted,0.1136,193.7,-23.08
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,annul,Orb of Annulment,Currency,orb-of-annulment,0.1681182,9.78,13.496399999999998,exalted,0.1023,41812,152.0
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,architects-orb,Architect's Orb,Vaal,architects-orb,0.3898692,22.68,31.298399999999997,exalted,0.04409,1066,94.29
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,divine,Divine Orb,Currency,divine-orb,1.0002861,58.19,80.30219999999998,exalted,0.01719,1880187,46.25
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,artificers,Artificer's Orb,Currency,artificers-orb,0.006344829,0.3691,0.509358,exalted,2.71,3095,35.23
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,chaos,Chaos Orb,Currency,chaos-orb,0.012467906999999999,0.7253,1.0009139999999999,exalted,1.38,44093,-48.23
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,artificers-shard,Artificer's Shard,Currency,artificers-shard,0.003589272,0.2088,0.288144,exalted,4.79,9.5,30.53
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,aug,Orb of Augmentation,Currency,orb-of-augmentation,0.0014778243,0.08597,0.1186386,exalted,11.63,3709,86.06
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,bauble,Glassblower's Bauble,Currency,glassblowers-bauble,0.0226908,1.32,1.8215999999999999,exalted,0.7604,7487,404.1
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,chance,Orb of Chance,Currency,orb-of-chance,0.2136717,12.43,17.153399999999998,exalted,0.08045,81050,143.4
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,chance-shard,Chance Shard,Currency,chance-shard,0.0180495,1.05,1.4489999999999998,exalted,0.951,2731,155.4
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,etcher,Arcanist's Etcher,Currency,arcanists-etcher,0.002090304,0.1216,0.16780799999999998,exalted,8.22,596.8,35.24
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,fracturing-orb,Fracturing Orb,Currency,fracturing-orb,3.8247750000000003,222.5,307.04999999999995,divine,0.2615,24255,129.4
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,greater-regal-orb,Greater Regal Orb,Currency,greater-regal-orb,0.0440064,2.56,3.5328,exalted,0.3906,5784,-52.64
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,lesser-jewellers-orb,Lesser Jeweller's Orb,Currency,lesser-jewellers-orb,0.0013346316,0.07764,0.1071432,exalted,12.88,366.3,-73.28
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,perfect-chaos-orb,Perfect Chaos Orb,Currency,perfect-chaos-orb,1.2921723,75.17,103.7346,exalted,0.0133,11389,110.9
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,perfect-exalted-orb,Perfect Exalted Orb,Currency,perfect-exalted-orb,1.801512,104.8,144.624,exalted,0.009538,50815,89.5
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,perfect-jewellers-orb,Perfect Jeweller's Orb,Currency,perfect-jewellers-orb,1.315035,76.5,105.57,exalted,0.01307,198871,93.86
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,perfect-regal-orb,Perfect Regal Orb,Currency,perfect-regal-orb,0.28758870000000003,16.73,23.0874,exalted,0.05978,9114,-0.11
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,regal,Regal Orb,Currency,regal-orb,0.0061884,0.36,0.49679999999999996,exalted,2.78,8476,26.33
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,scrap,Armourer's Scrap,Currency,armourers-scrap,0.012165363,0.7077,0.9766259999999999,exalted,1.41,46424,433.2
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,vaal-armourers-infuser,Vaal Armourer's Infuser,Vaal,vaal-armourers-infuser,0.2401443,13.97,19.2786,exalted,0.07161,798.3,831.0
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,vaal-blacksmiths-infuser,Vaal Blacksmith's Infuser,Vaal,vaal-blacksmiths-infuser,0.6934446000000001,40.34,55.669200000000004,exalted,0.02479,1452,198.8
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,vaal-cultivation-orb,Vaal Cultivation Orb,Vaal,vaal-cultivation-orb,1.5763230000000001,91.7,126.54599999999999,exalted,0.01091,6129,397.9
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,core-destabiliser,Core Destabiliser,Vaal,core-destabiliser,0.10228050000000001,5.95,8.211,exalted,0.168,148.8,53.44
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,cryptic-key,Cryptic Key,Currency,cryptic-key,0.2315493,13.47,18.5886,exalted,0.07424,291.8,144.9
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,crystallised-corruption,Crystallised Corruption,Vaal,crystallised-corruption,0.46344240000000003,26.96,37.2048,exalted,0.03709,1308,96.6
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,hinekoras-lock,Hinekora's Lock,Currency,hinekoras-lock,105.35751,6129.0,8458.019999999999,divine,0.009495,34728,289.8
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,vaal-arcanists-infuser,Vaal Arcanist's Infuser,Vaal,vaal-arcanists-infuser,0.0405684,2.36,3.2567999999999997,exalted,0.4237,9.83,-64.71
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,gcp,Gemcutter's Prism,Currency,gemcutters-prism,0.0505386,2.94,4.0572,exalted,0.3397,47008,120.3
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,greater-chaos-orb,Greater Chaos Orb,Currency,greater-chaos-orb,0.0512262,2.98,4.1124,exalted,0.3356,5908,-40.51
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,greater-exalted-orb,Greater Exalted Orb,Currency,greater-exalted-orb,0.1719,10.0,13.799999999999999,exalted,0.1,98511,22.66
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,greater-jewellers-orb,Greater Jeweller's Orb,Currency,greater-jewellers-orb,0.0623997,3.63,5.009399999999999,exalted,0.2753,41691,-15.27
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,greater-orb-of-augmentation,Greater Orb of Augmentation,Currency,greater-orb-of-augmentation,0.00417717,0.243,0.33533999999999997,exalted,4.11,3592,-59.52
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,greater-orb-of-transmutation,Greater Orb of Transmutation,Currency,greater-orb-of-transmutation,0.0254412,1.48,2.0423999999999998,exalted,0.6775,18974,106.3
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,mirror,Mirror of Kalandra,Currency,mirror-of-kalandra,402.89922,23438.0,32344.44,divine,0.002483,19532,219.7
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,orb-of-extraction,Orb of Extraction,Vaal,orb-of-extraction,2.8346310000000003,164.9,227.56199999999998,exalted,0.006065,1347,354.6
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,perfect-orb-of-augmentation,Perfect Orb of Augmentation,Currency,perfect-orb-of-augmentation,0.10795320000000001,6.28,8.6664,exalted,0.1593,31470,17.65
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,perfect-orb-of-transmutation,Perfect Orb of Transmutation,Currency,perfect-orb-of-transmutation,0.1550538,9.02,12.447599999999998,exalted,0.1108,20410,20.76
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,regal-shard,Regal Shard,Currency,regal-shard,0.0019098090000000002,0.1111,0.15331799999999998,exalted,9,0.3333,0
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,transmutation-shard,Transmutation Shard,Currency,transmutation-shard,0.0028655729999999997,0.1667,0.23004599999999997,exalted,6,0.1667,1.69
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,transmute,Orb of Transmutation,Currency,orb-of-transmutation,0.0019940400000000003,0.116,0.16008,exalted,8.62,2835,52.93
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,vaal-catalysing-infuser,Vaal Catalysing Infuser,Vaal,vaal-catalysing-infuser,0.1535067,8.93,12.3234,exalted,0.112,84.83,-1.62
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,vaal,Vaal Orb,Currency,vaal-orb,0.0183933,1.07,1.4766,exalted,0.9387,16477,99.04
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,vaal-siphoner,Vaal Siphoner,Vaal,vaal-siphoner,0.0302544,1.76,2.4288,exalted,0.5667,5.0,-42.77
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,whetstone,Blacksmith's Whetstone,Currency,blacksmiths-whetstone,0.003783519,0.2201,0.30373799999999995,exalted,4.54,7244,43.43
-2026-06-01T05:59:35+00:00,Runes of Aldur,Currency,wisdom,Scroll of Wisdom,Currency,scroll-of-wisdom,6.454845e-05,0.003755,0.0051819,exalted,266.3,291.0,-31.1
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,essence-of-electricity,Essence of Electricity,Essences,essence-of-electricity,0.0443502,2.58,3.5604,exalted,0.3875,26.67,39.1
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,essence-of-flames,Essence of Flames,Essences,essence-of-flames,0.011329929,0.6591,0.909558,exalted,1.52,4.83,-43.49
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,greater-essence-of-alacrity,Greater Essence of Alacrity,Essences,greater-essence-of-alacrity,0.0116892,0.68,0.9384,exalted,1.47,110.5,-50.63
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,greater-essence-of-command,Greater Essence of Command,Essences,greater-essence-of-command,0.0244098,1.42,1.9595999999999998,exalted,0.7058,408.5,-4.59
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,greater-essence-of-enhancement,Greater Essence of Enhancement,Essences,greater-essence-of-enhancement,0.0261288,1.52,2.0976,exalted,0.6562,2453,-20.52
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,greater-essence-of-flames,Greater Essence of Flames,Essences,greater-essence-of-flames,0.011386656,0.6624,0.9141119999999999,exalted,1.51,69.33,-56.95
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,greater-essence-of-grounding,Greater Essence of Grounding,Essences,greater-essence-of-grounding,0.037818000000000004,2.2,3.036,exalted,0.4536,3087,-23.88
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,greater-essence-of-ice,Greater Essence of Ice,Essences,greater-essence-of-ice,0.010817667,0.6293,0.8684339999999999,exalted,1.59,125.3,-68.31
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,greater-essence-of-insulation,Greater Essence of Insulation,Essences,greater-essence-of-insulation,0.041256,2.4,3.312,exalted,0.4159,3251,-24.05
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,greater-essence-of-opulence,Greater Essence of Opulence,Essences,greater-essence-of-opulence,0.11792340000000001,6.86,9.4668,exalted,0.1459,5221,120.3
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,greater-essence-of-ruin,Greater Essence of Ruin,Essences,greater-essence-of-ruin,0.0883566,5.14,7.093199999999999,exalted,0.1944,3373,108.9
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,greater-essence-of-sorcery,Greater Essence of Sorcery,Essences,greater-essence-of-sorcery,0.009141642000000002,0.5318,0.733884,exalted,1.88,137.8,-53.02
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,greater-essence-of-the-body,Greater Essence of the Body,Essences,greater-essence-of-the-body,0.009036783,0.5257,0.7254659999999998,exalted,1.9,230.2,-54.85
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,perfect-essence-of-abrasion,Perfect Essence of Abrasion,Essences,perfect-essence-of-abrasion,0.0290511,1.69,2.3322,exalted,0.5928,449.8,-70.64
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,perfect-essence-of-battle,Perfect Essence of Battle,Essences,perfect-essence-of-battle,0.268164,15.6,21.528,exalted,0.06409,16307,-53.64
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,perfect-essence-of-electricity,Perfect Essence of Electricity,Essences,perfect-essence-of-electricity,0.022347000000000002,1.3,1.7939999999999998,exalted,0.7684,63.33,-74.36
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,perfect-essence-of-enhancement,Perfect Essence of Enhancement,Essences,perfect-essence-of-enhancement,0.0295668,1.72,2.3735999999999997,exalted,0.5799,739.8,-47.54
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,perfect-essence-of-haste,Perfect Essence of Haste,Essences,perfect-essence-of-haste,0.0388494,2.26,3.1187999999999994,exalted,0.4428,434.0,-69.48
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,perfect-essence-of-thawing,Perfect Essence of Thawing,Essences,perfect-essence-of-thawing,0.012033,0.7,0.9659999999999999,exalted,1.43,11.67,-38.08
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,perfect-essence-of-the-body,Perfect Essence of the Body,Essences,perfect-essence-of-the-body,0.012940632,0.7528,1.038864,exalted,1.33,45.17,-35.52
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,perfect-essence-of-the-infinite,Perfect Essence of the Infinite,Essences,perfect-essence-of-the-infinite,0.016669143,0.9697,1.3381859999999999,exalted,1.03,26.67,2.91
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,essence-of-sorcery,Essence of Sorcery,Essences,essence-of-sorcery,0.026988300000000003,1.57,2.1666,exalted,0.6387,25.83,4.14
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,essence-of-the-breach,Essence of the Breach,Essences,essence-of-the-breach,0.0419436,2.44,3.3671999999999995,exalted,0.41,160.2,-56.44
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,essence-of-abrasion,Essence of Abrasion,Essences,essence-of-abrasion,0.0637749,3.71,5.1198,exalted,0.2694,436.2,-46.12
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,essence-of-alacrity,Essence of Alacrity,Essences,essence-of-alacrity,0.0268164,1.56,2.1528,exalted,0.6406,10.67,-5.68
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,essence-of-command,Essence of Command,Essences,essence-of-command,0.0462411,2.69,3.7121999999999997,exalted,0.372,27.33,72.65
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,essence-of-grounding,Essence of Grounding,Essences,essence-of-grounding,0.0249255,1.45,2.001,exalted,0.6903,96.33,-24.95
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,essence-of-haste,Essence of Haste,Essences,essence-of-haste,0.0254412,1.48,2.0423999999999998,exalted,0.6747,48.17,-17.91
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,essence-of-horror,Essence of Horror,Essences,essence-of-horror,0.21745350000000002,12.65,17.457,exalted,0.07907,944.3,-24.98
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,essence-of-hysteria,Essence of Hysteria,Essences,essence-of-hysteria,1.3691835,79.65,109.917,exalted,0.01255,8164,77.65
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,essence-of-ice,Essence of Ice,Essences,essence-of-ice,0.016510995,0.9605,1.3254899999999998,exalted,1.04,12.17,-41.89
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,essence-of-insanity,Essence of Insanity,Essences,essence-of-insanity,0.0771831,4.49,6.1962,exalted,0.2225,183.5,-11.93
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,essence-of-insulation,Essence of Insulation,Essences,essence-of-insulation,0.0288792,1.68,2.3183999999999996,exalted,0.5968,93.0,-16.92
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,essence-of-opulence,Essence of Opulence,Essences,essence-of-opulence,0.0479601,2.79,3.8501999999999996,exalted,0.3589,124.0,53.56
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,essence-of-seeking,Essence of Seeking,Essences,essence-of-seeking,0.023034600000000002,1.34,1.8492,exalted,0.7486,29.83,5.12
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,essence-of-thawing,Essence of Thawing,Essences,essence-of-thawing,0.0259569,1.51,2.0837999999999997,exalted,0.6623,101.7,-34.66
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,essence-of-the-abyss,Essence of the Abyss,Essences,essence-of-the-abyss,0.0355833,2.07,2.8565999999999994,exalted,0.4837,1096,54.21
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,essence-of-the-body,Essence of the Body,Essences,essence-of-the-body,0.0393651,2.29,3.1601999999999997,exalted,0.4371,220.0,33.71
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,essence-of-the-infinite,Essence of the Infinite,Essences,essence-of-the-infinite,0.0266445,1.55,2.139,exalted,0.6462,10.83,10.86
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,essence-of-the-mind,Essence of the Mind,Essences,essence-of-the-mind,0.015471,0.9,1.242,exalted,1.11,3.0,30.91
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,essence-of-battle,Essence of Battle,Essences,essence-of-battle,0.01719,1.0,1.38,exalted,1,0.6667,0
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,essence-of-delirium,Essence of Delirium,Essences,essence-of-delirium,0.045725400000000006,2.66,3.6708,exalted,0.3761,76.67,-70.04
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,essence-of-enhancement,Essence of Enhancement,Essences,essence-of-enhancement,0.0381618,2.22,3.0636,exalted,0.4504,121.0,35.28
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,essence-of-ruin,Essence of Ruin,Essences,essence-of-ruin,0.0321453,1.87,2.5806,exalted,0.5361,16.17,42.49
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,lesser-essence-of-alacrity,Lesser Essence of Alacrity,Essences,lesser-essence-of-alacrity,0.0244098,1.42,1.9595999999999998,exalted,0.7045,22.0,2.1
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,lesser-essence-of-opulence,Lesser Essence of Opulence,Essences,lesser-essence-of-opulence,0.0450378,2.62,3.6155999999999997,exalted,0.381,3.5,110.0
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,lesser-essence-of-the-mind,Lesser Essence of the Mind,Essences,lesser-essence-of-the-mind,0.007706277,0.4483,0.6186539999999999,exalted,2.23,2.17,34.48
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,perfect-essence-of-alacrity,Perfect Essence of Alacrity,Essences,perfect-essence-of-alacrity,0.018737100000000003,1.09,1.5042,exalted,0.9135,17.33,-8.0
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,greater-essence-of-abrasion,Greater Essence of Abrasion,Essences,greater-essence-of-abrasion,0.0419436,2.44,3.3671999999999995,exalted,0.4102,4973,-68.27
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,greater-essence-of-battle,Greater Essence of Battle,Essences,greater-essence-of-battle,0.005428602,0.3158,0.435804,exalted,3.17,12.0,-65.55
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,greater-essence-of-electricity,Greater Essence of Electricity,Essences,greater-essence-of-electricity,0.0110016,0.64,0.8832,exalted,1.56,148.2,-74.29
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,greater-essence-of-haste,Greater Essence of Haste,Essences,greater-essence-of-haste,0.027160200000000002,1.58,2.1804,exalted,0.6327,1315,-62.03
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,greater-essence-of-seeking,Greater Essence of Seeking,Essences,greater-essence-of-seeking,0.051054300000000004,2.97,4.0986,exalted,0.3369,3537,58.92
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,greater-essence-of-thawing,Greater Essence of Thawing,Essences,greater-essence-of-thawing,0.041427900000000004,2.41,3.3258,exalted,0.415,3349,-22.75
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,greater-essence-of-the-infinite,Greater Essence of the Infinite,Essences,greater-essence-of-the-infinite,0.016956216,0.9864,1.361232,exalted,1.01,96.67,-10.14
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,greater-essence-of-the-mind,Greater Essence of the Mind,Essences,greater-essence-of-the-mind,0.0034809750000000003,0.2025,0.27945,exalted,4.94,37.17,-68.81
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,lesser-essence-of-abrasion,Lesser Essence of Abrasion,Essences,lesser-essence-of-abrasion,0.023550300000000003,1.37,1.8906,exalted,0.7286,33.17,-34.35
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,lesser-essence-of-battle,Lesser Essence of Battle,Essences,lesser-essence-of-battle,0.008595,0.5,0.69,exalted,2,0.1667,0
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,lesser-essence-of-command,Lesser Essence of Command,Essences,lesser-essence-of-command,0.0183933,1.07,1.4766,exalted,0.9333,5.0,12.93
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,lesser-essence-of-electricity,Lesser Essence of Electricity,Essences,lesser-essence-of-electricity,0.015168456,0.8824,1.217712,exalted,1.13,2.5,-0.5
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,lesser-essence-of-enhancement,Lesser Essence of Enhancement,Essences,lesser-essence-of-enhancement,0.013929057,0.8103,1.118214,exalted,1.23,7.83,-1.12
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,lesser-essence-of-flames,Lesser Essence of Flames,Essences,lesser-essence-of-flames,0.016043427,0.9333,1.2879539999999998,exalted,1.07,2.33,6.67
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,lesser-essence-of-grounding,Lesser Essence of Grounding,Essences,lesser-essence-of-grounding,0.015758073,0.9167,1.265046,exalted,1.09,1.83,-19.51
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,lesser-essence-of-haste,Lesser Essence of Haste,Essences,lesser-essence-of-haste,0.041427900000000004,2.41,3.3258,exalted,0.4146,6.83,30.76
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,lesser-essence-of-ice,Lesser Essence of Ice,Essences,lesser-essence-of-ice,0.01719,1.0,1.38,exalted,1,2,-2.62
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,lesser-essence-of-insulation,Lesser Essence of Insulation,Essences,lesser-essence-of-insulation,0.012892500000000001,0.75,1.035,exalted,1.33,3.5,-16.21
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,lesser-essence-of-ruin,Lesser Essence of Ruin,Essences,lesser-essence-of-ruin,0.051570000000000005,3.0,4.14,exalted,0.3333,1.0,66.67
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,lesser-essence-of-seeking,Lesser Essence of Seeking,Essences,lesser-essence-of-seeking,0.01719,1.0,1.38,exalted,1,2.5,-19.55
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,lesser-essence-of-sorcery,Lesser Essence of Sorcery,Essences,lesser-essence-of-sorcery,0.01504125,0.875,1.2075,exalted,1.14,3.5,-13.97
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,lesser-essence-of-thawing,Lesser Essence of Thawing,Essences,lesser-essence-of-thawing,0.01719,1.0,1.38,exalted,1,3.5,-8.15
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,lesser-essence-of-the-body,Lesser Essence of the Body,Essences,lesser-essence-of-the-body,0.015758073,0.9167,1.265046,exalted,1.09,5.5,17.82
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,lesser-essence-of-the-infinite,Lesser Essence of the Infinite,Essences,lesser-essence-of-the-infinite,0.01719,1.0,1.38,exalted,1,1,0
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,perfect-essence-of-command,Perfect Essence of Command,Essences,perfect-essence-of-command,0.0226908,1.32,1.8215999999999999,exalted,0.7588,28.33,-4.16
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,perfect-essence-of-flames,Perfect Essence of Flames,Essences,perfect-essence-of-flames,0.015307695,0.8905,1.2288899999999998,exalted,1.12,20.33,-78.1
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,perfect-essence-of-grounding,Perfect Essence of Grounding,Essences,perfect-essence-of-grounding,0.013557752999999999,0.7887,1.0884059999999998,exalted,1.27,9.33,-28.3
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,perfect-essence-of-ice,Perfect Essence of Ice,Essences,perfect-essence-of-ice,0.0249255,1.45,2.001,exalted,0.6879,110.0,-85.21
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,perfect-essence-of-insulation,Perfect Essence of Insulation,Essences,perfect-essence-of-insulation,0.026472600000000002,1.54,2.1252,exalted,0.6478,88.5,-20.61
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,perfect-essence-of-opulence,Perfect Essence of Opulence,Essences,perfect-essence-of-opulence,0.0201123,1.17,1.6145999999999998,exalted,0.8557,16.17,-33.74
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,perfect-essence-of-ruin,Perfect Essence of Ruin,Essences,perfect-essence-of-ruin,0.01719,1.0,1.38,exalted,1,14.5,0
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,perfect-essence-of-seeking,Perfect Essence of Seeking,Essences,perfect-essence-of-seeking,0.0405684,2.36,3.2567999999999997,exalted,0.4232,57.5,136.3
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,perfect-essence-of-sorcery,Perfect Essence of Sorcery,Essences,perfect-essence-of-sorcery,0.09660780000000001,5.62,7.755599999999999,exalted,0.1778,3549,-74.73
-2026-06-01T05:59:35+00:00,Runes of Aldur,Essences,perfect-essence-of-the-mind,Perfect Essence of the Mind,Essences,perfect-essence-of-the-mind,0.0268164,1.56,2.1528,exalted,0.6427,296.7,14.16
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,adept-rune,Adept Rune,Runes,adept-rune,0.014546178,0.8462,1.1677559999999998,exalted,1.18,3.67,-40.13
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,aldurs-legacy,Aldur's Legacy,Runes,aldurs-legacy,36.33966,2114.0,2917.3199999999997,divine,0.02752,2114,-10.66
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,ancient-rune-of-animosity,Ancient Rune of Animosity,Runes,ancient-rune-of-animosity,0.01719,1.0,1.38,exalted,1,2.33,0
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,ancient-rune-of-control,Ancient Rune of Control,Runes,ancient-rune-of-control,0.018909000000000002,1.1,1.518,exalted,0.9111,7.5,-63.41
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,ancient-rune-of-decay,Ancient Rune of Decay,Runes,ancient-rune-of-decay,0.0450378,2.62,3.6155999999999997,exalted,0.381,7.0,-34.38
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,ancient-rune-of-detonation,Ancient Rune of Detonation,Runes,ancient-rune-of-detonation,0.057586500000000006,3.35,4.622999999999999,exalted,0.2982,190.0,-15.63
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,ancient-rune-of-discovery,Ancient Rune of Discovery,Runes,ancient-rune-of-discovery,0.0462411,2.69,3.7121999999999997,exalted,0.3721,7.17,0.78
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,ancient-rune-of-dueling,Ancient Rune of Dueling,Runes,ancient-rune-of-dueling,0.028707299999999998,1.67,2.3045999999999998,exalted,0.6,5.83,38.89
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,ancient-rune-of-prowess,Ancient Rune of Prowess,Runes,ancient-rune-of-prowess,0.019252800000000004,1.12,1.5456,exalted,0.895,60.33,-3.23
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,ancient-rune-of-retaliation,Ancient Rune of Retaliation,Runes,ancient-rune-of-retaliation,0.0232065,1.35,1.863,exalted,0.7391,3.83,-54.9
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,ancient-rune-of-shattering,Ancient Rune of Shattering,Runes,ancient-rune-of-shattering,0.0696195,4.05,5.5889999999999995,exalted,0.2471,43.17,304.7
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,ancient-rune-of-splinters,Ancient Rune of Splinters,Runes,ancient-rune-of-splinters,0.016713837000000002,0.9723,1.341774,exalted,1.03,41.0,-48.96
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,ancient-rune-of-the-horde,Ancient Rune of the Horde,Runes,ancient-rune-of-the-horde,0.027847800000000002,1.62,2.2356,exalted,0.6168,53.5,-18.44
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,ancient-rune-of-the-titan,Ancient Rune of the Titan,Runes,ancient-rune-of-the-titan,0.0247536,1.44,1.9871999999999999,exalted,0.6957,3.83,-64.06
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,astrids-creativity,Astrid's Creativity,Runes,astrids-creativity,4.130757,240.3,331.614,divine,0.2421,5528,313.0
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,betrayal-of-aldur,Betrayal of Aldur,Runes,betrayal-of-aldur,0.4551912,26.48,36.5424,exalted,0.03777,278.0,42.35
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,body-rune,Body Rune,Runes,body-rune,0.023034600000000002,1.34,1.8492,exalted,0.7477,18.5,78.16
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,breath-of-aldur,Breath of Aldur,Runes,breath-of-aldur,1.1103021000000002,64.59,89.13419999999999,exalted,0.01548,2271,500.8
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,cadigans-epiphany,Cadigan's Epiphany,Runes,cadigans-epiphany,3.217968,187.2,258.33599999999996,divine,0.3108,2153,113.5
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,ancient-rune-of-witchcraft,Ancient Rune of Witchcraft,Runes,ancient-rune-of-witchcraft,0.015302538000000001,0.8902,1.228476,exalted,1.12,12.17,-10.98
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,countess-seskes-rune-of-archery,Countess Seske's Rune of Archery,Runes,countess-seskes-rune-of-archery,0.2470203,14.37,19.830599999999997,exalted,0.06961,5220,-51.7
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,courtesan-mannans-rune-of-cruelty,Courtesan Mannan's Rune of Cruelty,Runes,courtesan-mannans-rune-of-cruelty,0.0347238,2.02,2.7876,exalted,0.4938,121.8,11.9
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,craiceanns-rune-of-recovery,Craiceann's Rune of Recovery,Runes,craiceanns-rune-of-recovery,0.046413,2.7,3.726,exalted,0.3701,508.0,134.2
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,farruls-rune-of-the-chase,Farrul's Rune of the Chase,Runes,farruls-rune-of-the-chase,0.40516830000000004,23.57,32.526599999999995,exalted,0.04243,9801,60.44
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,farruls-rune-of-the-hunt,Farrul's Rune of the Hunt,Runes,farruls-rune-of-the-hunt,0.0462411,2.69,3.7121999999999997,exalted,0.3719,860.3,26.88
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,fenumus-rune-of-agony,Fenumus' Rune of Agony,Runes,fenumus-rune-of-agony,0.0407403,2.37,3.2706,exalted,0.4213,435.2,46.57
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,fenumus-rune-of-draining,Fenumus' Rune of Draining,Runes,fenumus-rune-of-draining,0.0562113,3.27,4.5126,exalted,0.3059,73.0,126.0
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,fenumus-rune-of-spinning,Fenumus' Rune of Spinning,Runes,fenumus-rune-of-spinning,0.0391932,2.28,3.1463999999999994,exalted,0.4379,318.2,1.35
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,glacial-rune,Glacial Rune,Runes,glacial-rune,0.0146115,0.85,1.1729999999999998,exalted,1.18,59.5,-17.06
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,greater-adept-rune,Greater Adept Rune,Runes,greater-adept-rune,0.0250974,1.46,2.0147999999999997,exalted,0.6848,533.5,-24.53
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,greater-desert-rune,Greater Desert Rune,Runes,greater-desert-rune,0.013282713000000002,0.7727,1.0663259999999999,exalted,1.29,1523,-52.13
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,greater-inspiration-rune,Greater Inspiration Rune,Runes,greater-inspiration-rune,0.009923787000000002,0.5773,0.796674,exalted,1.73,49.17,-29.44
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,greater-resolve-rune,Greater Resolve Rune,Runes,greater-resolve-rune,0.0247536,1.44,1.9871999999999999,exalted,0.6959,731.0,-16.01
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,greater-robust-rune,Greater Robust Rune,Runes,greater-robust-rune,0.0214875,1.25,1.7249999999999999,exalted,0.8013,433.7,-35.09
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,greater-stone-rune,Greater Stone Rune,Runes,greater-stone-rune,0.006750513,0.3927,0.5419259999999999,exalted,2.55,12.5,-46.1
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,greater-vision-rune,Greater Vision Rune,Runes,greater-vision-rune,0.015175332000000001,0.8828,1.218264,exalted,1.13,113.0,-46.77
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,iron-rune,Iron Rune,Runes,iron-rune,0.0467568,2.72,3.7536,exalted,0.3681,949.8,188.9
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,lesser-desert-rune,Lesser Desert Rune,Runes,lesser-desert-rune,0.009686565,0.5635,0.7776299999999999,exalted,1.77,18.5,-23.79
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,lesser-inspiration-rune,Lesser Inspiration Rune,Runes,lesser-inspiration-rune,0.008595,0.5,0.69,exalted,2,0.5,5.88
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,lesser-resolve-rune,Lesser Resolve Rune,Runes,lesser-resolve-rune,0.0256131,1.49,2.0562,exalted,0.6724,19.33,0.82
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,lesser-ward-rune,Lesser Ward Rune,Runes,lesser-ward-rune,0.01672587,0.973,1.3427399999999998,exalted,1.03,6.0,12.84
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,masterwork-rune,Masterwork Rune,Runes,masterwork-rune,0.19166850000000002,11.15,15.386999999999999,exalted,0.08968,8991,354.4
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,resolve-rune,Resolve Rune,Runes,resolve-rune,0.01719,1.0,1.38,exalted,1,3.17,-12.39
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,rune-of-acrobatics,Rune of Acrobatics,Runes,rune-of-acrobatics,0.0319734,1.86,2.5667999999999997,exalted,0.5385,97.5,12.97
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,rune-of-consistency,Rune of Consistency,Runes,rune-of-consistency,0.0180495,1.05,1.4489999999999998,exalted,0.9545,25.67,-9.64
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,rune-of-foundations,Rune of Foundations,Runes,rune-of-foundations,0.0266445,1.55,2.139,exalted,0.6465,171.2,50.03
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,rune-of-the-blossom,Rune of the Blossom,Runes,rune-of-the-blossom,0.034895699999999995,2.03,2.8013999999999997,exalted,0.4914,282.2,84.36
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,saqawals-rune-of-erosion,Saqawal's Rune of Erosion,Runes,saqawals-rune-of-erosion,0.0608526,3.54,4.885199999999999,exalted,0.2826,113.8,26.35
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,saqawals-rune-of-the-sky,Saqawal's Rune of the Sky,Runes,saqawals-rune-of-the-sky,0.16760250000000002,9.75,13.454999999999998,exalted,0.1026,7430,128.4
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,storm-rune,Storm Rune,Runes,storm-rune,0.014738706,0.8574,1.183212,exalted,1.17,67.17,1.84
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,thane-girts-rune-of-wildness,Thane Girt's Rune of Wildness,Runes,thane-girts-rune-of-wildness,0.0283635,1.65,2.2769999999999997,exalted,0.6052,57.83,10.71
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,thane-grannells-rune-of-mastery,Thane Grannell's Rune of Mastery,Runes,thane-grannells-rune-of-mastery,0.1015929,5.91,8.1558,exalted,0.1693,1128,74.48
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,thane-lelds-rune-of-spring,Thane Leld's Rune of Spring,Runes,thane-lelds-rune-of-spring,0.067041,3.9,5.382,exalted,0.2562,973.3,-22.66
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,the-greatwolfs-rune-of-willpower,The Greatwolf's Rune of Willpower,Runes,the-greatwolfs-rune-of-willpower,0.1108755,6.45,8.901,exalted,0.155,937.8,130.8
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,warding-rune-of-armature,Warding Rune of Armature,Runes,warding-rune-of-armature,0.0455535,2.65,3.6569999999999996,exalted,0.3778,30.0,124.6
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,warding-rune-of-heart,Warding Rune of Heart,Runes,warding-rune-of-heart,0.026988300000000003,1.57,2.1666,exalted,0.6351,294.2,-27.51
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,warding-rune-of-hollowing,Warding Rune of Hollowing,Runes,warding-rune-of-hollowing,0.0376461,2.19,3.0221999999999998,exalted,0.4569,44.5,42.49
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,warding-rune-of-reinforcement,Warding Rune of Reinforcement,Runes,warding-rune-of-reinforcement,0.03850560000000001,2.24,3.0912,exalted,0.4466,145.2,131.3
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,warding-rune-of-stability,Warding Rune of Stability,Runes,warding-rune-of-stability,0.0390213,2.27,3.1325999999999996,exalted,0.4405,28.0,30.85
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,charging-rune,Charging Rune,Runes,charging-rune,0.051570000000000005,3.0,4.14,exalted,0.3333,4.0,28.57
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,craiceanns-rune-of-warding,Craiceann's Rune of Warding,Runes,craiceanns-rune-of-warding,0.1084689,6.31,8.707799999999999,exalted,0.1585,1586,149.3
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,desert-rune,Desert Rune,Runes,desert-rune,0.0201123,1.17,1.6145999999999998,exalted,0.8533,43.17,21.34
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,greater-rune-of-leadership,Greater Rune of Leadership,Runes,greater-rune-of-leadership,2.024982,117.8,162.564,exalted,0.008488,1394,324.6
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,kolrs-hunt,Kolr's Hunt,Runes,kolrs-hunt,0.6791769,39.51,54.523799999999994,exalted,0.02531,461.0,229.3
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,medveds-tending,Medved's Tending,Runes,medveds-tending,0.4715217,27.43,37.85339999999999,exalted,0.03645,169.2,17.08
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,perfect-glacial-rune,Perfect Glacial Rune,Runes,perfect-glacial-rune,2.571624,149.6,206.44799999999998,divine,0.3889,174.6,12.5
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,robust-rune,Robust Rune,Runes,robust-rune,0.0183933,1.07,1.4766,exalted,0.9326,29.67,-32.71
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,serles-triumph,Serle's Triumph,Runes,serles-triumph,2.645541,153.9,212.382,divine,0.378,795.2,32.26
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,uhtreds-sidereus,Uhtred's Sidereus,Runes,uhtreds-sidereus,0.2535525,14.75,20.354999999999997,exalted,0.0678,49.17,32.88
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,voranas-carnage,Vorana's Carnage,Runes,voranas-carnage,0.2195163,12.77,17.6226,exalted,0.07832,91.5,53.21
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,greater-rune-of-nobility,Greater Rune of Nobility,Runes,greater-rune-of-nobility,0.1012491,5.89,8.1282,exalted,0.1698,35.33,-46.46
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,lesser-rebirth-rune,Lesser Rebirth Rune,Runes,lesser-rebirth-rune,0.007812855,0.4545,0.6272099999999999,exalted,2.2,0.8333,36.36
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,rune-of-confrontation,Rune of Confrontation,Runes,rune-of-confrontation,0.016390665000000002,0.9535,1.3158299999999998,exalted,1.05,6.83,-2.56
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,warding-rune-of-obsession,Warding Rune of Obsession,Runes,warding-rune-of-obsession,0.0237222,1.38,1.9043999999999996,exalted,0.7273,3.67,1.85
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,farruls-rune-of-grace,Farrul's Rune of Grace,Runes,farruls-rune-of-grace,0.03850560000000001,2.24,3.0912,exalted,0.4473,52.17,91.63
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,greater-body-rune,Greater Body Rune,Runes,greater-body-rune,0.015275034,0.8886,1.226268,exalted,1.13,450.7,-32.68
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,greater-charging-rune,Greater Charging Rune,Runes,greater-charging-rune,0.048132,2.8,3.8639999999999994,exalted,0.3576,87.17,130.3
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,greater-glacial-rune,Greater Glacial Rune,Runes,greater-glacial-rune,0.015952320000000002,0.928,1.28064,exalted,1.08,1615,-46.68
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,greater-iron-rune,Greater Iron Rune,Runes,greater-iron-rune,0.08182439999999999,4.76,6.5687999999999995,exalted,0.2101,34908,196.5
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,greater-mind-rune,Greater Mind Rune,Runes,greater-mind-rune,0.0056606669999999994,0.3293,0.45443399999999995,exalted,3.04,27.33,-49.68
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,greater-rebirth-rune,Greater Rebirth Rune,Runes,greater-rebirth-rune,0.010116315,0.5885,0.81213,exalted,1.7,25.5,-14.92
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,greater-rune-of-alacrity,Greater Rune of Alacrity,Runes,greater-rune-of-alacrity,1.760256,102.4,141.31199999999998,exalted,0.009761,1332,184.6
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,greater-rune-of-tithing,Greater Rune of Tithing,Runes,greater-rune-of-tithing,0.8301051,48.29,66.6402,exalted,0.02071,499.0,382.9
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,greater-storm-rune,Greater Storm Rune,Runes,greater-storm-rune,0.014678541,0.8539,1.1783819999999998,exalted,1.17,1863,-39.56
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,greater-ward-rune,Greater Ward Rune,Runes,greater-ward-rune,0.0290511,1.69,2.3322,exalted,0.5918,222.5,-10.37
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,hedgewitch-assandras-rune-of-wisdom,Hedgewitch Assandra's Rune of Wisdom,Runes,hedgewitch-assandras-rune-of-wisdom,0.31681170000000003,18.43,25.4334,exalted,0.05427,7061,4.67
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,inspiration-rune,Inspiration Rune,Runes,inspiration-rune,0.01719,1.0,1.38,exalted,1,2.33,0
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,ire-of-aldur,Ire of Aldur,Runes,ire-of-aldur,0.1662273,9.67,13.344599999999998,exalted,0.1034,161.2,141.8
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,katlas-gloom,Katla's Gloom,Runes,katlas-gloom,0.23000220000000002,13.38,18.4644,exalted,0.07473,46.83,52.93
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,lady-hestras-rune-of-winter,Lady Hestra's Rune of Winter,Runes,lady-hestras-rune-of-winter,0.0218313,1.27,1.7526,exalted,0.7886,61.5,-52.79
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,lesser-adept-rune,Lesser Adept Rune,Runes,lesser-adept-rune,0.015627429,0.9091,1.2545579999999998,exalted,1.1,3.33,-13.62
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,lesser-body-rune,Lesser Body Rune,Runes,lesser-body-rune,0.007948656,0.4624,0.6381119999999999,exalted,2.16,14.33,36.81
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,lesser-glacial-rune,Lesser Glacial Rune,Runes,lesser-glacial-rune,0.010454958,0.6082,0.8393159999999998,exalted,1.64,34.67,-17.79
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,lesser-iron-rune,Lesser Iron Rune,Runes,lesser-iron-rune,0.017124678,0.9962,1.3747559999999999,exalted,1.0,265.5,110.9
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,lesser-mind-rune,Lesser Mind Rune,Runes,lesser-mind-rune,0.0046877130000000005,0.2727,0.376326,exalted,3.67,0.5,-27.27
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,lesser-robust-rune,Lesser Robust Rune,Runes,lesser-robust-rune,0.027847800000000002,1.62,2.2356,exalted,0.6183,21.83,21.36
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,lesser-storm-rune,Lesser Storm Rune,Runes,lesser-storm-rune,0.011536209,0.6711,0.926118,exalted,1.49,58.5,28.11
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,lesser-vision-rune,Lesser Vision Rune,Runes,lesser-vision-rune,0.0042975,0.25,0.345,exalted,4,0.3333,-50.0
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,mind-rune,Mind Rune,Runes,mind-rune,0.007639236000000001,0.4444,0.6132719999999999,exalted,2.25,1.33,-33.33
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,passion-of-aldur,Passion of Aldur,Runes,passion-of-aldur,0.1285812,7.48,10.3224,exalted,0.1336,72.33,-60.62
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,perfect-desert-rune,Perfect Desert Rune,Runes,perfect-desert-rune,2.667888,155.2,214.17599999999996,divine,0.375,77.58,0
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,perfect-iron-rune,Perfect Iron Rune,Runes,perfect-iron-rune,2.102337,122.3,168.77399999999997,divine,0.476,2017,26.06
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,perfect-storm-rune,Perfect Storm Rune,Runes,perfect-storm-rune,2.159064,125.6,173.32799999999997,divine,0.4634,795.2,-0.73
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,rebirth-rune,Rebirth Rune,Runes,rebirth-rune,0.012892500000000001,0.75,1.035,exalted,1.33,1.0,7.14
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,rune-of-accumulation,Rune of Accumulation,Runes,rune-of-accumulation,0.030598200000000002,1.78,2.4564,exalted,0.5612,306.5,20.12
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,rune-of-culmination,Rune of Culmination,Runes,rune-of-culmination,0.0366147,2.13,2.9393999999999996,exalted,0.4701,55.67,117.3
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,rune-of-reach,Rune of Reach,Runes,rune-of-reach,0.017019819,0.9901,1.3663379999999998,exalted,1.01,16.67,-24.56
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,rune-of-renown,Rune of Renown,Runes,rune-of-renown,0.061196400000000005,3.56,4.9128,exalted,0.2809,214.2,156.3
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,rune-of-the-hunt,Rune of the Hunt,Runes,rune-of-the-hunt,0.0316296,1.84,2.5392,exalted,0.5426,489.3,61.96
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,rune-of-the-prism,Rune of the Prism,Runes,rune-of-the-prism,0.0233784,1.36,1.8768,exalted,0.7373,250.0,-10.22
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,rune-of-vital-flame,Rune of Vital Flame,Runes,rune-of-vital-flame,0.013506183,0.7857,1.084266,exalted,1.27,1.83,-21.43
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,rune-of-vitality,Rune of Vitality,Runes,rune-of-vitality,0.0398808,2.32,3.2015999999999996,exalted,0.4314,49.83,107.6
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,saqawals-rune-of-memory,Saqawal's Rune of Memory,Runes,saqawals-rune-of-memory,0.0630873,3.67,5.0645999999999995,exalted,0.2724,326.2,22.36
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,stone-rune,Stone Rune,Runes,stone-rune,0.005729427,0.3333,0.4599539999999999,exalted,3,0.1667,-51.52
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,thane-myrks-rune-of-summer,Thane Myrk's Rune of Summer,Runes,thane-myrks-rune-of-summer,0.0321453,1.87,2.5806,exalted,0.5349,64.5,-25.52
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,the-greatwolfs-rune-of-claws,The Greatwolf's Rune of Claws,Runes,the-greatwolfs-rune-of-claws,0.2088585,12.15,16.767,exalted,0.08231,6709,145.4
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,thruds-might,Thrud's Might,Runes,thruds-might,0.19871640000000002,11.56,15.9528,exalted,0.08649,30.83,-28.18
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,vision-rune,Vision Rune,Runes,vision-rune,0.01504125,0.875,1.2075,exalted,1.14,1.17,37.35
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,warding-rune-of-annihilation,Warding Rune of Annihilation,Runes,warding-rune-of-annihilation,0.0237222,1.38,1.9043999999999996,exalted,0.7267,28.67,37.6
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,warding-rune-of-bodyguards,Warding Rune of Bodyguards,Runes,warding-rune-of-bodyguards,0.056039399999999996,3.26,4.498799999999999,exalted,0.3069,130.3,225.8
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,warding-rune-of-courage,Warding Rune of Courage,Runes,warding-rune-of-courage,0.014492889,0.8431,1.1634779999999998,exalted,1.19,7.17,-6.32
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,warding-rune-of-desperation,Warding Rune of Desperation,Runes,warding-rune-of-desperation,0.015553512000000002,0.9048,1.248624,exalted,1.11,3.17,-9.52
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,warding-rune-of-disintegration,Warding Rune of Disintegration,Runes,warding-rune-of-disintegration,0.0178776,1.04,1.4352,exalted,0.9574,7.83,4.44
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,warding-rune-of-equinox,Warding Rune of Equinox,Runes,warding-rune-of-equinox,0.0479601,2.79,3.8501999999999996,exalted,0.3588,28.33,69.33
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,warding-rune-of-glancing,Warding Rune of Glancing,Runes,warding-rune-of-glancing,0.037818000000000004,2.2,3.036,exalted,0.4554,33.67,119.6
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,warding-rune-of-protection,Warding Rune of Protection,Runes,warding-rune-of-protection,0.016737903000000002,0.9737,1.3437059999999998,exalted,1.03,18.5,-0.56
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,warding-rune-of-salvaging,Warding Rune of Salvaging,Runes,warding-rune-of-salvaging,0.026472600000000002,1.54,2.1252,exalted,0.6486,6.17,54.17
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,warding-rune-of-symbiosis,Warding Rune of Symbiosis,Runes,warding-rune-of-symbiosis,0.01719,1.0,1.38,exalted,1,8.17,16.67
-2026-06-01T05:59:35+00:00,Runes of Aldur,Runes,ward-rune,Ward Rune,Runes,ward-rune,0.05535180000000001,3.22,4.4436,exalted,0.311,34.83,87.64
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,cat-idol,Cat Idol,Ritual,cat-idol,0.0194247,1.13,1.5593999999999997,exalted,0.8883,32.83,13.9
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,bear-idol,Bear Idol,Ritual,bear-idol,0.0336924,1.96,2.7047999999999996,exalted,0.5105,294.8,16.72
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,boar-idol,Boar Idol,Ritual,boar-idol,0.024581699999999998,1.43,1.9733999999999998,exalted,0.7016,93.83,42.53
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,idol-of-alira,Idol of Alira,Ritual,idol-of-alira,0.8961147,52.13,71.93939999999999,exalted,0.01918,3301,559.1
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,idol-of-egrin,Idol of Egrin,Ritual,idol-of-egrin,0.2456451,14.29,19.7202,exalted,0.07,1236,133.9
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,idol-of-greust,Idol of Greust,Ritual,idol-of-greust,0.0709947,4.13,5.6994,exalted,0.2422,37.17,214.6
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,idol-of-maxarius,Idol of Maxarius,Ritual,idol-of-maxarius,0.080793,4.7,6.486,exalted,0.2127,120.7,252.6
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,idol-of-ralakesh,Idol of Ralakesh,Ritual,idol-of-ralakesh,1.3485555,78.45,108.261,exalted,0.01275,7296,717.2
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,idol-of-the-martyr,Idol of the Martyr,Ritual,idol-of-the-martyr,0.0342081,1.99,2.7462,exalted,0.5027,30.83,-80.11
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,idol-of-yeena,Idol of Yeena,Ritual,idol-of-yeena,0.0581022,3.38,4.6644,exalted,0.2959,65.33,35.17
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-abyssal-echoes,Omen of Abyssal Echoes,Ritual,omen-of-abyssal-echoes,1.3487274,78.46,108.27479999999998,exalted,0.01274,197518,125.6
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-dextral-crystallisation,Omen of Dextral Crystallisation,Ritual,omen-of-dextral-crystallisation,0.3336579,19.41,26.7858,exalted,0.05153,8840,-75.3
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-gambling,Omen of Gambling,Ritual,omen-of-gambling,0.009916911,0.5769,0.7961219999999999,exalted,1.73,146.3,-26.94
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-greater-exaltation,Omen of Greater Exaltation,Ritual,omen-of-greater-exaltation,0.07907399999999999,4.6,6.347999999999999,exalted,0.2172,35301,133.1
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-light,Omen of Light,Ritual,omen-of-light,3.104514,180.6,249.22799999999998,divine,0.3221,93023,83.62
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-sinistral-crystallisation,Omen of Sinistral Crystallisation,Ritual,omen-of-sinistral-crystallisation,0.1853082,10.78,14.876399999999999,exalted,0.09274,3677,-70.95
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-sinistral-exaltation,Omen of Sinistral Exaltation,Ritual,omen-of-sinistral-exaltation,0.0472725,2.75,3.795,exalted,0.3639,4602,-19.93
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-sinistral-necromancy,Omen of Sinistral Necromancy,Ritual,omen-of-sinistral-necromancy,0.2380815,13.85,19.113,exalted,0.0722,37765,-9.29
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-the-liege,Omen of the Liege,Ritual,omen-of-the-liege,0.012928599,0.7521,1.037898,exalted,1.33,866.3,-79.41
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,owl-idol,Owl Idol,Ritual,owl-idol,0.016488648,0.9592,1.323696,exalted,1.04,15.67,-4.76
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,primate-idol,Primate Idol,Ritual,primate-idol,0.130644,7.6,10.488,exalted,0.1317,3499,127.0
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,stag-idol,Stag Idol,Ritual,stag-idol,0.016844481,0.9799,1.3522619999999999,exalted,1.02,32.5,-10.92
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,wolf-idol,Wolf Idol,Ritual,wolf-idol,0.0531171,3.09,4.2642,exalted,0.3238,110.2,42.56
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,idol-of-eeshta,Idol of Eeshta,Ritual,idol-of-eeshta,0.30942000000000003,18.0,24.839999999999996,exalted,0.05557,2237,159.5
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,idol-of-eramir,Idol of Eramir,Ritual,idol-of-eramir,0.5762088000000001,33.52,46.257600000000004,exalted,0.02983,799.0,67.62
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,idol-of-oak,Idol of Oak,Ritual,idol-of-oak,0.0500229,2.91,4.0158,exalted,0.3432,89.83,191.4
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,idol-of-the-sycophant,Idol of the Sycophant,Ritual,idol-of-the-sycophant,0.0582741,3.39,4.6781999999999995,exalted,0.2948,249.3,-71.14
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-chance,Omen of Chance,Ritual,omen-of-chance,18.13545,1055.0,1455.8999999999999,divine,0.05515,22858,56.8
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-dextral-annulment,Omen of Dextral Annulment,Ritual,omen-of-dextral-annulment,4.799448,279.2,385.29599999999994,divine,0.2084,4141,27.99
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-dextral-erasure,Omen of Dextral Erasure,Ritual,omen-of-dextral-erasure,5.763807,335.3,462.714,divine,0.1735,6372,21.98
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-sinistral-annulment,Omen of Sinistral Annulment,Ritual,omen-of-sinistral-annulment,3.556611,206.9,285.522,divine,0.2812,3103,-23.81
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-answered-prayers,Omen of Answered Prayers,Ritual,omen-of-answered-prayers,0.0254412,1.48,2.0423999999999998,exalted,0.675,13.33,196.3
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-chaotic-quantity,Omen of Chaotic Quantity,Ritual,omen-of-chaotic-quantity,0.065322,3.8,5.244,exalted,0.2633,1546,186.8
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-reinforcements,Omen of Reinforcements,Ritual,omen-of-reinforcements,0.1132821,6.59,9.094199999999999,exalted,0.1517,100.0,123.2
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-the-hunt,Omen of the Hunt,Ritual,omen-of-the-hunt,0.1210176,7.04,9.7152,exalted,0.1421,120.8,331.0
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,fox-idol,Fox Idol,Ritual,fox-idol,0.668691,38.9,53.681999999999995,exalted,0.0257,946.7,764.5
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,head-of-the-king,Head of the King,Ritual,head-of-the-king,1.4554773,84.67,116.8446,exalted,0.01181,5574,30.0
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,idol-of-grold,Idol of Grold,Ritual,idol-of-grold,0.12204899999999999,7.1,9.797999999999998,exalted,0.1408,425.0,133.5
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,idol-of-kraityn,Idol of Kraityn,Ritual,idol-of-kraityn,0.055179900000000004,3.21,4.429799999999999,exalted,0.3114,86.17,-78.23
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,idol-of-silk,Idol of Silk,Ritual,idol-of-silk,0.026472600000000002,1.54,2.1252,exalted,0.65,6.67,-30.33
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,idol-of-sirrius,Idol of Sirrius,Ritual,idol-of-sirrius,1.2113793,70.47,97.2486,exalted,0.01419,6214,417.6
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,idol-of-the-pharisee,Idol of the Pharisee,Ritual,idol-of-the-pharisee,0.08595,5.0,6.8999999999999995,exalted,0.2001,447.3,-76.2
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,idol-of-thruldana,Idol of Thruldana,Ritual,idol-of-thruldana,0.116892,6.8,9.383999999999999,exalted,0.1471,291.2,15.35
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-amelioration,Omen of Amelioration,Ritual,omen-of-amelioration,0.12737790000000002,7.41,10.2258,exalted,0.135,11691,319.8
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-bartering,Omen of Bartering,Ritual,omen-of-bartering,0.051054300000000004,2.97,4.0986,exalted,0.3372,3873,29.48
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-catalysing-exaltation,Omen of Catalysing Exaltation,Ritual,omen-of-catalysing-exaltation,0.0799335,4.65,6.417,exalted,0.2151,2567,-65.09
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-chaotic-effectiveness,Omen of Chaotic Effectiveness,Ritual,omen-of-chaotic-effectiveness,0.028707299999999998,1.67,2.3045999999999998,exalted,0.6002,368.5,37.21
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-chaotic-monsters,Omen of Chaotic Monsters,Ritual,omen-of-chaotic-monsters,0.03438,2.0,2.76,exalted,0.5002,449.2,23.48
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-chaotic-rarity,Omen of Chaotic Rarity,Ritual,omen-of-chaotic-rarity,0.0448659,2.61,3.6017999999999994,exalted,0.3838,1226,84.3
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-dextral-exaltation,Omen of Dextral Exaltation,Ritual,omen-of-dextral-exaltation,0.07735500000000001,4.5,6.209999999999999,exalted,0.2224,9567,-42.54
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-dextral-necromancy,Omen of Dextral Necromancy,Ritual,omen-of-dextral-necromancy,0.07941780000000001,4.62,6.3755999999999995,exalted,0.2163,11000,-37.11
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-putrefaction,Omen of Putrefaction,Ritual,omen-of-putrefaction,0.21882870000000001,12.73,17.5674,exalted,0.07856,27461,-26.22
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-refreshment,Omen of Refreshment,Ritual,omen-of-refreshment,0.007008363,0.4077,0.562626,exalted,2.45,33.5,-55.83
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-resurgence,Omen of Resurgence,Ritual,omen-of-resurgence,0.026472600000000002,1.54,2.1252,exalted,0.6513,1475,73.65
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-sanctification,Omen of Sanctification,Ritual,omen-of-sanctification,1.0738593,62.47,86.20859999999999,exalted,0.01601,624.7,218.6
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-secret-compartments,Omen of Secret Compartments,Ritual,omen-of-secret-compartments,0.19871640000000002,11.56,15.9528,exalted,0.08651,240.8,709.2
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-sinistral-erasure,Omen of Sinistral Erasure,Ritual,omen-of-sinistral-erasure,5.703642,331.8,457.88399999999996,divine,0.1754,6856,-18.55
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-the-ancients,Omen of the Ancients,Ritual,omen-of-the-ancients,0.0462411,2.69,3.7121999999999997,exalted,0.3724,4147,11.87
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-the-blackblooded,Omen of the Blackblooded,Ritual,omen-of-the-blackblooded,0.0302544,1.76,2.4288,exalted,0.5687,718.8,-43.46
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-the-blessed,Omen of the Blessed,Ritual,omen-of-the-blessed,0.2265642,13.18,18.188399999999998,exalted,0.07586,714.0,559.1
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-the-sovereign,Omen of the Sovereign,Ritual,omen-of-the-sovereign,0.0247536,1.44,1.9871999999999999,exalted,0.6934,794.8,-50.5
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,omen-of-whittling,Omen of Whittling,Ritual,omen-of-whittling,2.102337,122.3,168.77399999999997,divine,0.4759,67682,-27.15
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,ox-idol,Ox Idol,Ritual,ox-idol,0.0211437,1.23,1.6973999999999998,exalted,0.8097,37.67,-9.0
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,rabbit-idol,Rabbit Idol,Ritual,rabbit-idol,0.5928831,34.49,47.596199999999996,exalted,0.02899,8990,213.6
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,raven-touched-shard,Raven-Touched Shard,Ritual,raven-touched-shard,20.00916,1164.0,1606.32,divine,0.05,194.0,73.91
-2026-06-01T05:59:35+00:00,Runes of Aldur,Ritual,snake-idol,Snake Idol,Ritual,snake-idol,0.0407403,2.37,3.2706,exalted,0.4218,258.8,50.73
-2026-06-01T05:59:35+00:00,Runes of Aldur,Abyss,altered-collarbone,Altered Collarbone,Abyss,altered-collarbone,0.5949459,34.61,47.761799999999994,exalted,0.02889,807.7,214.7
-2026-06-01T05:59:35+00:00,Runes of Aldur,Abyss,amanamus-gaze,Amanamu's Gaze,Abyss,amanamus-gaze,1.4312394000000002,83.26,114.8988,exalted,0.01201,3455,7.43
-2026-06-01T05:59:35+00:00,Runes of Aldur,Abyss,ancient-collarbone,Ancient Collarbone,Abyss,ancient-collarbone,2.8672920000000004,166.8,230.184,exalted,0.005994,7035,378.1
-2026-06-01T05:59:35+00:00,Runes of Aldur,Abyss,ancient-jawbone,Ancient Jawbone,Abyss,ancient-jawbone,3.051225,177.5,244.95,exalted,0.005635,38212,213.2
-2026-06-01T05:59:35+00:00,Runes of Aldur,Abyss,ancient-rib,Ancient Rib,Abyss,ancient-rib,1.122507,65.3,90.11399999999999,exalted,0.01531,13594,46.11
-2026-06-01T05:59:35+00:00,Runes of Aldur,Abyss,gnawed-jawbone,Gnawed Jawbone,Abyss,gnawed-jawbone,0.013853421,0.8059,1.1121419999999997,exalted,1.24,470.5,-53.37
-2026-06-01T05:59:35+00:00,Runes of Aldur,Abyss,preserved-cranium,Preserved Cranium,Abyss,preserved-cranium,0.1277217,7.43,10.2534,exalted,0.1346,8021,88.04
-2026-06-01T05:59:35+00:00,Runes of Aldur,Abyss,preserved-jawbone,Preserved Jawbone,Abyss,preserved-jawbone,0.0302544,1.76,2.4288,exalted,0.567,14761,-66.44
-2026-06-01T05:59:35+00:00,Runes of Aldur,Abyss,tecrods-gaze,Tecrod's Gaze,Abyss,tecrods-gaze,1.1563713,67.27,92.83259999999999,exalted,0.01487,2893,107.0
-2026-06-01T05:59:35+00:00,Runes of Aldur,Abyss,gnawed-collarbone,Gnawed Collarbone,Abyss,gnawed-collarbone,0.016337376,0.9504,1.3115519999999998,exalted,1.05,626.2,-11.5
-2026-06-01T05:59:35+00:00,Runes of Aldur,Abyss,gnawed-rib,Gnawed Rib,Abyss,gnawed-rib,0.009208682999999999,0.5357,0.7392659999999999,exalted,1.87,448.8,-23.63
-2026-06-01T05:59:35+00:00,Runes of Aldur,Abyss,kurgals-gaze,Kurgal's Gaze,Abyss,kurgals-gaze,0.20610810000000002,11.99,16.5462,exalted,0.08338,323.8,-4.37
-2026-06-01T05:59:35+00:00,Runes of Aldur,Abyss,preserved-collarbone,Preserved Collarbone,Abyss,preserved-collarbone,0.5232636,30.44,42.0072,exalted,0.03285,93808,136.1
-2026-06-01T05:59:35+00:00,Runes of Aldur,Abyss,preserved-rib,Preserved Rib,Abyss,preserved-rib,0.1511001,8.79,12.130199999999999,exalted,0.1138,80356,-2.59
-2026-06-01T05:59:35+00:00,Runes of Aldur,Abyss,ulamans-gaze,Ulaman's Gaze,Abyss,ulamans-gaze,0.15471000000000001,9.0,12.419999999999998,exalted,0.1111,391.5,35
-2026-06-01T05:59:35+00:00,Runes of Aldur,Fragments,azmeri-reliquary-key,Azmeri Reliquary Key,Fragments,azmeri-reliquary-key,48.01167,2793.0,3854.3399999999997,divine,0.02083,465.5,392.3
-2026-06-01T05:59:35+00:00,Runes of Aldur,Fragments,breachlord-sac,Breachlord Sac,Fragments,breachlord-sac,4.6413,270.0,372.59999999999997,divine,0.2155,1125,-4.63
-2026-06-01T05:59:35+00:00,Runes of Aldur,Fragments,cowardly-fate,Cowardly Fate,Fragments,cowardly-fate,0.4570821,26.59,36.694199999999995,exalted,0.03761,3231,95.96
-2026-06-01T05:59:35+00:00,Runes of Aldur,Fragments,deadly-fate,Deadly Fate,Fragments,deadly-fate,0.5325462,30.98,42.752399999999994,exalted,0.03228,3335,59.81
-2026-06-01T05:59:35+00:00,Runes of Aldur,Fragments,kulemaks-invitation,Kulemak's Invitation,Fragments,kulemaks-invitation,0.18444870000000002,10.73,14.8074,exalted,0.09317,4528,-71.32
-2026-06-01T05:59:35+00:00,Runes of Aldur,Fragments,twilight-reliquary-key,Twilight Reliquary Key,Fragments,twilight-reliquary-key,0.0768393,4.47,6.168599999999999,exalted,0.2237,2706,47.39
-2026-06-01T05:59:35+00:00,Runes of Aldur,Fragments,against-the-darkness,Zarokh's Reliquary Key: Against the Darkness,Fragments,zarokhs-reliquary-key:-against-the-darkness,6.001029000000001,349.1,481.758,divine,0.1667,58.19,-4
-2026-06-01T05:59:35+00:00,Runes of Aldur,Fragments,ancient-crisis-fragment,Ancient Crisis Fragment,Fragments,ancient-crisis-fragment,1.8462060000000002,107.4,148.212,exalted,0.009313,13887,876.2
-2026-06-01T05:59:35+00:00,Runes of Aldur,Fragments,faded-crisis-fragment,Faded Crisis Fragment,Fragments,faded-crisis-fragment,0.6509853,37.87,52.26059999999999,exalted,0.02641,5428,-15.84
-2026-06-01T05:59:35+00:00,Runes of Aldur,Fragments,olroths-reliquary-key,Olroth's Reliquary Key,Fragments,olroths-reliquary-key,3.0013739999999998,174.6,240.94799999999998,divine,0.3333,29.09,0
-2026-06-01T05:59:35+00:00,Runes of Aldur,Fragments,simulacrum,Simulacrum,Delirium,simulacrum,6.001029000000001,349.1,481.758,divine,0.1667,407.3,-12.2
-2026-06-01T05:59:35+00:00,Runes of Aldur,Fragments,ritualistic-reliquary-key,Ritualistic Reliquary Key,Fragments,ritualistic-reliquary-key,0.128925,7.5,10.35,exalted,0.1333,2.5,25.0
-2026-06-01T05:59:35+00:00,Runes of Aldur,Fragments,simulacrum-splinter,Simulacrum Splinter,Delirium,simulacrum-splinter,0.017533800000000002,1.02,1.4076,exalted,0.9827,1308,119.6
-2026-06-01T05:59:35+00:00,Runes of Aldur,Fragments,the-arbiters-reliquary-key,The Arbiter's Reliquary Key,Fragments,the-arbiters-reliquary-key,5.5008,320.0,441.59999999999997,divine,0.1818,106.7,-12
-2026-06-01T05:59:35+00:00,Runes of Aldur,Fragments,the-trialmasters-reliquary-key,The Trialmaster's Reliquary Key,Fragments,the-trialmasters-reliquary-key,3.0013739999999998,174.6,240.94799999999998,divine,0.3333,29.09,0
-2026-06-01T05:59:35+00:00,Runes of Aldur,Fragments,victorious-fate,Victorious Fate,Fragments,victorious-fate,0.48733650000000006,28.35,39.123,exalted,0.03527,3308,70.04
-2026-06-01T05:59:35+00:00,Runes of Aldur,Fragments,weathered-crisis-fragment,Weathered Crisis Fragment,Fragments,weathered-crisis-fragment,1.906371,110.9,153.042,exalted,0.009021,13783,90.05
-2026-06-01T05:59:35+00:00,Runes of Aldur,Fragments,xeshts-reliquary-key,Xesht's Reliquary Key,Fragments,xeshts-reliquary-key,7.001487,407.3,562.074,divine,0.1429,67.89,0
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,alch,Orb of Alchemy,Currency,orb-of-alchemy,0.0178776,1.04,1.4352,exalted,0.9598,22744,65.35
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,exalted,Exalted Orb,Currency,exalted-orb,0.01719,1.0,1.38,divine,58.19,1880187,-32.99
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,ancient-infuser,Ancient Infuser,Vaal,ancient-infuser,0.15127200000000002,8.8,12.144,exalted,0.1136,193.7,-23.08
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,annul,Orb of Annulment,Currency,orb-of-annulment,0.1681182,9.78,13.496399999999998,exalted,0.1023,41812,152.0
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,architects-orb,Architect's Orb,Vaal,architects-orb,0.3898692,22.68,31.298399999999997,exalted,0.04409,1066,94.29
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,divine,Divine Orb,Currency,divine-orb,1.0002861,58.19,80.30219999999998,exalted,0.01719,1880187,46.25
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,artificers,Artificer's Orb,Currency,artificers-orb,0.006344829,0.3691,0.509358,exalted,2.71,3095,35.23
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,chaos,Chaos Orb,Currency,chaos-orb,0.012467906999999999,0.7253,1.0009139999999999,exalted,1.38,44093,-48.23
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,artificers-shard,Artificer's Shard,Currency,artificers-shard,0.003589272,0.2088,0.288144,exalted,4.79,9.5,30.53
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,aug,Orb of Augmentation,Currency,orb-of-augmentation,0.0014778243,0.08597,0.1186386,exalted,11.63,3709,86.06
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,bauble,Glassblower's Bauble,Currency,glassblowers-bauble,0.0226908,1.32,1.8215999999999999,exalted,0.7604,7487,404.1
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,chance,Orb of Chance,Currency,orb-of-chance,0.2136717,12.43,17.153399999999998,exalted,0.08045,81050,143.4
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,chance-shard,Chance Shard,Currency,chance-shard,0.0180495,1.05,1.4489999999999998,exalted,0.951,2731,155.4
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,etcher,Arcanist's Etcher,Currency,arcanists-etcher,0.002090304,0.1216,0.16780799999999998,exalted,8.22,596.8,35.24
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,fracturing-orb,Fracturing Orb,Currency,fracturing-orb,3.8247750000000003,222.5,307.04999999999995,divine,0.2615,24255,129.4
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,greater-regal-orb,Greater Regal Orb,Currency,greater-regal-orb,0.0440064,2.56,3.5328,exalted,0.3906,5784,-52.64
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,lesser-jewellers-orb,Lesser Jeweller's Orb,Currency,lesser-jewellers-orb,0.0013346316,0.07764,0.1071432,exalted,12.88,366.3,-73.28
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,perfect-chaos-orb,Perfect Chaos Orb,Currency,perfect-chaos-orb,1.2921723,75.17,103.7346,exalted,0.0133,11389,110.9
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,perfect-exalted-orb,Perfect Exalted Orb,Currency,perfect-exalted-orb,1.801512,104.8,144.624,exalted,0.009538,50815,89.5
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,perfect-jewellers-orb,Perfect Jeweller's Orb,Currency,perfect-jewellers-orb,1.315035,76.5,105.57,exalted,0.01307,198871,93.86
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,perfect-regal-orb,Perfect Regal Orb,Currency,perfect-regal-orb,0.28758870000000003,16.73,23.0874,exalted,0.05978,9114,-0.11
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,regal,Regal Orb,Currency,regal-orb,0.0061884,0.36,0.49679999999999996,exalted,2.78,8476,26.33
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,scrap,Armourer's Scrap,Currency,armourers-scrap,0.012165363,0.7077,0.9766259999999999,exalted,1.41,46424,433.2
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,vaal-armourers-infuser,Vaal Armourer's Infuser,Vaal,vaal-armourers-infuser,0.2401443,13.97,19.2786,exalted,0.07161,798.3,831.0
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,vaal-blacksmiths-infuser,Vaal Blacksmith's Infuser,Vaal,vaal-blacksmiths-infuser,0.6934446000000001,40.34,55.669200000000004,exalted,0.02479,1452,198.8
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,vaal-cultivation-orb,Vaal Cultivation Orb,Vaal,vaal-cultivation-orb,1.5763230000000001,91.7,126.54599999999999,exalted,0.01091,6129,397.9
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,core-destabiliser,Core Destabiliser,Vaal,core-destabiliser,0.10228050000000001,5.95,8.211,exalted,0.168,148.8,53.44
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,cryptic-key,Cryptic Key,Currency,cryptic-key,0.2315493,13.47,18.5886,exalted,0.07424,291.8,144.9
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,crystallised-corruption,Crystallised Corruption,Vaal,crystallised-corruption,0.46344240000000003,26.96,37.2048,exalted,0.03709,1308,96.6
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,hinekoras-lock,Hinekora's Lock,Currency,hinekoras-lock,105.35751,6129.0,8458.019999999999,divine,0.009495,34728,289.8
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,vaal-arcanists-infuser,Vaal Arcanist's Infuser,Vaal,vaal-arcanists-infuser,0.0405684,2.36,3.2567999999999997,exalted,0.4237,9.83,-64.71
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,gcp,Gemcutter's Prism,Currency,gemcutters-prism,0.0505386,2.94,4.0572,exalted,0.3397,47008,120.3
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,greater-chaos-orb,Greater Chaos Orb,Currency,greater-chaos-orb,0.0512262,2.98,4.1124,exalted,0.3356,5908,-40.51
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,greater-exalted-orb,Greater Exalted Orb,Currency,greater-exalted-orb,0.1719,10.0,13.799999999999999,exalted,0.1,98511,22.66
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,greater-jewellers-orb,Greater Jeweller's Orb,Currency,greater-jewellers-orb,0.0623997,3.63,5.009399999999999,exalted,0.2753,41691,-15.27
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,greater-orb-of-augmentation,Greater Orb of Augmentation,Currency,greater-orb-of-augmentation,0.00417717,0.243,0.33533999999999997,exalted,4.11,3592,-59.52
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,greater-orb-of-transmutation,Greater Orb of Transmutation,Currency,greater-orb-of-transmutation,0.0254412,1.48,2.0423999999999998,exalted,0.6775,18974,106.3
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,mirror,Mirror of Kalandra,Currency,mirror-of-kalandra,402.89922,23438.0,32344.44,divine,0.002483,19532,219.7
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,orb-of-extraction,Orb of Extraction,Vaal,orb-of-extraction,2.8346310000000003,164.9,227.56199999999998,exalted,0.006065,1347,354.6
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,perfect-orb-of-augmentation,Perfect Orb of Augmentation,Currency,perfect-orb-of-augmentation,0.10795320000000001,6.28,8.6664,exalted,0.1593,31470,17.65
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,perfect-orb-of-transmutation,Perfect Orb of Transmutation,Currency,perfect-orb-of-transmutation,0.1550538,9.02,12.447599999999998,exalted,0.1108,20410,20.76
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,regal-shard,Regal Shard,Currency,regal-shard,0.0019098090000000002,0.1111,0.15331799999999998,exalted,9,0.3333,0
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,transmutation-shard,Transmutation Shard,Currency,transmutation-shard,0.0028655729999999997,0.1667,0.23004599999999997,exalted,6,0.1667,1.69
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,transmute,Orb of Transmutation,Currency,orb-of-transmutation,0.0019940400000000003,0.116,0.16008,exalted,8.62,2835,52.93
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,vaal-catalysing-infuser,Vaal Catalysing Infuser,Vaal,vaal-catalysing-infuser,0.1535067,8.93,12.3234,exalted,0.112,84.83,-1.62
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,vaal,Vaal Orb,Currency,vaal-orb,0.0183933,1.07,1.4766,exalted,0.9387,16477,99.04
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,vaal-siphoner,Vaal Siphoner,Vaal,vaal-siphoner,0.0302544,1.76,2.4288,exalted,0.5667,5.0,-42.77
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,whetstone,Blacksmith's Whetstone,Currency,blacksmiths-whetstone,0.003783519,0.2201,0.30373799999999995,exalted,4.54,7244,43.43
+2026-06-01T06:05:02+00:00,Runes of Aldur,Currency,wisdom,Scroll of Wisdom,Currency,scroll-of-wisdom,6.454845e-05,0.003755,0.0051819,exalted,266.3,291.0,-31.1
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,essence-of-electricity,Essence of Electricity,Essences,essence-of-electricity,0.0443502,2.58,3.5604,exalted,0.3875,26.67,39.1
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,essence-of-flames,Essence of Flames,Essences,essence-of-flames,0.011329929,0.6591,0.909558,exalted,1.52,4.83,-43.49
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,greater-essence-of-alacrity,Greater Essence of Alacrity,Essences,greater-essence-of-alacrity,0.0116892,0.68,0.9384,exalted,1.47,110.5,-50.63
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,greater-essence-of-command,Greater Essence of Command,Essences,greater-essence-of-command,0.0244098,1.42,1.9595999999999998,exalted,0.7058,408.5,-4.59
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,greater-essence-of-enhancement,Greater Essence of Enhancement,Essences,greater-essence-of-enhancement,0.0261288,1.52,2.0976,exalted,0.6562,2453,-20.52
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,greater-essence-of-flames,Greater Essence of Flames,Essences,greater-essence-of-flames,0.011386656,0.6624,0.9141119999999999,exalted,1.51,69.33,-56.95
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,greater-essence-of-grounding,Greater Essence of Grounding,Essences,greater-essence-of-grounding,0.037818000000000004,2.2,3.036,exalted,0.4536,3087,-23.88
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,greater-essence-of-ice,Greater Essence of Ice,Essences,greater-essence-of-ice,0.010817667,0.6293,0.8684339999999999,exalted,1.59,125.3,-68.31
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,greater-essence-of-insulation,Greater Essence of Insulation,Essences,greater-essence-of-insulation,0.041256,2.4,3.312,exalted,0.4159,3251,-24.05
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,greater-essence-of-opulence,Greater Essence of Opulence,Essences,greater-essence-of-opulence,0.11792340000000001,6.86,9.4668,exalted,0.1459,5221,120.3
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,greater-essence-of-ruin,Greater Essence of Ruin,Essences,greater-essence-of-ruin,0.0883566,5.14,7.093199999999999,exalted,0.1944,3373,108.9
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,greater-essence-of-sorcery,Greater Essence of Sorcery,Essences,greater-essence-of-sorcery,0.009141642000000002,0.5318,0.733884,exalted,1.88,137.8,-53.02
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,greater-essence-of-the-body,Greater Essence of the Body,Essences,greater-essence-of-the-body,0.009036783,0.5257,0.7254659999999998,exalted,1.9,230.2,-54.85
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,perfect-essence-of-abrasion,Perfect Essence of Abrasion,Essences,perfect-essence-of-abrasion,0.0290511,1.69,2.3322,exalted,0.5928,449.8,-70.64
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,perfect-essence-of-battle,Perfect Essence of Battle,Essences,perfect-essence-of-battle,0.268164,15.6,21.528,exalted,0.06409,16307,-53.64
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,perfect-essence-of-electricity,Perfect Essence of Electricity,Essences,perfect-essence-of-electricity,0.022347000000000002,1.3,1.7939999999999998,exalted,0.7684,63.33,-74.36
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,perfect-essence-of-enhancement,Perfect Essence of Enhancement,Essences,perfect-essence-of-enhancement,0.0295668,1.72,2.3735999999999997,exalted,0.5799,739.8,-47.54
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,perfect-essence-of-haste,Perfect Essence of Haste,Essences,perfect-essence-of-haste,0.0388494,2.26,3.1187999999999994,exalted,0.4428,434.0,-69.48
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,perfect-essence-of-thawing,Perfect Essence of Thawing,Essences,perfect-essence-of-thawing,0.012033,0.7,0.9659999999999999,exalted,1.43,11.67,-38.08
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,perfect-essence-of-the-body,Perfect Essence of the Body,Essences,perfect-essence-of-the-body,0.012940632,0.7528,1.038864,exalted,1.33,45.17,-35.52
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,perfect-essence-of-the-infinite,Perfect Essence of the Infinite,Essences,perfect-essence-of-the-infinite,0.016669143,0.9697,1.3381859999999999,exalted,1.03,26.67,2.91
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,essence-of-sorcery,Essence of Sorcery,Essences,essence-of-sorcery,0.026988300000000003,1.57,2.1666,exalted,0.6387,25.83,4.14
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,essence-of-the-breach,Essence of the Breach,Essences,essence-of-the-breach,0.0419436,2.44,3.3671999999999995,exalted,0.41,160.2,-56.44
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,essence-of-abrasion,Essence of Abrasion,Essences,essence-of-abrasion,0.0637749,3.71,5.1198,exalted,0.2694,436.2,-46.12
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,essence-of-alacrity,Essence of Alacrity,Essences,essence-of-alacrity,0.0268164,1.56,2.1528,exalted,0.6406,10.67,-5.68
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,essence-of-command,Essence of Command,Essences,essence-of-command,0.0462411,2.69,3.7121999999999997,exalted,0.372,27.33,72.65
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,essence-of-grounding,Essence of Grounding,Essences,essence-of-grounding,0.0249255,1.45,2.001,exalted,0.6903,96.33,-24.95
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,essence-of-haste,Essence of Haste,Essences,essence-of-haste,0.0254412,1.48,2.0423999999999998,exalted,0.6747,48.17,-17.91
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,essence-of-horror,Essence of Horror,Essences,essence-of-horror,0.21745350000000002,12.65,17.457,exalted,0.07907,944.3,-24.98
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,essence-of-hysteria,Essence of Hysteria,Essences,essence-of-hysteria,1.3691835,79.65,109.917,exalted,0.01255,8164,77.65
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,essence-of-ice,Essence of Ice,Essences,essence-of-ice,0.016510995,0.9605,1.3254899999999998,exalted,1.04,12.17,-41.89
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,essence-of-insanity,Essence of Insanity,Essences,essence-of-insanity,0.0771831,4.49,6.1962,exalted,0.2225,183.5,-11.93
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,essence-of-insulation,Essence of Insulation,Essences,essence-of-insulation,0.0288792,1.68,2.3183999999999996,exalted,0.5968,93.0,-16.92
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,essence-of-opulence,Essence of Opulence,Essences,essence-of-opulence,0.0479601,2.79,3.8501999999999996,exalted,0.3589,124.0,53.56
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,essence-of-seeking,Essence of Seeking,Essences,essence-of-seeking,0.023034600000000002,1.34,1.8492,exalted,0.7486,29.83,5.12
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,essence-of-thawing,Essence of Thawing,Essences,essence-of-thawing,0.0259569,1.51,2.0837999999999997,exalted,0.6623,101.7,-34.66
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,essence-of-the-abyss,Essence of the Abyss,Essences,essence-of-the-abyss,0.0355833,2.07,2.8565999999999994,exalted,0.4837,1096,54.21
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,essence-of-the-body,Essence of the Body,Essences,essence-of-the-body,0.0393651,2.29,3.1601999999999997,exalted,0.4371,220.0,33.71
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,essence-of-the-infinite,Essence of the Infinite,Essences,essence-of-the-infinite,0.0266445,1.55,2.139,exalted,0.6462,10.83,10.86
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,essence-of-the-mind,Essence of the Mind,Essences,essence-of-the-mind,0.015471,0.9,1.242,exalted,1.11,3.0,30.91
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,essence-of-battle,Essence of Battle,Essences,essence-of-battle,0.01719,1.0,1.38,exalted,1,0.6667,0
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,essence-of-delirium,Essence of Delirium,Essences,essence-of-delirium,0.045725400000000006,2.66,3.6708,exalted,0.3761,76.67,-70.04
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,essence-of-enhancement,Essence of Enhancement,Essences,essence-of-enhancement,0.0381618,2.22,3.0636,exalted,0.4504,121.0,35.28
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,essence-of-ruin,Essence of Ruin,Essences,essence-of-ruin,0.0321453,1.87,2.5806,exalted,0.5361,16.17,42.49
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,lesser-essence-of-alacrity,Lesser Essence of Alacrity,Essences,lesser-essence-of-alacrity,0.0244098,1.42,1.9595999999999998,exalted,0.7045,22.0,2.1
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,lesser-essence-of-opulence,Lesser Essence of Opulence,Essences,lesser-essence-of-opulence,0.0450378,2.62,3.6155999999999997,exalted,0.381,3.5,110.0
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,lesser-essence-of-the-mind,Lesser Essence of the Mind,Essences,lesser-essence-of-the-mind,0.007706277,0.4483,0.6186539999999999,exalted,2.23,2.17,34.48
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,perfect-essence-of-alacrity,Perfect Essence of Alacrity,Essences,perfect-essence-of-alacrity,0.018737100000000003,1.09,1.5042,exalted,0.9135,17.33,-8.0
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,greater-essence-of-abrasion,Greater Essence of Abrasion,Essences,greater-essence-of-abrasion,0.0419436,2.44,3.3671999999999995,exalted,0.4102,4973,-68.27
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,greater-essence-of-battle,Greater Essence of Battle,Essences,greater-essence-of-battle,0.005428602,0.3158,0.435804,exalted,3.17,12.0,-65.55
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,greater-essence-of-electricity,Greater Essence of Electricity,Essences,greater-essence-of-electricity,0.0110016,0.64,0.8832,exalted,1.56,148.2,-74.29
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,greater-essence-of-haste,Greater Essence of Haste,Essences,greater-essence-of-haste,0.027160200000000002,1.58,2.1804,exalted,0.6327,1315,-62.03
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,greater-essence-of-seeking,Greater Essence of Seeking,Essences,greater-essence-of-seeking,0.051054300000000004,2.97,4.0986,exalted,0.3369,3537,58.92
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,greater-essence-of-thawing,Greater Essence of Thawing,Essences,greater-essence-of-thawing,0.041427900000000004,2.41,3.3258,exalted,0.415,3349,-22.75
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,greater-essence-of-the-infinite,Greater Essence of the Infinite,Essences,greater-essence-of-the-infinite,0.016956216,0.9864,1.361232,exalted,1.01,96.67,-10.14
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,greater-essence-of-the-mind,Greater Essence of the Mind,Essences,greater-essence-of-the-mind,0.0034809750000000003,0.2025,0.27945,exalted,4.94,37.17,-68.81
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,lesser-essence-of-abrasion,Lesser Essence of Abrasion,Essences,lesser-essence-of-abrasion,0.023550300000000003,1.37,1.8906,exalted,0.7286,33.17,-34.35
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,lesser-essence-of-battle,Lesser Essence of Battle,Essences,lesser-essence-of-battle,0.008595,0.5,0.69,exalted,2,0.1667,0
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,lesser-essence-of-command,Lesser Essence of Command,Essences,lesser-essence-of-command,0.0183933,1.07,1.4766,exalted,0.9333,5.0,12.93
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,lesser-essence-of-electricity,Lesser Essence of Electricity,Essences,lesser-essence-of-electricity,0.015168456,0.8824,1.217712,exalted,1.13,2.5,-0.5
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,lesser-essence-of-enhancement,Lesser Essence of Enhancement,Essences,lesser-essence-of-enhancement,0.013929057,0.8103,1.118214,exalted,1.23,7.83,-1.12
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,lesser-essence-of-flames,Lesser Essence of Flames,Essences,lesser-essence-of-flames,0.016043427,0.9333,1.2879539999999998,exalted,1.07,2.33,6.67
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,lesser-essence-of-grounding,Lesser Essence of Grounding,Essences,lesser-essence-of-grounding,0.015758073,0.9167,1.265046,exalted,1.09,1.83,-19.51
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,lesser-essence-of-haste,Lesser Essence of Haste,Essences,lesser-essence-of-haste,0.041427900000000004,2.41,3.3258,exalted,0.4146,6.83,30.76
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,lesser-essence-of-ice,Lesser Essence of Ice,Essences,lesser-essence-of-ice,0.01719,1.0,1.38,exalted,1,2,-2.62
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,lesser-essence-of-insulation,Lesser Essence of Insulation,Essences,lesser-essence-of-insulation,0.012892500000000001,0.75,1.035,exalted,1.33,3.5,-16.21
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,lesser-essence-of-ruin,Lesser Essence of Ruin,Essences,lesser-essence-of-ruin,0.051570000000000005,3.0,4.14,exalted,0.3333,1.0,66.67
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,lesser-essence-of-seeking,Lesser Essence of Seeking,Essences,lesser-essence-of-seeking,0.01719,1.0,1.38,exalted,1,2.5,-19.55
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,lesser-essence-of-sorcery,Lesser Essence of Sorcery,Essences,lesser-essence-of-sorcery,0.01504125,0.875,1.2075,exalted,1.14,3.5,-13.97
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,lesser-essence-of-thawing,Lesser Essence of Thawing,Essences,lesser-essence-of-thawing,0.01719,1.0,1.38,exalted,1,3.5,-8.15
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,lesser-essence-of-the-body,Lesser Essence of the Body,Essences,lesser-essence-of-the-body,0.015758073,0.9167,1.265046,exalted,1.09,5.5,17.82
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,lesser-essence-of-the-infinite,Lesser Essence of the Infinite,Essences,lesser-essence-of-the-infinite,0.01719,1.0,1.38,exalted,1,1,0
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,perfect-essence-of-command,Perfect Essence of Command,Essences,perfect-essence-of-command,0.0226908,1.32,1.8215999999999999,exalted,0.7588,28.33,-4.16
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,perfect-essence-of-flames,Perfect Essence of Flames,Essences,perfect-essence-of-flames,0.015307695,0.8905,1.2288899999999998,exalted,1.12,20.33,-78.1
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,perfect-essence-of-grounding,Perfect Essence of Grounding,Essences,perfect-essence-of-grounding,0.013557752999999999,0.7887,1.0884059999999998,exalted,1.27,9.33,-28.3
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,perfect-essence-of-ice,Perfect Essence of Ice,Essences,perfect-essence-of-ice,0.0249255,1.45,2.001,exalted,0.6879,110.0,-85.21
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,perfect-essence-of-insulation,Perfect Essence of Insulation,Essences,perfect-essence-of-insulation,0.026472600000000002,1.54,2.1252,exalted,0.6478,88.5,-20.61
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,perfect-essence-of-opulence,Perfect Essence of Opulence,Essences,perfect-essence-of-opulence,0.0201123,1.17,1.6145999999999998,exalted,0.8557,16.17,-33.74
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,perfect-essence-of-ruin,Perfect Essence of Ruin,Essences,perfect-essence-of-ruin,0.01719,1.0,1.38,exalted,1,14.5,0
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,perfect-essence-of-seeking,Perfect Essence of Seeking,Essences,perfect-essence-of-seeking,0.0405684,2.36,3.2567999999999997,exalted,0.4232,57.5,136.3
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,perfect-essence-of-sorcery,Perfect Essence of Sorcery,Essences,perfect-essence-of-sorcery,0.09660780000000001,5.62,7.755599999999999,exalted,0.1778,3549,-74.73
+2026-06-01T06:05:02+00:00,Runes of Aldur,Essences,perfect-essence-of-the-mind,Perfect Essence of the Mind,Essences,perfect-essence-of-the-mind,0.0268164,1.56,2.1528,exalted,0.6427,296.7,14.16
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,adept-rune,Adept Rune,Runes,adept-rune,0.014546178,0.8462,1.1677559999999998,exalted,1.18,3.67,-40.13
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,aldurs-legacy,Aldur's Legacy,Runes,aldurs-legacy,36.33966,2114.0,2917.3199999999997,divine,0.02752,2114,-10.66
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,ancient-rune-of-animosity,Ancient Rune of Animosity,Runes,ancient-rune-of-animosity,0.01719,1.0,1.38,exalted,1,2.33,0
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,ancient-rune-of-control,Ancient Rune of Control,Runes,ancient-rune-of-control,0.018909000000000002,1.1,1.518,exalted,0.9111,7.5,-63.41
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,ancient-rune-of-decay,Ancient Rune of Decay,Runes,ancient-rune-of-decay,0.0450378,2.62,3.6155999999999997,exalted,0.381,7.0,-34.38
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,ancient-rune-of-detonation,Ancient Rune of Detonation,Runes,ancient-rune-of-detonation,0.057586500000000006,3.35,4.622999999999999,exalted,0.2982,190.0,-15.63
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,ancient-rune-of-discovery,Ancient Rune of Discovery,Runes,ancient-rune-of-discovery,0.0462411,2.69,3.7121999999999997,exalted,0.3721,7.17,0.78
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,ancient-rune-of-dueling,Ancient Rune of Dueling,Runes,ancient-rune-of-dueling,0.028707299999999998,1.67,2.3045999999999998,exalted,0.6,5.83,38.89
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,ancient-rune-of-prowess,Ancient Rune of Prowess,Runes,ancient-rune-of-prowess,0.019252800000000004,1.12,1.5456,exalted,0.895,60.33,-3.23
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,ancient-rune-of-retaliation,Ancient Rune of Retaliation,Runes,ancient-rune-of-retaliation,0.0232065,1.35,1.863,exalted,0.7391,3.83,-54.9
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,ancient-rune-of-shattering,Ancient Rune of Shattering,Runes,ancient-rune-of-shattering,0.0696195,4.05,5.5889999999999995,exalted,0.2471,43.17,304.7
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,ancient-rune-of-splinters,Ancient Rune of Splinters,Runes,ancient-rune-of-splinters,0.016713837000000002,0.9723,1.341774,exalted,1.03,41.0,-48.96
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,ancient-rune-of-the-horde,Ancient Rune of the Horde,Runes,ancient-rune-of-the-horde,0.027847800000000002,1.62,2.2356,exalted,0.6168,53.5,-18.44
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,ancient-rune-of-the-titan,Ancient Rune of the Titan,Runes,ancient-rune-of-the-titan,0.0247536,1.44,1.9871999999999999,exalted,0.6957,3.83,-64.06
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,astrids-creativity,Astrid's Creativity,Runes,astrids-creativity,4.130757,240.3,331.614,divine,0.2421,5528,313.0
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,betrayal-of-aldur,Betrayal of Aldur,Runes,betrayal-of-aldur,0.4551912,26.48,36.5424,exalted,0.03777,278.0,42.35
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,body-rune,Body Rune,Runes,body-rune,0.023034600000000002,1.34,1.8492,exalted,0.7477,18.5,78.16
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,breath-of-aldur,Breath of Aldur,Runes,breath-of-aldur,1.1103021000000002,64.59,89.13419999999999,exalted,0.01548,2271,500.8
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,cadigans-epiphany,Cadigan's Epiphany,Runes,cadigans-epiphany,3.217968,187.2,258.33599999999996,divine,0.3108,2153,113.5
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,ancient-rune-of-witchcraft,Ancient Rune of Witchcraft,Runes,ancient-rune-of-witchcraft,0.015302538000000001,0.8902,1.228476,exalted,1.12,12.17,-10.98
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,countess-seskes-rune-of-archery,Countess Seske's Rune of Archery,Runes,countess-seskes-rune-of-archery,0.2470203,14.37,19.830599999999997,exalted,0.06961,5220,-51.7
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,courtesan-mannans-rune-of-cruelty,Courtesan Mannan's Rune of Cruelty,Runes,courtesan-mannans-rune-of-cruelty,0.0347238,2.02,2.7876,exalted,0.4938,121.8,11.9
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,craiceanns-rune-of-recovery,Craiceann's Rune of Recovery,Runes,craiceanns-rune-of-recovery,0.046413,2.7,3.726,exalted,0.3701,508.0,134.2
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,farruls-rune-of-the-chase,Farrul's Rune of the Chase,Runes,farruls-rune-of-the-chase,0.40516830000000004,23.57,32.526599999999995,exalted,0.04243,9801,60.44
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,farruls-rune-of-the-hunt,Farrul's Rune of the Hunt,Runes,farruls-rune-of-the-hunt,0.0462411,2.69,3.7121999999999997,exalted,0.3719,860.3,26.88
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,fenumus-rune-of-agony,Fenumus' Rune of Agony,Runes,fenumus-rune-of-agony,0.0407403,2.37,3.2706,exalted,0.4213,435.2,46.57
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,fenumus-rune-of-draining,Fenumus' Rune of Draining,Runes,fenumus-rune-of-draining,0.0562113,3.27,4.5126,exalted,0.3059,73.0,126.0
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,fenumus-rune-of-spinning,Fenumus' Rune of Spinning,Runes,fenumus-rune-of-spinning,0.0391932,2.28,3.1463999999999994,exalted,0.4379,318.2,1.35
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,glacial-rune,Glacial Rune,Runes,glacial-rune,0.0146115,0.85,1.1729999999999998,exalted,1.18,59.5,-17.06
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,greater-adept-rune,Greater Adept Rune,Runes,greater-adept-rune,0.0250974,1.46,2.0147999999999997,exalted,0.6848,533.5,-24.53
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,greater-desert-rune,Greater Desert Rune,Runes,greater-desert-rune,0.013282713000000002,0.7727,1.0663259999999999,exalted,1.29,1523,-52.13
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,greater-inspiration-rune,Greater Inspiration Rune,Runes,greater-inspiration-rune,0.009923787000000002,0.5773,0.796674,exalted,1.73,49.17,-29.44
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,greater-resolve-rune,Greater Resolve Rune,Runes,greater-resolve-rune,0.0247536,1.44,1.9871999999999999,exalted,0.6959,731.0,-16.01
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,greater-robust-rune,Greater Robust Rune,Runes,greater-robust-rune,0.0214875,1.25,1.7249999999999999,exalted,0.8013,433.7,-35.09
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,greater-stone-rune,Greater Stone Rune,Runes,greater-stone-rune,0.006750513,0.3927,0.5419259999999999,exalted,2.55,12.5,-46.1
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,greater-vision-rune,Greater Vision Rune,Runes,greater-vision-rune,0.015175332000000001,0.8828,1.218264,exalted,1.13,113.0,-46.77
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,iron-rune,Iron Rune,Runes,iron-rune,0.0467568,2.72,3.7536,exalted,0.3681,949.8,188.9
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,lesser-desert-rune,Lesser Desert Rune,Runes,lesser-desert-rune,0.009686565,0.5635,0.7776299999999999,exalted,1.77,18.5,-23.79
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,lesser-inspiration-rune,Lesser Inspiration Rune,Runes,lesser-inspiration-rune,0.008595,0.5,0.69,exalted,2,0.5,5.88
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,lesser-resolve-rune,Lesser Resolve Rune,Runes,lesser-resolve-rune,0.0256131,1.49,2.0562,exalted,0.6724,19.33,0.82
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,lesser-ward-rune,Lesser Ward Rune,Runes,lesser-ward-rune,0.01672587,0.973,1.3427399999999998,exalted,1.03,6.0,12.84
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,masterwork-rune,Masterwork Rune,Runes,masterwork-rune,0.19166850000000002,11.15,15.386999999999999,exalted,0.08968,8991,354.4
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,resolve-rune,Resolve Rune,Runes,resolve-rune,0.01719,1.0,1.38,exalted,1,3.17,-12.39
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,rune-of-acrobatics,Rune of Acrobatics,Runes,rune-of-acrobatics,0.0319734,1.86,2.5667999999999997,exalted,0.5385,97.5,12.97
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,rune-of-consistency,Rune of Consistency,Runes,rune-of-consistency,0.0180495,1.05,1.4489999999999998,exalted,0.9545,25.67,-9.64
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,rune-of-foundations,Rune of Foundations,Runes,rune-of-foundations,0.0266445,1.55,2.139,exalted,0.6465,171.2,50.03
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,rune-of-the-blossom,Rune of the Blossom,Runes,rune-of-the-blossom,0.034895699999999995,2.03,2.8013999999999997,exalted,0.4914,282.2,84.36
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,saqawals-rune-of-erosion,Saqawal's Rune of Erosion,Runes,saqawals-rune-of-erosion,0.0608526,3.54,4.885199999999999,exalted,0.2826,113.8,26.35
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,saqawals-rune-of-the-sky,Saqawal's Rune of the Sky,Runes,saqawals-rune-of-the-sky,0.16760250000000002,9.75,13.454999999999998,exalted,0.1026,7430,128.4
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,storm-rune,Storm Rune,Runes,storm-rune,0.014738706,0.8574,1.183212,exalted,1.17,67.17,1.84
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,thane-girts-rune-of-wildness,Thane Girt's Rune of Wildness,Runes,thane-girts-rune-of-wildness,0.0283635,1.65,2.2769999999999997,exalted,0.6052,57.83,10.71
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,thane-grannells-rune-of-mastery,Thane Grannell's Rune of Mastery,Runes,thane-grannells-rune-of-mastery,0.1015929,5.91,8.1558,exalted,0.1693,1128,74.48
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,thane-lelds-rune-of-spring,Thane Leld's Rune of Spring,Runes,thane-lelds-rune-of-spring,0.067041,3.9,5.382,exalted,0.2562,973.3,-22.66
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,the-greatwolfs-rune-of-willpower,The Greatwolf's Rune of Willpower,Runes,the-greatwolfs-rune-of-willpower,0.1108755,6.45,8.901,exalted,0.155,937.8,130.8
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,warding-rune-of-armature,Warding Rune of Armature,Runes,warding-rune-of-armature,0.0455535,2.65,3.6569999999999996,exalted,0.3778,30.0,124.6
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,warding-rune-of-heart,Warding Rune of Heart,Runes,warding-rune-of-heart,0.026988300000000003,1.57,2.1666,exalted,0.6351,294.2,-27.51
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,warding-rune-of-hollowing,Warding Rune of Hollowing,Runes,warding-rune-of-hollowing,0.0376461,2.19,3.0221999999999998,exalted,0.4569,44.5,42.49
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,warding-rune-of-reinforcement,Warding Rune of Reinforcement,Runes,warding-rune-of-reinforcement,0.03850560000000001,2.24,3.0912,exalted,0.4466,145.2,131.3
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,warding-rune-of-stability,Warding Rune of Stability,Runes,warding-rune-of-stability,0.0390213,2.27,3.1325999999999996,exalted,0.4405,28.0,30.85
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,charging-rune,Charging Rune,Runes,charging-rune,0.051570000000000005,3.0,4.14,exalted,0.3333,4.0,28.57
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,craiceanns-rune-of-warding,Craiceann's Rune of Warding,Runes,craiceanns-rune-of-warding,0.1084689,6.31,8.707799999999999,exalted,0.1585,1586,149.3
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,desert-rune,Desert Rune,Runes,desert-rune,0.0201123,1.17,1.6145999999999998,exalted,0.8533,43.17,21.34
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,greater-rune-of-leadership,Greater Rune of Leadership,Runes,greater-rune-of-leadership,2.024982,117.8,162.564,exalted,0.008488,1394,324.6
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,kolrs-hunt,Kolr's Hunt,Runes,kolrs-hunt,0.6791769,39.51,54.523799999999994,exalted,0.02531,461.0,229.3
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,medveds-tending,Medved's Tending,Runes,medveds-tending,0.4715217,27.43,37.85339999999999,exalted,0.03645,169.2,17.08
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,perfect-glacial-rune,Perfect Glacial Rune,Runes,perfect-glacial-rune,2.571624,149.6,206.44799999999998,divine,0.3889,174.6,12.5
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,robust-rune,Robust Rune,Runes,robust-rune,0.0183933,1.07,1.4766,exalted,0.9326,29.67,-32.71
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,serles-triumph,Serle's Triumph,Runes,serles-triumph,2.645541,153.9,212.382,divine,0.378,795.2,32.26
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,uhtreds-sidereus,Uhtred's Sidereus,Runes,uhtreds-sidereus,0.2535525,14.75,20.354999999999997,exalted,0.0678,49.17,32.88
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,voranas-carnage,Vorana's Carnage,Runes,voranas-carnage,0.2195163,12.77,17.6226,exalted,0.07832,91.5,53.21
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,greater-rune-of-nobility,Greater Rune of Nobility,Runes,greater-rune-of-nobility,0.1012491,5.89,8.1282,exalted,0.1698,35.33,-46.46
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,lesser-rebirth-rune,Lesser Rebirth Rune,Runes,lesser-rebirth-rune,0.007812855,0.4545,0.6272099999999999,exalted,2.2,0.8333,36.36
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,rune-of-confrontation,Rune of Confrontation,Runes,rune-of-confrontation,0.016390665000000002,0.9535,1.3158299999999998,exalted,1.05,6.83,-2.56
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,warding-rune-of-obsession,Warding Rune of Obsession,Runes,warding-rune-of-obsession,0.0237222,1.38,1.9043999999999996,exalted,0.7273,3.67,1.85
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,farruls-rune-of-grace,Farrul's Rune of Grace,Runes,farruls-rune-of-grace,0.03850560000000001,2.24,3.0912,exalted,0.4473,52.17,91.63
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,greater-body-rune,Greater Body Rune,Runes,greater-body-rune,0.015275034,0.8886,1.226268,exalted,1.13,450.7,-32.68
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,greater-charging-rune,Greater Charging Rune,Runes,greater-charging-rune,0.048132,2.8,3.8639999999999994,exalted,0.3576,87.17,130.3
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,greater-glacial-rune,Greater Glacial Rune,Runes,greater-glacial-rune,0.015952320000000002,0.928,1.28064,exalted,1.08,1615,-46.68
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,greater-iron-rune,Greater Iron Rune,Runes,greater-iron-rune,0.08182439999999999,4.76,6.5687999999999995,exalted,0.2101,34908,196.5
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,greater-mind-rune,Greater Mind Rune,Runes,greater-mind-rune,0.0056606669999999994,0.3293,0.45443399999999995,exalted,3.04,27.33,-49.68
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,greater-rebirth-rune,Greater Rebirth Rune,Runes,greater-rebirth-rune,0.010116315,0.5885,0.81213,exalted,1.7,25.5,-14.92
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,greater-rune-of-alacrity,Greater Rune of Alacrity,Runes,greater-rune-of-alacrity,1.760256,102.4,141.31199999999998,exalted,0.009761,1332,184.6
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,greater-rune-of-tithing,Greater Rune of Tithing,Runes,greater-rune-of-tithing,0.8301051,48.29,66.6402,exalted,0.02071,499.0,382.9
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,greater-storm-rune,Greater Storm Rune,Runes,greater-storm-rune,0.014678541,0.8539,1.1783819999999998,exalted,1.17,1863,-39.56
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,greater-ward-rune,Greater Ward Rune,Runes,greater-ward-rune,0.0290511,1.69,2.3322,exalted,0.5918,222.5,-10.37
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,hedgewitch-assandras-rune-of-wisdom,Hedgewitch Assandra's Rune of Wisdom,Runes,hedgewitch-assandras-rune-of-wisdom,0.31681170000000003,18.43,25.4334,exalted,0.05427,7061,4.67
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,inspiration-rune,Inspiration Rune,Runes,inspiration-rune,0.01719,1.0,1.38,exalted,1,2.33,0
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,ire-of-aldur,Ire of Aldur,Runes,ire-of-aldur,0.1662273,9.67,13.344599999999998,exalted,0.1034,161.2,141.8
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,katlas-gloom,Katla's Gloom,Runes,katlas-gloom,0.23000220000000002,13.38,18.4644,exalted,0.07473,46.83,52.93
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,lady-hestras-rune-of-winter,Lady Hestra's Rune of Winter,Runes,lady-hestras-rune-of-winter,0.0218313,1.27,1.7526,exalted,0.7886,61.5,-52.79
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,lesser-adept-rune,Lesser Adept Rune,Runes,lesser-adept-rune,0.015627429,0.9091,1.2545579999999998,exalted,1.1,3.33,-13.62
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,lesser-body-rune,Lesser Body Rune,Runes,lesser-body-rune,0.007948656,0.4624,0.6381119999999999,exalted,2.16,14.33,36.81
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,lesser-glacial-rune,Lesser Glacial Rune,Runes,lesser-glacial-rune,0.010454958,0.6082,0.8393159999999998,exalted,1.64,34.67,-17.79
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,lesser-iron-rune,Lesser Iron Rune,Runes,lesser-iron-rune,0.017124678,0.9962,1.3747559999999999,exalted,1.0,265.5,110.9
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,lesser-mind-rune,Lesser Mind Rune,Runes,lesser-mind-rune,0.0046877130000000005,0.2727,0.376326,exalted,3.67,0.5,-27.27
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,lesser-robust-rune,Lesser Robust Rune,Runes,lesser-robust-rune,0.027847800000000002,1.62,2.2356,exalted,0.6183,21.83,21.36
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,lesser-storm-rune,Lesser Storm Rune,Runes,lesser-storm-rune,0.011536209,0.6711,0.926118,exalted,1.49,58.5,28.11
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,lesser-vision-rune,Lesser Vision Rune,Runes,lesser-vision-rune,0.0042975,0.25,0.345,exalted,4,0.3333,-50.0
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,mind-rune,Mind Rune,Runes,mind-rune,0.007639236000000001,0.4444,0.6132719999999999,exalted,2.25,1.33,-33.33
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,passion-of-aldur,Passion of Aldur,Runes,passion-of-aldur,0.1285812,7.48,10.3224,exalted,0.1336,72.33,-60.62
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,perfect-desert-rune,Perfect Desert Rune,Runes,perfect-desert-rune,2.667888,155.2,214.17599999999996,divine,0.375,77.58,0
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,perfect-iron-rune,Perfect Iron Rune,Runes,perfect-iron-rune,2.102337,122.3,168.77399999999997,divine,0.476,2017,26.06
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,perfect-storm-rune,Perfect Storm Rune,Runes,perfect-storm-rune,2.159064,125.6,173.32799999999997,divine,0.4634,795.2,-0.73
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,rebirth-rune,Rebirth Rune,Runes,rebirth-rune,0.012892500000000001,0.75,1.035,exalted,1.33,1.0,7.14
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,rune-of-accumulation,Rune of Accumulation,Runes,rune-of-accumulation,0.030598200000000002,1.78,2.4564,exalted,0.5612,306.5,20.12
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,rune-of-culmination,Rune of Culmination,Runes,rune-of-culmination,0.0366147,2.13,2.9393999999999996,exalted,0.4701,55.67,117.3
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,rune-of-reach,Rune of Reach,Runes,rune-of-reach,0.017019819,0.9901,1.3663379999999998,exalted,1.01,16.67,-24.56
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,rune-of-renown,Rune of Renown,Runes,rune-of-renown,0.061196400000000005,3.56,4.9128,exalted,0.2809,214.2,156.3
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,rune-of-the-hunt,Rune of the Hunt,Runes,rune-of-the-hunt,0.0316296,1.84,2.5392,exalted,0.5426,489.3,61.96
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,rune-of-the-prism,Rune of the Prism,Runes,rune-of-the-prism,0.0233784,1.36,1.8768,exalted,0.7373,250.0,-10.22
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,rune-of-vital-flame,Rune of Vital Flame,Runes,rune-of-vital-flame,0.013506183,0.7857,1.084266,exalted,1.27,1.83,-21.43
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,rune-of-vitality,Rune of Vitality,Runes,rune-of-vitality,0.0398808,2.32,3.2015999999999996,exalted,0.4314,49.83,107.6
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,saqawals-rune-of-memory,Saqawal's Rune of Memory,Runes,saqawals-rune-of-memory,0.0630873,3.67,5.0645999999999995,exalted,0.2724,326.2,22.36
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,stone-rune,Stone Rune,Runes,stone-rune,0.005729427,0.3333,0.4599539999999999,exalted,3,0.1667,-51.52
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,thane-myrks-rune-of-summer,Thane Myrk's Rune of Summer,Runes,thane-myrks-rune-of-summer,0.0321453,1.87,2.5806,exalted,0.5349,64.5,-25.52
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,the-greatwolfs-rune-of-claws,The Greatwolf's Rune of Claws,Runes,the-greatwolfs-rune-of-claws,0.2088585,12.15,16.767,exalted,0.08231,6709,145.4
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,thruds-might,Thrud's Might,Runes,thruds-might,0.19871640000000002,11.56,15.9528,exalted,0.08649,30.83,-28.18
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,vision-rune,Vision Rune,Runes,vision-rune,0.01504125,0.875,1.2075,exalted,1.14,1.17,37.35
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,warding-rune-of-annihilation,Warding Rune of Annihilation,Runes,warding-rune-of-annihilation,0.0237222,1.38,1.9043999999999996,exalted,0.7267,28.67,37.6
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,warding-rune-of-bodyguards,Warding Rune of Bodyguards,Runes,warding-rune-of-bodyguards,0.056039399999999996,3.26,4.498799999999999,exalted,0.3069,130.3,225.8
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,warding-rune-of-courage,Warding Rune of Courage,Runes,warding-rune-of-courage,0.014492889,0.8431,1.1634779999999998,exalted,1.19,7.17,-6.32
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,warding-rune-of-desperation,Warding Rune of Desperation,Runes,warding-rune-of-desperation,0.015553512000000002,0.9048,1.248624,exalted,1.11,3.17,-9.52
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,warding-rune-of-disintegration,Warding Rune of Disintegration,Runes,warding-rune-of-disintegration,0.0178776,1.04,1.4352,exalted,0.9574,7.83,4.44
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,warding-rune-of-equinox,Warding Rune of Equinox,Runes,warding-rune-of-equinox,0.0479601,2.79,3.8501999999999996,exalted,0.3588,28.33,69.33
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,warding-rune-of-glancing,Warding Rune of Glancing,Runes,warding-rune-of-glancing,0.037818000000000004,2.2,3.036,exalted,0.4554,33.67,119.6
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,warding-rune-of-protection,Warding Rune of Protection,Runes,warding-rune-of-protection,0.016737903000000002,0.9737,1.3437059999999998,exalted,1.03,18.5,-0.56
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,warding-rune-of-salvaging,Warding Rune of Salvaging,Runes,warding-rune-of-salvaging,0.026472600000000002,1.54,2.1252,exalted,0.6486,6.17,54.17
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,warding-rune-of-symbiosis,Warding Rune of Symbiosis,Runes,warding-rune-of-symbiosis,0.01719,1.0,1.38,exalted,1,8.17,16.67
+2026-06-01T06:05:02+00:00,Runes of Aldur,Runes,ward-rune,Ward Rune,Runes,ward-rune,0.05535180000000001,3.22,4.4436,exalted,0.311,34.83,87.64
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,cat-idol,Cat Idol,Ritual,cat-idol,0.0194247,1.13,1.5593999999999997,exalted,0.8883,32.83,13.9
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,bear-idol,Bear Idol,Ritual,bear-idol,0.0336924,1.96,2.7047999999999996,exalted,0.5105,294.8,16.72
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,boar-idol,Boar Idol,Ritual,boar-idol,0.024581699999999998,1.43,1.9733999999999998,exalted,0.7016,93.83,42.53
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,idol-of-alira,Idol of Alira,Ritual,idol-of-alira,0.8961147,52.13,71.93939999999999,exalted,0.01918,3301,559.1
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,idol-of-egrin,Idol of Egrin,Ritual,idol-of-egrin,0.2456451,14.29,19.7202,exalted,0.07,1236,133.9
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,idol-of-greust,Idol of Greust,Ritual,idol-of-greust,0.0709947,4.13,5.6994,exalted,0.2422,37.17,214.6
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,idol-of-maxarius,Idol of Maxarius,Ritual,idol-of-maxarius,0.080793,4.7,6.486,exalted,0.2127,120.7,252.6
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,idol-of-ralakesh,Idol of Ralakesh,Ritual,idol-of-ralakesh,1.3485555,78.45,108.261,exalted,0.01275,7296,717.2
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,idol-of-the-martyr,Idol of the Martyr,Ritual,idol-of-the-martyr,0.0342081,1.99,2.7462,exalted,0.5027,30.83,-80.11
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,idol-of-yeena,Idol of Yeena,Ritual,idol-of-yeena,0.0581022,3.38,4.6644,exalted,0.2959,65.33,35.17
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-abyssal-echoes,Omen of Abyssal Echoes,Ritual,omen-of-abyssal-echoes,1.3487274,78.46,108.27479999999998,exalted,0.01274,197518,125.6
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-dextral-crystallisation,Omen of Dextral Crystallisation,Ritual,omen-of-dextral-crystallisation,0.3336579,19.41,26.7858,exalted,0.05153,8840,-75.3
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-gambling,Omen of Gambling,Ritual,omen-of-gambling,0.009916911,0.5769,0.7961219999999999,exalted,1.73,146.3,-26.94
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-greater-exaltation,Omen of Greater Exaltation,Ritual,omen-of-greater-exaltation,0.07907399999999999,4.6,6.347999999999999,exalted,0.2172,35301,133.1
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-light,Omen of Light,Ritual,omen-of-light,3.104514,180.6,249.22799999999998,divine,0.3221,93023,83.62
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-sinistral-crystallisation,Omen of Sinistral Crystallisation,Ritual,omen-of-sinistral-crystallisation,0.1853082,10.78,14.876399999999999,exalted,0.09274,3677,-70.95
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-sinistral-exaltation,Omen of Sinistral Exaltation,Ritual,omen-of-sinistral-exaltation,0.0472725,2.75,3.795,exalted,0.3639,4602,-19.93
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-sinistral-necromancy,Omen of Sinistral Necromancy,Ritual,omen-of-sinistral-necromancy,0.2380815,13.85,19.113,exalted,0.0722,37765,-9.29
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-the-liege,Omen of the Liege,Ritual,omen-of-the-liege,0.012928599,0.7521,1.037898,exalted,1.33,866.3,-79.41
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,owl-idol,Owl Idol,Ritual,owl-idol,0.016488648,0.9592,1.323696,exalted,1.04,15.67,-4.76
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,primate-idol,Primate Idol,Ritual,primate-idol,0.130644,7.6,10.488,exalted,0.1317,3499,127.0
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,stag-idol,Stag Idol,Ritual,stag-idol,0.016844481,0.9799,1.3522619999999999,exalted,1.02,32.5,-10.92
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,wolf-idol,Wolf Idol,Ritual,wolf-idol,0.0531171,3.09,4.2642,exalted,0.3238,110.2,42.56
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,idol-of-eeshta,Idol of Eeshta,Ritual,idol-of-eeshta,0.30942000000000003,18.0,24.839999999999996,exalted,0.05557,2237,159.5
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,idol-of-eramir,Idol of Eramir,Ritual,idol-of-eramir,0.5762088000000001,33.52,46.257600000000004,exalted,0.02983,799.0,67.62
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,idol-of-oak,Idol of Oak,Ritual,idol-of-oak,0.0500229,2.91,4.0158,exalted,0.3432,89.83,191.4
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,idol-of-the-sycophant,Idol of the Sycophant,Ritual,idol-of-the-sycophant,0.0582741,3.39,4.6781999999999995,exalted,0.2948,249.3,-71.14
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-chance,Omen of Chance,Ritual,omen-of-chance,18.13545,1055.0,1455.8999999999999,divine,0.05515,22858,56.8
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-dextral-annulment,Omen of Dextral Annulment,Ritual,omen-of-dextral-annulment,4.799448,279.2,385.29599999999994,divine,0.2084,4141,27.99
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-dextral-erasure,Omen of Dextral Erasure,Ritual,omen-of-dextral-erasure,5.763807,335.3,462.714,divine,0.1735,6372,21.98
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-sinistral-annulment,Omen of Sinistral Annulment,Ritual,omen-of-sinistral-annulment,3.556611,206.9,285.522,divine,0.2812,3103,-23.81
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-answered-prayers,Omen of Answered Prayers,Ritual,omen-of-answered-prayers,0.0254412,1.48,2.0423999999999998,exalted,0.675,13.33,196.3
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-chaotic-quantity,Omen of Chaotic Quantity,Ritual,omen-of-chaotic-quantity,0.065322,3.8,5.244,exalted,0.2633,1546,186.8
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-reinforcements,Omen of Reinforcements,Ritual,omen-of-reinforcements,0.1132821,6.59,9.094199999999999,exalted,0.1517,100.0,123.2
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-the-hunt,Omen of the Hunt,Ritual,omen-of-the-hunt,0.1210176,7.04,9.7152,exalted,0.1421,120.8,331.0
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,fox-idol,Fox Idol,Ritual,fox-idol,0.668691,38.9,53.681999999999995,exalted,0.0257,946.7,764.5
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,head-of-the-king,Head of the King,Ritual,head-of-the-king,1.4554773,84.67,116.8446,exalted,0.01181,5574,30.0
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,idol-of-grold,Idol of Grold,Ritual,idol-of-grold,0.12204899999999999,7.1,9.797999999999998,exalted,0.1408,425.0,133.5
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,idol-of-kraityn,Idol of Kraityn,Ritual,idol-of-kraityn,0.055179900000000004,3.21,4.429799999999999,exalted,0.3114,86.17,-78.23
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,idol-of-silk,Idol of Silk,Ritual,idol-of-silk,0.026472600000000002,1.54,2.1252,exalted,0.65,6.67,-30.33
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,idol-of-sirrius,Idol of Sirrius,Ritual,idol-of-sirrius,1.2113793,70.47,97.2486,exalted,0.01419,6214,417.6
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,idol-of-the-pharisee,Idol of the Pharisee,Ritual,idol-of-the-pharisee,0.08595,5.0,6.8999999999999995,exalted,0.2001,447.3,-76.2
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,idol-of-thruldana,Idol of Thruldana,Ritual,idol-of-thruldana,0.116892,6.8,9.383999999999999,exalted,0.1471,291.2,15.35
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-amelioration,Omen of Amelioration,Ritual,omen-of-amelioration,0.12737790000000002,7.41,10.2258,exalted,0.135,11691,319.8
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-bartering,Omen of Bartering,Ritual,omen-of-bartering,0.051054300000000004,2.97,4.0986,exalted,0.3372,3873,29.48
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-catalysing-exaltation,Omen of Catalysing Exaltation,Ritual,omen-of-catalysing-exaltation,0.0799335,4.65,6.417,exalted,0.2151,2567,-65.09
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-chaotic-effectiveness,Omen of Chaotic Effectiveness,Ritual,omen-of-chaotic-effectiveness,0.028707299999999998,1.67,2.3045999999999998,exalted,0.6002,368.5,37.21
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-chaotic-monsters,Omen of Chaotic Monsters,Ritual,omen-of-chaotic-monsters,0.03438,2.0,2.76,exalted,0.5002,449.2,23.48
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-chaotic-rarity,Omen of Chaotic Rarity,Ritual,omen-of-chaotic-rarity,0.0448659,2.61,3.6017999999999994,exalted,0.3838,1226,84.3
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-dextral-exaltation,Omen of Dextral Exaltation,Ritual,omen-of-dextral-exaltation,0.07735500000000001,4.5,6.209999999999999,exalted,0.2224,9567,-42.54
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-dextral-necromancy,Omen of Dextral Necromancy,Ritual,omen-of-dextral-necromancy,0.07941780000000001,4.62,6.3755999999999995,exalted,0.2163,11000,-37.11
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-putrefaction,Omen of Putrefaction,Ritual,omen-of-putrefaction,0.21882870000000001,12.73,17.5674,exalted,0.07856,27461,-26.22
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-refreshment,Omen of Refreshment,Ritual,omen-of-refreshment,0.007008363,0.4077,0.562626,exalted,2.45,33.5,-55.83
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-resurgence,Omen of Resurgence,Ritual,omen-of-resurgence,0.026472600000000002,1.54,2.1252,exalted,0.6513,1475,73.65
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-sanctification,Omen of Sanctification,Ritual,omen-of-sanctification,1.0738593,62.47,86.20859999999999,exalted,0.01601,624.7,218.6
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-secret-compartments,Omen of Secret Compartments,Ritual,omen-of-secret-compartments,0.19871640000000002,11.56,15.9528,exalted,0.08651,240.8,709.2
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-sinistral-erasure,Omen of Sinistral Erasure,Ritual,omen-of-sinistral-erasure,5.703642,331.8,457.88399999999996,divine,0.1754,6856,-18.55
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-the-ancients,Omen of the Ancients,Ritual,omen-of-the-ancients,0.0462411,2.69,3.7121999999999997,exalted,0.3724,4147,11.87
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-the-blackblooded,Omen of the Blackblooded,Ritual,omen-of-the-blackblooded,0.0302544,1.76,2.4288,exalted,0.5687,718.8,-43.46
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-the-blessed,Omen of the Blessed,Ritual,omen-of-the-blessed,0.2265642,13.18,18.188399999999998,exalted,0.07586,714.0,559.1
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-the-sovereign,Omen of the Sovereign,Ritual,omen-of-the-sovereign,0.0247536,1.44,1.9871999999999999,exalted,0.6934,794.8,-50.5
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,omen-of-whittling,Omen of Whittling,Ritual,omen-of-whittling,2.102337,122.3,168.77399999999997,divine,0.4759,67682,-27.15
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,ox-idol,Ox Idol,Ritual,ox-idol,0.0211437,1.23,1.6973999999999998,exalted,0.8097,37.67,-9.0
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,rabbit-idol,Rabbit Idol,Ritual,rabbit-idol,0.5928831,34.49,47.596199999999996,exalted,0.02899,8990,213.6
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,raven-touched-shard,Raven-Touched Shard,Ritual,raven-touched-shard,20.00916,1164.0,1606.32,divine,0.05,194.0,73.91
+2026-06-01T06:05:02+00:00,Runes of Aldur,Ritual,snake-idol,Snake Idol,Ritual,snake-idol,0.0407403,2.37,3.2706,exalted,0.4218,258.8,50.73
+2026-06-01T06:05:02+00:00,Runes of Aldur,Abyss,altered-collarbone,Altered Collarbone,Abyss,altered-collarbone,0.5949459,34.61,47.761799999999994,exalted,0.02889,807.7,214.7
+2026-06-01T06:05:02+00:00,Runes of Aldur,Abyss,amanamus-gaze,Amanamu's Gaze,Abyss,amanamus-gaze,1.4312394000000002,83.26,114.8988,exalted,0.01201,3455,7.43
+2026-06-01T06:05:02+00:00,Runes of Aldur,Abyss,ancient-collarbone,Ancient Collarbone,Abyss,ancient-collarbone,2.8672920000000004,166.8,230.184,exalted,0.005994,7035,378.1
+2026-06-01T06:05:02+00:00,Runes of Aldur,Abyss,ancient-jawbone,Ancient Jawbone,Abyss,ancient-jawbone,3.051225,177.5,244.95,exalted,0.005635,38212,213.2
+2026-06-01T06:05:02+00:00,Runes of Aldur,Abyss,ancient-rib,Ancient Rib,Abyss,ancient-rib,1.122507,65.3,90.11399999999999,exalted,0.01531,13594,46.11
+2026-06-01T06:05:02+00:00,Runes of Aldur,Abyss,gnawed-jawbone,Gnawed Jawbone,Abyss,gnawed-jawbone,0.013853421,0.8059,1.1121419999999997,exalted,1.24,470.5,-53.37
+2026-06-01T06:05:02+00:00,Runes of Aldur,Abyss,preserved-cranium,Preserved Cranium,Abyss,preserved-cranium,0.1277217,7.43,10.2534,exalted,0.1346,8021,88.04
+2026-06-01T06:05:02+00:00,Runes of Aldur,Abyss,preserved-jawbone,Preserved Jawbone,Abyss,preserved-jawbone,0.0302544,1.76,2.4288,exalted,0.567,14761,-66.44
+2026-06-01T06:05:02+00:00,Runes of Aldur,Abyss,tecrods-gaze,Tecrod's Gaze,Abyss,tecrods-gaze,1.1563713,67.27,92.83259999999999,exalted,0.01487,2893,107.0
+2026-06-01T06:05:02+00:00,Runes of Aldur,Abyss,gnawed-collarbone,Gnawed Collarbone,Abyss,gnawed-collarbone,0.016337376,0.9504,1.3115519999999998,exalted,1.05,626.2,-11.5
+2026-06-01T06:05:02+00:00,Runes of Aldur,Abyss,gnawed-rib,Gnawed Rib,Abyss,gnawed-rib,0.009208682999999999,0.5357,0.7392659999999999,exalted,1.87,448.8,-23.63
+2026-06-01T06:05:02+00:00,Runes of Aldur,Abyss,kurgals-gaze,Kurgal's Gaze,Abyss,kurgals-gaze,0.20610810000000002,11.99,16.5462,exalted,0.08338,323.8,-4.37
+2026-06-01T06:05:02+00:00,Runes of Aldur,Abyss,preserved-collarbone,Preserved Collarbone,Abyss,preserved-collarbone,0.5232636,30.44,42.0072,exalted,0.03285,93808,136.1
+2026-06-01T06:05:02+00:00,Runes of Aldur,Abyss,preserved-rib,Preserved Rib,Abyss,preserved-rib,0.1511001,8.79,12.130199999999999,exalted,0.1138,80356,-2.59
+2026-06-01T06:05:02+00:00,Runes of Aldur,Abyss,ulamans-gaze,Ulaman's Gaze,Abyss,ulamans-gaze,0.15471000000000001,9.0,12.419999999999998,exalted,0.1111,391.5,35
+2026-06-01T06:05:02+00:00,Runes of Aldur,Fragments,azmeri-reliquary-key,Azmeri Reliquary Key,Fragments,azmeri-reliquary-key,48.01167,2793.0,3854.3399999999997,divine,0.02083,465.5,392.3
+2026-06-01T06:05:02+00:00,Runes of Aldur,Fragments,breachlord-sac,Breachlord Sac,Fragments,breachlord-sac,4.6413,270.0,372.59999999999997,divine,0.2155,1125,-4.63
+2026-06-01T06:05:02+00:00,Runes of Aldur,Fragments,cowardly-fate,Cowardly Fate,Fragments,cowardly-fate,0.4570821,26.59,36.694199999999995,exalted,0.03761,3231,95.96
+2026-06-01T06:05:02+00:00,Runes of Aldur,Fragments,deadly-fate,Deadly Fate,Fragments,deadly-fate,0.5325462,30.98,42.752399999999994,exalted,0.03228,3335,59.81
+2026-06-01T06:05:02+00:00,Runes of Aldur,Fragments,kulemaks-invitation,Kulemak's Invitation,Fragments,kulemaks-invitation,0.18444870000000002,10.73,14.8074,exalted,0.09317,4528,-71.32
+2026-06-01T06:05:02+00:00,Runes of Aldur,Fragments,twilight-reliquary-key,Twilight Reliquary Key,Fragments,twilight-reliquary-key,0.0768393,4.47,6.168599999999999,exalted,0.2237,2706,47.39
+2026-06-01T06:05:02+00:00,Runes of Aldur,Fragments,against-the-darkness,Zarokh's Reliquary Key: Against the Darkness,Fragments,zarokhs-reliquary-key:-against-the-darkness,6.001029000000001,349.1,481.758,divine,0.1667,58.19,-4
+2026-06-01T06:05:02+00:00,Runes of Aldur,Fragments,ancient-crisis-fragment,Ancient Crisis Fragment,Fragments,ancient-crisis-fragment,1.8462060000000002,107.4,148.212,exalted,0.009313,13887,876.2
+2026-06-01T06:05:02+00:00,Runes of Aldur,Fragments,faded-crisis-fragment,Faded Crisis Fragment,Fragments,faded-crisis-fragment,0.6509853,37.87,52.26059999999999,exalted,0.02641,5428,-15.84
+2026-06-01T06:05:02+00:00,Runes of Aldur,Fragments,olroths-reliquary-key,Olroth's Reliquary Key,Fragments,olroths-reliquary-key,3.0013739999999998,174.6,240.94799999999998,divine,0.3333,29.09,0
+2026-06-01T06:05:02+00:00,Runes of Aldur,Fragments,simulacrum,Simulacrum,Delirium,simulacrum,6.001029000000001,349.1,481.758,divine,0.1667,407.3,-12.2
+2026-06-01T06:05:02+00:00,Runes of Aldur,Fragments,ritualistic-reliquary-key,Ritualistic Reliquary Key,Fragments,ritualistic-reliquary-key,0.128925,7.5,10.35,exalted,0.1333,2.5,25.0
+2026-06-01T06:05:02+00:00,Runes of Aldur,Fragments,simulacrum-splinter,Simulacrum Splinter,Delirium,simulacrum-splinter,0.017533800000000002,1.02,1.4076,exalted,0.9827,1308,119.6
+2026-06-01T06:05:02+00:00,Runes of Aldur,Fragments,the-arbiters-reliquary-key,The Arbiter's Reliquary Key,Fragments,the-arbiters-reliquary-key,5.5008,320.0,441.59999999999997,divine,0.1818,106.7,-12
+2026-06-01T06:05:02+00:00,Runes of Aldur,Fragments,the-trialmasters-reliquary-key,The Trialmaster's Reliquary Key,Fragments,the-trialmasters-reliquary-key,3.0013739999999998,174.6,240.94799999999998,divine,0.3333,29.09,0
+2026-06-01T06:05:02+00:00,Runes of Aldur,Fragments,victorious-fate,Victorious Fate,Fragments,victorious-fate,0.48733650000000006,28.35,39.123,exalted,0.03527,3308,70.04
+2026-06-01T06:05:02+00:00,Runes of Aldur,Fragments,weathered-crisis-fragment,Weathered Crisis Fragment,Fragments,weathered-crisis-fragment,1.906371,110.9,153.042,exalted,0.009021,13783,90.05
+2026-06-01T06:05:02+00:00,Runes of Aldur,Fragments,xeshts-reliquary-key,Xesht's Reliquary Key,Fragments,xeshts-reliquary-key,7.001487,407.3,562.074,divine,0.1429,67.89,0
