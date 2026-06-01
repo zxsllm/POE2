@@ -1,0 +1,34 @@
+level,name,physical_damage,min_physical_damage,max_physical_damage,avg_physical_damage
+1,Crude Bow,6-9,6,9,7.5
+5,Shortbow,7-14,7,14,10.5
+11,Warden Bow,12-20,12,20,16.0
+16,Recurve Bow,15-31,15,31,23.0
+22,Composite Bow,19-31,19,31,25.0
+28,Dualstring Bow,19-35,19,35,27.0
+33,Cultist Bow,22-36,22,36,29.0
+38,Runeforged Shortbow,30-56,30,56,43.0
+39,Zealot Bow,31-47,31,47,39.0
+40,Runeforged Recurve Bow,41-84,41,84,62.5
+45,Snakewood Shortbow,29-54,29,54,41.5
+45,Artillery Bow,39-72,39,72,55.5
+48,Protector Bow,35-53,35,53,44.0
+50,Tribal Bow,38-57,38,57,47.5
+51,Rider Bow,36-61,36,61,48.5
+52,Greatbow,40-82,40,82,61.0
+54,Twin Bow,32-60,32,60,46.0
+55,Runeforged Zealot Bow,44-67,44,67,55.5
+55,Runeforged Shortbow,44-81,44,81,62.5
+55,Runeforged Dualstring Bow,45-83,45,83,64.0
+55,Runeforged Composite Bow,53-88,53,88,70.5
+56,Double Limb Bow,42-63,42,63,52.5
+59,Adherent Bow,35-59,35,59,47.0
+62,Militant Bow,46-69,46,69,57.5
+65,Heavy Bow,45-75,45,75,60.0
+67,Heartwood Shortbow,41-76,41,76,58.5
+67,Ironwood Shortbow,41-76,41,76,58.5
+72,Cavalry Bow,49-82,49,82,65.5
+77,Warmonger Bow,56-84,56,84,70.0
+77,Guardian Bow,53-88,53,88,70.5
+78,Gemini Bow,39-72,39,72,55.5
+78,Obliterator Bow,62-115,62,115,88.5
+79,Fanatic Bow,47-79,47,79,63.0

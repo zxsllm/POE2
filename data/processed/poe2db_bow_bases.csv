@@ -1,0 +1,35 @@
+name,href,page,physical_damage,min_physical_damage,max_physical_damage,avg_physical_damage,critical_hit_chance,attacks_per_second,requirements,required_level,required_dex,implicit
+Crude Bow,Crude_Bow,Bows,6-9,6,9,7.5,5%,1.2,,,,
+Shortbow,Shortbow,Bows,7-14,7,14,10.5,5%,1.25,"Level 5 , 12 Dex",5,12,
+Warden Bow,Warden_Bow,Bows,12-20,12,20,16.0,5%,1.15,"Level 11 , 23 Dex",11,23,(25 - 35) % chance to Chain an additional time
+Recurve Bow,Recurve_Bow,Bows,15-31,15,31,23.0,5%,1.1,"Level 16 , 31 Dex",16,31,
+Composite Bow,Composite_Bow,Bows,19-31,19,31,25.0,5%,1.2,"Level 22 , 41 Dex",22,41,
+Dualstring Bow,Dualstring_Bow,Bows,19-35,19,35,27.0,5%,1.15,"Level 28 , 52 Dex",28,52,+50 % Surpassing chance to fire an additional Arrow
+Cultist Bow,Cultist_Bow,Bows,22-36,22,36,29.0,5%,1.2,"Level 33 , 60 Dex",33,60,local weapon implicit hidden added maximum chaos damage [19] local weapon implicit hidden added minimum chaos damage [7]
+Zealot Bow,Zealot_Bow,Bows,31-47,31,47,39.0,5%,1.2,"Level 39 , 70 Dex",39,70,
+Artillery Bow,Artillery_Bow,Bows,39-72,39,72,55.5,5%,1.1,"Level 45 , 80 Dex",45,80,50 % reduced Projectile Range
+Tribal Bow,Tribal_Bow,Bows,38-57,38,57,47.5,5%,1.2,"Level 50 , 89 Dex",50,89,
+Greatbow,Greatbow,Bows,40-82,40,82,61.0,6.5%,1.15,"Level 52 , 92 Str , 92 Dex",52,92,
+Double Limb Bow,Double_Limb_Bow,Bows,42-63,42,63,52.5,5%,1.2,"Level 56 , 99 Dex",56,99,
+Heavy Bow,Heavy_Bow,Bows,45-75,45,75,60.0,5%,1.2,"Level 65 , 114 Dex",65,114,
+Snakewood Shortbow,Snakewood_Shortbow,Bows,29-54,29,54,41.5,5%,1.25,"Level 45 , 80 Dex",45,80,
+Protector Bow,Protector_Bow,Bows,35-53,35,53,44.0,5%,1.15,"Level 48 , 86 Dex",48,86,(25 - 35) % chance to Chain an additional time
+Rider Bow,Rider_Bow,Bows,36-61,36,61,48.5,5%,1.2,"Level 51 , 91 Dex",51,91,
+Twin Bow,Twin_Bow,Bows,32-60,32,60,46.0,5%,1.15,"Level 54 , 96 Dex",54,96,+50 % Surpassing chance to fire an additional Arrow
+Adherent Bow,Adherent_Bow,Bows,35-59,35,59,47.0,5%,1.2,"Level 59 , 104 Dex",59,104,local weapon implicit hidden added maximum chaos damage [32] local weapon implicit hidden added minimum chaos damage [14]
+Militant Bow,Militant_Bow,Bows,46-69,46,69,57.5,5%,1.2,"Level 62 , 109 Dex",62,109,
+Runeforged Crude Bow,Runeforged_Crude_Bow,Bows,,,,,5%,1.2,"Level 55 , 97 Dex",55,97,local weapon implicit hidden % base damage is chaos [100]
+Runeforged Shortbow,Runeforged_Shortbow,Bows,30-56,30,56,43.0,5%,1.25,"Level 38 , 68 Dex",38,68,
+Runeforged Shortbow,Runeforged_Shortbow,Bows,44-81,44,81,62.5,5%,1.4,"Level 55 , 97 Dex",55,97,Projectiles have 50 % chance for an additional Projectile when Forking
+Runeforged Recurve Bow,Runeforged_Recurve_Bow,Bows,41-84,41,84,62.5,5%,1.1,"Level 40 , 72 Dex",40,72,
+Runeforged Composite Bow,Runeforged_Composite_Bow,Bows,53-88,53,88,70.5,5%,1.2,"Level 55 , 97 Dex",55,97,
+Runeforged Dualstring Bow,Runeforged_Dualstring_Bow,Bows,45-83,45,83,64.0,6.5%,1.15,"Level 55 , 97 Dex",55,97,+50 % Surpassing chance to fire an additional Arrow
+Runeforged Zealot Bow,Runeforged_Zealot_Bow,Bows,44-67,44,67,55.5,10%,1.2,"Level 55 , 97 Dex",55,97,local weapon implicit hidden added maximum chaos damage [19] local weapon implicit hidden added minimum chaos damage [7]
+Ironwood Shortbow,Ironwood_Shortbow,Bows,41-76,41,76,58.5,5%,1.25,"Level 67 , 134 Dex",67,134,
+Cavalry Bow,Cavalry_Bow,Bows,49-82,49,82,65.5,5%,1.2,"Level 72 , 149 Dex",72,149,
+Guardian Bow,Guardian_Bow,Bows,53-88,53,88,70.5,5%,1.15,"Level 77 , 163 Dex",77,163,(25 - 35) % chance to Chain an additional time
+Gemini Bow,Gemini_Bow,Bows,39-72,39,72,55.5,5%,1.15,"Level 78 , 163 Dex",78,163,+50 % Surpassing chance to fire an additional Arrow
+Fanatic Bow,Fanatic_Bow,Bows,47-79,47,79,63.0,5%,1.2,"Level 79 , 163 Dex",79,163,local weapon implicit hidden added maximum chaos damage [64] local weapon implicit hidden added minimum chaos damage [28]
+Warmonger Bow,Warmonger_Bow,Bows,56-84,56,84,70.0,5%,1.2,"Level 77 , 163 Dex",77,163,
+Obliterator Bow,Obliterator_Bow,Bows,62-115,62,115,88.5,5%,1.1,"Level 78 , 163 Dex",78,163,50 % reduced Projectile Range
+Heartwood Shortbow,Heartwood_Shortbow,Bows,41-76,41,76,58.5,5%,1.25,"Level 67 , 134 Dex",67,134,

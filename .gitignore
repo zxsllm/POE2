@@ -1,0 +1,7 @@
+data/youtube_cookies_raw*.txt
+data/youtube_cookies_raw*.tmp
+data/youtube_transcripts/.youtube_cookies.netscape.tmp
+youtube_cookies*.txt
+__pycache__/
+*.py[cod]
+data/logs/

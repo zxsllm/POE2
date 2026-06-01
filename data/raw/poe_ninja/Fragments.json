@@ -1,0 +1,505 @@
+{
+  "core": {
+    "items": [
+      {
+        "id": "exalted",
+        "name": "Exalted Orb",
+        "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+        "category": "Currency",
+        "detailsId": "exalted-orb"
+      },
+      {
+        "id": "divine",
+        "name": "Divine Orb",
+        "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
+        "category": "Currency",
+        "detailsId": "divine-orb"
+      },
+      {
+        "id": "chaos",
+        "name": "Chaos Orb",
+        "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+        "category": "Currency",
+        "detailsId": "chaos-orb"
+      }
+    ],
+    "rates": {
+      "divine": 0.01719,
+      "chaos": 1.38
+    },
+    "primary": "exalted",
+    "secondary": "divine"
+  },
+  "lines": [
+    {
+      "id": "azmeri-reliquary-key",
+      "primaryValue": 2793,
+      "volumePrimaryValue": 465.5,
+      "maxVolumeCurrency": "divine",
+      "maxVolumeRate": 0.02083,
+      "sparkline": {
+        "totalChange": 392.3,
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          392.3
+        ]
+      }
+    },
+    {
+      "id": "breachlord-sac",
+      "primaryValue": 270.0,
+      "volumePrimaryValue": 1125,
+      "maxVolumeCurrency": "divine",
+      "maxVolumeRate": 0.2155,
+      "sparkline": {
+        "totalChange": -4.63,
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          -4.63
+        ]
+      }
+    },
+    {
+      "id": "cowardly-fate",
+      "primaryValue": 26.59,
+      "volumePrimaryValue": 3231,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.03761,
+      "sparkline": {
+        "totalChange": 95.96,
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          0,
+          13.4,
+          95.96
+        ]
+      }
+    },
+    {
+      "id": "deadly-fate",
+      "primaryValue": 30.98,
+      "volumePrimaryValue": 3335,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.03228,
+      "sparkline": {
+        "totalChange": 59.81,
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          0,
+          -15.57,
+          59.81
+        ]
+      }
+    },
+    {
+      "id": "kulemaks-invitation",
+      "primaryValue": 10.73,
+      "volumePrimaryValue": 4528,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.09317,
+      "sparkline": {
+        "totalChange": -71.32,
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          0,
+          -26.58,
+          -71.32
+        ]
+      }
+    },
+    {
+      "id": "twilight-reliquary-key",
+      "primaryValue": 4.47,
+      "volumePrimaryValue": 2706,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.2237,
+      "sparkline": {
+        "totalChange": 47.39,
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          0,
+          10.48,
+          47.39
+        ]
+      }
+    },
+    {
+      "id": "against-the-darkness",
+      "primaryValue": 349.1,
+      "volumePrimaryValue": 58.19,
+      "maxVolumeCurrency": "divine",
+      "maxVolumeRate": 0.1667,
+      "sparkline": {
+        "totalChange": -4,
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          -4
+        ]
+      }
+    },
+    {
+      "id": "ancient-crisis-fragment",
+      "primaryValue": 107.4,
+      "volumePrimaryValue": 13887,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.009313,
+      "sparkline": {
+        "totalChange": 876.2,
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          0,
+          564.9,
+          876.2
+        ]
+      }
+    },
+    {
+      "id": "faded-crisis-fragment",
+      "primaryValue": 37.87,
+      "volumePrimaryValue": 5428,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.02641,
+      "sparkline": {
+        "totalChange": -15.84,
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          0,
+          17.94,
+          -15.84
+        ]
+      }
+    },
+    {
+      "id": "olroths-reliquary-key",
+      "primaryValue": 174.6,
+      "volumePrimaryValue": 29.09,
+      "maxVolumeCurrency": "divine",
+      "maxVolumeRate": 0.3333,
+      "sparkline": {
+        "totalChange": 0,
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ]
+      }
+    },
+    {
+      "id": "simulacrum",
+      "primaryValue": 349.1,
+      "volumePrimaryValue": 407.3,
+      "maxVolumeCurrency": "divine",
+      "maxVolumeRate": 0.1667,
+      "sparkline": {
+        "totalChange": -12.2,
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          -12.2
+        ]
+      }
+    },
+    {
+      "id": "ritualistic-reliquary-key",
+      "primaryValue": 7.5,
+      "volumePrimaryValue": 2.5,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.1333,
+      "sparkline": {
+        "totalChange": 25.0,
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          25.0
+        ]
+      }
+    },
+    {
+      "id": "simulacrum-splinter",
+      "primaryValue": 1.02,
+      "volumePrimaryValue": 1308,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.9827,
+      "sparkline": {
+        "totalChange": 119.6,
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          119.6
+        ]
+      }
+    },
+    {
+      "id": "the-arbiters-reliquary-key",
+      "primaryValue": 320.0,
+      "volumePrimaryValue": 106.7,
+      "maxVolumeCurrency": "divine",
+      "maxVolumeRate": 0.1818,
+      "sparkline": {
+        "totalChange": -12,
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          -12
+        ]
+      }
+    },
+    {
+      "id": "the-trialmasters-reliquary-key",
+      "primaryValue": 174.6,
+      "volumePrimaryValue": 29.09,
+      "maxVolumeCurrency": "divine",
+      "maxVolumeRate": 0.3333,
+      "sparkline": {
+        "totalChange": 0,
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ]
+      }
+    },
+    {
+      "id": "victorious-fate",
+      "primaryValue": 28.35,
+      "volumePrimaryValue": 3308,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.03527,
+      "sparkline": {
+        "totalChange": 70.04,
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          0,
+          -11.27,
+          70.04
+        ]
+      }
+    },
+    {
+      "id": "weathered-crisis-fragment",
+      "primaryValue": 110.9,
+      "volumePrimaryValue": 13783,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.009021,
+      "sparkline": {
+        "totalChange": 90.05,
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          90.05
+        ]
+      }
+    },
+    {
+      "id": "xeshts-reliquary-key",
+      "primaryValue": 407.3,
+      "volumePrimaryValue": 67.89,
+      "maxVolumeCurrency": "divine",
+      "maxVolumeRate": 0.1429,
+      "sparkline": {
+        "totalChange": 0,
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "azmeri-reliquary-key",
+      "name": "Azmeri Reliquary Key",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Ud2lsaWdodE9yZGVyUmVsaXF1YXJ5S2V5QXptZXJpIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/cf47ea370f/TwilightOrderReliquaryKeyAzmeri.png",
+      "category": "Fragments",
+      "detailsId": "azmeri-reliquary-key"
+    },
+    {
+      "id": "breachlord-sac",
+      "name": "Breachlord Sac",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9CcmVhY2hsb3JkU2FjIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/07670f51fe/BreachlordSac.png",
+      "category": "Fragments",
+      "detailsId": "breachlord-sac"
+    },
+    {
+      "id": "cowardly-fate",
+      "name": "Cowardly Fate",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1RyaWFsbWFzdGVyS2V5MSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/661ab60074/TrialmasterKey1.png",
+      "category": "Fragments",
+      "detailsId": "cowardly-fate"
+    },
+    {
+      "id": "deadly-fate",
+      "name": "Deadly Fate",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1RyaWFsbWFzdGVyS2V5MiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/cccae44832/TrialmasterKey2.png",
+      "category": "Fragments",
+      "detailsId": "deadly-fate"
+    },
+    {
+      "id": "kulemaks-invitation",
+      "name": "Kulemak's Invitation",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvS3VsZW1ha3NJbnZpdGF0aW9uIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c7e6e86681/KulemaksInvitation.png",
+      "category": "Fragments",
+      "detailsId": "kulemaks-invitation"
+    },
+    {
+      "id": "twilight-reliquary-key",
+      "name": "Twilight Reliquary Key",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Ud2lsaWdodE9yZGVyUmVsaXF1YXJ5S2V5V29ybGQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/27f2d492e7/TwilightOrderReliquaryKeyWorld.png",
+      "category": "Fragments",
+      "detailsId": "twilight-reliquary-key"
+    },
+    {
+      "id": "against-the-darkness",
+      "name": "Zarokh's Reliquary Key: Against the Darkness",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Ud2lsaWdodE9yZGVyUmVsaXF1YXJ5S2V5U2FuY3R1bTIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a9e91de8f5/TwilightOrderReliquaryKeySanctum2.png",
+      "category": "Fragments",
+      "detailsId": "zarokhs-reliquary-key:-against-the-darkness"
+    },
+    {
+      "id": "ancient-crisis-fragment",
+      "name": "Ancient Crisis Fragment",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9QaW5uYWNsZUtleTEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ef329c74d1/PinnacleKey1.png",
+      "category": "Fragments",
+      "detailsId": "ancient-crisis-fragment"
+    },
+    {
+      "id": "faded-crisis-fragment",
+      "name": "Faded Crisis Fragment",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9QaW5uYWNsZUtleTIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5709c39ee7/PinnacleKey2.png",
+      "category": "Fragments",
+      "detailsId": "faded-crisis-fragment"
+    },
+    {
+      "id": "olroths-reliquary-key",
+      "name": "Olroth's Reliquary Key",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Ud2lsaWdodE9yZGVyUmVsaXF1YXJ5S2V5RXhwZWRpdGlvbiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/0433c7beb8/TwilightOrderReliquaryKeyExpedition.png",
+      "category": "Fragments",
+      "detailsId": "olroths-reliquary-key"
+    },
+    {
+      "id": "simulacrum",
+      "name": "Simulacrum",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9EZWxpcml1bUZyYWdtZW50Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9298d81279/DeliriumFragment.png",
+      "category": "Delirium",
+      "detailsId": "simulacrum"
+    },
+    {
+      "id": "ritualistic-reliquary-key",
+      "name": "Ritualistic Reliquary Key",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Ud2lsaWdodE9yZGVyUmVsaXF1YXJ5S2V5Uml0dWFsIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d4d4229ab8/TwilightOrderReliquaryKeyRitual.png",
+      "category": "Fragments",
+      "detailsId": "ritualistic-reliquary-key"
+    },
+    {
+      "id": "simulacrum-splinter",
+      "name": "Simulacrum Splinter",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9EZWxpcml1bVNwbGludGVyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/81906b3522/DeliriumSplinter.png",
+      "category": "Delirium",
+      "detailsId": "simulacrum-splinter"
+    },
+    {
+      "id": "the-arbiters-reliquary-key",
+      "name": "The Arbiter's Reliquary Key",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Ud2lsaWdodE9yZGVyUmVsaXF1YXJ5S2V5UGlubmFjbGUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/c2e7758a33/TwilightOrderReliquaryKeyPinnacle.png",
+      "category": "Fragments",
+      "detailsId": "the-arbiters-reliquary-key"
+    },
+    {
+      "id": "the-trialmasters-reliquary-key",
+      "name": "The Trialmaster's Reliquary Key",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Ud2lsaWdodE9yZGVyUmVsaXF1YXJ5S2V5VWx0aW1hdHVtIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/92ccd5ad96/TwilightOrderReliquaryKeyUltimatum.png",
+      "category": "Fragments",
+      "detailsId": "the-trialmasters-reliquary-key"
+    },
+    {
+      "id": "victorious-fate",
+      "name": "Victorious Fate",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1RyaWFsbWFzdGVyS2V5MyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/0270951a73/TrialmasterKey3.png",
+      "category": "Fragments",
+      "detailsId": "victorious-fate"
+    },
+    {
+      "id": "weathered-crisis-fragment",
+      "name": "Weathered Crisis Fragment",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9QaW5uYWNsZUtleTMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/32e6544250/PinnacleKey3.png",
+      "category": "Fragments",
+      "detailsId": "weathered-crisis-fragment"
+    },
+    {
+      "id": "xeshts-reliquary-key",
+      "name": "Xesht's Reliquary Key",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Ud2lsaWdodE9yZGVyUmVsaXF1YXJ5S2V5QnJlYWNoIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/866c9d5c45/TwilightOrderReliquaryKeyBreach.png",
+      "category": "Fragments",
+      "detailsId": "xeshts-reliquary-key"
+    }
+  ]
+}
