@@ -2,18 +2,18 @@
   "core": {
     "items": [
       {
-        "id": "exalted",
-        "name": "Exalted Orb",
-        "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
-        "category": "Currency",
-        "detailsId": "exalted-orb"
-      },
-      {
         "id": "divine",
         "name": "Divine Orb",
         "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
         "category": "Currency",
         "detailsId": "divine-orb"
+      },
+      {
+        "id": "exalted",
+        "name": "Exalted Orb",
+        "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+        "category": "Currency",
+        "detailsId": "exalted-orb"
       },
       {
         "id": "chaos",
@@ -24,295 +24,295 @@
       }
     ],
     "rates": {
-      "divine": 0.01747,
-      "chaos": 1.29
+      "exalted": 76.63,
+      "chaos": 30.11
     },
-    "primary": "exalted",
-    "secondary": "divine"
+    "primary": "divine",
+    "secondary": "exalted"
   },
   "lines": [
     {
       "id": "altered-collarbone",
-      "primaryValue": 28.85,
-      "volumePrimaryValue": 966.5,
+      "primaryValue": 0.8156,
+      "volumePrimaryValue": 39.56,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.03466,
+      "maxVolumeRate": 0.016,
       "sparkline": {
-        "totalChange": 162.3,
+        "totalChange": 468.2,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          39.49,
-          162.3
+          57.86,
+          202.5,
+          440.7,
+          468.2
         ]
       }
     },
     {
       "id": "amanamus-gaze",
-      "primaryValue": 85.59,
-      "volumePrimaryValue": 3866,
+      "primaryValue": 2.13,
+      "volumePrimaryValue": 114.0,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.01168,
+      "maxVolumeRate": 0.006126,
       "sparkline": {
-        "totalChange": 22.28,
+        "totalChange": 133.2,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          0.74,
-          22.28
+          -1.65,
+          49.29,
+          128.2,
+          133.2
         ]
       }
     },
     {
       "id": "ancient-collarbone",
-      "primaryValue": 182.2,
-      "volumePrimaryValue": 8352,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.005488,
+      "primaryValue": 5.55,
+      "volumePrimaryValue": 564.8,
+      "maxVolumeCurrency": "divine",
+      "maxVolumeRate": 0.1803,
       "sparkline": {
-        "totalChange": 367.0,
+        "totalChange": 191.9,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          93.37,
-          367.0
+          -1.48,
+          73.77,
+          125.9,
+          191.9
         ]
       }
     },
     {
       "id": "ancient-jawbone",
-      "primaryValue": 177.4,
-      "volumePrimaryValue": 42549,
+      "primaryValue": 4.43,
+      "volumePrimaryValue": 1740,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.005637,
+      "maxVolumeRate": 0.002944,
       "sparkline": {
-        "totalChange": 175.6,
+        "totalChange": 516.3,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          37.56,
-          175.6
+          61.82,
+          225.7,
+          370.5,
+          516.3
         ]
       }
     },
     {
       "id": "ancient-rib",
-      "primaryValue": 64.5,
-      "volumePrimaryValue": 16038,
+      "primaryValue": 1.67,
+      "volumePrimaryValue": 854.2,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.0155,
+      "maxVolumeRate": 0.007814,
       "sparkline": {
-        "totalChange": 53.41,
+        "totalChange": 213.8,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          14.01,
-          53.41
+          18.47,
+          60.91,
+          130.9,
+          213.8
         ]
       }
     },
     {
       "id": "gnawed-jawbone",
-      "primaryValue": 0.7813,
-      "volumePrimaryValue": 428.7,
+      "primaryValue": 0.009736,
+      "volumePrimaryValue": 3.32,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.28,
+      "maxVolumeRate": 1.34,
       "sparkline": {
-        "totalChange": -52.74,
+        "totalChange": -53.85,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -22.61,
-          -52.74
-        ]
-      }
-    },
-    {
-      "id": "kurgals-gaze",
-      "primaryValue": 9.5,
-      "volumePrimaryValue": 296.2,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.1052,
-      "sparkline": {
-        "totalChange": -16.15,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          15.15,
-          -16.15
+          -22.17,
+          -48.47,
+          -51.07,
+          -53.85
         ]
       }
     },
     {
       "id": "preserved-cranium",
-      "primaryValue": 8.14,
-      "volumePrimaryValue": 9563,
+      "primaryValue": 0.2207,
+      "volumePrimaryValue": 362.3,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.1228,
+      "maxVolumeRate": 0.05914,
       "sparkline": {
-        "totalChange": 98.82,
+        "totalChange": 308.1,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          41.57,
-          98.82
+          41.07,
+          112.8,
+          216.3,
+          308.1
         ]
       }
     },
     {
       "id": "preserved-jawbone",
-      "primaryValue": 1.81,
-      "volumePrimaryValue": 14937,
+      "primaryValue": 0.01532,
+      "volumePrimaryValue": 126.4,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.5517,
+      "maxVolumeRate": 0.8519,
       "sparkline": {
-        "totalChange": -58.02,
+        "totalChange": -71.38,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -39.13,
-          -58.02
+          -36.59,
+          -62.12,
+          -72.95,
+          -71.38
         ]
       }
     },
     {
       "id": "tecrods-gaze",
-      "primaryValue": 65.91,
-      "volumePrimaryValue": 2933,
+      "primaryValue": 2.27,
+      "volumePrimaryValue": 156.5,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.01517,
+      "maxVolumeRate": 0.005754,
       "sparkline": {
-        "totalChange": 102.8,
+        "totalChange": 434.8,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          81.86,
-          102.8
+          78.67,
+          210.1,
+          637.3,
+          434.8
         ]
       }
     },
     {
       "id": "gnawed-collarbone",
-      "primaryValue": 0.9616,
-      "volumePrimaryValue": 568.0,
+      "primaryValue": 0.01717,
+      "volumePrimaryValue": 6.47,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.04,
+      "maxVolumeRate": 0.76,
       "sparkline": {
-        "totalChange": -15.81,
+        "totalChange": 20.01,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -3.02,
-          -15.81
+          -0.97,
+          -9.06,
+          31.72,
+          20.01
         ]
       }
     },
     {
       "id": "gnawed-rib",
-      "primaryValue": 0.5337,
-      "volumePrimaryValue": 432.8,
+      "primaryValue": 0.005366,
+      "volumePrimaryValue": 2.42,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.87,
+      "maxVolumeRate": 2.43,
       "sparkline": {
-        "totalChange": -29.39,
+        "totalChange": -42.46,
         "data": [
           null,
           null,
+          0,
+          -24.91,
+          -36.81,
+          -27.73,
+          -42.46
+        ]
+      }
+    },
+    {
+      "id": "kurgals-gaze",
+      "primaryValue": 2.67,
+      "volumePrimaryValue": 29.36,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.004889,
+      "sparkline": {
+        "totalChange": 1862,
+        "data": [
           null,
           null,
           0,
-          -27.52,
-          -29.39
+          26.67,
+          95.82,
+          1316,
+          1862
         ]
       }
     },
     {
       "id": "preserved-collarbone",
-      "primaryValue": 31.04,
-      "volumePrimaryValue": 98771,
+      "primaryValue": 0.6251,
+      "volumePrimaryValue": 2561,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.03222,
+      "maxVolumeRate": 0.02087,
       "sparkline": {
-        "totalChange": 120.3,
+        "totalChange": 228.3,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          58.43,
-          120.3
+          54.13,
+          102.5,
+          166.5,
+          228.3
         ]
       }
     },
     {
       "id": "preserved-rib",
-      "primaryValue": 8.09,
-      "volumePrimaryValue": 78189,
+      "primaryValue": 0.09406,
+      "volumePrimaryValue": 1131,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.1236,
+      "maxVolumeRate": 0.1387,
       "sparkline": {
-        "totalChange": -15.16,
+        "totalChange": -25.54,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          13.41,
-          -15.16
+          10.64,
+          -15.86,
+          -13.96,
+          -25.54
         ]
       }
     },
     {
       "id": "ulamans-gaze",
-      "primaryValue": 10.52,
-      "volumePrimaryValue": 438.5,
+      "primaryValue": 1.98,
+      "volumePrimaryValue": 31.62,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.09502,
+      "maxVolumeRate": 0.006602,
       "sparkline": {
-        "totalChange": 72.21,
+        "totalChange": 2126,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          80.81,
-          72.21
+          67.05,
+          367.3,
+          1219,
+          2126
         ]
       }
     }
@@ -361,13 +361,6 @@
       "detailsId": "gnawed-jawbone"
     },
     {
-      "id": "kurgals-gaze",
-      "name": "Kurgal's Gaze",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3NhbEV5ZVNvY2tldGFibGVzL0t1cmdhbHNHYXplIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c21eb07bab/KurgalsGaze.png",
-      "category": "Abyss",
-      "detailsId": "kurgals-gaze"
-    },
-    {
       "id": "preserved-cranium",
       "name": "Preserved Cranium",
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvUHJlc2VydmVkQ3Jhbml1bSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/791fdae503/PreservedCranium.png",
@@ -401,6 +394,13 @@
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvR25hd2VkUmlicyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/b0581454e6/GnawedRibs.png",
       "category": "Abyss",
       "detailsId": "gnawed-rib"
+    },
+    {
+      "id": "kurgals-gaze",
+      "name": "Kurgal's Gaze",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3NhbEV5ZVNvY2tldGFibGVzL0t1cmdhbHNHYXplIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c21eb07bab/KurgalsGaze.png",
+      "category": "Abyss",
+      "detailsId": "kurgals-gaze"
     },
     {
       "id": "preserved-collarbone",

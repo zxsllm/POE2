@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PoE2 Atlas Main Passive Tree Analysis / 异界主树设计分析</title>
+<style>
+:root {
+  color-scheme: light;
+  --bg: #f3efe5;
+  --panel: #fffaf0;
+  --ink: #211a12;
+  --muted: #6e6252;
+  --line: #d7c7ad;
+  --accent: #9d5b1c;
+  --accent2: #234e70;
+  --soft: #f7ead4;
+}
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", Arial, sans-serif; color: var(--ink); background: radial-gradient(circle at top left, #fff8e8 0, var(--bg) 42%, #e7ddcc 100%); line-height: 1.65; }
+header { padding: 44px 6vw 28px; background: linear-gradient(135deg, #24160b, #6e3d12 60%, #9d5b1c); color: #fff7e8; }
+header h1 { margin: 0 0 10px; font-size: clamp(28px, 4vw, 48px); letter-spacing: .02em; }
+header p { margin: 7px 0; color: #f3ddbb; max-width: 1100px; }
+main { padding: 28px 6vw 60px; max-width: 1500px; margin: 0 auto; }
+section { scroll-margin-top: 24px; }
+.card, .choice-card, .note, .toc, .glossary { background: rgba(255, 250, 240, .92); border: 1px solid var(--line); border-radius: 18px; padding: 22px; box-shadow: 0 14px 30px rgba(65, 42, 12, .08); margin: 18px 0; }
+h2 { margin: 34px 0 14px; font-size: 28px; border-left: 6px solid var(--accent); padding-left: 12px; }
+h3 { margin: 0 0 10px; font-size: 21px; color: #3a2414; }
+h3 span, .muted { color: var(--muted); font-weight: 500; }
+.two-line { margin: 8px 0 18px; }
+.stat-grid { display: grid; grid-template-columns: repeat(5, minmax(140px, 1fr)); gap: 14px; margin-top: 22px; }
+.stat { background: rgba(255,255,255,.16); border: 1px solid rgba(255,255,255,.28); border-radius: 14px; padding: 14px; }
+.stat-value { font-size: 30px; font-weight: 800; color: #fff; }
+.stat-label { color: #ffefcf; font-size: 13px; }
+.stat-note { color: #e9cda6; font-size: 12px; }
+.grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.toc ul { columns: 2; margin: 8px 0 0; padding-left: 22px; }
+a { color: #7a3f0a; }
+table { width: 100%; border-collapse: collapse; overflow: hidden; border-radius: 12px; background: #fffdf8; }
+th, td { border-bottom: 1px solid #eadbc4; vertical-align: top; padding: 10px 12px; }
+th { text-align: left; background: #ead8ba; color: #392511; position: sticky; top: 0; }
+tr:last-child td { border-bottom: 0; }
+code { background: #f1e3cf; border: 1px solid #dfc7a4; border-radius: 6px; padding: 1px 5px; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+.node-name { min-width: 260px; font-weight: 700; }
+.effect-block { margin: 0 0 8px; padding-left: 42px; position: relative; }
+.effect-block:last-child { margin-bottom: 0; }
+.effect-label { position: absolute; left: 0; top: 0; min-width: 28px; text-align: center; border-radius: 6px; background: #efe0c8; color: #4d3518; font-size: 11px; font-weight: 800; }
+.effect-block.zh { color: #2f4b2f; }
+.effect-block.zh .effect-label { background: #dfeeda; color: #275127; }
+.choice-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.badge { display: inline-block; border-radius: 999px; background: #e4f0f6; color: var(--accent2); border: 1px solid #a8cadb; padding: 5px 11px; font-size: 12px; font-weight: 800; white-space: nowrap; }
+.missing { color: #a33; font-weight: 700; }
+.pill-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 10px 0 0; list-style: none; }
+.pill-list li { background: var(--soft); border: 1px solid var(--line); border-radius: 999px; padding: 5px 10px; }
+footer { color: var(--muted); border-top: 1px solid var(--line); margin-top: 38px; padding-top: 18px; font-size: 13px; }
+@media (max-width: 1000px) { .grid, .stat-grid { grid-template-columns: 1fr; } .toc ul { columns: 1; } .node-name { min-width: unset; } table { font-size: 14px; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>PoE2 Atlas Main Passive Tree Analysis<br>异界主树设计分析</h1>
+  <p>Generated on 2026-06-02. Source: <code>data\processed\passive_tree\poe2_atlas_passive_nodes.csv</code></p>
+  <p>Scope / 范围：只分析 <b>Generic 主树</b>。报告会排除 Abyss、Breach、Delirium、Expedition、Incursion、Ritual 等专属玩法树；同时排除少量虽然标记为 Generic、但 ID 前缀属于专属玩法的节点。</p>
+  <div class="stat-grid">
+    <div class="stat">
+      <div class="stat-value">624</div>
+      <div class="stat-label">Generic rows in CSV / CSV 中 Generic 行</div>
+      
+    </div>
+    
+    <div class="stat">
+      <div class="stat-value">616</div>
+      <div class="stat-label">Main-tree rows used / 本报告采用主树行</div>
+      <div class="stat-note">已排除专属玩法 ID 前缀</div>
+    </div>
+    
+    <div class="stat">
+      <div class="stat-value">23</div>
+      <div class="stat-label">Keystones / 核心点</div>
+      
+    </div>
+    
+    <div class="stat">
+      <div class="stat-value">264</div>
+      <div class="stat-label">Notables / 显著点</div>
+      
+    </div>
+    
+    <div class="stat">
+      <div class="stat-value">17</div>
+      <div class="stat-label">Choice options / 选择选项</div>
+      
+    </div>
+    </div>
+</header>
+<main>
+  <section class="note">
+    <h2>Executive summary / 核心结论</h2>
+    <p><b>English:</b> The main Atlas tree is not primarily a build tree. It is a mapping control surface. Most nodes provide permanent progression, while selected keystones act as switches for current farming strategy.</p>
+    <p><b>中文：</b>主树不是传统意义上的角色构筑树，而是一个“开图控制台”。大多数节点负责长期成长；真正的策略变化集中在选择点：内容偏向、精华类型、灵体类型、怪物风险、Boss 聚合和城市地形叠加。</p>
+    <ul class="pill-list">
+      <li>Progression / 长期成长</li>
+      <li>Direction switches / 策略开关</li>
+      <li>Regional planning / 区域规划</li>
+      <li>Risk-to-reward / 风险换收益</li>
+      <li>Boss compression / Boss 收益压缩</li>
+    </ul>
+  </section>
+
+  <section class="toc">
+    <h2>Table of contents / 目录</h2>
+    <div class="grid">
+      <div><h3>Taxonomy / 分类</h3><ul><li><a href="#cat-baseline">地图基础收益 / Map baseline rewards</a></li><li><a href="#cat-waystone">Waystone 与地图词缀层 / Waystone and map modifier layer</a></li><li><a href="#cat-tablet">Tablet 与 Precursor Tower 规划 / Tablet and Precursor Tower planning</a></li><li><a href="#cat-biome">Biome 与 City 生态 / Biome and City ecology</a></li><li><a href="#cat-content">通用地图内容 / Generic map content</a></li><li><a href="#cat-monster">怪物风险与收益 / Monster risk and reward</a></li><li><a href="#cat-boss">Boss、强力 Boss 与巅峰压缩 / Boss, Powerful Boss and Pinnacle compression</a></li></ul></div>
+      <div><h3>Choice points / 选择点</h3><ul><li>前路选择 / The Journey Ahead</li><li>选定之路 / The Chosen Path</li><li>精华探测 / Essence Dowsing</li><li>晶化纹路 / Crystalline Patterns</li><li>腐化晶格 / Corrupted Lattices</li><li>暗流 / Unseen Rivers</li><li>圣洁树液 / Sacred Sap</li><li>进化群体 / Evolving Throngs</li><li>宿敌崛起 / Nemesis Rising</li><li>神授祝福 / Divined Blessing</li><li>传说对决 / Fabled Showdown</li><li>霸主领域 / Overlord&#x27;s Domain</li><li>霸主影响 / Overlord&#x27;s Influence</li><li>石上之血 / Blood on the Stones</li><li>盗贼流放者装备选择 / Rogue Exile equipment selectors</li><li>保险箱选择 / Strongbox selectors</li><li>城市史记选择 / City history selectors</li></ul></div>
+    </div>
+  </section>
+
+  <section class="glossary">
+    <h2>Node type / Type 字段是什么意思</h2>
+    <p><b>English:</b> The <code>type</code> column comes from the cleaned passive node data and describes how the node behaves in the tree. In this report it is mostly used to distinguish rule-changing selectors, ordinary notable bonuses and selector options.</p>
+    <p><b>中文：</b><code>type</code> 是清洗后的节点类型字段，用来说明这个节点在树上的功能。这里最常见的是 keystone、notable 和 choice_option：前者多为规则变化或选择器，中间是显著奖励点，后者是某个选择器下的具体选项。</p>
+    <table>
+      <thead><tr><th>type</th><th>中文</th><th>Meaning / 含义</th></tr></thead>
+      <tbody><tr><td><code>keystone</code></td><td>核心点/关键点</td><td>通常改变规则或打开一个选择器；很多 keystone 后面会接多个可选分支。</td></tr><tr><td><code>notable</code></td><td>显著点/大点</td><td>比小点更强的奖励节点；在选择器下方也常用 notable 表示具体选项。</td></tr><tr><td><code>choice_option</code></td><td>选择选项</td><td>选择器的具体选项，通常代表互斥方向或当前策略开关。</td></tr><tr><td><code>small</code></td><td>小点</td><td>路径或小数值成长节点；本报告主要展示 keystone、notable 和 choice_option。</td></tr></tbody>
+    </table>
+  </section>
+
+  <section class="glossary">
+    <h2>Terminology / 术语对照</h2>
+    <table>
+      <thead><tr><th>English</th><th>中文</th><th>Design meaning / 设计含义</th></tr></thead>
+      <tbody><tr><td><code>Waystone</code></td><td>地图石</td><td>开图消耗品，决定地图等级和显式词缀，是地图风险与奖励的第一层载体。</td></tr><tr><td><code>Tablet</code></td><td>石板</td><td>通过塔或区域影响地图，提供区域级规则和额外词缀。</td></tr><tr><td><code>Precursor Tower</code></td><td>先驱塔</td><td>揭示周边区域并承载 Tablet 规划，决定你能如何改造一片地图。</td></tr><tr><td><code>Biome</code></td><td>生物群系/地形</td><td>Desert、Forest、Grass、Mountain、Swamp、Water 等地形标签，影响节点触发。</td></tr><tr><td><code>City Areas</code></td><td>城市区域</td><td>Faridun、Ezomyte、Vaal 等城市地图，能被改造为额外 Biome。</td></tr><tr><td><code>Powerful Map Boss</code></td><td>强力地图首领</td><td>被升级或特殊标记的地图 Boss，常作为额外内容和高价值掉落的聚合点。</td></tr><tr><td><code>Monster Modifier</code></td><td>怪物词缀</td><td>怪物身上的额外能力。主树经常用更多词缀换取更高稀有度或收益。</td></tr><tr><td><code>Effectiveness</code></td><td>效能</td><td>怪物或 Boss 的强度系数，通常代表更难、更危险。</td></tr><tr><td><code>Rarity</code></td><td>稀有度</td><td>提高掉落物稀有等级或高价值物品出现倾向。</td></tr><tr><td><code>Quantity</code></td><td>数量</td><td>提高掉落总量或特定资源数量。</td></tr><tr><td><code>Azmeri Spirit</code></td><td>阿兹莫里灵体</td><td>会影响、附身或强化怪物的地图内容，可和 Boss、神龛、保险箱互动。</td></tr><tr><td><code>Essence</code></td><td>精华</td><td>地图内可定向工艺资源，主树提供出现率、类型、腐化和完美精华路线。</td></tr><tr><td><code>Strongbox</code></td><td>保险箱</td><td>可被词缀、稀有度、类型和守卫怪群强化的地图容器奖励。</td></tr><tr><td><code>Shrine</code></td><td>神龛</td><td>给玩家或 Boss 提供 Buff，也能成为怪群、灵体和首领奖励的连接点。</td></tr><tr><td><code>Rogue Exile</code></td><td>盗贼流放者</td><td>装备驱动型独特敌人，主树可定向其装备类型与掉落。</td></tr><tr><td><code>Summoning Circle</code></td><td>召唤法阵</td><td>召唤 Boss 或怪群的地图内容，可把附近地图 Boss 升级为 Powerful Map Boss。</td></tr><tr><td><code>Corruption</code></td><td>腐化</td><td>提高风险和不确定性，常和 Waystone、Essence、Powerful Boss、Nexus 绑定。</td></tr></tbody>
+    </table>
+  </section>
+
+  <h2>1. Main-tree taxonomy / 主树分类</h2>
+  
+    <section class="card" id="cat-baseline">
+      <h3>Map baseline rewards <span>/ 地图基础收益</span></h3>
+      <p class="two-line"><b>Design role:</b> This layer makes every map better even when the player is not targeting a dedicated mechanic.<br><b>设计作用：</b>这一层负责让所有地图自然变肥：更多怪、更高数量、更高稀有度、更好的 Waystone 维持。</p>
+      <table>
+        <thead><tr><th>Node / 节点</th><th>Type</th><th>Effect / 效果</th></tr></thead>
+        <tbody><tr><td class="node-name">The Journey Ahead <span class="muted">/ 前路选择</span></td><td><code>keystone</code><br><span class="muted">核心点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Select between Pack Size, Effectiveness or Rarity</div><div class="effect-block zh"><span class="effect-label">中</span>在怪群规模、怪物效能或物品稀有度之间选择</div></td></tr><tr><td class="node-name">Lucky Pillage <span class="muted">/ 幸运劫掠</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>8% increased Rarity of Items found<br>5% increased Quantity of Items found</div><div class="effect-block zh"><span class="effect-label">中</span>找到物品的稀有度提高 8%<br>找到物品的数量提高 5%</div></td></tr><tr><td class="node-name">Constant Crossroads <span class="muted">/ 恒常歧路</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>10% increased Quantity of Waystones found</div><div class="effect-block zh"><span class="effect-label">中</span>找到的 Waystone 数量提高 10%</div></td></tr><tr><td class="node-name">Fortunate Path <span class="muted">/ 幸运路径</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased Rarity of Waystones found</div><div class="effect-block zh"><span class="effect-label">中</span>找到的 Waystone 稀有度提高 100%</div></td></tr><tr><td class="node-name">Valuable Paths <span class="muted">/ 高价值路径</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>50% increased Rarity of Waystones found</div><div class="effect-block zh"><span class="effect-label">中</span>找到的 Waystone 稀有度提高 50%</div></td></tr><tr><td class="node-name">Grueling Journey <span class="muted">/ 艰苦旅程</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>2% increased effect of Explicit Modifiers on your Waystones for each Explicit Modifier</div><div class="effect-block zh"><span class="effect-label">中</span>Waystone 每有 1 条显式词缀，其显式词缀效果提高 2%</div></td></tr></tbody>
+      </table>
+    </section>
+    
+    <section class="card" id="cat-waystone">
+      <h3>Waystone and map modifier layer <span>/ Waystone 与地图词缀层</span></h3>
+      <p class="two-line"><b>Design role:</b> Waystones are treated as a risk dial. The tree raises modifier effect, corruption depth and reward pressure.<br><b>设计作用：</b>Waystone 不只是门票，而是风险倍率旋钮。主树通过词缀效果、腐化和稀有度把地图强度推高。</p>
+      <table>
+        <thead><tr><th>Node / 节点</th><th>Type</th><th>Effect / 效果</th></tr></thead>
+        <tbody><tr><td class="node-name">Unstable Energies <span class="muted">/ 不稳定能量</span></td><td><code>keystone</code><br><span class="muted">核心点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Waystones have 25% more effect of Prefix Modifiers or 25% more effect of Suffix Modifiers when opening Maps</div><div class="effect-block zh"><span class="effect-label">中</span>开图时，Waystone 的前缀词缀效果提高 25% 更多，或后缀词缀效果提高 25% 更多</div></td></tr><tr><td class="node-name">Corrupted Infusion <span class="muted">/ 腐化灌注</span></td><td><code>keystone</code><br><span class="muted">核心点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Corrupted Waystones are Corrupted an additional time when used to traverse a Map</div><div class="effect-block zh"><span class="effect-label">中</span>使用腐化 Waystone 开图时，该 Waystone 额外腐化一次</div></td></tr><tr><td class="node-name">Enigmatic Intensification <span class="muted">/ 谜样强化</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>3% increased effect of Explicit Modifiers on your Waystones for each Tablet affecting Map area</div><div class="effect-block zh"><span class="effect-label">中</span>每个影响该地图区域的 Tablet，使你的 Waystone 显式词缀效果提高 3%</div></td></tr><tr><td class="node-name">The High Road</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>10% chance for Waystones found in your Maps to be Rare and Corrupted</div><div class="effect-block zh"><span class="effect-label">中</span>你地图中找到的 Waystone 有 10% 几率为稀有并已腐化</div></td></tr><tr><td class="node-name">Risk and Reward</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>2% increased Rarity of Items Dropped by Monsters per Explicit Modifier on the Map</div><div class="effect-block zh"><span class="effect-label">中</span>地图每有 1 条显式词缀，怪物掉落物品的稀有度提高 2%</div></td></tr><tr><td class="node-name">Valuable Paths <span class="muted">/ 高价值路径</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>50% increased Rarity of Waystones found</div><div class="effect-block zh"><span class="effect-label">中</span>找到的 Waystone 稀有度提高 50%</div></td></tr></tbody>
+      </table>
+    </section>
+    
+    <section class="card" id="cat-tablet">
+      <h3>Tablet and Precursor Tower planning <span>/ Tablet 与 Precursor Tower 规划</span></h3>
+      <p class="two-line"><b>Design role:</b> This layer turns mapping from a single-map action into regional planning around towers, tablets and overlapping effects.<br><b>设计作用：</b>这一层把刷图从单张地图行为改成区域规划：塔揭示区域，石板叠加规则，地图因此被改造。</p>
+      <table>
+        <thead><tr><th>Node / 节点</th><th>Type</th><th>Effect / 效果</th></tr></thead>
+        <tbody><tr><td class="node-name">Atop the World <span class="muted">/ 世界之巅</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>33% increased Precursor Tower reveal radius</div><div class="effect-block zh"><span class="effect-label">中</span>Precursor Tower 揭示半径提高 33%</div></td></tr><tr><td class="node-name">Precursor Influence <span class="muted">/ 先驱影响</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>30% increased Quantity of Tablets found</div><div class="effect-block zh"><span class="effect-label">中</span>找到的 Tablet 数量提高 30%</div></td></tr><tr><td class="node-name">Remnants of Power <span class="muted">/ 力量残余</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>20% chance for double effect of Explicit Modifiers on Tablets</div><div class="effect-block zh"><span class="effect-label">中</span>Tablet 的显式词缀有 20% 几率双倍效果</div></td></tr><tr><td class="node-name">Controlled Climates <span class="muted">/ 可控气候</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>5% increased effect of Explicit Modifiers on Tablets for each Tablet affecting Map area</div><div class="effect-block zh"><span class="effect-label">中</span>每个影响该地图区域的 Tablet，使 Tablet 显式词缀效果提高 5%</div></td></tr><tr><td class="node-name">Reverse Transcription <span class="muted">/ 反向转录</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Your Tablets may be upgraded to Rare and have +1 Maximum Modifier</div><div class="effect-block zh"><span class="effect-label">中</span>你的 Tablet 可能升级为稀有，并且最大词缀数 +1</div></td></tr><tr><td class="node-name">Curiously Durable Stone <span class="muted">/ 异常耐用的石板</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>8% chance to not consume Tablet uses when opening Maps</div><div class="effect-block zh"><span class="effect-label">中</span>开图时有 8% 几率不消耗 Tablet 使用次数</div></td></tr><tr><td class="node-name">Eons of Contamination <span class="muted">/ 污染纪元</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Irradiated Precursor Tablets may now be found</div><div class="effect-block zh"><span class="effect-label">中</span>现在可以找到 Irradiated Precursor Tablets</div></td></tr><tr><td class="node-name">Eons of Domination <span class="muted">/ 支配纪元</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Overseer Precursor Tablets can drop from Powerful Map Bosses</div><div class="effect-block zh"><span class="effect-label">中</span>Powerful Map Boss 可以掉落 Overseer Precursor Tablets</div></td></tr></tbody>
+      </table>
+    </section>
+    
+    <section class="card" id="cat-biome">
+      <h3>Biome and City ecology <span>/ Biome 与 City 生态</span></h3>
+      <p class="two-line"><b>Design role:</b> Map geography matters. Different biomes and cities become different production environments.<br><b>设计作用：</b>地图地理身份会影响收益：沙漠、森林、草地、山地、沼泽、水域与城市各自偏向不同内容。</p>
+      <table>
+        <thead><tr><th>Node / 节点</th><th>Type</th><th>Effect / 效果</th></tr></thead>
+        <tbody><tr><td class="node-name">History of the Faridun <span class="muted">/ 法里敦史记</span></td><td><code>keystone</code><br><span class="muted">核心点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Faridun Cities are also considered to be another Biome</div><div class="effect-block zh"><span class="effect-label">中</span>Faridun Cities 也会被视为另一种 Biome</div></td></tr><tr><td class="node-name">History of the Ezomytes <span class="muted">/ 伊佐麦史记</span></td><td><code>keystone</code><br><span class="muted">核心点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Ezomyte Cities are also considered to be another Biome</div><div class="effect-block zh"><span class="effect-label">中</span>Ezomyte Cities 也会被视为另一种 Biome</div></td></tr><tr><td class="node-name">History of the Vaal <span class="muted">/ 瓦尔史记</span></td><td><code>keystone</code><br><span class="muted">核心点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Vaal Cities are also considered to be another Biome</div><div class="effect-block zh"><span class="effect-label">中</span>Vaal Cities 也会被视为另一种 Biome</div></td></tr><tr><td class="node-name">Industrial Improvements <span class="muted">/ 工业改良</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>An additional Tablet may be used on City Maps</div><div class="effect-block zh"><span class="effect-label">中</span>City Maps 可以额外使用 1 个 Tablet</div></td></tr><tr><td class="node-name">Local Knowledge <span class="muted">/ 地方知识</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Desert Biome Maps have 40% increased chance to drop Baryas and Inscribed Ultimatums<br>Mountain Biome Maps have 40% increased chance to drop Gold<br>Grass Biome Maps have 40% increased chance to drop Socket Currency<br>Forest Biome Maps have 40% increased chance to drop Jewels<br>Swamp and Water Biome Maps have 40% increased chance to drop Basic Currency</div><div class="effect-block zh"><span class="effect-label">中</span>Desert Biome 地图掉落 Barya 和 Inscribed Ultimatum 的几率提高 40%<br>Mountain Biome 地图掉落 Gold 的几率提高 40%<br>Grass Biome 地图掉落 Socket Currency 的几率提高 40%<br>Forest Biome 地图掉落 Jewel 的几率提高 40%<br>Swamp 与 Water Biome 地图掉落 Basic Currency 的几率提高 40%</div></td></tr><tr><td class="node-name">Boss of the Bog</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>1 Rare Monster in Swamp Areas has 15% chance to be replaced by a random Map Boss</div><div class="effect-block zh"><span class="effect-label">中</span>Swamp Areas 中 1 个稀有怪有 15% 几率被随机 Map Boss 替代</div></td></tr><tr><td class="node-name">Arid Stability</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Essences found in Desert Areas have 50% increased chance to be Perfect Essences</div><div class="effect-block zh"><span class="effect-label">中</span>Desert Areas 中找到的 Essence 成为 Perfect Essence 的几率提高 50%</div></td></tr><tr><td class="node-name">Bounty of the Fields</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>6% increased Pack Size in Grass Areas</div><div class="effect-block zh"><span class="effect-label">中</span>Grass Areas 中怪群规模提高 6%</div></td></tr><tr><td class="node-name">Cult of the Rains</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Shrines in Water Areas are Worshipped by an additional Pack of Monsters</div><div class="effect-block zh"><span class="effect-label">中</span>Water Areas 中的 Shrine 会额外被 1 群怪物供奉</div></td></tr></tbody>
+      </table>
+    </section>
+    
+    <section class="card" id="cat-content">
+      <h3>Generic map content <span>/ 通用地图内容</span></h3>
+      <p class="two-line"><b>Design role:</b> These are non-dedicated mechanics that live inside the main tree: Essence, Strongbox, Shrine, Rogue Exile, Azmeri Spirit and Summoning Circle.<br><b>设计作用：</b>这些不是 Abyss/Breach 等专属树，而是主树内置的刷图口味：精华、保险箱、神龛、盗贼流放者、阿兹莫里灵体、召唤法阵。</p>
+      <table>
+        <thead><tr><th>Node / 节点</th><th>Type</th><th>Effect / 效果</th></tr></thead>
+        <tbody><tr><td class="node-name">Crystalline Growths <span class="muted">/ 晶化生长</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Your Maps have 100% increased chance to contain Essences</div><div class="effect-block zh"><span class="effect-label">中</span>你的地图包含 Essence 的几率提高 100%</div></td></tr><tr><td class="node-name">Resonant Lattice <span class="muted">/ 共振晶格</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>30% increased chance to find Perfect Essences<br>30% chance for minions of Essence Monsters to be Empowered</div><div class="effect-block zh"><span class="effect-label">中</span>找到 Perfect Essence 的几率提高 30%<br>Essence Monster 的随从有 30% 几率被 Empowered</div></td></tr><tr><td class="node-name">Likely Ambush <span class="muted">/ 可能伏击</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>40% increased chance of Strongboxes</div><div class="effect-block zh"><span class="effect-label">中</span>Strongbox 出现几率提高 40%</div></td></tr><tr><td class="node-name">Hidden Compartments <span class="muted">/ 隐藏隔层</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Strongboxes have 15% chance to be openable twice</div><div class="effect-block zh"><span class="effect-label">中</span>Strongbox 有 15% 几率可以开启两次</div></td></tr><tr><td class="node-name">Places of Worship <span class="muted">/ 礼拜之所</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Your Maps have 100% increased chance to contain Shrines</div><div class="effect-block zh"><span class="effect-label">中</span>你的地图包含 Shrine 的几率提高 100%</div></td></tr><tr><td class="node-name">Gathered Masses <span class="muted">/ 聚集群众</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Shrines are Worshipped by an additional Pack of Monsters</div><div class="effect-block zh"><span class="effect-label">中</span>Shrine 会额外被 1 群怪物供奉</div></td></tr><tr><td class="node-name">Wanted Poster <span class="muted">/ 通缉令</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>40% increased chance of Rogue Exiles</div><div class="effect-block zh"><span class="effect-label">中</span>Rogue Exile 出现几率提高 40%</div></td></tr><tr><td class="node-name">Dressed in Fineries <span class="muted">/ 华服装束</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Rogue Exiles have 100% increased chance to drop Exceptional Items</div><div class="effect-block zh"><span class="effect-label">中</span>Rogue Exile 掉落 Exceptional Items 的几率提高 100%</div></td></tr><tr><td class="node-name">Guiding Light <span class="muted">/ 指引之光</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>40% increased chance of Azmeri Spirits</div><div class="effect-block zh"><span class="effect-label">中</span>Azmeri Spirit 出现几率提高 40%</div></td></tr><tr><td class="node-name">Grip of the Wilds <span class="muted">/ 荒野之握</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>50% increased maximum empowerment of Azmeri Spirits</div><div class="effect-block zh"><span class="effect-label">中</span>Azmeri Spirit 的最大 empowerment 提高 50%</div></td></tr><tr><td class="node-name">Challenging Foe <span class="muted">/ 强敌</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Summoning Circle Bosses have a 25% chance to have an additional Monster Modifier</div><div class="effect-block zh"><span class="effect-label">中</span>Summoning Circle Boss 有 25% 几率拥有 1 个额外 Monster Modifier</div></td></tr><tr><td class="node-name">Runic Flare <span class="muted">/ 符文闪耀</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>10% chance to upgrade the boss of a nearby Map into a Powerful Map Boss when completing Summoning Circles</div><div class="effect-block zh"><span class="effect-label">中</span>完成 Summoning Circle 时，有 10% 几率将附近地图的 Boss 升级为 Powerful Map Boss</div></td></tr></tbody>
+      </table>
+    </section>
+    
+    <section class="card" id="cat-monster">
+      <h3>Monster risk and reward <span>/ 怪物风险与收益</span></h3>
+      <p class="two-line"><b>Design role:</b> The tree converts stronger magic and rare monsters into loot pressure through modifiers, duplication, pack size and effectiveness.<br><b>设计作用：</b>这层把更强的魔法怪和稀有怪转化为收益：更多词缀、更大怪群、复制、效能与按词缀计算的稀有度。</p>
+      <table>
+        <thead><tr><th>Node / 节点</th><th>Type</th><th>Effect / 效果</th></tr></thead>
+        <tbody><tr><td class="node-name">Expanding Hordes <span class="muted">/ 扩张兽群</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>10% increased Magic Pack Size</div><div class="effect-block zh"><span class="effect-label">中</span>Magic Pack Size 提高 10%</div></td></tr><tr><td class="node-name">Bountiful Bloodlines <span class="muted">/ 丰饶血脉</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>20% increased Magic Monsters</div><div class="effect-block zh"><span class="effect-label">中</span>Magic Monsters 数量提高 20%</div></td></tr><tr><td class="node-name">Infused Flesh <span class="muted">/ 灌注血肉</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Magic Monster Packs have 5% chance to have an additional Modifier</div><div class="effect-block zh"><span class="effect-label">中</span>Magic Monster Packs 有 5% 几率拥有 1 个额外 Modifier</div></td></tr><tr><td class="node-name">Befit the Challenge <span class="muted">/ 匹配挑战</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>5% increased Rarity of Items Dropped by Magic Monsters per Monster Modifier</div><div class="effect-block zh"><span class="effect-label">中</span>Magic Monster 每有 1 个 Monster Modifier，其掉落物品稀有度提高 5%</div></td></tr><tr><td class="node-name">Twin Threats <span class="muted">/ 双重威胁</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>1 Rare Monster per Area is Duplicated</div><div class="effect-block zh"><span class="effect-label">中</span>每个区域有 1 个 Rare Monster 被复制</div></td></tr><tr><td class="node-name">No Simple Battles <span class="muted">/ 没有简单战斗</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Rare Monsters have at least 3 Monster Modifiers</div><div class="effect-block zh"><span class="effect-label">中</span>Rare Monsters 至少拥有 3 个 Monster Modifiers</div></td></tr><tr><td class="node-name">Adaptive Biology <span class="muted">/ 适应性生物学</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>+1 to maximum Monster Modifiers on Rare Monsters<br>Rare Monsters have 10% increased chance of Monster Modifiers</div><div class="effect-block zh"><span class="effect-label">中</span>Rare Monsters 的最大 Monster Modifiers 数量 +1<br>Rare Monsters 获得 Monster Modifiers 的几率提高 10%</div></td></tr><tr><td class="node-name">Mutating Monsters <span class="muted">/ 突变怪物</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>+1 to maximum Monster Modifiers on Rare Monsters<br>Rare Monsters have 10% increased chance of Monster Modifiers</div><div class="effect-block zh"><span class="effect-label">中</span>Rare Monsters 的最大 Monster Modifiers 数量 +1<br>Rare Monsters 获得 Monster Modifiers 的几率提高 10%</div></td></tr><tr><td class="node-name">To the Strong Go the Spoils <span class="muted">/ 强者得战利品</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>2% increased Rarity of Items Dropped by Monsters per Monster Modifier</div><div class="effect-block zh"><span class="effect-label">中</span>怪物每有 1 个 Monster Modifier，其掉落物品稀有度提高 2%</div></td></tr><tr><td class="node-name">Nemesis Rising <span class="muted">/ 宿敌崛起</span></td><td><code>keystone</code><br><span class="muted">核心点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Select a bonus for Rare Monsters</div><div class="effect-block zh"><span class="effect-label">中</span>为 Rare Monsters 选择一项加成</div></td></tr></tbody>
+      </table>
+    </section>
+    
+    <section class="card" id="cat-boss">
+      <h3>Boss, Powerful Boss and Pinnacle compression <span>/ Boss、强力 Boss 与巅峰压缩</span></h3>
+      <p class="two-line"><b>Design role:</b> Bosses become reward concentrators. Extra content, corruption, tablets and unique rewards are pushed into boss maps.<br><b>设计作用：</b>Boss 不再只是地图结尾，而是收益压缩点。主树把额外内容、腐化、Tablet 和高价值掉落导向 Boss 地图。</p>
+      <table>
+        <thead><tr><th>Node / 节点</th><th>Type</th><th>Effect / 效果</th></tr></thead>
+        <tbody><tr><td class="node-name">Fit for a King <span class="muted">/ 王者之配</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>15% increased Rarity of Items dropped by Map Bosses</div><div class="effect-block zh"><span class="effect-label">中</span>Map Bosses 掉落物品的稀有度提高 15%</div></td></tr><tr><td class="node-name">Hard-Won Treasures <span class="muted">/ 血战宝藏</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>15% increased Quantity of Items dropped by Map Bosses</div><div class="effect-block zh"><span class="effect-label">中</span>Map Bosses 掉落物品的数量提高 15%</div></td></tr><tr><td class="node-name">Pathkeepers <span class="muted">/ 路径守卫</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>10% increased Quantity of Waystones dropped by Map Bosses</div><div class="effect-block zh"><span class="effect-label">中</span>Map Bosses 掉落的 Waystone 数量提高 10%</div></td></tr><tr><td class="node-name">Brutal Lessons <span class="muted">/ 残酷教训</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Map Bosses grant 50% increased Experience</div><div class="effect-block zh"><span class="effect-label">中</span>Map Bosses 给予的经验提高 50%</div></td></tr><tr><td class="node-name">Overlord&#x27;s Domain <span class="muted">/ 霸主领域</span></td><td><code>keystone</code><br><span class="muted">核心点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Add additional content to areas with Powerful Map Bosses</div><div class="effect-block zh"><span class="effect-label">中</span>向拥有 Powerful Map Bosses 的区域添加额外内容</div></td></tr><tr><td class="node-name">Overlord&#x27;s Influence <span class="muted">/ 霸主影响</span></td><td><code>keystone</code><br><span class="muted">核心点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Add additional content to areas with Powerful Map Bosses</div><div class="effect-block zh"><span class="effect-label">中</span>向拥有 Powerful Map Bosses 的区域添加额外内容</div></td></tr><tr><td class="node-name">Cataclysm&#x27;s Wake <span class="muted">/ 灾变余波</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Areas with Powerful Map Bosses have 20% chance to contain Corruption when entered</div><div class="effect-block zh"><span class="effect-label">中</span>进入拥有 Powerful Map Bosses 的区域时，该区域有 20% 几率包含 Corruption</div></td></tr><tr><td class="node-name">Organised Forces <span class="muted">/ 有组织的军势</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Non-Irradiated Areas with Powerful Map Bosses have +1 Level</div><div class="effect-block zh"><span class="effect-label">中</span>拥有 Powerful Map Bosses 的非 Irradiated 区域等级 +1</div></td></tr><tr><td class="node-name">Overlord&#x27;s Hoard <span class="muted">/ 霸主宝库</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Overseer Precursor Tablets also provide 20% increased Rarity of Items Dropped to the Map Boss</div><div class="effect-block zh"><span class="effect-label">中</span>Overseer Precursor Tablets 还会使 Map Boss 掉落物品的稀有度提高 20%</div></td></tr><tr><td class="node-name">Ancient Relics <span class="muted">/ 远古遗物</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>25% increased Rarity of Items dropped by the Arbiter</div><div class="effect-block zh"><span class="effect-label">中</span>Arbiter 掉落物品的稀有度提高 25%</div></td></tr><tr><td class="node-name">Witness to History <span class="muted">/ 历史见证</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Pinnacle Bosses have 20% chance to drop an additional Unique item</div><div class="effect-block zh"><span class="effect-label">中</span>Pinnacle Bosses 有 20% 几率额外掉落 1 件 Unique item</div></td></tr></tbody>
+      </table>
+    </section>
+    
+
+  <h2>2. Choice points / 选择点详解</h2>
+  <section class="note">
+    <p><b>English:</b> Because most progression nodes can eventually be allocated, the meaningful decisions are compressed into selector nodes. These are not just numerical upgrades; they decide what the next batch of maps is trying to produce.</p>
+    <p><b>中文：</b>由于许多成长点理论上最终都能点满，真正的选择集中在选择节点上。它们不是简单数值加成，而是在决定当前这一轮刷图到底生产什么：精华、保险箱、Boss、稀有怪、神龛、灵体或城市地形叠加。</p>
+  </section>
+  
+    <section class="choice-card" id="choice-the-journey-ahead">
+      <div class="choice-head">
+        <h3>The Journey Ahead <span>/ 前路选择</span></h3>
+        <div class="badge">Choice Point / 选择点</div>
+      </div>
+      <p><b>Core effect / 核心效果：</b><div class="effect-block"><span class="effect-label">EN</span>Select between Pack Size, Effectiveness or Rarity</div><div class="effect-block zh"><span class="effect-label">中</span>在怪群规模、怪物效能或物品稀有度之间选择</div></p>
+      <p><b>Design role:</b> The basic map-production dial: more packs, stronger monsters, or more item rarity.<br><b>设计作用：</b>最基础的地图生产参数：怪群规模、怪物强度、或物品稀有度。</p>
+      <table>
+        <thead><tr><th>Option / 选项</th><th>Type</th><th>Effect / 效果</th></tr></thead>
+        <tbody><tr><td class="node-name">The Journey Ahead: Pack Size <span class="muted">/ 前路选择：怪群规模</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>6% increased Pack Size</div><div class="effect-block zh"><span class="effect-label">中</span>怪群规模提高 6%</div></td></tr><tr><td class="node-name">The Journey Ahead: Effectiveness <span class="muted">/ 前路选择：怪物效能</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>15% increased Effectiveness of Monsters in your Maps</div><div class="effect-block zh"><span class="effect-label">中</span>你地图中怪物的 Effectiveness 提高 15%</div></td></tr><tr><td class="node-name">The Journey Ahead: Rarity <span class="muted">/ 前路选择：物品稀有度</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>10% increased Rarity of Items found</div><div class="effect-block zh"><span class="effect-label">中</span>找到物品的稀有度提高 10%</div></td></tr></tbody>
+      </table>
+    </section>
+    
+    <section class="choice-card" id="choice-the-chosen-path">
+      <div class="choice-head">
+        <h3>The Chosen Path <span>/ 选定之路</span></h3>
+        <div class="badge">Choice Point / 选择点</div>
+      </div>
+      <p><b>Core effect / 核心效果：</b><div class="effect-block"><span class="effect-label">EN</span>100% increased chance of a certain content type</div><div class="effect-block zh"><span class="effect-label">中</span>某一种内容类型的出现几率提高 100%</div></p>
+      <p><b>Design role:</b> The most important generic-content selector. It biases which non-dedicated content appears more often.<br><b>设计作用：</b>主树最重要的通用内容偏向：决定当前地图更容易遇到哪类非专属内容。</p>
+      <table>
+        <thead><tr><th>Option / 选项</th><th>Type</th><th>Effect / 效果</th></tr></thead>
+        <tbody><tr><td class="node-name">The Chosen Path: Essences <span class="muted">/ 选定之路：精华</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance of Essences</div><div class="effect-block zh"><span class="effect-label">中</span>Essence 出现几率提高 100%</div></td></tr><tr><td class="node-name">The Chosen Path: Rogue Exiles <span class="muted">/ 选定之路：盗贼流放者</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance of Rogue Exiles</div><div class="effect-block zh"><span class="effect-label">中</span>Rogue Exile 出现几率提高 100%</div></td></tr><tr><td class="node-name">The Chosen Path: Summoning Circles <span class="muted">/ 选定之路：召唤法阵</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance of Summoning Circles</div><div class="effect-block zh"><span class="effect-label">中</span>Summoning Circle 出现几率提高 100%</div></td></tr><tr><td class="node-name">The Chosen Path: Shrines <span class="muted">/ 选定之路：神龛</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance of Shrines</div><div class="effect-block zh"><span class="effect-label">中</span>Shrine 出现几率提高 100%</div></td></tr><tr><td class="node-name">The Chosen Path: Strongboxes <span class="muted">/ 选定之路：保险箱</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance of Strongboxes</div><div class="effect-block zh"><span class="effect-label">中</span>Strongbox 出现几率提高 100%</div></td></tr><tr><td class="node-name">The Chosen Path: Azmeri Spirits <span class="muted">/ 选定之路：阿兹莫里灵体</span></td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance of Azmeri Spirits</div><div class="effect-block zh"><span class="effect-label">中</span>Azmeri Spirit 出现几率提高 100%</div></td></tr></tbody>
+      </table>
+    </section>
+    
+    <section class="choice-card" id="choice-essence-dowsing">
+      <div class="choice-head">
+        <h3>Essence Dowsing <span>/ 精华探测</span></h3>
+        <div class="badge">Choice Point / 选择点</div>
+      </div>
+      <p><b>Core effect / 核心效果：</b><div class="effect-block"><span class="effect-label">EN</span>100% increased chance to find certain Essence types</div><div class="effect-block zh"><span class="effect-label">中</span>找到特定 Essence 类型的几率提高 100%</div></p>
+      <p><b>Design role:</b> Turns Essence from a random crafting resource into a targeted crafting resource.<br><b>设计作用：</b>把精华从随机工艺资源变成定向工艺资源。</p>
+      <table>
+        <thead><tr><th>Option / 选项</th><th>Type</th><th>Effect / 效果</th></tr></thead>
+        <tbody><tr><td class="node-name">Essence Dowsing: Body</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance for Essences found in your Maps to add Life modifiers</div><div class="effect-block zh"><span class="effect-label">中</span>你地图中找到的 Essence 添加 Life modifiers 的几率提高 100%</div></td></tr><tr><td class="node-name">Essence Dowsing: Mind</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance for Essences found in your Maps to add Mana modifiers</div><div class="effect-block zh"><span class="effect-label">中</span>你地图中找到的 Essence 添加 Mana modifiers 的几率提高 100%</div></td></tr><tr><td class="node-name">Essence Dowsing: Enhancement</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance for Essences found in your Maps to add Armour, Evasion and Energy Shield modifiers</div><div class="effect-block zh"><span class="effect-label">中</span>你地图中找到的 Essence 添加 Armour、Evasion 和 Energy Shield modifiers 的几率提高 100%</div></td></tr><tr><td class="node-name">Essence Dowsing: Abrasion</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance for Essences found in your Maps to add Physical modifiers</div><div class="effect-block zh"><span class="effect-label">中</span>你地图中找到的 Essence 添加 Physical modifiers 的几率提高 100%</div></td></tr><tr><td class="node-name">Essence Dowsing: Flames</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance for Essences found in your Maps to add Fire modifiers</div><div class="effect-block zh"><span class="effect-label">中</span>你地图中找到的 Essence 添加 Fire modifiers 的几率提高 100%</div></td></tr><tr><td class="node-name">Essence Dowsing: Ice</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance for Essences found in your Maps to add Cold modifiers</div><div class="effect-block zh"><span class="effect-label">中</span>你地图中找到的 Essence 添加 Cold modifiers 的几率提高 100%</div></td></tr><tr><td class="node-name">Essence Dowsing: Electricity</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance for Essences found in your Maps to add Lightning modifiers</div><div class="effect-block zh"><span class="effect-label">中</span>你地图中找到的 Essence 添加 Lightning modifiers 的几率提高 100%</div></td></tr><tr><td class="node-name">Essence Dowsing: Ruin</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance for Essences found in your Maps to add Chaos modifiers</div><div class="effect-block zh"><span class="effect-label">中</span>你地图中找到的 Essence 添加 Chaos modifiers 的几率提高 100%</div></td></tr></tbody>
+      </table>
+    </section>
+    
+    <section class="choice-card" id="choice-crystalline-patterns">
+      <div class="choice-head">
+        <h3>Crystalline Patterns <span>/ 晶化纹路</span></h3>
+        <div class="badge">Choice Point / 选择点</div>
+      </div>
+      <p><b>Core effect / 核心效果：</b><div class="effect-block"><span class="effect-label">EN</span>100% increased chance to find certain Essence types</div><div class="effect-block zh"><span class="effect-label">中</span>找到特定 Essence 类型的几率提高 100%</div></p>
+      <p><b>Design role:</b> A second Essence-type selector covering attack, caster, speed, attribute, critical, rarity and ally directions.<br><b>设计作用：</b>另一组精华类型定向，覆盖攻击、施法、速度、属性、暴击、稀有度和召唤相关方向。</p>
+      <table>
+        <thead><tr><th>Option / 选项</th><th>Type</th><th>Effect / 效果</th></tr></thead>
+        <tbody><tr><td class="node-name">Crystalline Patterns: Battle</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance for Essences found in your Maps to add Attack modifiers</div><div class="effect-block zh"><span class="effect-label">中</span>你地图中找到的 Essence 添加 Attack modifiers 的几率提高 100%</div></td></tr><tr><td class="node-name">Crystalline Patterns: Sorcery</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance for Essences found in your Maps to add Caster modifiers</div><div class="effect-block zh"><span class="effect-label">中</span>你地图中找到的 Essence 添加 Caster modifiers 的几率提高 100%</div></td></tr><tr><td class="node-name">Crystalline Patterns: Alacrity</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance for Essences found in your Maps to add Speed modifiers</div><div class="effect-block zh"><span class="effect-label">中</span>你地图中找到的 Essence 添加 Speed modifiers 的几率提高 100%</div></td></tr><tr><td class="node-name">Crystalline Patterns: Infinite</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance for Essences found in your Maps to add Attribute modifiers</div><div class="effect-block zh"><span class="effect-label">中</span>你地图中找到的 Essence 添加 Attribute modifiers 的几率提高 100%</div></td></tr><tr><td class="node-name">Crystalline Patterns: Seeking</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance for Essences found in your Maps to add Critical modifiers</div><div class="effect-block zh"><span class="effect-label">中</span>你地图中找到的 Essence 添加 Critical modifiers 的几率提高 100%</div></td></tr><tr><td class="node-name">Crystalline Patterns: Opulence</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance for Essences found in your Maps to add Rarity modifiers</div><div class="effect-block zh"><span class="effect-label">中</span>你地图中找到的 Essence 添加 Rarity modifiers 的几率提高 100%</div></td></tr><tr><td class="node-name">Crystalline Patterns: Command</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance for Essences found in your Maps to add Ally modifiers</div><div class="effect-block zh"><span class="effect-label">中</span>你地图中找到的 Essence 添加 Ally modifiers 的几率提高 100%</div></td></tr></tbody>
+      </table>
+    </section>
+    
+    <section class="choice-card" id="choice-corrupted-lattices">
+      <div class="choice-head">
+        <h3>Corrupted Lattices <span>/ 腐化晶格</span></h3>
+        <div class="badge">Choice Point / 选择点</div>
+      </div>
+      <p><b>Core effect / 核心效果：</b><div class="effect-block"><span class="effect-label">EN</span>Select a bonus when Corrupting Essence Monsters</div><div class="effect-block zh"><span class="effect-label">中</span>腐化 Essence Monsters 时选择一项加成</div></p>
+      <p><b>Design role:</b> Risk control when corrupting Essence monsters: stable conversion, duplication, deeper corruption, or killing dangerous rares.<br><b>设计作用：</b>腐化精华怪时的风险控制：稳定改精华、复制、加深腐化，或直接处理危险稀有怪。</p>
+      <table>
+        <thead><tr><th>Option / 选项</th><th>Type</th><th>Effect / 效果</th></tr></thead>
+        <tbody><tr><td class="node-name">Corrupted Lattices: Stable Prison</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Corrupting Essence Monsters cannot immediately release them and will always change their Essences</div><div class="effect-block zh"><span class="effect-label">中</span>腐化 Essence Monsters 不会立刻释放它们，并且总会改变它们的 Essences</div></td></tr><tr><td class="node-name">Corrupted Lattices: Duplication</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Corrupted Essence Monsters have 25% chance to be Duplicated when released</div><div class="effect-block zh"><span class="effect-label">中</span>Corrupted Essence Monsters 释放时有 25% 几率被复制</div></td></tr><tr><td class="node-name">Corrupted Lattices: Deepened Corruption</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Corrupting Essence Monsters Corrupts them an additional time</div><div class="effect-block zh"><span class="effect-label">中</span>腐化 Essence Monsters 会使其额外腐化一次</div></td></tr><tr><td class="node-name">Corrupted Lattices: Ruptured Flesh</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>When Corrupting Rare Essence Monsters immediately releases them they are instead immediately killed</div><div class="effect-block zh"><span class="effect-label">中</span>当腐化 Rare Essence Monsters 本应立刻释放它们时，改为立刻击杀它们</div></td></tr></tbody>
+      </table>
+    </section>
+    
+    <section class="choice-card" id="choice-unseen-rivers">
+      <div class="choice-head">
+        <h3>Unseen Rivers <span>/ 暗流</span></h3>
+        <div class="badge">Choice Point / 选择点</div>
+      </div>
+      <p><b>Core effect / 核心效果：</b><div class="effect-block"><span class="effect-label">EN</span>100% increased chance to encounter certain Azmeri Spirits<br>Does not impact chance to encounter Sacred Spirits</div><div class="effect-block zh"><span class="effect-label">中</span>遇到特定 Azmeri Spirits 的几率提高 100%<br>不影响遇到 Sacred Spirits 的几率</div></p>
+      <p><b>Design role:</b> Biases Azmeri Spirit type without changing Sacred Spirit chance.<br><b>设计作用：</b>定向阿兹莫里灵体类型，但不影响 Sacred Spirits。</p>
+      <table>
+        <thead><tr><th>Option / 选项</th><th>Type</th><th>Effect / 效果</th></tr></thead>
+        <tbody><tr><td class="node-name">Unseen Rivers: Primal</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance for Azmeri Spirits to be Primal Spirits</div><div class="effect-block zh"><span class="effect-label">中</span>Azmeri Spirits 成为 Primal Spirits 的几率提高 100%</div></td></tr><tr><td class="node-name">Unseen Rivers: Wild</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance for Azmeri Spirits to be Wild Spirits</div><div class="effect-block zh"><span class="effect-label">中</span>Azmeri Spirits 成为 Wild Spirits 的几率提高 100%</div></td></tr><tr><td class="node-name">Unseen Rivers: Vivid</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance for Azmeri Spirits to be Vivid Spirits</div><div class="effect-block zh"><span class="effect-label">中</span>Azmeri Spirits 成为 Vivid Spirits 的几率提高 100%</div></td></tr></tbody>
+      </table>
+    </section>
+    
+    <section class="choice-card" id="choice-sacred-sap">
+      <div class="choice-head">
+        <h3>Sacred Sap <span>/ 圣洁树液</span></h3>
+        <div class="badge">Choice Point / 选择点</div>
+      </div>
+      <p><b>Core effect / 核心效果：</b><div class="effect-block"><span class="effect-label">EN</span>Select a Sacred or Empowered Azmeri Spirits Bonus</div><div class="effect-block zh"><span class="effect-label">中</span>选择一项 Sacred 或 Empowered Azmeri Spirits 加成</div></p>
+      <p><b>Design role:</b> Chooses between more Sacred Spirits, mixed possession, or higher empowerment.<br><b>设计作用：</b>在更多 Sacred、复合附身、或更高 Empowerment 之间选择。</p>
+      <table>
+        <thead><tr><th>Option / 选项</th><th>Type</th><th>Effect / 效果</th></tr></thead>
+        <tbody><tr><td class="node-name">Sacred Sap: Purified</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>25% increased chance for Azmeri Spirits in your Maps to be Sacred Spirits</div><div class="effect-block zh"><span class="effect-label">中</span>你地图中的 Azmeri Spirits 成为 Sacred Spirits 的几率提高 25%</div></td></tr><tr><td class="node-name">Sacred Sap: Commingled</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>When a Monster is Possessed by a Sacred Spirit it is also Possessed by another random Spirit</div><div class="effect-block zh"><span class="effect-label">中</span>当怪物被 Sacred Spirit 附身时，也会被另一个随机 Spirit 附身</div></td></tr><tr><td class="node-name">Sacred Sap: Distilled</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>50% increased Azmeri Spirit empowerment when defeating Spirit-Influenced Monsters</div><div class="effect-block zh"><span class="effect-label">中</span>击败 Spirit-Influenced Monsters 时，Azmeri Spirit empowerment 提高 50%</div></td></tr></tbody>
+      </table>
+    </section>
+    
+    <section class="choice-card" id="choice-evolving-throngs">
+      <div class="choice-head">
+        <h3>Evolving Throngs <span>/ 进化群体</span></h3>
+        <div class="badge">Choice Point / 选择点</div>
+      </div>
+      <p><b>Core effect / 核心效果：</b><div class="effect-block"><span class="effect-label">EN</span>Select a bonus for Magic Packs</div><div class="effect-block zh"><span class="effect-label">中</span>为 Magic Packs 选择一项加成</div></p>
+      <p><b>Design role:</b> Magic pack selector: larger packs or more additional modifiers.<br><b>设计作用：</b>魔法怪群的二选一：更大规模，或更多额外词缀。</p>
+      <table>
+        <thead><tr><th>Option / 选项</th><th>Type</th><th>Effect / 效果</th></tr></thead>
+        <tbody><tr><td class="node-name">Evolving Throngs: Adaptation</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Magic Monster Packs have 15% chance to have an additional Modifier</div><div class="effect-block zh"><span class="effect-label">中</span>Magic Monster Packs 有 15% 几率拥有 1 个额外 Modifier</div></td></tr><tr><td class="node-name">Evolving Throngs: Swarm</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>10% increased Magic Pack Size</div><div class="effect-block zh"><span class="effect-label">中</span>Magic Pack Size 提高 10%</div></td></tr></tbody>
+      </table>
+    </section>
+    
+    <section class="choice-card" id="choice-nemesis-rising">
+      <div class="choice-head">
+        <h3>Nemesis Rising <span>/ 宿敌崛起</span></h3>
+        <div class="badge">Choice Point / 选择点</div>
+      </div>
+      <p><b>Core effect / 核心效果：</b><div class="effect-block"><span class="effect-label">EN</span>Select a bonus for Rare Monsters</div><div class="effect-block zh"><span class="effect-label">中</span>为 Rare Monsters 选择一项加成</div></p>
+      <p><b>Design role:</b> Rare-monster selector: effectiveness, modifiers, additional rares, or rare-monster item rarity.<br><b>设计作用：</b>稀有怪路线核心：强度、词缀、额外稀有怪、或稀有怪掉落稀有度。</p>
+      <table>
+        <thead><tr><th>Option / 选项</th><th>Type</th><th>Effect / 效果</th></tr></thead>
+        <tbody><tr><td class="node-name">Nemesis Rising: Effectiveness</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>15% increased Effectiveness of Rare Monsters in your Maps</div><div class="effect-block zh"><span class="effect-label">中</span>你地图中 Rare Monsters 的 Effectiveness 提高 15%</div></td></tr><tr><td class="node-name">Nemesis Rising: Monster Modifiers</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Rare Monsters have 30% increased chance of Monster Modifiers</div><div class="effect-block zh"><span class="effect-label">中</span>Rare Monsters 获得 Monster Modifiers 的几率提高 30%</div></td></tr><tr><td class="node-name">Nemesis Rising: Additional Rare Monster</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Rare Monster Packs in your Maps have a 50% increased chance to have an Additional Rare Monster</div><div class="effect-block zh"><span class="effect-label">中</span>你地图中的 Rare Monster Packs 拥有额外 Rare Monster 的几率提高 50%</div></td></tr><tr><td class="node-name">Nemesis Rising: Rarity</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>10% increased Rarity of Items Dropped by Rare Monsters</div><div class="effect-block zh"><span class="effect-label">中</span>Rare Monsters 掉落物品的稀有度提高 10%</div></td></tr></tbody>
+      </table>
+    </section>
+    
+    <section class="choice-card" id="choice-divined-blessing">
+      <div class="choice-head">
+        <h3>Divined Blessing <span>/ 神授祝福</span></h3>
+        <div class="badge">Choice Point / 选择点</div>
+      </div>
+      <p><b>Core effect / 核心效果：</b><div class="effect-block"><span class="effect-label">EN</span>100% increased chance to encounter certain Shrines</div><div class="effect-block zh"><span class="effect-label">中</span>遇到特定 Shrines 的几率提高 100%</div></p>
+      <p><b>Design role:</b> Biases toward a selected Shrine type.<br><b>设计作用：</b>定向特定神龛类型。</p>
+      <table>
+        <thead><tr><th>Option / 选项</th><th>Type</th><th>Effect / 效果</th></tr></thead>
+        <tbody><tr><td class="node-name">Divined Blessing: Seeking Shrine</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance for Shrines to be Seeking Shrines</div><div class="effect-block zh"><span class="effect-label">中</span>Shrines 成为 Seeking Shrines 的几率提高 100%</div></td></tr><tr><td class="node-name">Divined Blessing: Enlightening Shrine</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance for Shrines to be Enlightening Shrines</div><div class="effect-block zh"><span class="effect-label">中</span>Shrines 成为 Enlightening Shrines 的几率提高 100%</div></td></tr><tr><td class="node-name">Divined Blessing: Gloom Shrine</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>100% increased chance for Shrines to be Gloom Shrines</div><div class="effect-block zh"><span class="effect-label">中</span>Shrines 成为 Gloom Shrines 的几率提高 100%</div></td></tr></tbody>
+      </table>
+    </section>
+    
+    <section class="choice-card" id="choice-fabled-showdown">
+      <div class="choice-head">
+        <h3>Fabled Showdown <span>/ 传说对决</span></h3>
+        <div class="badge">Choice Point / 选择点</div>
+      </div>
+      <p><b>Core effect / 核心效果：</b><div class="effect-block"><span class="effect-label">EN</span>Gain a Shrine bonus for Map Bosses</div><div class="effect-block zh"><span class="effect-label">中</span>为 Map Bosses 获得一个 Shrine 相关加成</div></p>
+      <p><b>Design role:</b> Boss-shrine selector: player safety via buff reapplication, or boss empowerment for extra reward.<br><b>设计作用：</b>Boss 战神龛选择：玩家拿 Buff 更安全，或让 Boss 拿 Buff 换额外奖励。</p>
+      <table>
+        <thead><tr><th>Option / 选项</th><th>Type</th><th>Effect / 效果</th></tr></thead>
+        <tbody><tr><td class="node-name">Favour the Hero</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>25% chance Shrine Buffs are reapplied when entering the Boss arena</div><div class="effect-block zh"><span class="effect-label">中</span>进入 Boss arena 时，Shrine Buffs 有 25% 几率重新施加</div></td></tr><tr><td class="node-name">Favour the Villain</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>25% chance Shrine Buffs are instead applied to the Boss when activated, granting an additional reward</div><div class="effect-block zh"><span class="effect-label">中</span>激活 Shrine 时，Shrine Buffs 有 25% 几率改为施加给 Boss，并给予额外奖励</div></td></tr></tbody>
+      </table>
+    </section>
+    
+    <section class="choice-card" id="choice-overlords-domain">
+      <div class="choice-head">
+        <h3>Overlord&#x27;s Domain <span>/ 霸主领域</span></h3>
+        <div class="badge">Choice Point / 选择点</div>
+      </div>
+      <p><b>Core effect / 核心效果：</b><div class="effect-block"><span class="effect-label">EN</span>Add additional content to areas with Powerful Map Bosses</div><div class="effect-block zh"><span class="effect-label">中</span>向拥有 Powerful Map Bosses 的区域添加额外内容</div></p>
+      <p><b>Design role:</b> Adds Essence, Summoning Circle or Rogue Exile to areas with Powerful Map Bosses.<br><b>设计作用：</b>把 Essence、Summoning Circle 或 Rogue Exile 添加到 Powerful Map Boss 区域。</p>
+      <table>
+        <thead><tr><th>Option / 选项</th><th>Type</th><th>Effect / 效果</th></tr></thead>
+        <tbody><tr><td class="node-name">Overlord&#x27;s Domain: Essence</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Areas with Powerful Map Bosses contain an additional Essence</div><div class="effect-block zh"><span class="effect-label">中</span>拥有 Powerful Map Bosses 的区域包含额外 1 个 Essence</div></td></tr><tr><td class="node-name">Overlord&#x27;s Domain: Summoning Circle</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Areas with Powerful Map Bosses contain an additional Summoning Circle</div><div class="effect-block zh"><span class="effect-label">中</span>拥有 Powerful Map Bosses 的区域包含额外 1 个 Summoning Circle</div></td></tr><tr><td class="node-name">Overlord&#x27;s Domain: Rogue Exile</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Areas with Powerful Map Bosses contain an additional Rogue Exile</div><div class="effect-block zh"><span class="effect-label">中</span>拥有 Powerful Map Bosses 的区域包含额外 1 个 Rogue Exile</div></td></tr></tbody>
+      </table>
+    </section>
+    
+    <section class="choice-card" id="choice-overlords-influence">
+      <div class="choice-head">
+        <h3>Overlord&#x27;s Influence <span>/ 霸主影响</span></h3>
+        <div class="badge">Choice Point / 选择点</div>
+      </div>
+      <p><b>Core effect / 核心效果：</b><div class="effect-block"><span class="effect-label">EN</span>Add additional content to areas with Powerful Map Bosses</div><div class="effect-block zh"><span class="effect-label">中</span>向拥有 Powerful Map Bosses 的区域添加额外内容</div></p>
+      <p><b>Design role:</b> Adds Strongbox, Shrine or Azmeri Spirit to areas with Powerful Map Bosses.<br><b>设计作用：</b>把 Strongbox、Shrine 或 Azmeri Spirit 添加到 Powerful Map Boss 区域。</p>
+      <table>
+        <thead><tr><th>Option / 选项</th><th>Type</th><th>Effect / 效果</th></tr></thead>
+        <tbody><tr><td class="node-name">Overlord&#x27;s Influence: Strongbox</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Areas with Powerful Map Bosses contain an additional Strongbox</div><div class="effect-block zh"><span class="effect-label">中</span>拥有 Powerful Map Bosses 的区域包含额外 1 个 Strongbox</div></td></tr><tr><td class="node-name">Overlord&#x27;s Influence: Shrine</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Areas with Powerful Map Bosses contain an additional Shrine</div><div class="effect-block zh"><span class="effect-label">中</span>拥有 Powerful Map Bosses 的区域包含额外 1 个 Shrine</div></td></tr><tr><td class="node-name">Overlord&#x27;s Influence: Azmeri Spirit</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Areas with Powerful Map Bosses contain an additional Azmeri Spirit</div><div class="effect-block zh"><span class="effect-label">中</span>拥有 Powerful Map Bosses 的区域包含额外 1 个 Azmeri Spirit</div></td></tr></tbody>
+      </table>
+    </section>
+    
+    <section class="choice-card" id="choice-blood-on-the-stones">
+      <div class="choice-head">
+        <h3>Blood on the Stones <span>/ 石上之血</span></h3>
+        <div class="badge">Choice Point / 选择点</div>
+      </div>
+      <p><b>Core effect / 核心效果：</b><div class="effect-block"><span class="effect-label">EN</span>Summoning Circles summon packs or a more powerful Boss</div><div class="effect-block zh"><span class="effect-label">中</span>Summoning Circles 会召唤怪群或更强大的 Boss</div></p>
+      <p><b>Design role:</b> Summoning Circle selector: stronger bosses or additional guardian packs around runes.<br><b>设计作用：</b>召唤法阵走 Boss 强化，或走符文守卫怪群密度。</p>
+      <table>
+        <thead><tr><th>Option / 选项</th><th>Type</th><th>Effect / 效果</th></tr></thead>
+        <tbody><tr><td class="node-name">Blood on the Stones: Bosses</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Summoning Circle Bosses are Powerful</div><div class="effect-block zh"><span class="effect-label">中</span>Summoning Circle Bosses 是 Powerful</div></td></tr><tr><td class="node-name">Blood on the Stones: Guardians</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Summoning Circle Runes are guarded by 2 Packs of Random Monsters</div><div class="effect-block zh"><span class="effect-label">中</span>Summoning Circle Runes 由 2 群随机怪物守卫</div></td></tr></tbody>
+      </table>
+    </section>
+    
+    <section class="choice-card" id="choice-rogue-exile-equipment-selectors">
+      <div class="choice-head">
+        <h3>Rogue Exile equipment selectors <span>/ 盗贼流放者装备选择</span></h3>
+        <div class="badge">Choice Point / 选择点</div>
+      </div>
+      <p><b>Core effect / 核心效果：</b><div class="effect-block"><span class="effect-label">EN</span>Rogue Exiles have 100% increased chance to have certain types of uniques</div><div class="effect-block zh"><span class="effect-label">中</span>Rogue Exiles 拥有特定类型 Unique 装备的几率提高 100%</div></p>
+      <p><b>Design role:</b> Turns Rogue Exiles into targeted item sources: weapon, armour, jewellery, and attribute requirements.<br><b>设计作用：</b>把 Rogue Exile 变成定向装备掉落源：武器、防具、首饰，以及力量/敏捷/智慧需求方向。</p>
+      <table>
+        <thead><tr><th>Option / 选项</th><th>Type</th><th>Effect / 效果</th></tr></thead>
+        <tbody><tr><td class="node-name">Legendary Duels: Renowned Weapons</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Rogue Exiles have 100% increased chance to have equipped Unique Weapons</div><div class="effect-block zh"><span class="effect-label">中</span>Rogue Exiles 装备 Unique Weapons 的几率提高 100%</div></td></tr><tr><td class="node-name">Legendary Duels: Renowned Armours</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Rogue Exiles have 100% increased chance to have equipped Unique Armour</div><div class="effect-block zh"><span class="effect-label">中</span>Rogue Exiles 装备 Unique Armour 的几率提高 100%</div></td></tr><tr><td class="node-name">Legendary Duels: Renowned Jewelry</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Rogue Exiles have 100% increased chance to have equipped Unique Jewellery</div><div class="effect-block zh"><span class="effect-label">中</span>Rogue Exiles 装备 Unique Jewellery 的几率提高 100%</div></td></tr><tr><td class="node-name">Well-equipped Opponents: Strength</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Rogue Exiles have 100% increased chance to wear Items requiring Strength</div><div class="effect-block zh"><span class="effect-label">中</span>Rogue Exiles 穿戴需要 Strength 的物品的几率提高 100%</div></td></tr><tr><td class="node-name">Well-equipped Opponents: Dexterity</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Rogue Exiles have 100% increased chance to wear Items requiring Dexterity</div><div class="effect-block zh"><span class="effect-label">中</span>Rogue Exiles 穿戴需要 Dexterity 的物品的几率提高 100%</div></td></tr><tr><td class="node-name">Well-equipped Opponents: Intelligence</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Rogue Exiles have 100% increased chance to wear Items requiring Intelligence</div><div class="effect-block zh"><span class="effect-label">中</span>Rogue Exiles 穿戴需要 Intelligence 的物品的几率提高 100%</div></td></tr></tbody>
+      </table>
+    </section>
+    
+    <section class="choice-card" id="choice-strongbox-selectors">
+      <div class="choice-head">
+        <h3>Strongbox selectors <span>/ 保险箱选择</span></h3>
+        <div class="badge">Choice Point / 选择点</div>
+      </div>
+      <p><b>Core effect / 核心效果：</b><div class="effect-block"><span class="effect-label">EN</span>No stat text in CSV.</div><div class="effect-block zh"><span class="effect-label">中</span>该节点在数据表中没有效果文本。</div></p>
+      <p><b>Design role:</b> One layer selects strongbox type; another biases item attribute requirements.<br><b>设计作用：</b>一层选择箱子类型，一层选择装备属性倾向。</p>
+      <table>
+        <thead><tr><th>Option / 选项</th><th>Type</th><th>Effect / 效果</th></tr></thead>
+        <tbody><tr><td class="node-name">Cartographer&#x27;s Plunder</td><td><code>choice_option</code><br><span class="muted">选择选项</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Strongboxes in your Maps have 150% increased chance to be Cartographer&#x27;s Strongboxes</div><div class="effect-block zh"><span class="effect-label">中</span>你地图中的 Strongboxes 成为 Cartographer&#x27;s Strongboxes 的几率提高 150%</div></td></tr><tr><td class="node-name">Researcher&#x27;s Plunder</td><td><code>choice_option</code><br><span class="muted">选择选项</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Strongboxes in your Maps have 150% increased chance to be Researcher&#x27;s Strongboxes</div><div class="effect-block zh"><span class="effect-label">中</span>你地图中的 Strongboxes 成为 Researcher&#x27;s Strongboxes 的几率提高 150%</div></td></tr><tr><td class="node-name">Noble&#x27;s Plunder</td><td><code>choice_option</code><br><span class="muted">选择选项</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Strongboxes in your Maps have 150% increased chance to be Ornate Strongboxes</div><div class="effect-block zh"><span class="effect-label">中</span>你地图中的 Strongboxes 成为 Ornate Strongboxes 的几率提高 150%</div></td></tr><tr><td class="node-name">Craftsman&#x27;s Creed: Strength of Arm</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Blacksmith&#x27;s, Armourer&#x27;s and Basic Strongboxes can roll additional Prefix Modifiers that cause dropped items to require Strength if possible</div><div class="effect-block zh"><span class="effect-label">中</span>Blacksmith&#x27;s、Armourer&#x27;s 和 Basic Strongboxes 可以额外掷出前缀词缀，使掉落物品在可能时需要 Strength</div></td></tr><tr><td class="node-name">Craftsman&#x27;s Creed: Skill of Hand</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Blacksmith&#x27;s, Armourer&#x27;s and Basic Strongboxes can roll additional Prefix Modifiers that cause dropped items to require Dexterity if possible</div><div class="effect-block zh"><span class="effect-label">中</span>Blacksmith&#x27;s、Armourer&#x27;s 和 Basic Strongboxes 可以额外掷出前缀词缀，使掉落物品在可能时需要 Dexterity</div></td></tr><tr><td class="node-name">Craftsman&#x27;s Creed: Sharpness of Mind</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Blacksmith&#x27;s, Armourer&#x27;s and Basic Strongboxes can roll additional Prefix Modifiers that cause dropped items to require Intelligence if possible</div><div class="effect-block zh"><span class="effect-label">中</span>Blacksmith&#x27;s、Armourer&#x27;s 和 Basic Strongboxes 可以额外掷出前缀词缀，使掉落物品在可能时需要 Intelligence</div></td></tr><tr><td class="node-name">Craftsman&#x27;s Creed: Starkness of Heart</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>No stat text in CSV.</div><div class="effect-block zh"><span class="effect-label">中</span>该节点在数据表中没有效果文本。</div></td></tr></tbody>
+      </table>
+    </section>
+    
+    <section class="choice-card" id="choice-city-history-selectors">
+      <div class="choice-head">
+        <h3>City history selectors <span>/ 城市史记选择</span></h3>
+        <div class="badge">Choice Point / 选择点</div>
+      </div>
+      <p><b>Core effect / 核心效果：</b><div class="effect-block"><span class="effect-label">EN</span>Faridun Cities are also considered to be another Biome</div><div class="effect-block zh"><span class="effect-label">中</span>Faridun Cities 也会被视为另一种 Biome</div></p>
+      <p><b>Design role:</b> Makes cities count as an additional biome, allowing city bonuses and biome bonuses to stack.<br><b>设计作用：</b>把城市额外视为某种 Biome，让城市节点与地形节点叠加触发。</p>
+      <table>
+        <thead><tr><th>Option / 选项</th><th>Type</th><th>Effect / 效果</th></tr></thead>
+        <tbody><tr><td class="node-name">History of the Faridun: Vastiri Woes</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Faridun Cities are also considered Desert Areas</div><div class="effect-block zh"><span class="effect-label">中</span>Faridun Cities 也被视为 Desert Areas</div></td></tr><tr><td class="node-name">History of the Faridun: Mutewind Alliance</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Faridun Cities are also considered Mountain Areas</div><div class="effect-block zh"><span class="effect-label">中</span>Faridun Cities 也被视为 Mountain Areas</div></td></tr><tr><td class="node-name">History of the Ezomytes: Eastern Phaaryl</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Ezomyte Cities are also considered Grass Areas</div><div class="effect-block zh"><span class="effect-label">中</span>Ezomyte Cities 也被视为 Grass Areas</div></td></tr><tr><td class="node-name">History of the Ezomytes: Northern Ezomyr</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Ezomyte Cities are also considered Swamp Areas</div><div class="effect-block zh"><span class="effect-label">中</span>Ezomyte Cities 也被视为 Swamp Areas</div></td></tr><tr><td class="node-name">History of the Vaal: Reign of the First Queen</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Vaal Cities are also considered Forest Areas</div><div class="effect-block zh"><span class="effect-label">中</span>Vaal Cities 也被视为 Forest Areas</div></td></tr><tr><td class="node-name">History of the Vaal: Grand Waterways</td><td><code>notable</code><br><span class="muted">显著点</span></td><td><div class="effect-block"><span class="effect-label">EN</span>Vaal Cities are also considered Water Areas</div><div class="effect-block zh"><span class="effect-label">中</span>Vaal Cities 也被视为 Water Areas</div></td></tr></tbody>
+      </table>
+    </section>
+    
+
+  <section class="note">
+    <h2>Design read / 设计解读</h2>
+    <p><b>English:</b> The main tree keeps long-term completion friendly while preserving strategy through selectors. You may eventually collect most progression, but you still cannot set every target type, shrine type, essence type, rogue equipment type and boss-area content to every option at once.</p>
+    <p><b>中文：</b>主树的设计是在“最终可成长”和“当前有策略”之间折中：普通节点给长期成长，选择点给当前方向。玩家可以逐步点满大量成长点，但不能同时把所有精华类型、神龛类型、Rogue 装备类型、Boss 区域内容和城市地形都调到所有方向。</p>
+    <p><b>Practical implication / 实战含义：</b> 你的 Atlas Build 不只是点数路线，而是这些选择开关的组合。短期刷图时应该先决定目标产物，再调 The Chosen Path、Essence/Azmeri/Shrine/Rogue/Strongbox 选择点，以及 Powerful Boss 的内容聚合。</p>
+  </section>
+
+  <footer>
+    <p>Generated by <code>scripts/python/generate_atlas_main_tree_analysis.py</code>. This report is data-backed by the cleaned Atlas passive node CSV and deliberately excludes dedicated mechanic sub-trees.</p>
+  </footer>
+</main>
+</body>
+</html>

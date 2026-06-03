@@ -1,0 +1,39 @@
+class_index,kind,id,name,base_class,base_str,base_dex,base_int,image,offset_x,offset_y,flavour_text,override_pairs
+0,base_class,,Marauder,Marauder,15,7,7,Art/2DArt/BaseClassIllustrations/MarauderBaseIllustration.png,350,-574,,
+1,base_class,,Witch,Witch,7,7,15,Art/2DArt/BaseClassIllustrations/WitchBaseIllustration.png,0,0,,"{""4739"":17306,""18845"":27384,""1755"":31707,""41965"":37463,""51184"":5788,""22314"":53140,""60230"":19602,""51968"":18040,""51335"":64801,""22821"":183,""3823"":17324,""45522"":40885,""64046"":10941,""55807"":21429,""6686"":29472,""4748"":48235,""17973"":48926,""22691"":19990,""43736"":38659,""29695"":31204,""58362"":15545,""10192"":61436,""55909"":10903}"
+1,ascendancy,Witch1,Infernalist,Witch,,,,Art/2DArt/BaseClassIllustrations/InfernalistAscendancy.png,-5.82236e-05,1332,You seek power at any cost... and there is no price too high to pay.,[]
+1,ascendancy,Witch2,Blood Mage,Witch,,,,Art/2DArt/BaseClassIllustrations/BloodMageAscendancy.png,-5.82236e-05,1332,Your search for power took you on a journey inwards.,[]
+1,ascendancy,Witch3,Lich,Witch,,,,Art/2DArt/BaseClassIllustrations/LichAscendancy.png,-5.82236e-05,1332,"Death is your domain, your flesh merely a material to be mastered.",[]
+1,ascendancy,Witch3b,Abyssal Lich,Witch,,,,Art/2DArt/BaseClassIllustrations/LichAbyssalAscendancy.png,-5.82236e-05,1332,The Well of Souls is yours to command.,"{""23352"":390,""26085"":41162,""2877"":36863,""2516"":11705,""8611"":28740,""62797"":11965,""20772"":15028,""51142"":15373,""36696"":31398,""33141"":30732,""39241"":59609,""2995"":12474,""58751"":35941}"
+2,base_class,,Ranger,Ranger,7,15,7,Art/2DArt/BaseClassIllustrations/RangerBaseIllustration.png,-536,-281.92,,[]
+2,ascendancy,Ranger1,Deadeye,Ranger,,,,Art/2DArt/BaseClassIllustrations/DeadeyeAscendancy.png,-1153.55,-666,A woman can change the world with a single well-placed arrow.,[]
+2,ascendancy,Ranger2,,Ranger,,,,,-1153.55,-666,,[]
+2,ascendancy,Ranger3,Pathfinder,Ranger,,,,Art/2DArt/BaseClassIllustrations/PathfinderAscendancy.png,-1153.55,-666,"There are venoms and virtues aplenty in the wilds, if you know where to look.",[]
+3,base_class,,Duelist,Duelist,11,11,7,Art/2DArt/BaseClassIllustrations/DuelistBaseIllustration.png,0,-699.2,,
+4,base_class,,Shadow,Shadow,7,11,11,Art/2DArt/BaseClassIllustrations/ShadowBaseIllustration.png,0,-291.4,,
+5,base_class,,Templar,Templar,11,7,11,Art/2DArt/BaseClassIllustrations/TemplarBaseIllustration.png,717,182.4,,
+6,base_class,,Warrior,Warrior,15,7,7,Art/2DArt/BaseClassIllustrations/WarriorBaseIllustration.png,350,-574,,[]
+6,ascendancy,Warrior1,Titan,Warrior,,,,Art/2DArt/BaseClassIllustrations/TitanAscendancy.png,1153.55,-666,Incredible might has always laid buried within you. Now is the time to rise.,[]
+6,ascendancy,Warrior2,Warbringer,Warrior,,,,Art/2DArt/BaseClassIllustrations/WarbringerAscendancy.png,1153.55,-666,Your home has been threatened. A good man must be roused to war.,[]
+6,ascendancy,Warrior3,Smith of Kitava,Warrior,,,,Art/2DArt/BaseClassIllustrations/SmithOfKitavaAscendancy.png,1153.55,-666,"You hunger for power, and by force of arms, you will take it.",[]
+7,base_class,,Sorceress,Sorceress,7,7,15,Art/2DArt/BaseClassIllustrations/SorceressBaseIllustration.png,0,0,,[]
+7,ascendancy,Sorceress1,Stormweaver,Sorceress,,,,Art/2DArt/BaseClassIllustrations/StormcallerAscendancy.png,-5.82236e-05,1332,The rumble of thunder heralds your approach. Woe to those that draw your ire.,[]
+7,ascendancy,Sorceress2,Chronomancer,Sorceress,,,,Art/2DArt/BaseClassIllustrations/ChronomancerAscendancy.png,-5.82236e-05,1332,The tapestry of time is yours to weave; an element you alone may master.,[]
+7,ascendancy,Sorceress3,Disciple of Varashta,Sorceress,,,,Art/2DArt/BaseClassIllustrations/DiscipleoftheDjinnAscendancy.png,-5.82236e-05,1332,"By your command, they will earn redemption...one duty at a time.",[]
+8,base_class,,Huntress,Huntress,7,15,7,Art/2DArt/BaseClassIllustrations/HuntressBaseIllustration.png,-536,-281.92,,"{""56651"":39263,""35234"":14623,""6789"":22193,""4313"":55896,""22795"":29915,""55429"":24854,""28992"":32062,""42781"":42895,""30695"":53849,""55397"":1247,""40630"":18391,""44527"":55535,""22049"":28255,""29582"":5083,""43923"":34062,""19104"":39628,""13783"":53191,""19808"":28615}"
+8,ascendancy,Huntress1,Amazon,Huntress,,,,Art/2DArt/BaseClassIllustrations/AmazonAscendancy.png,-1153.55,-666,You became a weapon of war so that others could live in peace.,[]
+8,ascendancy,Huntress2,Spirit Walker,Huntress,,,,Art/2DArt/BaseClassIllustrations/WildspeakerAscendancy.png,-1153.55,-666,You were chosen by the Sacred Wisps to enact the Spirit's will.,[]
+8,ascendancy,Huntress3,Ritualist,Huntress,,,,Art/2DArt/BaseClassIllustrations/PrimalistAscendancy.png,-1153.55,-666,"Corruption cost you your home, but taught you so much more...",[]
+9,base_class,,Mercenary,Mercenary,11,11,7,Art/2DArt/BaseClassIllustrations/MercenaryBaseIllustration.png,0,-699.2,,[]
+9,ascendancy,Mercenary1,Tactician,Mercenary,,,,Art/2DArt/BaseClassIllustrations/TacticianAscendancy.png,1.58839e-05,-1332,Countless wars have left you with skills somewhat resembling a decent officer...,[]
+9,ascendancy,Mercenary2,Witchhunter,Mercenary,,,,Art/2DArt/BaseClassIllustrations/WitchhunterAscendancy.png,1.58839e-05,-1332,There's something very wrong with this world... and you're going to fix it.,[]
+9,ascendancy,Mercenary3,Gemling Legionnaire,Mercenary,,,,Art/2DArt/BaseClassIllustrations/GemlingAscendancy.png,1.58839e-05,-1332,"The more you embrace virtue gems, the more power they offer...",[]
+10,base_class,,Monk,Monk,7,11,11,Art/2DArt/BaseClassIllustrations/MonkBaseIllustration.png,0,-291.4,,[]
+10,ascendancy,Monk1,Martial Artist,Monk,,,,Art/2DArt/BaseClassIllustrations/MartialArtistIllustration.png,-1153.55,666,They made you a human weapon... but that strength has set you free.,[]
+10,ascendancy,Monk2,Invoker,Monk,,,,Art/2DArt/BaseClassIllustrations/InvokerAscendancy.png,-1153.55,666,True strength lies within. One must only focus... and believe.,[]
+10,ascendancy,Monk3,Acolyte of Chayula,Monk,,,,Art/2DArt/BaseClassIllustrations/AcolyteofChayulaAscendancy.png,-1153.55,666,The truth of your faith threatens to break your very soul... but in that struggle lies power beyond belief.,[]
+11,base_class,,Druid,Druid,11,7,11,Art/2DArt/BaseClassIllustrations/DruidBaseIllustration.png,717,182.4,,"{""17584"":53526,""28446"":50612,""12430"":36764,""61067"":50065,""1143"":57726,""58170"":41568,""6898"":7197,""28950"":7130,""44951"":48248,""58651"":63913,""55194"":57601,""5777"":54594,""19680"":40837,""39540"":22652,""36602"":16160,""18465"":50882,""17655"":14942,""50558"":36908,""12462"":25740,""64299"":56845}"
+11,ascendancy,Druid1,Oracle,Druid,,,,Art/2DArt/BaseClassIllustrations/OracleAscendancy.png,1153.55,666,There are many paths to achieve your goals... and you see them all.,[]
+11,ascendancy,Druid2,Shaman,Druid,,,,Art/2DArt/BaseClassIllustrations/ShamanAscendancy.png,1153.55,666,"Wraeclast has suffered for too long.
+You are vengeance incarnate.",[]
+11,ascendancy,Druid3,,Druid,,,,,1153.55,666,,[]

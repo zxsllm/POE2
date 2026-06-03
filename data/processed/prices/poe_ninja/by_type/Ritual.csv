@@ -1,66 +1,39 @@
 snapshot_time_utc,league,type,id,name,category,details_id,divine_value,exalted_value,chaos_value,max_volume_currency,max_volume_rate,volume_primary_value,sparkline_total_change
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,cat-idol,Cat Idol,Ritual,cat-idol,0.019915799999999997,1.14,1.4706,exalted,0.8779,35.5,14.49
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,bear-idol,Bear Idol,Ritual,bear-idol,0.03511469999999999,2.01,2.5928999999999998,exalted,0.498,296.2,8.16
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,boar-idol,Boar Idol,Ritual,boar-idol,0.0237592,1.36,1.7544000000000002,exalted,0.7352,84.33,29.99
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,idol-of-egrin,Idol of Egrin,Ritual,idol-of-egrin,0.2606524,14.92,19.2468,exalted,0.06701,1346,126.3
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,idol-of-greust,Idol of Greust,Ritual,idol-of-greust,0.07809089999999999,4.47,5.7663,exalted,0.2238,47.67,215.1
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,idol-of-maxarius,Idol of Maxarius,Ritual,idol-of-maxarius,0.0835066,4.78,6.166200000000001,exalted,0.2094,166.3,215.0
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,idol-of-the-martyr,Idol of the Martyr,Ritual,idol-of-the-martyr,0.0321448,1.84,2.3736,exalted,0.5433,34.67,-84.66
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,idol-of-yeena,Idol of Yeena,Ritual,idol-of-yeena,0.0635908,3.64,4.695600000000001,exalted,0.2744,90.5,108.2
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-abyssal-echoes,Omen of Abyssal Echoes,Ritual,omen-of-abyssal-echoes,1.3651058,78.14,100.8006,exalted,0.0128,214567,110.2
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-dextral-crystallisation,Omen of Dextral Crystallisation,Ritual,omen-of-dextral-crystallisation,0.28773089999999996,16.47,21.246299999999998,exalted,0.06072,8935,-73.58
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-gambling,Omen of Gambling,Ritual,omen-of-gambling,0.009059942,0.5186,0.668994,exalted,1.93,153.0,-33.99
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-greater-exaltation,Omen of Greater Exaltation,Ritual,omen-of-greater-exaltation,0.07966319999999999,4.56,5.8824,exalted,0.2194,38230,116.4
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-light,Omen of Light,Ritual,omen-of-light,3.137612,179.6,231.684,exalted,0.005567,108320,185.2
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-sinistral-crystallisation,Omen of Sinistral Crystallisation,Ritual,omen-of-sinistral-crystallisation,0.1570553,8.99,11.597100000000001,exalted,0.1113,3871,-74.87
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-sinistral-exaltation,Omen of Sinistral Exaltation,Ritual,omen-of-sinistral-exaltation,0.0455967,2.61,3.3669,exalted,0.3835,4938,-17.68
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-sinistral-necromancy,Omen of Sinistral Necromancy,Ritual,omen-of-sinistral-necromancy,0.2122605,12.15,15.6735,exalted,0.08228,36214,-29.72
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-the-liege,Omen of the Liege,Ritual,omen-of-the-liege,0.012803763,0.7329,0.945441,exalted,1.36,907.7,-78.38
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,primate-idol,Primate Idol,Ritual,primate-idol,0.1408082,8.06,10.397400000000001,exalted,0.124,3733,109.7
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,stag-idol,Stag Idol,Ritual,stag-idol,0.016033966,0.9178,1.183962,exalted,1.09,33.5,-14.34
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,wolf-idol,Wolf Idol,Ritual,wolf-idol,0.043675,2.5,3.225,exalted,0.3997,109.7,53.37
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,idol-of-eeshta,Idol of Eeshta,Ritual,idol-of-eeshta,0.3439843,19.69,25.400100000000002,exalted,0.05078,2393,161.2
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,idol-of-eramir,Idol of Eramir,Ritual,idol-of-eramir,0.7258784999999999,41.55,53.5995,exalted,0.02407,1122,107.8
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,idol-of-ralakesh,Idol of Ralakesh,Ritual,idol-of-ralakesh,1.4713234,84.22,108.6438,exalted,0.01187,8099,718.9
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,idol-of-the-sycophant,Idol of the Sycophant,Ritual,idol-of-the-sycophant,0.0574763,3.29,4.2441,exalted,0.304,267.0,-89.83
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-chance,Omen of Chance,Ritual,omen-of-chance,18.11639,1037.0,1337.73,divine,0.05521,27821,51.53
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-dextral-annulment,Omen of Dextral Annulment,Ritual,omen-of-dextral-annulment,4.481055,256.5,330.885,divine,0.2232,5343,124.0
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-dextral-erasure,Omen of Dextral Erasure,Ritual,omen-of-dextral-erasure,5.510038,315.4,406.866,divine,0.1815,7833,16.58
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-sinistral-annulment,Omen of Sinistral Annulment,Ritual,omen-of-sinistral-annulment,2.755019,157.7,203.433,exalted,0.006342,2759,86.11
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,owl-idol,Owl Idol,Ritual,owl-idol,0.016365895999999998,0.9368,1.208472,exalted,1.07,14.83,-7.04
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-answered-prayers,Omen of Answered Prayers,Ritual,omen-of-answered-prayers,0.018518200000000002,1.06,1.3674000000000002,exalted,0.9459,6.17,111.4
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-chaotic-quantity,Omen of Chaotic Quantity,Ritual,omen-of-chaotic-quantity,0.0683077,3.91,5.043900000000001,exalted,0.2555,1762,190.1
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-reinforcements,Omen of Reinforcements,Ritual,omen-of-reinforcements,0.1104104,6.32,8.152800000000001,exalted,0.1581,117.0,286.5
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-the-hunt,Omen of the Hunt,Ritual,omen-of-the-hunt,0.12229,7.0,9.030000000000001,exalted,0.1429,141.2,371.0
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,fox-idol,Fox Idol,Ritual,fox-idol,0.7209869,41.27,53.2383,exalted,0.02423,1011,628.2
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,head-of-the-king,Head of the King,Ritual,head-of-the-king,1.4349858,82.14,105.9606,exalted,0.01217,6736,16.08
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,idol-of-alira,Idol of Alira,Ritual,idol-of-alira,0.9816392999999999,56.19,72.4851,exalted,0.0178,3830,990.1
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,idol-of-grold,Idol of Grold,Ritual,idol-of-grold,0.1565312,8.96,11.5584,exalted,0.1116,630.0,151.1
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,idol-of-kraityn,Idol of Kraityn,Ritual,idol-of-kraityn,0.0562534,3.22,4.1538,exalted,0.3103,94.0,-45.12
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,idol-of-oak,Idol of Oak,Ritual,idol-of-oak,0.0653378,3.74,4.8246,exalted,0.2672,114.2,274.3
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,idol-of-silk,Idol of Silk,Ritual,idol-of-silk,0.0283014,1.62,2.0898000000000003,exalted,0.6154,8.67,-14.69
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,idol-of-sirrius,Idol of Sirrius,Ritual,idol-of-sirrius,1.1998396,68.68,88.59720000000002,exalted,0.01456,6616,284.2
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,idol-of-the-pharisee,Idol of the Pharisee,Ritual,idol-of-the-pharisee,0.0761692,4.36,5.6244000000000005,exalted,0.2292,445.8,-83.99
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,idol-of-thruldana,Idol of Thruldana,Ritual,idol-of-thruldana,0.1111092,6.36,8.204400000000001,exalted,0.1573,313.7,24.47
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-amelioration,Omen of Amelioration,Ritual,omen-of-amelioration,0.12543459999999998,7.18,9.2622,exalted,0.1392,12400,252.8
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-bartering,Omen of Bartering,Ritual,omen-of-bartering,0.0529341,3.03,3.9087,exalted,0.3301,4130,19.4
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-catalysing-exaltation,Omen of Catalysing Exaltation,Ritual,omen-of-catalysing-exaltation,0.0761692,4.36,5.6244000000000005,exalted,0.2295,2732,-56.62
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-chaotic-effectiveness,Omen of Chaotic Effectiveness,Ritual,omen-of-chaotic-effectiveness,0.027952,1.6,2.064,exalted,0.6265,390.5,19.17
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-chaotic-monsters,Omen of Chaotic Monsters,Ritual,omen-of-chaotic-monsters,0.0344159,1.97,2.5413,exalted,0.5075,565.8,46.12
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-chaotic-rarity,Omen of Chaotic Rarity,Ritual,omen-of-chaotic-rarity,0.041229199999999994,2.36,3.0444,exalted,0.4236,1193,66.03
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-dextral-exaltation,Omen of Dextral Exaltation,Ritual,omen-of-dextral-exaltation,0.0686571,3.93,5.0697,exalted,0.2545,9384,-54.19
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-dextral-necromancy,Omen of Dextral Necromancy,Ritual,omen-of-dextral-necromancy,0.08036199999999999,4.6,5.933999999999999,exalted,0.2175,11620,-36.66
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-putrefaction,Omen of Putrefaction,Ritual,omen-of-putrefaction,0.2082424,11.92,15.376800000000001,exalted,0.08387,27276,-37.19
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-refreshment,Omen of Refreshment,Ritual,omen-of-refreshment,0.0065337799999999994,0.374,0.48246,exalted,2.67,39.83,-59.72
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-resurgence,Omen of Resurgence,Ritual,omen-of-resurgence,0.029174899999999997,1.67,2.1543,exalted,0.599,1802,94.06
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-sanctification,Omen of Sanctification,Ritual,omen-of-sanctification,1.0174528,58.24,75.12960000000001,exalted,0.01717,737.7,151.4
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-secret-compartments,Omen of Secret Compartments,Ritual,omen-of-secret-compartments,0.22169429999999998,12.69,16.3701,exalted,0.07881,264.3,777.2
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-sinistral-erasure,Omen of Sinistral Erasure,Ritual,omen-of-sinistral-erasure,5.7633529999999995,329.9,425.57099999999997,divine,0.1735,8577,1.7
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-the-ancients,Omen of the Ancients,Ritual,omen-of-the-ancients,0.049265399999999994,2.82,3.6378,exalted,0.3547,4520,35.89
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-the-blackblooded,Omen of the Blackblooded,Ritual,omen-of-the-blackblooded,0.0335424,1.92,2.4768,exalted,0.5203,771.0,-37.69
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-the-blessed,Omen of the Blessed,Ritual,omen-of-the-blessed,0.1685855,9.65,12.448500000000001,exalted,0.1037,582.0,382.3
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-the-sovereign,Omen of the Sovereign,Ritual,omen-of-the-sovereign,0.025156799999999997,1.44,1.8576,exalted,0.693,833.3,-48.79
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,omen-of-whittling,Omen of Whittling,Ritual,omen-of-whittling,1.8570609999999999,106.3,137.127,exalted,0.009404,65701,6.12
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,ox-idol,Ox Idol,Ritual,ox-idol,0.0223616,1.28,1.6512,exalted,0.7811,38.83,1.88
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,rabbit-idol,Rabbit Idol,Ritual,rabbit-idol,0.6226308,35.64,45.9756,exalted,0.02806,9902,269.3
-2026-06-01T08:05:02+00:00,Runes of Aldur,Ritual,snake-idol,Snake Idol,Ritual,snake-idol,0.038958099999999996,2.23,2.8767,exalted,0.4486,264.5,65.86
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-abyssal-echoes,Omen of Abyssal Echoes,Ritual,omen-of-abyssal-echoes,,1.22,36.7342,exalted,0.01067,7141,151.1
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-chaotic-quantity,Omen of Chaotic Quantity,Ritual,omen-of-chaotic-quantity,,0.1398,4.209378,exalted,0.09333,261.2,701.1
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-dextral-annulment,Omen of Dextral Annulment,Ritual,omen-of-dextral-annulment,,3.17,95.4487,exalted,0.004119,426.1,71.29
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-dextral-crystallisation,Omen of Dextral Crystallisation,Ritual,omen-of-dextral-crystallisation,,0.232,6.98552,exalted,0.05625,260.3,-72.88
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-dextral-erasure,Omen of Dextral Erasure,Ritual,omen-of-dextral-erasure,,3.3,99.363,exalted,0.003956,433.8,205.2
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-greater-exaltation,Omen of Greater Exaltation,Ritual,omen-of-greater-exaltation,,0.05273,1.5877002999999998,exalted,0.2475,675.8,85.05
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-light,Omen of Light,Ritual,omen-of-light,,2.69,80.99589999999999,exalted,0.004846,4334,206.8
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-refreshment,Omen of Refreshment,Ritual,omen-of-refreshment,,0.00391,0.1177301,exalted,3.34,1.31,-63.58
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-sinistral-annulment,Omen of Sinistral Annulment,Ritual,omen-of-sinistral-annulment,,3.29,99.0619,exalted,0.003963,439.6,168.9
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-sinistral-crystallisation,Omen of Sinistral Crystallisation,Ritual,omen-of-sinistral-crystallisation,,0.2733,8.229063,exalted,0.04774,292.8,-27.23
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-sinistral-exaltation,Omen of Sinistral Exaltation,Ritual,omen-of-sinistral-exaltation,,0.03238,0.9749618,exalted,0.4031,99.48,-19.87
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-sinistral-necromancy,Omen of Sinistral Necromancy,Ritual,omen-of-sinistral-necromancy,,0.09465,2.8499114999999997,exalted,0.1379,553.8,-57.99
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-the-liege,Omen of the Liege,Ritual,omen-of-the-liege,,0.00381,0.1147191,exalted,3.42,6.03,-90.65
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-chance,Omen of Chance,Ritual,omen-of-chance,,9.56,287.8516,divine,0.1046,631.0,-23.14
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-the-hunt,Omen of the Hunt,Ritual,omen-of-the-hunt,,0.1875,5.645625,exalted,0.06961,9.65,803.4
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-answered-prayers,Omen of Answered Prayers,Ritual,omen-of-answered-prayers,,0.03177,0.9565947,exalted,0.4107,0.3654,387.0
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-reinforcements,Omen of Reinforcements,Ritual,omen-of-reinforcements,,0.1559,4.694149,exalted,0.08371,6.78,733.5
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,head-of-the-king,Head of the King,Ritual,head-of-the-king,,1.73,52.0903,exalted,0.007562,1171,97.39
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-amelioration,Omen of Amelioration,Ritual,omen-of-amelioration,,0.1617,4.868787,exalted,0.08069,598.9,506.9
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-bartering,Omen of Bartering,Ritual,omen-of-bartering,,0.03942,1.1869361999999999,exalted,0.3311,115.2,12.04
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-catalysing-exaltation,Omen of Catalysing Exaltation,Ritual,omen-of-catalysing-exaltation,,0.06244,1.8800684,exalted,0.209,75.01,-48.34
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-chaotic-effectiveness,Omen of Chaotic Effectiveness,Ritual,omen-of-chaotic-effectiveness,,0.03543,1.0667973000000002,exalted,0.3683,37.25,107.1
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-chaotic-monsters,Omen of Chaotic Monsters,Ritual,omen-of-chaotic-monsters,,0.04556,1.3718116,exalted,0.2864,46.76,176.4
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-chaotic-rarity,Omen of Chaotic Rarity,Ritual,omen-of-chaotic-rarity,,0.03948,1.1887428,exalted,0.3305,57.06,106.6
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-dextral-exaltation,Omen of Dextral Exaltation,Ritual,omen-of-dextral-exaltation,,0.02226,0.6702486,exalted,0.5863,66.52,-78.93
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-dextral-necromancy,Omen of Dextral Necromancy,Ritual,omen-of-dextral-necromancy,,0.02782,0.8376602,exalted,0.469,126.1,-69.67
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-gambling,Omen of Gambling,Ritual,omen-of-gambling,,0.007614,0.22925754,exalted,1.71,5.09,-25.32
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-putrefaction,Omen of Putrefaction,Ritual,omen-of-putrefaction,,0.108,3.25188,exalted,0.1208,530.2,-56.71
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-resurgence,Omen of Resurgence,Ritual,omen-of-resurgence,,0.03117,0.9385287,exalted,0.4187,90.62,199.0
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-sanctification,Omen of Sanctification,Ritual,omen-of-sanctification,,0.6106,18.385166,exalted,0.02137,52.41,66.92
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-secret-compartments,Omen of Secret Compartments,Ritual,omen-of-secret-compartments,,0.2324,6.997564,exalted,0.05615,10.69,1032
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-sinistral-erasure,Omen of Sinistral Erasure,Ritual,omen-of-sinistral-erasure,,4.8,144.528,divine,0.2083,735.3,-3.98
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-the-ancients,Omen of the Ancients,Ritual,omen-of-the-ancients,,0.0324,0.9755639999999999,exalted,0.4027,88.28,23.51
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-the-blackblooded,Omen of the Blackblooded,Ritual,omen-of-the-blackblooded,,0.03789,1.1408679,exalted,0.3444,18.95,-0.77
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-the-blessed,Omen of the Blessed,Ritual,omen-of-the-blessed,,0.1185,3.5680349999999996,exalted,0.1101,25.88,81.68
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-the-sovereign,Omen of the Sovereign,Ritual,omen-of-the-sovereign,,0.01843,0.5549272999999999,exalted,0.7082,13.51,-49.85
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,omen-of-whittling,Omen of Whittling,Ritual,omen-of-whittling,,2.31,69.5541,divine,0.4334,4035,-32.61
+2026-06-03T09:05:01+00:00,Runes of Aldur,Ritual,raven-touched-shard,Raven-Touched Shard,Ritual,raven-touched-shard,,14.45,435.0895,divine,0.06918,79.5,42.18

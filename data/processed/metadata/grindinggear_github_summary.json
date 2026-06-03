@@ -1,0 +1,20 @@
+{
+  "snapshot_time_utc": "2026-06-01T12:26:16+00:00",
+  "owner": "grindinggear",
+  "repo_count": 1,
+  "filter": "poe2_repositories_only",
+  "total_github_reported_size_kb": 9518,
+  "repos_json": "data\\raw\\grindinggear_github\\repos.json",
+  "repos_dir": "data\\raw\\grindinggear_github\\repos",
+  "clone_results": [
+    {
+      "name": "poe2-skilltree-export",
+      "path": "data\\raw\\grindinggear_github\\repos\\poe2-skilltree-export",
+      "clone_url": "https://github.com/grindinggear/poe2-skilltree-export.git",
+      "html_url": "https://github.com/grindinggear/poe2-skilltree-export",
+      "size_kb": 9518,
+      "default_branch": "main",
+      "action": "skipped"
+    }
+  ]
+}

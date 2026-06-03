@@ -2,18 +2,18 @@
   "core": {
     "items": [
       {
-        "id": "exalted",
-        "name": "Exalted Orb",
-        "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
-        "category": "Currency",
-        "detailsId": "exalted-orb"
-      },
-      {
         "id": "divine",
         "name": "Divine Orb",
         "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
         "category": "Currency",
         "detailsId": "divine-orb"
+      },
+      {
+        "id": "exalted",
+        "name": "Exalted Orb",
+        "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+        "category": "Currency",
+        "detailsId": "exalted-orb"
       },
       {
         "id": "chaos",
@@ -24,1312 +24,757 @@
       }
     ],
     "rates": {
-      "divine": 0.01747,
-      "chaos": 1.29
+      "exalted": 76.63,
+      "chaos": 30.11
     },
-    "primary": "exalted",
-    "secondary": "divine"
+    "primary": "divine",
+    "secondary": "exalted"
   },
   "lines": [
     {
-      "id": "cat-idol",
-      "primaryValue": 1.14,
-      "volumePrimaryValue": 35.5,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.8779,
-      "sparkline": {
-        "totalChange": 14.49,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          12.11,
-          14.49
-        ]
-      }
-    },
-    {
-      "id": "bear-idol",
-      "primaryValue": 2.01,
-      "volumePrimaryValue": 296.2,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.498,
-      "sparkline": {
-        "totalChange": 8.16,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          62.5,
-          8.16
-        ]
-      }
-    },
-    {
-      "id": "boar-idol",
-      "primaryValue": 1.36,
-      "volumePrimaryValue": 84.33,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.7352,
-      "sparkline": {
-        "totalChange": 29.99,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          57.89,
-          29.99
-        ]
-      }
-    },
-    {
-      "id": "idol-of-egrin",
-      "primaryValue": 14.92,
-      "volumePrimaryValue": 1346,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.06701,
-      "sparkline": {
-        "totalChange": 126.3,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          6.75,
-          126.3
-        ]
-      }
-    },
-    {
-      "id": "idol-of-greust",
-      "primaryValue": 4.47,
-      "volumePrimaryValue": 47.67,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.2238,
-      "sparkline": {
-        "totalChange": 215.1,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          159.3,
-          215.1
-        ]
-      }
-    },
-    {
-      "id": "idol-of-maxarius",
-      "primaryValue": 4.78,
-      "volumePrimaryValue": 166.3,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.2094,
-      "sparkline": {
-        "totalChange": 215.0,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          94.89,
-          215.0
-        ]
-      }
-    },
-    {
-      "id": "idol-of-the-martyr",
-      "primaryValue": 1.84,
-      "volumePrimaryValue": 34.67,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.5433,
-      "sparkline": {
-        "totalChange": -84.66,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -56.72,
-          -84.66
-        ]
-      }
-    },
-    {
-      "id": "idol-of-yeena",
-      "primaryValue": 3.64,
-      "volumePrimaryValue": 90.5,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.2744,
-      "sparkline": {
-        "totalChange": 108.2,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -30.75,
-          108.2
-        ]
-      }
-    },
-    {
       "id": "omen-of-abyssal-echoes",
-      "primaryValue": 78.14,
-      "volumePrimaryValue": 214567,
+      "primaryValue": 1.22,
+      "volumePrimaryValue": 7141,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.0128,
-      "sparkline": {
-        "totalChange": 110.2,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          42.09,
-          110.2
-        ]
-      }
-    },
-    {
-      "id": "omen-of-dextral-crystallisation",
-      "primaryValue": 16.47,
-      "volumePrimaryValue": 8935,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.06072,
-      "sparkline": {
-        "totalChange": -73.58,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -44.31,
-          -73.58
-        ]
-      }
-    },
-    {
-      "id": "omen-of-gambling",
-      "primaryValue": 0.5186,
-      "volumePrimaryValue": 153.0,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.93,
-      "sparkline": {
-        "totalChange": -33.99,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -18.22,
-          -33.99
-        ]
-      }
-    },
-    {
-      "id": "omen-of-greater-exaltation",
-      "primaryValue": 4.56,
-      "volumePrimaryValue": 38230,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.2194,
-      "sparkline": {
-        "totalChange": 116.4,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          56.23,
-          116.4
-        ]
-      }
-    },
-    {
-      "id": "omen-of-light",
-      "primaryValue": 179.6,
-      "volumePrimaryValue": 108320,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.005567,
-      "sparkline": {
-        "totalChange": 185.2,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          70.94,
-          185.2
-        ]
-      }
-    },
-    {
-      "id": "omen-of-sinistral-crystallisation",
-      "primaryValue": 8.99,
-      "volumePrimaryValue": 3871,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.1113,
-      "sparkline": {
-        "totalChange": -74.87,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -61.83,
-          -74.87
-        ]
-      }
-    },
-    {
-      "id": "omen-of-sinistral-exaltation",
-      "primaryValue": 2.61,
-      "volumePrimaryValue": 4938,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.3835,
-      "sparkline": {
-        "totalChange": -17.68,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          1.57,
-          -17.68
-        ]
-      }
-    },
-    {
-      "id": "omen-of-sinistral-necromancy",
-      "primaryValue": 12.15,
-      "volumePrimaryValue": 36214,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.08228,
-      "sparkline": {
-        "totalChange": -29.72,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -11.66,
-          -29.72
-        ]
-      }
-    },
-    {
-      "id": "omen-of-the-liege",
-      "primaryValue": 0.7329,
-      "volumePrimaryValue": 907.7,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.36,
-      "sparkline": {
-        "totalChange": -78.38,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -57.93,
-          -78.38
-        ]
-      }
-    },
-    {
-      "id": "primate-idol",
-      "primaryValue": 8.06,
-      "volumePrimaryValue": 3733,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.124,
-      "sparkline": {
-        "totalChange": 109.7,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          72.21,
-          109.7
-        ]
-      }
-    },
-    {
-      "id": "stag-idol",
-      "primaryValue": 0.9178,
-      "volumePrimaryValue": 33.5,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.09,
-      "sparkline": {
-        "totalChange": -14.34,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          1.12,
-          -14.34
-        ]
-      }
-    },
-    {
-      "id": "wolf-idol",
-      "primaryValue": 2.5,
-      "volumePrimaryValue": 109.7,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.3997,
-      "sparkline": {
-        "totalChange": 53.37,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -15.98,
-          53.37
-        ]
-      }
-    },
-    {
-      "id": "idol-of-eeshta",
-      "primaryValue": 19.69,
-      "volumePrimaryValue": 2393,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.05078,
-      "sparkline": {
-        "totalChange": 161.2,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -2.79,
-          161.2
-        ]
-      }
-    },
-    {
-      "id": "idol-of-eramir",
-      "primaryValue": 41.55,
-      "volumePrimaryValue": 1122,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.02407,
-      "sparkline": {
-        "totalChange": 107.8,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -23.7,
-          107.8
-        ]
-      }
-    },
-    {
-      "id": "idol-of-ralakesh",
-      "primaryValue": 84.22,
-      "volumePrimaryValue": 8099,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.01187,
-      "sparkline": {
-        "totalChange": 718.9,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          166.0,
-          718.9
-        ]
-      }
-    },
-    {
-      "id": "idol-of-the-sycophant",
-      "primaryValue": 3.29,
-      "volumePrimaryValue": 267.0,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.304,
-      "sparkline": {
-        "totalChange": -89.83,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -71.92,
-          -89.83
-        ]
-      }
-    },
-    {
-      "id": "omen-of-chance",
-      "primaryValue": 1037,
-      "volumePrimaryValue": 27821,
-      "maxVolumeCurrency": "divine",
-      "maxVolumeRate": 0.05521,
-      "sparkline": {
-        "totalChange": 51.53,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          0,
-          51.53
-        ]
-      }
-    },
-    {
-      "id": "omen-of-dextral-annulment",
-      "primaryValue": 256.5,
-      "volumePrimaryValue": 5343,
-      "maxVolumeCurrency": "divine",
-      "maxVolumeRate": 0.2232,
-      "sparkline": {
-        "totalChange": 124.0,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          88.59,
-          124.0
-        ]
-      }
-    },
-    {
-      "id": "omen-of-dextral-erasure",
-      "primaryValue": 315.4,
-      "volumePrimaryValue": 7833,
-      "maxVolumeCurrency": "divine",
-      "maxVolumeRate": 0.1815,
-      "sparkline": {
-        "totalChange": 16.58,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          0,
-          16.58
-        ]
-      }
-    },
-    {
-      "id": "omen-of-sinistral-annulment",
-      "primaryValue": 157.7,
-      "volumePrimaryValue": 2759,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.006342,
-      "sparkline": {
-        "totalChange": 86.11,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          0,
-          86.11
-        ]
-      }
-    },
-    {
-      "id": "owl-idol",
-      "primaryValue": 0.9368,
-      "volumePrimaryValue": 14.83,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.07,
-      "sparkline": {
-        "totalChange": -7.04,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -8.0,
-          -7.04
-        ]
-      }
-    },
-    {
-      "id": "omen-of-answered-prayers",
-      "primaryValue": 1.06,
-      "volumePrimaryValue": 6.17,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.9459,
-      "sparkline": {
-        "totalChange": 111.4,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          650.0,
-          111.4
-        ]
-      }
-    },
-    {
-      "id": "omen-of-chaotic-quantity",
-      "primaryValue": 3.91,
-      "volumePrimaryValue": 1762,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.2555,
-      "sparkline": {
-        "totalChange": 190.1,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          23.0,
-          190.1
-        ]
-      }
-    },
-    {
-      "id": "omen-of-reinforcements",
-      "primaryValue": 6.32,
-      "volumePrimaryValue": 117.0,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.1581,
-      "sparkline": {
-        "totalChange": 286.5,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          53.62,
-          286.5
-        ]
-      }
-    },
-    {
-      "id": "omen-of-the-hunt",
-      "primaryValue": 7,
-      "volumePrimaryValue": 141.2,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.1429,
-      "sparkline": {
-        "totalChange": 371.0,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          86.37,
-          371.0
-        ]
-      }
-    },
-    {
-      "id": "fox-idol",
-      "primaryValue": 41.27,
-      "volumePrimaryValue": 1011,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.02423,
-      "sparkline": {
-        "totalChange": 628.2,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          186.3,
-          628.2
-        ]
-      }
-    },
-    {
-      "id": "head-of-the-king",
-      "primaryValue": 82.14,
-      "volumePrimaryValue": 6736,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.01217,
-      "sparkline": {
-        "totalChange": 16.08,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          0,
-          16.08
-        ]
-      }
-    },
-    {
-      "id": "idol-of-alira",
-      "primaryValue": 56.19,
-      "volumePrimaryValue": 3830,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.0178,
-      "sparkline": {
-        "totalChange": 990.1,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -28.46,
-          990.1
-        ]
-      }
-    },
-    {
-      "id": "idol-of-grold",
-      "primaryValue": 8.96,
-      "volumePrimaryValue": 630.0,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.1116,
+      "maxVolumeRate": 0.01067,
       "sparkline": {
         "totalChange": 151.1,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          69.8,
+          42.82,
+          107.2,
+          146.7,
           151.1
         ]
       }
     },
     {
-      "id": "idol-of-kraityn",
-      "primaryValue": 3.22,
-      "volumePrimaryValue": 94.0,
+      "id": "omen-of-chaotic-quantity",
+      "primaryValue": 0.1398,
+      "volumePrimaryValue": 261.2,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.3103,
+      "maxVolumeRate": 0.09333,
       "sparkline": {
-        "totalChange": -45.12,
+        "totalChange": 701.1,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -54.87,
-          -45.12
+          31.07,
+          183.1,
+          571.8,
+          701.1
         ]
       }
     },
     {
-      "id": "idol-of-oak",
-      "primaryValue": 3.74,
-      "volumePrimaryValue": 114.2,
+      "id": "omen-of-dextral-annulment",
+      "primaryValue": 3.17,
+      "volumePrimaryValue": 426.1,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.2672,
+      "maxVolumeRate": 0.004119,
       "sparkline": {
-        "totalChange": 274.3,
+        "totalChange": 71.29,
         "data": [
           null,
           null,
           null,
-          null,
           0,
-          159.2,
-          274.3
+          66.23,
+          47.5,
+          71.29
         ]
       }
     },
     {
-      "id": "idol-of-silk",
-      "primaryValue": 1.62,
-      "volumePrimaryValue": 8.67,
+      "id": "omen-of-dextral-crystallisation",
+      "primaryValue": 0.232,
+      "volumePrimaryValue": 260.3,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.6154,
+      "maxVolumeRate": 0.05625,
       "sparkline": {
-        "totalChange": -14.69,
+        "totalChange": -72.88,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          12.17,
-          -14.69
+          -49.24,
+          -72.98,
+          -74.14,
+          -72.88
         ]
       }
     },
     {
-      "id": "idol-of-sirrius",
-      "primaryValue": 68.68,
-      "volumePrimaryValue": 6616,
+      "id": "omen-of-dextral-erasure",
+      "primaryValue": 3.3,
+      "volumePrimaryValue": 433.8,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.01456,
+      "maxVolumeRate": 0.003956,
       "sparkline": {
-        "totalChange": 284.2,
+        "totalChange": 205.2,
         "data": [
           null,
           null,
           null,
-          null,
           0,
-          78.52,
-          284.2
+          199.0,
+          167.3,
+          205.2
         ]
       }
     },
     {
-      "id": "idol-of-the-pharisee",
-      "primaryValue": 4.36,
-      "volumePrimaryValue": 445.8,
+      "id": "omen-of-greater-exaltation",
+      "primaryValue": 0.05273,
+      "volumePrimaryValue": 675.8,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.2292,
+      "maxVolumeRate": 0.2475,
       "sparkline": {
-        "totalChange": -83.99,
+        "totalChange": 85.05,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -22.22,
-          -83.99
+          53.49,
+          90.25,
+          85.98,
+          85.05
         ]
       }
     },
     {
-      "id": "idol-of-thruldana",
-      "primaryValue": 6.36,
-      "volumePrimaryValue": 313.7,
+      "id": "omen-of-light",
+      "primaryValue": 2.69,
+      "volumePrimaryValue": 4334,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.1573,
+      "maxVolumeRate": 0.004846,
       "sparkline": {
-        "totalChange": 24.47,
+        "totalChange": 206.8,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          17.34,
-          24.47
-        ]
-      }
-    },
-    {
-      "id": "omen-of-amelioration",
-      "primaryValue": 7.18,
-      "volumePrimaryValue": 12400,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.1392,
-      "sparkline": {
-        "totalChange": 252.8,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          73.17,
-          252.8
-        ]
-      }
-    },
-    {
-      "id": "omen-of-bartering",
-      "primaryValue": 3.03,
-      "volumePrimaryValue": 4130,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.3301,
-      "sparkline": {
-        "totalChange": 19.4,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          7.6,
-          19.4
-        ]
-      }
-    },
-    {
-      "id": "omen-of-catalysing-exaltation",
-      "primaryValue": 4.36,
-      "volumePrimaryValue": 2732,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.2295,
-      "sparkline": {
-        "totalChange": -56.62,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -36.13,
-          -56.62
-        ]
-      }
-    },
-    {
-      "id": "omen-of-chaotic-effectiveness",
-      "primaryValue": 1.6,
-      "volumePrimaryValue": 390.5,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.6265,
-      "sparkline": {
-        "totalChange": 19.17,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -10.16,
-          19.17
-        ]
-      }
-    },
-    {
-      "id": "omen-of-chaotic-monsters",
-      "primaryValue": 1.97,
-      "volumePrimaryValue": 565.8,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.5075,
-      "sparkline": {
-        "totalChange": 46.12,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -12.86,
-          46.12
-        ]
-      }
-    },
-    {
-      "id": "omen-of-chaotic-rarity",
-      "primaryValue": 2.36,
-      "volumePrimaryValue": 1193,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.4236,
-      "sparkline": {
-        "totalChange": 66.03,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          19.26,
-          66.03
-        ]
-      }
-    },
-    {
-      "id": "omen-of-dextral-exaltation",
-      "primaryValue": 3.93,
-      "volumePrimaryValue": 9384,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.2545,
-      "sparkline": {
-        "totalChange": -54.19,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -32.28,
-          -54.19
-        ]
-      }
-    },
-    {
-      "id": "omen-of-dextral-necromancy",
-      "primaryValue": 4.6,
-      "volumePrimaryValue": 11620,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.2175,
-      "sparkline": {
-        "totalChange": -36.66,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -4.36,
-          -36.66
-        ]
-      }
-    },
-    {
-      "id": "omen-of-putrefaction",
-      "primaryValue": 11.92,
-      "volumePrimaryValue": 27276,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.08387,
-      "sparkline": {
-        "totalChange": -37.19,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -3.55,
-          -37.19
+          57.67,
+          148.9,
+          187.4,
+          206.8
         ]
       }
     },
     {
       "id": "omen-of-refreshment",
-      "primaryValue": 0.374,
-      "volumePrimaryValue": 39.83,
+      "primaryValue": 0.00391,
+      "volumePrimaryValue": 1.31,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 2.67,
+      "maxVolumeRate": 3.34,
       "sparkline": {
-        "totalChange": -59.72,
+        "totalChange": -63.58,
+        "data": [
+          null,
+          null,
+          0,
+          -45.59,
+          -56.85,
+          -56.69,
+          -63.58
+        ]
+      }
+    },
+    {
+      "id": "omen-of-sinistral-annulment",
+      "primaryValue": 3.29,
+      "volumePrimaryValue": 439.6,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.003963,
+      "sparkline": {
+        "totalChange": 168.9,
         "data": [
           null,
           null,
           null,
+          0,
+          93.5,
+          125.9,
+          168.9
+        ]
+      }
+    },
+    {
+      "id": "omen-of-sinistral-crystallisation",
+      "primaryValue": 0.2733,
+      "volumePrimaryValue": 292.8,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.04774,
+      "sparkline": {
+        "totalChange": -27.23,
+        "data": [
+          null,
           null,
           0,
-          -52.92,
-          -59.72
+          -53.98,
+          -63.18,
+          -46.35,
+          -27.23
+        ]
+      }
+    },
+    {
+      "id": "omen-of-sinistral-exaltation",
+      "primaryValue": 0.03238,
+      "volumePrimaryValue": 99.48,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.4031,
+      "sparkline": {
+        "totalChange": -19.87,
+        "data": [
+          null,
+          null,
+          0,
+          2.09,
+          -17.2,
+          -21.84,
+          -19.87
+        ]
+      }
+    },
+    {
+      "id": "omen-of-sinistral-necromancy",
+      "primaryValue": 0.09465,
+      "volumePrimaryValue": 553.8,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.1379,
+      "sparkline": {
+        "totalChange": -57.99,
+        "data": [
+          null,
+          null,
+          0,
+          -12.59,
+          -28.4,
+          -48.57,
+          -57.99
+        ]
+      }
+    },
+    {
+      "id": "omen-of-the-liege",
+      "primaryValue": 0.00381,
+      "volumePrimaryValue": 6.03,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 3.42,
+      "sparkline": {
+        "totalChange": -90.65,
+        "data": [
+          null,
+          null,
+          0,
+          -56.43,
+          -76.88,
+          -84.06,
+          -90.65
+        ]
+      }
+    },
+    {
+      "id": "omen-of-chance",
+      "primaryValue": 9.56,
+      "volumePrimaryValue": 631.0,
+      "maxVolumeCurrency": "divine",
+      "maxVolumeRate": 0.1046,
+      "sparkline": {
+        "totalChange": -23.14,
+        "data": [
+          null,
+          null,
+          null,
+          0,
+          31.47,
+          -12.33,
+          -23.14
+        ]
+      }
+    },
+    {
+      "id": "omen-of-the-hunt",
+      "primaryValue": 0.1875,
+      "volumePrimaryValue": 9.65,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.06961,
+      "sparkline": {
+        "totalChange": 803.4,
+        "data": [
+          null,
+          null,
+          0,
+          81.99,
+          432.8,
+          720.2,
+          803.4
+        ]
+      }
+    },
+    {
+      "id": "omen-of-answered-prayers",
+      "primaryValue": 0.03177,
+      "volumePrimaryValue": 0.3654,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.4107,
+      "sparkline": {
+        "totalChange": 387.0,
+        "data": [
+          null,
+          null,
+          0,
+          190.9,
+          194.6,
+          394.2,
+          387.0
+        ]
+      }
+    },
+    {
+      "id": "omen-of-reinforcements",
+      "primaryValue": 0.1559,
+      "volumePrimaryValue": 6.78,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.08371,
+      "sparkline": {
+        "totalChange": 733.5,
+        "data": [
+          null,
+          null,
+          0,
+          92.27,
+          345.1,
+          822.4,
+          733.5
+        ]
+      }
+    },
+    {
+      "id": "head-of-the-king",
+      "primaryValue": 1.73,
+      "volumePrimaryValue": 1171,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.007562,
+      "sparkline": {
+        "totalChange": 97.39,
+        "data": [
+          null,
+          null,
+          0,
+          9.23,
+          39.79,
+          24.2,
+          97.39
+        ]
+      }
+    },
+    {
+      "id": "omen-of-amelioration",
+      "primaryValue": 0.1617,
+      "volumePrimaryValue": 598.9,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.08069,
+      "sparkline": {
+        "totalChange": 506.9,
+        "data": [
+          null,
+          null,
+          0,
+          75.37,
+          224.6,
+          402.4,
+          506.9
+        ]
+      }
+    },
+    {
+      "id": "omen-of-bartering",
+      "primaryValue": 0.03942,
+      "volumePrimaryValue": 115.2,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.3311,
+      "sparkline": {
+        "totalChange": 12.04,
+        "data": [
+          null,
+          null,
+          0,
+          -0.22,
+          -1.07,
+          20.6,
+          12.04
+        ]
+      }
+    },
+    {
+      "id": "omen-of-catalysing-exaltation",
+      "primaryValue": 0.06244,
+      "volumePrimaryValue": 75.01,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.209,
+      "sparkline": {
+        "totalChange": -48.34,
+        "data": [
+          null,
+          null,
+          0,
+          -32.96,
+          -47.93,
+          -52.13,
+          -48.34
+        ]
+      }
+    },
+    {
+      "id": "omen-of-chaotic-effectiveness",
+      "primaryValue": 0.03543,
+      "volumePrimaryValue": 37.25,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.3683,
+      "sparkline": {
+        "totalChange": 107.1,
+        "data": [
+          null,
+          null,
+          0,
+          -6.11,
+          34.63,
+          113.0,
+          107.1
+        ]
+      }
+    },
+    {
+      "id": "omen-of-chaotic-monsters",
+      "primaryValue": 0.04556,
+      "volumePrimaryValue": 46.76,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.2864,
+      "sparkline": {
+        "totalChange": 176.4,
+        "data": [
+          null,
+          null,
+          0,
+          -2.06,
+          53.41,
+          142.2,
+          176.4
+        ]
+      }
+    },
+    {
+      "id": "omen-of-chaotic-rarity",
+      "primaryValue": 0.03948,
+      "volumePrimaryValue": 57.06,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.3305,
+      "sparkline": {
+        "totalChange": 106.6,
+        "data": [
+          null,
+          null,
+          0,
+          15.25,
+          50.53,
+          87.44,
+          106.6
+        ]
+      }
+    },
+    {
+      "id": "omen-of-dextral-exaltation",
+      "primaryValue": 0.02226,
+      "volumePrimaryValue": 66.52,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.5863,
+      "sparkline": {
+        "totalChange": -78.93,
+        "data": [
+          null,
+          null,
+          0,
+          -29.23,
+          -57.63,
+          -68.36,
+          -78.93
+        ]
+      }
+    },
+    {
+      "id": "omen-of-dextral-necromancy",
+      "primaryValue": 0.02782,
+      "volumePrimaryValue": 126.1,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.469,
+      "sparkline": {
+        "totalChange": -69.67,
+        "data": [
+          null,
+          null,
+          0,
+          -2.36,
+          -33.84,
+          -60.17,
+          -69.67
+        ]
+      }
+    },
+    {
+      "id": "omen-of-gambling",
+      "primaryValue": 0.007614,
+      "volumePrimaryValue": 5.09,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.71,
+      "sparkline": {
+        "totalChange": -25.32,
+        "data": [
+          null,
+          null,
+          0,
+          -20.16,
+          -31.1,
+          -24.14,
+          -25.32
+        ]
+      }
+    },
+    {
+      "id": "omen-of-putrefaction",
+      "primaryValue": 0.108,
+      "volumePrimaryValue": 530.2,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.1208,
+      "sparkline": {
+        "totalChange": -56.71,
+        "data": [
+          null,
+          null,
+          0,
+          -5.12,
+          -33.86,
+          -28.05,
+          -56.71
         ]
       }
     },
     {
       "id": "omen-of-resurgence",
-      "primaryValue": 1.67,
-      "volumePrimaryValue": 1802,
+      "primaryValue": 0.03117,
+      "volumePrimaryValue": 90.62,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.599,
+      "maxVolumeRate": 0.4187,
       "sparkline": {
-        "totalChange": 94.06,
+        "totalChange": 199.0,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          13.95,
-          94.06
+          25.32,
+          80.28,
+          168.5,
+          199.0
         ]
       }
     },
     {
       "id": "omen-of-sanctification",
-      "primaryValue": 58.24,
-      "volumePrimaryValue": 737.7,
+      "primaryValue": 0.6106,
+      "volumePrimaryValue": 52.41,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.01717,
+      "maxVolumeRate": 0.02137,
       "sparkline": {
-        "totalChange": 151.4,
+        "totalChange": 66.92,
         "data": [
           null,
           null,
           null,
-          null,
-          null,
           0,
-          151.4
+          86.78,
+          50.0,
+          66.92
         ]
       }
     },
     {
       "id": "omen-of-secret-compartments",
-      "primaryValue": 12.69,
-      "volumePrimaryValue": 264.3,
+      "primaryValue": 0.2324,
+      "volumePrimaryValue": 10.69,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.07881,
+      "maxVolumeRate": 0.05615,
       "sparkline": {
-        "totalChange": 777.2,
+        "totalChange": 1032,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          204.7,
-          777.2
+          201.7,
+          587.5,
+          784.5,
+          1032
         ]
       }
     },
     {
       "id": "omen-of-sinistral-erasure",
-      "primaryValue": 329.9,
-      "volumePrimaryValue": 8577,
+      "primaryValue": 4.8,
+      "volumePrimaryValue": 735.3,
       "maxVolumeCurrency": "divine",
-      "maxVolumeRate": 0.1735,
+      "maxVolumeRate": 0.2083,
       "sparkline": {
-        "totalChange": 1.7,
+        "totalChange": -3.98,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -33.82,
-          1.7
+          -21.88,
+          12.9,
+          -16.63,
+          -3.98
         ]
       }
     },
     {
       "id": "omen-of-the-ancients",
-      "primaryValue": 2.82,
-      "volumePrimaryValue": 4520,
+      "primaryValue": 0.0324,
+      "volumePrimaryValue": 88.28,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.3547,
+      "maxVolumeRate": 0.4027,
       "sparkline": {
-        "totalChange": 35.89,
+        "totalChange": 23.51,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -6.63,
-          35.89
+          -3.17,
+          20.71,
+          1.17,
+          23.51
         ]
       }
     },
     {
       "id": "omen-of-the-blackblooded",
-      "primaryValue": 1.92,
-      "volumePrimaryValue": 771.0,
+      "primaryValue": 0.03789,
+      "volumePrimaryValue": 18.95,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.5203,
+      "maxVolumeRate": 0.3444,
       "sparkline": {
-        "totalChange": -37.69,
+        "totalChange": -0.77,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -35.16,
-          -37.69
+          -34.67,
+          -34.5,
+          -7.28,
+          -0.77
         ]
       }
     },
     {
       "id": "omen-of-the-blessed",
-      "primaryValue": 9.65,
-      "volumePrimaryValue": 582.0,
+      "primaryValue": 0.1185,
+      "volumePrimaryValue": 25.88,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.1037,
+      "maxVolumeRate": 0.1101,
       "sparkline": {
-        "totalChange": 382.3,
+        "totalChange": 81.68,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          815.7,
-          382.3
+          265.2,
+          133.5,
+          102.8,
+          81.68
         ]
       }
     },
     {
       "id": "omen-of-the-sovereign",
-      "primaryValue": 1.44,
-      "volumePrimaryValue": 833.3,
+      "primaryValue": 0.01843,
+      "volumePrimaryValue": 13.51,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.693,
+      "maxVolumeRate": 0.7082,
       "sparkline": {
-        "totalChange": -48.79,
+        "totalChange": -49.85,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -9.82,
-          -48.79
+          -13.22,
+          -45.27,
+          -50.08,
+          -49.85
         ]
       }
     },
     {
       "id": "omen-of-whittling",
-      "primaryValue": 106.3,
-      "volumePrimaryValue": 65701,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.009404,
+      "primaryValue": 2.31,
+      "volumePrimaryValue": 4035,
+      "maxVolumeCurrency": "divine",
+      "maxVolumeRate": 0.4334,
       "sparkline": {
-        "totalChange": 6.12,
+        "totalChange": -32.61,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          39.06,
-          6.12
+          -9.05,
+          -46.78,
+          -47.17,
+          -32.61
         ]
       }
     },
     {
-      "id": "ox-idol",
-      "primaryValue": 1.28,
-      "volumePrimaryValue": 38.83,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.7811,
+      "id": "raven-touched-shard",
+      "primaryValue": 14.45,
+      "volumePrimaryValue": 79.5,
+      "maxVolumeCurrency": "divine",
+      "maxVolumeRate": 0.06918,
       "sparkline": {
-        "totalChange": 1.88,
+        "totalChange": 42.18,
         "data": [
           null,
           null,
           null,
           null,
           0,
-          -22.4,
-          1.88
-        ]
-      }
-    },
-    {
-      "id": "rabbit-idol",
-      "primaryValue": 35.64,
-      "volumePrimaryValue": 9902,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.02806,
-      "sparkline": {
-        "totalChange": 269.3,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          94.14,
-          269.3
-        ]
-      }
-    },
-    {
-      "id": "snake-idol",
-      "primaryValue": 2.23,
-      "volumePrimaryValue": 264.5,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.4486,
-      "sparkline": {
-        "totalChange": 65.86,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          73.01,
-          65.86
+          59.56,
+          42.18
         ]
       }
     }
   ],
   "items": [
     {
-      "id": "cat-idol",
-      "name": "Cat Idol",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZUNhdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3d5bc70405/AzmeriSocketableCat.png",
-      "category": "Ritual",
-      "detailsId": "cat-idol"
-    },
-    {
-      "id": "bear-idol",
-      "name": "Bear Idol",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZUJlYXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2d494d1054/AzmeriSocketableBear.png",
-      "category": "Ritual",
-      "detailsId": "bear-idol"
-    },
-    {
-      "id": "boar-idol",
-      "name": "Boar Idol",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZUJvYXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5e04714fc6/AzmeriSocketableBoar.png",
-      "category": "Ritual",
-      "detailsId": "boar-idol"
-    },
-    {
-      "id": "idol-of-egrin",
-      "name": "Idol of Egrin",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZUNhdFNwZWNpYWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/16657ca6fc/AzmeriSocketableCatSpecial.png",
-      "category": "Ritual",
-      "detailsId": "idol-of-egrin"
-    },
-    {
-      "id": "idol-of-greust",
-      "name": "Idol of Greust",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvSWRvbG9mR3JldXN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/04513fa428/IdolofGreust.png",
-      "category": "Ritual",
-      "detailsId": "idol-of-greust"
-    },
-    {
-      "id": "idol-of-maxarius",
-      "name": "Idol of Maxarius",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZVN0YWdTcGVjaWFsIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/f012409342/AzmeriSocketableStagSpecial.png",
-      "category": "Ritual",
-      "detailsId": "idol-of-maxarius"
-    },
-    {
-      "id": "idol-of-the-martyr",
-      "name": "Idol of the Martyr",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvUml0dWFsQ29ycnVwdGVkSWRvbDIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/3d4b0cf485/RitualCorruptedIdol2.png",
-      "category": "Ritual",
-      "detailsId": "idol-of-the-martyr"
-    },
-    {
-      "id": "idol-of-yeena",
-      "name": "Idol of Yeena",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvSWRvbG9mWWVlbmEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/f9671c2da7/IdolofYeena.png",
-      "category": "Ritual",
-      "detailsId": "idol-of-yeena"
-    },
-    {
       "id": "omen-of-abyssal-echoes",
       "name": "Omen of Abyssal Echoes",
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQWJ5c3NSZXJvbGxPcHRpb25zIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9690f99016/OmenOnAbyssRerollOptions.png",
       "category": "Ritual",
       "detailsId": "omen-of-abyssal-echoes"
+    },
+    {
+      "id": "omen-of-chaotic-quantity",
+      "name": "Omen of Chaotic Quantity",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQ2hhb3NNYXBQYWNrU2l6ZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/9ea6c86009/OmenOnChaosMapPackSize.png",
+      "category": "Ritual",
+      "detailsId": "omen-of-chaotic-quantity"
+    },
+    {
+      "id": "omen-of-dextral-annulment",
+      "name": "Omen of Dextral Annulment",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzUHVycGxlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d901658529/VoodooOmens3Purple.png",
+      "category": "Ritual",
+      "detailsId": "omen-of-dextral-annulment"
     },
     {
       "id": "omen-of-dextral-crystallisation",
@@ -1339,11 +784,11 @@
       "detailsId": "omen-of-dextral-crystallisation"
     },
     {
-      "id": "omen-of-gambling",
-      "name": "Omen of Gambling",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbkdhbWJsZU5vR29sZENvc3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/90225aff24/OmenGambleNoGoldCost.png",
+      "id": "omen-of-dextral-erasure",
+      "name": "Omen of Dextral Erasure",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzRGFyayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6e2bb52963/VoodooOmens3Dark.png",
       "category": "Ritual",
-      "detailsId": "omen-of-gambling"
+      "detailsId": "omen-of-dextral-erasure"
     },
     {
       "id": "omen-of-greater-exaltation",
@@ -1358,6 +803,20 @@
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQW5udWxSZW1vdmVBYnlzc01vZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/eb39bcb3d7/OmenOnAnnulRemoveAbyssMod.png",
       "category": "Ritual",
       "detailsId": "omen-of-light"
+    },
+    {
+      "id": "omen-of-refreshment",
+      "name": "Omen of Refreshment",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxQmx1ZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/213474d1d5/VoodooOmens1Blue.png",
+      "category": "Ritual",
+      "detailsId": "omen-of-refreshment"
+    },
+    {
+      "id": "omen-of-sinistral-annulment",
+      "name": "Omen of Sinistral Annulment",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyUHVycGxlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b9eaf38592/VoodooOmens2Purple.png",
+      "category": "Ritual",
+      "detailsId": "omen-of-sinistral-annulment"
     },
     {
       "id": "omen-of-sinistral-crystallisation",
@@ -1388,109 +847,11 @@
       "detailsId": "omen-of-the-liege"
     },
     {
-      "id": "primate-idol",
-      "name": "Primate Idol",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZU1vbmtleSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/77a4554895/AzmeriSocketableMonkey.png",
-      "category": "Ritual",
-      "detailsId": "primate-idol"
-    },
-    {
-      "id": "stag-idol",
-      "name": "Stag Idol",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZVN0YWciLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2a0668f95a/AzmeriSocketableStag.png",
-      "category": "Ritual",
-      "detailsId": "stag-idol"
-    },
-    {
-      "id": "wolf-idol",
-      "name": "Wolf Idol",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZVdvbGYiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/c0deeb6d94/AzmeriSocketableWolf.png",
-      "category": "Ritual",
-      "detailsId": "wolf-idol"
-    },
-    {
-      "id": "idol-of-eeshta",
-      "name": "Idol of Eeshta",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZU93bFNwZWNpYWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/8965465ce6/AzmeriSocketableOwlSpecial.png",
-      "category": "Ritual",
-      "detailsId": "idol-of-eeshta"
-    },
-    {
-      "id": "idol-of-eramir",
-      "name": "Idol of Eramir",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvSWRvbG9mRXJhbWlyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/16c654b06e/IdolofEramir.png",
-      "category": "Ritual",
-      "detailsId": "idol-of-eramir"
-    },
-    {
-      "id": "idol-of-ralakesh",
-      "name": "Idol of Ralakesh",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZU1vbmtleVNwZWNpYWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/8ffc9986a0/AzmeriSocketableMonkeySpecial.png",
-      "category": "Ritual",
-      "detailsId": "idol-of-ralakesh"
-    },
-    {
-      "id": "idol-of-the-sycophant",
-      "name": "Idol of the Sycophant",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvUml0dWFsQ29ycnVwdGVkSWRvbDEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/cac5e993bc/RitualCorruptedIdol1.png",
-      "category": "Ritual",
-      "detailsId": "idol-of-the-sycophant"
-    },
-    {
       "id": "omen-of-chance",
       "name": "Omen of Chance",
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQ2hhbmNlTm90RGVzdHJveSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/461b794959/OmenOnChanceNotDestroy.png",
       "category": "Ritual",
       "detailsId": "omen-of-chance"
-    },
-    {
-      "id": "omen-of-dextral-annulment",
-      "name": "Omen of Dextral Annulment",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzUHVycGxlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d901658529/VoodooOmens3Purple.png",
-      "category": "Ritual",
-      "detailsId": "omen-of-dextral-annulment"
-    },
-    {
-      "id": "omen-of-dextral-erasure",
-      "name": "Omen of Dextral Erasure",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzRGFyayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6e2bb52963/VoodooOmens3Dark.png",
-      "category": "Ritual",
-      "detailsId": "omen-of-dextral-erasure"
-    },
-    {
-      "id": "omen-of-sinistral-annulment",
-      "name": "Omen of Sinistral Annulment",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyUHVycGxlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b9eaf38592/VoodooOmens2Purple.png",
-      "category": "Ritual",
-      "detailsId": "omen-of-sinistral-annulment"
-    },
-    {
-      "id": "owl-idol",
-      "name": "Owl Idol",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZU93bCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/dfe1212549/AzmeriSocketableOwl.png",
-      "category": "Ritual",
-      "detailsId": "owl-idol"
-    },
-    {
-      "id": "omen-of-answered-prayers",
-      "name": "Omen of Answered Prayers",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnM0Qmx1ZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ba21c85554/VoodooOmens4Blue.png",
-      "category": "Ritual",
-      "detailsId": "omen-of-answered-prayers"
-    },
-    {
-      "id": "omen-of-chaotic-quantity",
-      "name": "Omen of Chaotic Quantity",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQ2hhb3NNYXBQYWNrU2l6ZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/9ea6c86009/OmenOnChaosMapPackSize.png",
-      "category": "Ritual",
-      "detailsId": "omen-of-chaotic-quantity"
-    },
-    {
-      "id": "omen-of-reinforcements",
-      "name": "Omen of Reinforcements",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnM0UHVycGxlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/bed352248c/VoodooOmens4Purple.png",
-      "category": "Ritual",
-      "detailsId": "omen-of-reinforcements"
     },
     {
       "id": "omen-of-the-hunt",
@@ -1500,11 +861,18 @@
       "detailsId": "omen-of-the-hunt"
     },
     {
-      "id": "fox-idol",
-      "name": "Fox Idol",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZUZveCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/9d48a79d56/AzmeriSocketableFox.png",
+      "id": "omen-of-answered-prayers",
+      "name": "Omen of Answered Prayers",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnM0Qmx1ZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ba21c85554/VoodooOmens4Blue.png",
       "category": "Ritual",
-      "detailsId": "fox-idol"
+      "detailsId": "omen-of-answered-prayers"
+    },
+    {
+      "id": "omen-of-reinforcements",
+      "name": "Omen of Reinforcements",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnM0UHVycGxlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/bed352248c/VoodooOmens4Purple.png",
+      "category": "Ritual",
+      "detailsId": "omen-of-reinforcements"
     },
     {
       "id": "head-of-the-king",
@@ -1512,62 +880,6 @@
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9LaW5nb2Z0aGVNaXN0SGVhZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/254e341ba3/KingoftheMistHead.png",
       "category": "Ritual",
       "detailsId": "head-of-the-king"
-    },
-    {
-      "id": "idol-of-alira",
-      "name": "Idol of Alira",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvSWRvbG9BbGlyYSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/e42de4138f/IdoloAlira.png",
-      "category": "Ritual",
-      "detailsId": "idol-of-alira"
-    },
-    {
-      "id": "idol-of-grold",
-      "name": "Idol of Grold",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZUJlYXJTcGVjaWFsIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/363a2de335/AzmeriSocketableBearSpecial.png",
-      "category": "Ritual",
-      "detailsId": "idol-of-grold"
-    },
-    {
-      "id": "idol-of-kraityn",
-      "name": "Idol of Kraityn",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvSWRvbG9LcmFpdHluIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/06571f7a6a/IdoloKraityn.png",
-      "category": "Ritual",
-      "detailsId": "idol-of-kraityn"
-    },
-    {
-      "id": "idol-of-oak",
-      "name": "Idol of Oak",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvSWRvbG9mT2FrIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/3b899a4269/IdolofOak.png",
-      "category": "Ritual",
-      "detailsId": "idol-of-oak"
-    },
-    {
-      "id": "idol-of-silk",
-      "name": "Idol of Silk",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvSWRvbG9mU2lsayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/79679b0f2b/IdolofSilk.png",
-      "category": "Ritual",
-      "detailsId": "idol-of-silk"
-    },
-    {
-      "id": "idol-of-sirrius",
-      "name": "Idol of Sirrius",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZVdvbGZTcGVjaWFsIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/53db9f9ba3/AzmeriSocketableWolfSpecial.png",
-      "category": "Ritual",
-      "detailsId": "idol-of-sirrius"
-    },
-    {
-      "id": "idol-of-the-pharisee",
-      "name": "Idol of the Pharisee",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvUml0dWFsQ29ycnVwdGVkSWRvbDMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/8555a2a109/RitualCorruptedIdol3.png",
-      "category": "Ritual",
-      "detailsId": "idol-of-the-pharisee"
-    },
-    {
-      "id": "idol-of-thruldana",
-      "name": "Idol of Thruldana",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZVNuYWtlU3BlY2lhbCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/f44ebc01aa/AzmeriSocketableSnakeSpecial.png",
-      "category": "Ritual",
-      "detailsId": "idol-of-thruldana"
     },
     {
       "id": "omen-of-amelioration",
@@ -1626,18 +938,18 @@
       "detailsId": "omen-of-dextral-necromancy"
     },
     {
+      "id": "omen-of-gambling",
+      "name": "Omen of Gambling",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbkdhbWJsZU5vR29sZENvc3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/90225aff24/OmenGambleNoGoldCost.png",
+      "category": "Ritual",
+      "detailsId": "omen-of-gambling"
+    },
+    {
       "id": "omen-of-putrefaction",
       "name": "Omen of Putrefaction",
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQWJ5c3NWZWlsQWxsQW5kQ29ycnVwdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/8c706ec466/OmenOnAbyssVeilAllAndCorrupt.png",
       "category": "Ritual",
       "detailsId": "omen-of-putrefaction"
-    },
-    {
-      "id": "omen-of-refreshment",
-      "name": "Omen of Refreshment",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxQmx1ZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/213474d1d5/VoodooOmens1Blue.png",
-      "category": "Ritual",
-      "detailsId": "omen-of-refreshment"
     },
     {
       "id": "omen-of-resurgence",
@@ -1703,25 +1015,11 @@
       "detailsId": "omen-of-whittling"
     },
     {
-      "id": "ox-idol",
-      "name": "Ox Idol",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZU94Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/5ebdb092f5/AzmeriSocketableOx.png",
+      "id": "raven-touched-shard",
+      "name": "Raven-Touched Shard",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGVsaXJpdW0vRGVsaXJpdW1FbmRnYW1lU29ja2V0YWJsZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/8ad4972b7b/DeliriumEndgameSocketable.png",
       "category": "Ritual",
-      "detailsId": "ox-idol"
-    },
-    {
-      "id": "rabbit-idol",
-      "name": "Rabbit Idol",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZVJhYmJpdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/d578d6d700/AzmeriSocketableRabbit.png",
-      "category": "Ritual",
-      "detailsId": "rabbit-idol"
-    },
-    {
-      "id": "snake-idol",
-      "name": "Snake Idol",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZVNuYWtlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/752d762312/AzmeriSocketableSnake.png",
-      "category": "Ritual",
-      "detailsId": "snake-idol"
+      "detailsId": "raven-touched-shard"
     }
   ]
 }

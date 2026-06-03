@@ -2,18 +2,18 @@
   "core": {
     "items": [
       {
-        "id": "exalted",
-        "name": "Exalted Orb",
-        "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
-        "category": "Currency",
-        "detailsId": "exalted-orb"
-      },
-      {
         "id": "divine",
         "name": "Divine Orb",
         "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
         "category": "Currency",
         "detailsId": "divine-orb"
+      },
+      {
+        "id": "exalted",
+        "name": "Exalted Orb",
+        "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+        "category": "Currency",
+        "detailsId": "exalted-orb"
       },
       {
         "id": "chaos",
@@ -24,1974 +24,1157 @@
       }
     ],
     "rates": {
-      "divine": 0.01747,
-      "chaos": 1.29
+      "exalted": 76.63,
+      "chaos": 30.11
     },
-    "primary": "exalted",
-    "secondary": "divine"
+    "primary": "divine",
+    "secondary": "exalted"
   },
   "lines": [
     {
       "id": "adept-rune",
-      "primaryValue": 0.6071,
-      "volumePrimaryValue": 2.83,
+      "primaryValue": 0.01305,
+      "volumePrimaryValue": 0.1414,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.65,
+      "maxVolumeRate": 1,
       "sparkline": {
-        "totalChange": -54.83,
+        "totalChange": -30.26,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -16.73,
-          -54.83
+          -25.71,
+          -27.76,
+          19.94,
+          -30.26
         ]
       }
     },
     {
       "id": "aldurs-legacy",
-      "primaryValue": 1965,
-      "volumePrimaryValue": 2948,
+      "primaryValue": 91.11,
+      "volumePrimaryValue": 531.5,
       "maxVolumeCurrency": "divine",
-      "maxVolumeRate": 0.02913,
+      "maxVolumeRate": 0.01098,
       "sparkline": {
-        "totalChange": -18.58,
+        "totalChange": 113.1,
         "data": [
           null,
           null,
           null,
           null,
-          null,
-          null,
-          -18.58
+          0,
+          -5.94,
+          113.1
         ]
       }
     },
     {
       "id": "ancient-rune-of-animosity",
-      "primaryValue": 1,
-      "volumePrimaryValue": 1.83,
+      "primaryValue": 0.03745,
+      "volumePrimaryValue": 0.1435,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1,
+      "maxVolumeRate": 0.3485,
       "sparkline": {
-        "totalChange": 0,
+        "totalChange": 187.0,
         "data": [
-          null,
-          null,
           null,
           null,
           0,
           4.17,
-          0
+          15.33,
+          56.85,
+          187.0
         ]
       }
     },
     {
       "id": "ancient-rune-of-control",
-      "primaryValue": 1.11,
-      "volumePrimaryValue": 6.67,
+      "primaryValue": 0.0162,
+      "volumePrimaryValue": 0.07829,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.9,
+      "maxVolumeRate": 0.8056,
       "sparkline": {
-        "totalChange": -62.96,
+        "totalChange": -31.03,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -62.19,
-          -62.96
+          -36.97,
+          -39.56,
+          -28.72,
+          -31.03
         ]
       }
     },
     {
       "id": "ancient-rune-of-decay",
-      "primaryValue": 3.09,
-      "volumePrimaryValue": 11.33,
+      "primaryValue": 0.0344,
+      "volumePrimaryValue": 0.1892,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.3235,
+      "maxVolumeRate": 0.3793,
       "sparkline": {
-        "totalChange": 7.51,
+        "totalChange": -10.25,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -19.04,
-          7.51
+          -20.6,
+          -0.48,
+          -13.06,
+          -10.25
         ]
       }
     },
     {
       "id": "ancient-rune-of-detonation",
-      "primaryValue": 2.89,
-      "volumePrimaryValue": 160.2,
+      "primaryValue": 0.04631,
+      "volumePrimaryValue": 2.45,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.3455,
+      "maxVolumeRate": 0.2818,
       "sparkline": {
-        "totalChange": -8.46,
+        "totalChange": 16.09,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          2.82,
-          -8.46
+          3.8,
+          -3.45,
+          40.9,
+          16.09
         ]
       }
     },
     {
       "id": "ancient-rune-of-discovery",
-      "primaryValue": 2.69,
-      "volumePrimaryValue": 7.17,
+      "primaryValue": 0.03212,
+      "volumePrimaryValue": 0.0696,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.3721,
+      "maxVolumeRate": 0.4062,
       "sparkline": {
-        "totalChange": 13.16,
+        "totalChange": 23.08,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -15.56,
-          13.16
+          -4.31,
+          28.3,
+          35.32,
+          23.08
         ]
       }
     },
     {
       "id": "ancient-rune-of-dueling",
-      "primaryValue": 1.43,
-      "volumePrimaryValue": 5.0,
+      "primaryValue": 0.03565,
+      "volumePrimaryValue": 0.2436,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.7,
+      "maxVolumeRate": 0.3661,
       "sparkline": {
-        "totalChange": 2.04,
+        "totalChange": 15.89,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          138.6,
-          2.04
+          28.01,
+          -18.54,
+          4.11,
+          15.89
         ]
       }
     },
     {
       "id": "ancient-rune-of-prowess",
-      "primaryValue": 1.02,
-      "volumePrimaryValue": 63.67,
+      "primaryValue": 0.01346,
+      "volumePrimaryValue": 0.4306,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.9791,
+      "maxVolumeRate": 0.9697,
       "sparkline": {
-        "totalChange": -25.74,
+        "totalChange": -10.04,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -28.31,
-          -25.74
+          -13.4,
+          1.52,
+          -1.34,
+          -10.04
         ]
       }
     },
     {
       "id": "ancient-rune-of-retaliation",
-      "primaryValue": 1.4,
-      "volumePrimaryValue": 3.5,
+      "primaryValue": 0.0203,
+      "volumePrimaryValue": 0.0609,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.7143,
+      "maxVolumeRate": 0.6429,
       "sparkline": {
-        "totalChange": -30.0,
+        "totalChange": -22.22,
         "data": [
-          null,
-          null,
           null,
           null,
           0,
           -41.67,
-          -30.0
+          -38.21,
+          -38.1,
+          -22.22
         ]
       }
     },
     {
       "id": "ancient-rune-of-shattering",
-      "primaryValue": 4.27,
-      "volumePrimaryValue": 39.17,
+      "primaryValue": 0.04986,
+      "volumePrimaryValue": 0.8808,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.234,
+      "maxVolumeRate": 0.2617,
       "sparkline": {
-        "totalChange": -31.64,
+        "totalChange": -17.07,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -54.8,
-          -31.64
+          -40.14,
+          -21.13,
+          -35.48,
+          -17.07
         ]
       }
     },
     {
       "id": "ancient-rune-of-splinters",
-      "primaryValue": 0.9643,
-      "volumePrimaryValue": 40.5,
+      "primaryValue": 0.01299,
+      "volumePrimaryValue": 0.4676,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.04,
+      "maxVolumeRate": 1.0,
       "sparkline": {
-        "totalChange": -28.95,
+        "totalChange": -24.96,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -21.53,
-          -28.95
+          -19.57,
+          -28.06,
+          -26.2,
+          -24.96
         ]
       }
     },
     {
       "id": "ancient-rune-of-the-horde",
-      "primaryValue": 1.68,
-      "volumePrimaryValue": 51.5,
+      "primaryValue": 0.02975,
+      "volumePrimaryValue": 0.709,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.5955,
+      "maxVolumeRate": 0.4387,
       "sparkline": {
-        "totalChange": -14.51,
+        "totalChange": 19.57,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -6.05,
-          -14.51
+          -2.53,
+          -11.4,
+          5.41,
+          19.57
         ]
       }
     },
     {
       "id": "ancient-rune-of-the-titan",
-      "primaryValue": 1.42,
-      "volumePrimaryValue": 2.83,
+      "primaryValue": 0.03571,
+      "volumePrimaryValue": 0.1131,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.7059,
+      "maxVolumeRate": 0.3654,
       "sparkline": {
-        "totalChange": -50,
+        "totalChange": -5.63,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -16.97,
-          -50
+          -17.75,
+          -42.69,
+          2.49,
+          -5.63
         ]
       }
     },
     {
       "id": "astrids-creativity",
-      "primaryValue": 264.6,
-      "volumePrimaryValue": 6879,
+      "primaryValue": 15.57,
+      "volumePrimaryValue": 2468,
       "maxVolumeCurrency": "divine",
-      "maxVolumeRate": 0.2164,
+      "maxVolumeRate": 0.06422,
       "sparkline": {
-        "totalChange": 362.2,
+        "totalChange": 938.1,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          178.9,
-          362.2
+          203.7,
+          287.8,
+          660.2,
+          938.1
         ]
       }
     },
     {
       "id": "betrayal-of-aldur",
-      "primaryValue": 22.27,
-      "volumePrimaryValue": 189.3,
+      "primaryValue": 0.1583,
+      "volumePrimaryValue": 4.01,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.04489,
+      "maxVolumeRate": 0.08243,
       "sparkline": {
-        "totalChange": 178.4,
+        "totalChange": 51.64,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          141.7,
-          178.4
+          103.7,
+          132.2,
+          47.45,
+          51.64
         ]
       }
     },
     {
       "id": "body-rune",
-      "primaryValue": 1.13,
-      "volumePrimaryValue": 18.67,
+      "primaryValue": 0.02078,
+      "volumePrimaryValue": 0.3567,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.8839,
+      "maxVolumeRate": 0.628,
       "sparkline": {
-        "totalChange": 43.39,
+        "totalChange": 78.42,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          27.43,
-          43.39
+          7.0,
+          50.03,
+          79.12,
+          78.42
         ]
       }
     },
     {
       "id": "breath-of-aldur",
-      "primaryValue": 50.48,
-      "volumePrimaryValue": 1910,
+      "primaryValue": 0.4616,
+      "volumePrimaryValue": 46.93,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.01981,
+      "maxVolumeRate": 0.02827,
       "sparkline": {
-        "totalChange": 293.3,
+        "totalChange": 272.4,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          384.3,
-          293.3
+          555.2,
+          544.8,
+          479.9,
+          272.4
         ]
       }
     },
     {
       "id": "cadigans-epiphany",
-      "primaryValue": 226.9,
-      "volumePrimaryValue": 3063,
+      "primaryValue": 7.93,
+      "volumePrimaryValue": 492.8,
       "maxVolumeCurrency": "divine",
-      "maxVolumeRate": 0.2523,
+      "maxVolumeRate": 0.1261,
       "sparkline": {
-        "totalChange": 107.5,
+        "totalChange": 371.7,
         "data": [
           null,
           null,
           null,
-          null,
-          null,
           0,
-          107.5
-        ]
-      }
-    },
-    {
-      "id": "ancient-rune-of-witchcraft",
-      "primaryValue": 0.8264,
-      "volumePrimaryValue": 16.67,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.21,
-      "sparkline": {
-        "totalChange": -17.36,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -1.04,
-          -17.36
+          82.88,
+          192.5,
+          371.7
         ]
       }
     },
     {
       "id": "countess-seskes-rune-of-archery",
-      "primaryValue": 14.45,
-      "volumePrimaryValue": 5686,
+      "primaryValue": 0.2293,
+      "volumePrimaryValue": 119.4,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.06921,
+      "maxVolumeRate": 0.05691,
       "sparkline": {
-        "totalChange": -30.4,
+        "totalChange": -37.35,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -3.53,
-          -30.4
+          -30.2,
+          -52.05,
+          -39.85,
+          -37.35
         ]
       }
     },
     {
       "id": "courtesan-mannans-rune-of-cruelty",
-      "primaryValue": 2.06,
-      "volumePrimaryValue": 123.2,
+      "primaryValue": 0.02627,
+      "volumePrimaryValue": 2.28,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.4844,
+      "maxVolumeRate": 0.4967,
       "sparkline": {
-        "totalChange": -1.82,
+        "totalChange": 3.39,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -5.13,
-          -1.82
+          2.76,
+          17.65,
+          34.0,
+          3.39
         ]
       }
     },
     {
       "id": "craiceanns-rune-of-recovery",
-      "primaryValue": 2.34,
-      "volumePrimaryValue": 489.5,
+      "primaryValue": 0.06729,
+      "volumePrimaryValue": 22.15,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.428,
+      "maxVolumeRate": 0.1939,
       "sparkline": {
-        "totalChange": 40.47,
+        "totalChange": 287.6,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          23.28,
-          40.47
-        ]
-      }
-    },
-    {
-      "id": "farruls-rune-of-the-chase",
-      "primaryValue": 21.71,
-      "volumePrimaryValue": 9651,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.04606,
-      "sparkline": {
-        "totalChange": 39.75,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          22.25,
-          39.75
-        ]
-      }
-    },
-    {
-      "id": "farruls-rune-of-the-hunt",
-      "primaryValue": 2.71,
-      "volumePrimaryValue": 910.8,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.3694,
-      "sparkline": {
-        "totalChange": 31.55,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          22.98,
-          31.55
-        ]
-      }
-    },
-    {
-      "id": "fenumus-rune-of-agony",
-      "primaryValue": 2.02,
-      "volumePrimaryValue": 415.0,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.4948,
-      "sparkline": {
-        "totalChange": 12.21,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          23.1,
-          12.21
-        ]
-      }
-    },
-    {
-      "id": "fenumus-rune-of-draining",
-      "primaryValue": 2.88,
-      "volumePrimaryValue": 58.0,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.3477,
-      "sparkline": {
-        "totalChange": 52.71,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          23.9,
-          52.71
-        ]
-      }
-    },
-    {
-      "id": "fenumus-rune-of-spinning",
-      "primaryValue": 2.26,
-      "volumePrimaryValue": 331.8,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.4425,
-      "sparkline": {
-        "totalChange": 18.17,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -5.96,
-          18.17
-        ]
-      }
-    },
-    {
-      "id": "glacial-rune",
-      "primaryValue": 0.8834,
-      "volumePrimaryValue": 50.5,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.13,
-      "sparkline": {
-        "totalChange": -11.91,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          16.26,
-          -11.91
-        ]
-      }
-    },
-    {
-      "id": "greater-adept-rune",
-      "primaryValue": 1.66,
-      "volumePrimaryValue": 582.7,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.6038,
-      "sparkline": {
-        "totalChange": -16.33,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -18.51,
-          -16.33
-        ]
-      }
-    },
-    {
-      "id": "greater-desert-rune",
-      "primaryValue": 0.7673,
-      "volumePrimaryValue": 1482,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.3,
-      "sparkline": {
-        "totalChange": -49.56,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          12.64,
-          -49.56
-        ]
-      }
-    },
-    {
-      "id": "greater-inspiration-rune",
-      "primaryValue": 0.7098,
-      "volumePrimaryValue": 48.5,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.41,
-      "sparkline": {
-        "totalChange": -19.96,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -10.23,
-          -19.96
-        ]
-      }
-    },
-    {
-      "id": "greater-resolve-rune",
-      "primaryValue": 1.35,
-      "volumePrimaryValue": 691.8,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.7381,
-      "sparkline": {
-        "totalChange": -22.43,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -15.69,
-          -22.43
-        ]
-      }
-    },
-    {
-      "id": "greater-robust-rune",
-      "primaryValue": 1.3,
-      "volumePrimaryValue": 415.2,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.7676,
-      "sparkline": {
-        "totalChange": -31.54,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -25.43,
-          -31.54
-        ]
-      }
-    },
-    {
-      "id": "greater-stone-rune",
-      "primaryValue": 0.4021,
-      "volumePrimaryValue": 13.0,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 2.49,
-      "sparkline": {
-        "totalChange": -43.1,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -34.82,
-          -43.1
-        ]
-      }
-    },
-    {
-      "id": "greater-vision-rune",
-      "primaryValue": 0.9091,
-      "volumePrimaryValue": 103.3,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.1,
-      "sparkline": {
-        "totalChange": -52.78,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -45.75,
-          -52.78
-        ]
-      }
-    },
-    {
-      "id": "iron-rune",
-      "primaryValue": 2.91,
-      "volumePrimaryValue": 934.2,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.3438,
-      "sparkline": {
-        "totalChange": 189.1,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          88.0,
-          189.1
-        ]
-      }
-    },
-    {
-      "id": "lesser-desert-rune",
-      "primaryValue": 0.5458,
-      "volumePrimaryValue": 25.83,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.83,
-      "sparkline": {
-        "totalChange": -48.55,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -54.04,
-          -48.55
-        ]
-      }
-    },
-    {
-      "id": "lesser-resolve-rune",
-      "primaryValue": 0.9438,
-      "volumePrimaryValue": 14.0,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.06,
-      "sparkline": {
-        "totalChange": -33.85,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -13.6,
-          -33.85
-        ]
-      }
-    },
-    {
-      "id": "lesser-ward-rune",
-      "primaryValue": 0.9333,
-      "volumePrimaryValue": 4.67,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.07,
-      "sparkline": {
-        "totalChange": 4.64,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -3.91,
-          4.64
-        ]
-      }
-    },
-    {
-      "id": "masterwork-rune",
-      "primaryValue": 11.29,
-      "volumePrimaryValue": 9450,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.08856,
-      "sparkline": {
-        "totalChange": 371.2,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          114.7,
-          371.2
-        ]
-      }
-    },
-    {
-      "id": "rune-of-acrobatics",
-      "primaryValue": 2.08,
-      "volumePrimaryValue": 88.5,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.4802,
-      "sparkline": {
-        "totalChange": 15.17,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          49.35,
-          15.17
-        ]
-      }
-    },
-    {
-      "id": "rune-of-consistency",
-      "primaryValue": 1.17,
-      "volumePrimaryValue": 25.17,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.8543,
-      "sparkline": {
-        "totalChange": 7.3,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -2.37,
-          7.3
-        ]
-      }
-    },
-    {
-      "id": "rune-of-foundations",
-      "primaryValue": 1.65,
-      "volumePrimaryValue": 171.5,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.6064,
-      "sparkline": {
-        "totalChange": 57.62,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          43.27,
-          57.62
-        ]
-      }
-    },
-    {
-      "id": "rune-of-the-blossom",
-      "primaryValue": 2.05,
-      "volumePrimaryValue": 299.2,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.4869,
-      "sparkline": {
-        "totalChange": 51.81,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          26.44,
-          51.81
-        ]
-      }
-    },
-    {
-      "id": "saqawals-rune-of-erosion",
-      "primaryValue": 3.35,
-      "volumePrimaryValue": 133.8,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.2989,
-      "sparkline": {
-        "totalChange": 28.16,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          19.54,
-          28.16
-        ]
-      }
-    },
-    {
-      "id": "saqawals-rune-of-the-sky",
-      "primaryValue": 9.75,
-      "volumePrimaryValue": 8084,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.1025,
-      "sparkline": {
-        "totalChange": 126.0,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          77.3,
-          126.0
-        ]
-      }
-    },
-    {
-      "id": "storm-rune",
-      "primaryValue": 0.8814,
-      "volumePrimaryValue": 63.17,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.13,
-      "sparkline": {
-        "totalChange": 5.66,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          25.68,
-          5.66
-        ]
-      }
-    },
-    {
-      "id": "thane-girts-rune-of-wildness",
-      "primaryValue": 1.31,
-      "volumePrimaryValue": 43.17,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.7645,
-      "sparkline": {
-        "totalChange": -28.98,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -47.28,
-          -28.98
-        ]
-      }
-    },
-    {
-      "id": "thane-grannells-rune-of-mastery",
-      "primaryValue": 5.51,
-      "volumePrimaryValue": 1134,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.1815,
-      "sparkline": {
-        "totalChange": 47.06,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          23.82,
-          47.06
-        ]
-      }
-    },
-    {
-      "id": "thane-lelds-rune-of-spring",
-      "primaryValue": 3.45,
-      "volumePrimaryValue": 846.3,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.2901,
-      "sparkline": {
-        "totalChange": -18.19,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          6.78,
-          -18.19
-        ]
-      }
-    },
-    {
-      "id": "the-greatwolfs-rune-of-willpower",
-      "primaryValue": 5.68,
-      "volumePrimaryValue": 815.7,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.1761,
-      "sparkline": {
-        "totalChange": 33.52,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          32.75,
-          33.52
-        ]
-      }
-    },
-    {
-      "id": "warding-rune-of-armature",
-      "primaryValue": 2.72,
-      "volumePrimaryValue": 31.33,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.367,
-      "sparkline": {
-        "totalChange": 123.4,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          26.03,
-          123.4
-        ]
-      }
-    },
-    {
-      "id": "warding-rune-of-courage",
-      "primaryValue": 0.8594,
-      "volumePrimaryValue": 9.17,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.16,
-      "sparkline": {
-        "totalChange": -3.32,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          10.38,
-          -3.32
-        ]
-      }
-    },
-    {
-      "id": "warding-rune-of-heart",
-      "primaryValue": 1.59,
-      "volumePrimaryValue": 294.8,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.6286,
-      "sparkline": {
-        "totalChange": -32.72,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          17.4,
-          -32.72
-        ]
-      }
-    },
-    {
-      "id": "warding-rune-of-hollowing",
-      "primaryValue": 2.3,
-      "volumePrimaryValue": 49.17,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.4339,
-      "sparkline": {
-        "totalChange": 59.01,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          83.14,
-          59.01
-        ]
-      }
-    },
-    {
-      "id": "warding-rune-of-reinforcement",
-      "primaryValue": 2.27,
-      "volumePrimaryValue": 202.2,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.4411,
-      "sparkline": {
-        "totalChange": 143.3,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          45.21,
-          143.3
-        ]
-      }
-    },
-    {
-      "id": "warding-rune-of-stability",
-      "primaryValue": 2.5,
-      "volumePrimaryValue": 33.33,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.4,
-      "sparkline": {
-        "totalChange": 150.0,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          113.9,
-          150.0
-        ]
-      }
-    },
-    {
-      "id": "charging-rune",
-      "primaryValue": 2.86,
-      "volumePrimaryValue": 3.33,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.35,
-      "sparkline": {
-        "totalChange": 42.86,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          43.67,
-          42.86
+          57.01,
+          104.6,
+          161.7,
+          287.6
         ]
       }
     },
     {
       "id": "craiceanns-rune-of-warding",
-      "primaryValue": 5.48,
-      "volumePrimaryValue": 1473,
+      "primaryValue": 0.2259,
+      "volumePrimaryValue": 94.26,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.1826,
+      "maxVolumeRate": 0.05777,
       "sparkline": {
-        "totalChange": 131.1,
+        "totalChange": 635.8,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          35.21,
-          131.1
+          39.84,
+          202.1,
+          352.3,
+          635.8
         ]
       }
     },
     {
-      "id": "desert-rune",
-      "primaryValue": 1.12,
-      "volumePrimaryValue": 52.67,
+      "id": "farruls-rune-of-the-chase",
+      "primaryValue": 0.4288,
+      "volumePrimaryValue": 325.9,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.8892,
+      "maxVolumeRate": 0.03043,
       "sparkline": {
-        "totalChange": 17.62,
+        "totalChange": 78.96,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          7.83,
-          17.62
+          4.27,
+          26.61,
+          63.0,
+          78.96
         ]
       }
     },
     {
-      "id": "greater-rune-of-leadership",
-      "primaryValue": 103.4,
-      "volumePrimaryValue": 1414,
+      "id": "farruls-rune-of-the-hunt",
+      "primaryValue": 0.04187,
+      "volumePrimaryValue": 17.06,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.009668,
+      "maxVolumeRate": 0.3116,
       "sparkline": {
-        "totalChange": 173.4,
+        "totalChange": 46.28,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          39.23,
-          173.4
+          15.15,
+          31.47,
+          53.83,
+          46.28
         ]
       }
     },
     {
-      "id": "kolrs-hunt",
-      "primaryValue": 30.13,
-      "volumePrimaryValue": 266.2,
+      "id": "fenumus-rune-of-agony",
+      "primaryValue": 0.03293,
+      "volumePrimaryValue": 8.4,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.03319,
+      "maxVolumeRate": 0.3963,
       "sparkline": {
-        "totalChange": 151.1,
+        "totalChange": 39.66,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          120.3,
-          151.1
+          21.31,
+          30.11,
+          55.25,
+          39.66
         ]
       }
     },
     {
-      "id": "medveds-tending",
-      "primaryValue": 25.66,
-      "volumePrimaryValue": 124.0,
+      "id": "fenumus-rune-of-draining",
+      "primaryValue": 0.02501,
+      "volumePrimaryValue": 1.1,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.03898,
+      "maxVolumeRate": 0.5217,
       "sparkline": {
-        "totalChange": 83.25,
+        "totalChange": -3.15,
         "data": [
           null,
           null,
-          null,
-          null,
-          null,
           0,
-          83.25
+          16.72,
+          30.93,
+          7.52,
+          -3.15
         ]
       }
     },
     {
-      "id": "perfect-glacial-rune",
-      "primaryValue": 135.3,
-      "volumePrimaryValue": 248.1,
-      "maxVolumeCurrency": "divine",
-      "maxVolumeRate": 0.4231,
+      "id": "fenumus-rune-of-spinning",
+      "primaryValue": 0.03197,
+      "volumePrimaryValue": 7.14,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.4082,
       "sparkline": {
-        "totalChange": -2.8,
+        "totalChange": 31.87,
         "data": [
           null,
           null,
+          0,
+          -4.36,
+          35.04,
+          60.7,
+          31.87
+        ]
+      }
+    },
+    {
+      "id": "greater-adept-rune",
+      "primaryValue": 0.01624,
+      "volumePrimaryValue": 6.06,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.8033,
+      "sparkline": {
+        "totalChange": -26.81,
+        "data": [
           null,
           null,
+          0,
+          -6.55,
+          -22.05,
+          -16.76,
+          -26.81
+        ]
+      }
+    },
+    {
+      "id": "greater-desert-rune",
+      "primaryValue": 0.008544,
+      "volumePrimaryValue": 9.18,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.53,
+      "sparkline": {
+        "totalChange": -58.65,
+        "data": [
           null,
           null,
-          -2.8
+          0,
+          5.58,
+          -47.85,
+          -59.94,
+          -58.65
+        ]
+      }
+    },
+    {
+      "id": "greater-inspiration-rune",
+      "primaryValue": 0.009434,
+      "volumePrimaryValue": 0.7264,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.38,
+      "sparkline": {
+        "totalChange": -18.34,
+        "data": [
+          null,
+          null,
+          0,
+          -9.4,
+          -27.23,
+          -29.49,
+          -18.34
+        ]
+      }
+    },
+    {
+      "id": "greater-resolve-rune",
+      "primaryValue": 0.01777,
+      "volumePrimaryValue": 8.28,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.7342,
+      "sparkline": {
+        "totalChange": -24.74,
+        "data": [
+          null,
+          null,
+          0,
+          -20.74,
+          -27.37,
+          -20.5,
+          -24.74
+        ]
+      }
+    },
+    {
+      "id": "greater-robust-rune",
+      "primaryValue": 0.01424,
+      "volumePrimaryValue": 5.69,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.9163,
+      "sparkline": {
+        "totalChange": -40.75,
+        "data": [
+          null,
+          null,
+          0,
+          -26.01,
+          -38.89,
+          -34.79,
+          -40.75
+        ]
+      }
+    },
+    {
+      "id": "greater-stone-rune",
+      "primaryValue": 0.003075,
+      "volumePrimaryValue": 0.08917,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 4.24,
+      "sparkline": {
+        "totalChange": -64.36,
+        "data": [
+          null,
+          null,
+          0,
+          -31.54,
+          -40.95,
+          -51.75,
+          -64.36
+        ]
+      }
+    },
+    {
+      "id": "greater-vision-rune",
+      "primaryValue": 0.009168,
+      "volumePrimaryValue": 1.38,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.42,
+      "sparkline": {
+        "totalChange": -61.95,
+        "data": [
+          null,
+          null,
+          0,
+          -43.37,
+          -63.05,
+          -63.52,
+          -61.95
+        ]
+      }
+    },
+    {
+      "id": "iron-rune",
+      "primaryValue": 0.03201,
+      "volumePrimaryValue": 5.0,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.4076,
+      "sparkline": {
+        "totalChange": 141.2,
+        "data": [
+          null,
+          null,
+          0,
+          88.91,
+          163.7,
+          199.3,
+          141.2
+        ]
+      }
+    },
+    {
+      "id": "lesser-desert-rune",
+      "primaryValue": 0.007175,
+      "volumePrimaryValue": 0.4197,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.82,
+      "sparkline": {
+        "totalChange": -42.13,
+        "data": [
+          null,
+          null,
+          0,
+          -50.26,
+          -43.51,
+          -48.21,
+          -42.13
+        ]
+      }
+    },
+    {
+      "id": "lesser-resolve-rune",
+      "primaryValue": 0.02206,
+      "volumePrimaryValue": 0.3567,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.5915,
+      "sparkline": {
+        "totalChange": 24.54,
+        "data": [
+          null,
+          null,
+          0,
+          -6.61,
+          51.41,
+          89.36,
+          24.54
+        ]
+      }
+    },
+    {
+      "id": "lesser-ward-rune",
+      "primaryValue": 0.01251,
+      "volumePrimaryValue": 0.1522,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.04,
+      "sparkline": {
+        "totalChange": 4.24,
+        "data": [
+          null,
+          null,
+          0,
+          -3.67,
+          1.01,
+          2.23,
+          4.24
+        ]
+      }
+    },
+    {
+      "id": "masterwork-rune",
+      "primaryValue": 0.3727,
+      "volumePrimaryValue": 512.0,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.03502,
+      "sparkline": {
+        "totalChange": 998.4,
+        "data": [
+          null,
+          null,
+          0,
+          100.9,
+          344.1,
+          723.6,
+          998.4
         ]
       }
     },
     {
       "id": "robust-rune",
-      "primaryValue": 1.18,
-      "volumePrimaryValue": 23.5,
+      "primaryValue": 0.01841,
+      "volumePrimaryValue": 0.7764,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.844,
+      "maxVolumeRate": 0.7087,
       "sparkline": {
-        "totalChange": -27.53,
+        "totalChange": -4.1,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -7.61,
-          -27.53
+          -1.12,
+          -20.63,
+          -19.21,
+          -4.1
         ]
       }
     },
     {
-      "id": "serles-triumph",
-      "primaryValue": 143.9,
-      "volumePrimaryValue": 839.6,
+      "id": "rune-of-acrobatics",
+      "primaryValue": 0.04856,
+      "volumePrimaryValue": 2.52,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.2687,
+      "sparkline": {
+        "totalChange": 98.48,
+        "data": [
+          null,
+          null,
+          0,
+          43.67,
+          13.61,
+          49.68,
+          98.48
+        ]
+      }
+    },
+    {
+      "id": "rune-of-consistency",
+      "primaryValue": 0.01876,
+      "volumePrimaryValue": 0.3784,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.6954,
+      "sparkline": {
+        "totalChange": 37.82,
+        "data": [
+          null,
+          null,
+          0,
+          4.58,
+          9.38,
+          2.66,
+          37.82
+        ]
+      }
+    },
+    {
+      "id": "rune-of-foundations",
+      "primaryValue": 0.02572,
+      "volumePrimaryValue": 4.02,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.5073,
+      "sparkline": {
+        "totalChange": 87.71,
+        "data": [
+          null,
+          null,
+          0,
+          42.47,
+          49.99,
+          94.26,
+          87.71
+        ]
+      }
+    },
+    {
+      "id": "rune-of-the-blossom",
+      "primaryValue": 0.03437,
+      "volumePrimaryValue": 5.57,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.3796,
+      "sparkline": {
+        "totalChange": 125.1,
+        "data": [
+          null,
+          null,
+          0,
+          47.21,
+          71.07,
+          86.79,
+          125.1
+        ]
+      }
+    },
+    {
+      "id": "saqawals-rune-of-erosion",
+      "primaryValue": 0.04415,
+      "volumePrimaryValue": 2.11,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.2956,
+      "sparkline": {
+        "totalChange": -10.38,
+        "data": [
+          null,
+          null,
+          0,
+          -14.78,
+          -29.47,
+          -25.46,
+          -10.38
+        ]
+      }
+    },
+    {
+      "id": "saqawals-rune-of-the-sky",
+      "primaryValue": 0.1273,
+      "volumePrimaryValue": 133.5,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.1025,
+      "sparkline": {
+        "totalChange": 117.9,
+        "data": [
+          null,
+          null,
+          0,
+          73.02,
+          133.8,
+          175.8,
+          117.9
+        ]
+      }
+    },
+    {
+      "id": "thane-girts-rune-of-wildness",
+      "primaryValue": 0.01982,
+      "volumePrimaryValue": 0.535,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.6585,
+      "sparkline": {
+        "totalChange": 4.16,
+        "data": [
+          null,
+          null,
+          0,
+          -29.93,
+          0.39,
+          17.24,
+          4.16
+        ]
+      }
+    },
+    {
+      "id": "thane-grannells-rune-of-mastery",
+      "primaryValue": 0.08039,
+      "volumePrimaryValue": 24.48,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.1623,
+      "sparkline": {
+        "totalChange": 68.58,
+        "data": [
+          null,
+          null,
+          0,
+          27.53,
+          68.79,
+          87.77,
+          68.58
+        ]
+      }
+    },
+    {
+      "id": "thane-lelds-rune-of-spring",
+      "primaryValue": 0.03839,
+      "volumePrimaryValue": 7.59,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.3399,
+      "sparkline": {
+        "totalChange": -25.65,
+        "data": [
+          null,
+          null,
+          0,
+          13.45,
+          0.91,
+          -14.41,
+          -25.65
+        ]
+      }
+    },
+    {
+      "id": "the-greatwolfs-rune-of-willpower",
+      "primaryValue": 0.09369,
+      "volumePrimaryValue": 17.91,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.1393,
+      "sparkline": {
+        "totalChange": 92.98,
+        "data": [
+          null,
+          null,
+          0,
+          49.81,
+          121.0,
+          185.9,
+          92.98
+        ]
+      }
+    },
+    {
+      "id": "warding-rune-of-armature",
+      "primaryValue": 0.04989,
+      "volumePrimaryValue": 1.6,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.2616,
+      "sparkline": {
+        "totalChange": 222.8,
+        "data": [
+          null,
+          null,
+          0,
+          39.38,
+          105.9,
+          178.6,
+          222.8
+        ]
+      }
+    },
+    {
+      "id": "warding-rune-of-hollowing",
+      "primaryValue": 0.02571,
+      "volumePrimaryValue": 0.7242,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.5075,
+      "sparkline": {
+        "totalChange": 39.09,
+        "data": [
+          null,
+          null,
+          0,
+          89.73,
+          83.02,
+          68.85,
+          39.09
+        ]
+      }
+    },
+    {
+      "id": "warding-rune-of-reinforcement",
+      "primaryValue": 0.03014,
+      "volumePrimaryValue": 3.21,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.433,
+      "sparkline": {
+        "totalChange": 148.4,
+        "data": [
+          null,
+          null,
+          0,
+          48.29,
+          77.04,
+          134.3,
+          148.4
+        ]
+      }
+    },
+    {
+      "id": "warding-rune-of-stability",
+      "primaryValue": 0.04145,
+      "volumePrimaryValue": 0.3523,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.3148,
+      "sparkline": {
+        "totalChange": 217.6,
+        "data": [
+          null,
+          null,
+          0,
+          98.85,
+          213.4,
+          202.9,
+          217.6
+        ]
+      }
+    },
+    {
+      "id": "charging-rune",
+      "primaryValue": 0.07056,
+      "volumePrimaryValue": 0.3175,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.1849,
+      "sparkline": {
+        "totalChange": 126.4,
+        "data": [
+          null,
+          null,
+          0,
+          -11.16,
+          -24.6,
+          -13.65,
+          126.4
+        ]
+      }
+    },
+    {
+      "id": "desert-rune",
+      "primaryValue": 0.01661,
+      "volumePrimaryValue": 0.7003,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.7857,
+      "sparkline": {
+        "totalChange": 55.74,
+        "data": [
+          null,
+          null,
+          0,
+          24.73,
+          8.15,
+          20.56,
+          55.74
+        ]
+      }
+    },
+    {
+      "id": "greater-rune-of-leadership",
+      "primaryValue": 2.35,
+      "volumePrimaryValue": 110.2,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.005543,
+      "sparkline": {
+        "totalChange": 376.8,
+        "data": [
+          null,
+          null,
+          0,
+          50.39,
+          261.1,
+          528.6,
+          376.8
+        ]
+      }
+    },
+    {
+      "id": "kolrs-hunt",
+      "primaryValue": 2.93,
+      "volumePrimaryValue": 111.5,
       "maxVolumeCurrency": "divine",
-      "maxVolumeRate": 0.3977,
+      "maxVolumeRate": 0.3408,
       "sparkline": {
-        "totalChange": 25.71,
+        "totalChange": 46.71,
         "data": [
-          null,
           null,
           null,
           null,
           0,
-          -1.89,
-          25.71
+          -44.82,
+          55.13,
+          46.71
         ]
       }
     },
     {
-      "id": "voranas-carnage",
-      "primaryValue": 12.85,
-      "volumePrimaryValue": 102.8,
+      "id": "medveds-tending",
+      "primaryValue": 0.2444,
+      "volumePrimaryValue": 4.11,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.0778,
+      "maxVolumeRate": 0.05338,
       "sparkline": {
-        "totalChange": 54.25,
+        "totalChange": 33.8,
         "data": [
-          null,
-          null,
           null,
           null,
           null,
           0,
-          54.25
+          43.71,
+          27.12,
+          33.8
         ]
       }
     },
     {
-      "id": "greater-rune-of-nobility",
-      "primaryValue": 5.2,
-      "volumePrimaryValue": 35.5,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.1925,
-      "sparkline": {
-        "totalChange": -20.08,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -60.68,
-          -20.08
-        ]
-      }
-    },
-    {
-      "id": "lesser-rebirth-rune",
-      "primaryValue": 0.5161,
-      "volumePrimaryValue": 2.67,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.94,
-      "sparkline": {
-        "totalChange": 54.84,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          50.0,
-          54.84
-        ]
-      }
-    },
-    {
-      "id": "resolve-rune",
-      "primaryValue": 1.3,
-      "volumePrimaryValue": 5.0,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.7667,
-      "sparkline": {
-        "totalChange": 23.83,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          21.77,
-          23.83
-        ]
-      }
-    },
-    {
-      "id": "rune-of-confrontation",
-      "primaryValue": 0.9286,
-      "volumePrimaryValue": 6.5,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.08,
-      "sparkline": {
-        "totalChange": -5.44,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -4.43,
-          -5.44
-        ]
-      }
-    },
-    {
-      "id": "warding-rune-of-obsession",
-      "primaryValue": 1.36,
-      "volumePrimaryValue": 3.17,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.7368,
-      "sparkline": {
-        "totalChange": -4.2,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -29.41,
-          -4.2
-        ]
-      }
-    },
-    {
-      "id": "farruls-rune-of-grace",
-      "primaryValue": 1.81,
-      "volumePrimaryValue": 40.17,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.5519,
-      "sparkline": {
-        "totalChange": 35.9,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          4.4,
-          35.9
-        ]
-      }
-    },
-    {
-      "id": "greater-body-rune",
-      "primaryValue": 1.01,
-      "volumePrimaryValue": 453.3,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.9879,
-      "sparkline": {
-        "totalChange": -27.62,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -5.51,
-          -27.62
-        ]
-      }
-    },
-    {
-      "id": "greater-charging-rune",
-      "primaryValue": 2.72,
-      "volumePrimaryValue": 89.83,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.3673,
-      "sparkline": {
-        "totalChange": 132.1,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          50.61,
-          132.1
-        ]
-      }
-    },
-    {
-      "id": "greater-glacial-rune",
-      "primaryValue": 0.9432,
-      "volumePrimaryValue": 1540,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.06,
-      "sparkline": {
-        "totalChange": -46.83,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -2.73,
-          -46.83
-        ]
-      }
-    },
-    {
-      "id": "greater-iron-rune",
-      "primaryValue": 4.88,
-      "volumePrimaryValue": 35662,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.2048,
-      "sparkline": {
-        "totalChange": 200.2,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          109.3,
-          200.2
-        ]
-      }
-    },
-    {
-      "id": "greater-mind-rune",
-      "primaryValue": 0.3449,
-      "volumePrimaryValue": 24.83,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 2.9,
-      "sparkline": {
-        "totalChange": -33.98,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -20.15,
-          -33.98
-        ]
-      }
-    },
-    {
-      "id": "greater-rebirth-rune",
-      "primaryValue": 0.5806,
-      "volumePrimaryValue": 21.0,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.72,
-      "sparkline": {
-        "totalChange": -14.84,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -26.26,
-          -14.84
-        ]
-      }
-    },
-    {
-      "id": "greater-rune-of-alacrity",
-      "primaryValue": 100.7,
-      "volumePrimaryValue": 1258,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.009932,
-      "sparkline": {
-        "totalChange": 179.7,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          100.1,
-          179.7
-        ]
-      }
-    },
-    {
-      "id": "greater-rune-of-tithing",
-      "primaryValue": 42.6,
-      "volumePrimaryValue": 575.2,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.02347,
-      "sparkline": {
-        "totalChange": 184.0,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          74.39,
-          184.0
-        ]
-      }
-    },
-    {
-      "id": "greater-storm-rune",
-      "primaryValue": 0.8263,
-      "volumePrimaryValue": 1682,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.21,
-      "sparkline": {
-        "totalChange": -44.43,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          3.99,
-          -44.43
-        ]
-      }
-    },
-    {
-      "id": "greater-ward-rune",
-      "primaryValue": 1.68,
-      "volumePrimaryValue": 265.8,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.5962,
-      "sparkline": {
-        "totalChange": -12.97,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          11.25,
-          -12.97
-        ]
-      }
-    },
-    {
-      "id": "hedgewitch-assandras-rune-of-wisdom",
-      "primaryValue": 15.61,
-      "volumePrimaryValue": 6753,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.06405,
-      "sparkline": {
-        "totalChange": -3.51,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          21.58,
-          -3.51
-        ]
-      }
-    },
-    {
-      "id": "inspiration-rune",
-      "primaryValue": 1,
-      "volumePrimaryValue": 2.33,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1,
-      "sparkline": {
-        "totalChange": 0,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -25.67,
-          0
-        ]
-      }
-    },
-    {
-      "id": "ire-of-aldur",
-      "primaryValue": 8.4,
-      "volumePrimaryValue": 144.2,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.1191,
-      "sparkline": {
-        "totalChange": 110.0,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          363.4,
-          110.0
-        ]
-      }
-    },
-    {
-      "id": "katlas-gloom",
-      "primaryValue": 12.83,
-      "volumePrimaryValue": 49.17,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.07797,
-      "sparkline": {
-        "totalChange": 49.64,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          0,
-          49.64
-        ]
-      }
-    },
-    {
-      "id": "lady-hestras-rune-of-winter",
-      "primaryValue": 1.52,
-      "volumePrimaryValue": 76.5,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.6558,
-      "sparkline": {
-        "totalChange": -24.23,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -19.67,
-          -24.23
-        ]
-      }
-    },
-    {
-      "id": "lesser-adept-rune",
-      "primaryValue": 0.9615,
-      "volumePrimaryValue": 4.17,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.04,
-      "sparkline": {
-        "totalChange": -8.57,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          8.23,
-          -8.57
-        ]
-      }
-    },
-    {
-      "id": "lesser-body-rune",
-      "primaryValue": 0.5404,
-      "volumePrimaryValue": 14.5,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.85,
-      "sparkline": {
-        "totalChange": 61.03,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          39.04,
-          61.03
-        ]
-      }
-    },
-    {
-      "id": "lesser-glacial-rune",
-      "primaryValue": 0.5726,
-      "volumePrimaryValue": 34.17,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.75,
-      "sparkline": {
-        "totalChange": -22.56,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -32.12,
-          -22.56
-        ]
-      }
-    },
-    {
-      "id": "lesser-inspiration-rune",
-      "primaryValue": 0.4286,
-      "volumePrimaryValue": 0.5,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 2.33,
-      "sparkline": {
-        "totalChange": -34.45,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          0,
-          -34.45
-        ]
-      }
-    },
-    {
-      "id": "lesser-iron-rune",
-      "primaryValue": 1.08,
-      "volumePrimaryValue": 274.3,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.9289,
-      "sparkline": {
-        "totalChange": 84.12,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          8.99,
-          84.12
-        ]
-      }
-    },
-    {
-      "id": "lesser-mind-rune",
-      "primaryValue": 0.5,
-      "volumePrimaryValue": 0.1667,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 2,
-      "sparkline": {
-        "totalChange": 36.36,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -27.49,
-          36.36
-        ]
-      }
-    },
-    {
-      "id": "lesser-robust-rune",
-      "primaryValue": 1.81,
-      "volumePrimaryValue": 16.33,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.551,
-      "sparkline": {
-        "totalChange": 38.1,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          22.99,
-          38.1
-        ]
-      }
-    },
-    {
-      "id": "lesser-storm-rune",
-      "primaryValue": 0.6283,
-      "volumePrimaryValue": 67.33,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.59,
-      "sparkline": {
-        "totalChange": 9.92,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -4.54,
-          9.92
-        ]
-      }
-    },
-    {
-      "id": "lesser-vision-rune",
-      "primaryValue": 0.25,
-      "volumePrimaryValue": 0.3333,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 4,
-      "sparkline": {
-        "totalChange": -50.0,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          2.22,
-          -50.0
-        ]
-      }
-    },
-    {
-      "id": "mind-rune",
-      "primaryValue": 0.4762,
-      "volumePrimaryValue": 1.67,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 2.1,
-      "sparkline": {
-        "totalChange": -15.79,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -34.74,
-          -15.79
-        ]
-      }
-    },
-    {
-      "id": "passion-of-aldur",
-      "primaryValue": 6.58,
-      "volumePrimaryValue": 77.83,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.152,
-      "sparkline": {
-        "totalChange": -60.14,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -40.36,
-          -60.14
-        ]
-      }
-    },
-    {
-      "id": "perfect-desert-rune",
-      "primaryValue": 137.4,
-      "volumePrimaryValue": 114.5,
-      "maxVolumeCurrency": "divine",
-      "maxVolumeRate": 0.4167,
-      "sparkline": {
-        "totalChange": 0,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          0
-        ]
-      }
-    },
-    {
-      "id": "perfect-iron-rune",
-      "primaryValue": 93.1,
-      "volumePrimaryValue": 1784,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.01074,
-      "sparkline": {
-        "totalChange": 119.7,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          0,
-          119.7
-        ]
-      }
-    },
-    {
-      "id": "perfect-storm-rune",
-      "primaryValue": 94.24,
-      "volumePrimaryValue": 644.0,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.01061,
-      "sparkline": {
-        "totalChange": -13.99,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          -13.99
-        ]
-      }
-    },
-    {
-      "id": "perfect-ward-rune",
-      "primaryValue": 114.5,
-      "volumePrimaryValue": 19.08,
+      "id": "perfect-charging-rune",
+      "primaryValue": 2,
+      "volumePrimaryValue": 0.6667,
       "maxVolumeCurrency": "divine",
       "maxVolumeRate": 0.5,
       "sparkline": {
@@ -2008,496 +1191,1408 @@
       }
     },
     {
-      "id": "rebirth-rune",
-      "primaryValue": 0.75,
-      "volumePrimaryValue": 1.0,
+      "id": "perfect-glacial-rune",
+      "primaryValue": 1.46,
+      "volumePrimaryValue": 15.07,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.33,
+      "maxVolumeRate": 0.008948,
       "sparkline": {
-        "totalChange": 9.46,
+        "totalChange": 39.7,
         "data": [
           null,
           null,
           null,
           null,
           0,
-          -20.95,
-          9.46
+          36.68,
+          39.7
         ]
       }
     },
     {
-      "id": "rune-of-accumulation",
-      "primaryValue": 1.49,
-      "volumePrimaryValue": 246.8,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.6698,
+      "id": "perfect-vision-rune",
+      "primaryValue": 2,
+      "volumePrimaryValue": 2.67,
+      "maxVolumeCurrency": "divine",
+      "maxVolumeRate": 0.5,
       "sparkline": {
-        "totalChange": 4.41,
+        "totalChange": 3.7,
         "data": [
           null,
           null,
           null,
           null,
-          0,
-          76.85,
-          4.41
+          null,
+          null,
+          3.7
         ]
       }
     },
     {
-      "id": "rune-of-culmination",
-      "primaryValue": 2.15,
-      "volumePrimaryValue": 66.17,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.466,
+      "id": "serles-triumph",
+      "primaryValue": 4.36,
+      "volumePrimaryValue": 61.0,
+      "maxVolumeCurrency": "divine",
+      "maxVolumeRate": 0.2295,
       "sparkline": {
-        "totalChange": 118.7,
+        "totalChange": 117.9,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -4.92,
-          118.7
-        ]
-      }
-    },
-    {
-      "id": "rune-of-reach",
-      "primaryValue": 0.9697,
-      "volumePrimaryValue": 10.67,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.03,
-      "sparkline": {
-        "totalChange": -15.42,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -13.67,
-          -15.42
-        ]
-      }
-    },
-    {
-      "id": "rune-of-renown",
-      "primaryValue": 2.74,
-      "volumePrimaryValue": 229.8,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.3655,
-      "sparkline": {
-        "totalChange": 108.6,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          56.99,
-          108.6
-        ]
-      }
-    },
-    {
-      "id": "rune-of-the-hunt",
-      "primaryValue": 1.77,
-      "volumePrimaryValue": 455.8,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.5645,
-      "sparkline": {
-        "totalChange": 55.6,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          42.99,
-          55.6
-        ]
-      }
-    },
-    {
-      "id": "rune-of-the-prism",
-      "primaryValue": 1.35,
-      "volumePrimaryValue": 257.2,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.7395,
-      "sparkline": {
-        "totalChange": -17.48,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -13.07,
-          -17.48
-        ]
-      }
-    },
-    {
-      "id": "rune-of-vital-flame",
-      "primaryValue": 0.75,
-      "volumePrimaryValue": 1.5,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.33,
-      "sparkline": {
-        "totalChange": -20.59,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -15.51,
-          -20.59
-        ]
-      }
-    },
-    {
-      "id": "rune-of-vitality",
-      "primaryValue": 2.85,
-      "volumePrimaryValue": 55.67,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.3503,
-      "sparkline": {
-        "totalChange": 116.3,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          36.48,
-          116.3
-        ]
-      }
-    },
-    {
-      "id": "saqawals-rune-of-memory",
-      "primaryValue": 3.88,
-      "volumePrimaryValue": 359.3,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.2574,
-      "sparkline": {
-        "totalChange": 21.32,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          2.44,
-          21.32
-        ]
-      }
-    },
-    {
-      "id": "stone-rune",
-      "primaryValue": 0.3333,
-      "volumePrimaryValue": 0.3333,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 3,
-      "sparkline": {
-        "totalChange": -42.31,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -27.88,
-          -42.31
-        ]
-      }
-    },
-    {
-      "id": "thane-myrks-rune-of-summer",
-      "primaryValue": 1.77,
-      "volumePrimaryValue": 71.5,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.5641,
-      "sparkline": {
-        "totalChange": -46.16,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -18.12,
-          -46.16
-        ]
-      }
-    },
-    {
-      "id": "the-greatwolfs-rune-of-claws",
-      "primaryValue": 11.29,
-      "volumePrimaryValue": 6775,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.08859,
-      "sparkline": {
-        "totalChange": 149.3,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          82.51,
-          149.3
+          18.98,
+          25.28,
+          105.9,
+          117.9
         ]
       }
     },
     {
       "id": "thruds-might",
-      "primaryValue": 10.53,
-      "volumePrimaryValue": 26.33,
+      "primaryValue": 0.2337,
+      "volumePrimaryValue": 3.47,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.09494,
+      "maxVolumeRate": 0.05583,
       "sparkline": {
-        "totalChange": -70.24,
+        "totalChange": -44.25,
         "data": [
           null,
           null,
           null,
-          null,
-          null,
           0,
-          -70.24
+          -63.16,
+          -67.32,
+          -44.25
         ]
       }
     },
     {
       "id": "uhtreds-sidereus",
-      "primaryValue": 14.79,
-      "volumePrimaryValue": 69.0,
+      "primaryValue": 0.3557,
+      "volumePrimaryValue": 9.07,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.06763,
+      "maxVolumeRate": 0.03669,
       "sparkline": {
-        "totalChange": 29.0,
+        "totalChange": 75.17,
         "data": [
           null,
           null,
           null,
-          null,
-          null,
           0,
-          29.0
+          14.08,
+          137.8,
+          75.17
         ]
       }
     },
     {
-      "id": "vision-rune",
-      "primaryValue": 0.9167,
-      "volumePrimaryValue": 1.83,
+      "id": "voranas-carnage",
+      "primaryValue": 0.1927,
+      "volumePrimaryValue": 3.5,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.09,
+      "maxVolumeRate": 0.0677,
       "sparkline": {
-        "totalChange": 46.71,
+        "totalChange": 64.12,
         "data": [
           null,
           null,
           null,
-          null,
           0,
-          24.7,
-          46.71
-        ]
-      }
-    },
-    {
-      "id": "warding-rune-of-annihilation",
-      "primaryValue": 1.38,
-      "volumePrimaryValue": 23.17,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.7266,
-      "sparkline": {
-        "totalChange": 37.62,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          5.97,
-          37.62
-        ]
-      }
-    },
-    {
-      "id": "warding-rune-of-bodyguards",
-      "primaryValue": 2.92,
-      "volumePrimaryValue": 121.0,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.343,
-      "sparkline": {
-        "totalChange": 191.6,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          31.55,
-          191.6
-        ]
-      }
-    },
-    {
-      "id": "warding-rune-of-desperation",
-      "primaryValue": 0.8947,
-      "volumePrimaryValue": 2.83,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.12,
-      "sparkline": {
-        "totalChange": -3.64,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          2.11,
-          -3.64
-        ]
-      }
-    },
-    {
-      "id": "warding-rune-of-disintegration",
-      "primaryValue": 1.08,
-      "volumePrimaryValue": 9.17,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.9273,
-      "sparkline": {
-        "totalChange": 7.84,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -3.73,
-          7.84
+          96.65,
+          50.07,
+          64.12
         ]
       }
     },
     {
       "id": "warding-rune-of-equinox",
-      "primaryValue": 4.54,
-      "volumePrimaryValue": 51.5,
+      "primaryValue": 0.06553,
+      "volumePrimaryValue": 1.0,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.2201,
+      "maxVolumeRate": 0.1991,
       "sparkline": {
-        "totalChange": 178.2,
+        "totalChange": 207.4,
+        "data": [
+          null,
+          null,
+          0,
+          -2.62,
+          85.48,
+          110.0,
+          207.4
+        ]
+      }
+    },
+    {
+      "id": "warding-rune-of-heart",
+      "primaryValue": 0.05295,
+      "volumePrimaryValue": 7.36,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.2465,
+      "sparkline": {
+        "totalChange": 67.96,
+        "data": [
+          null,
+          null,
+          0,
+          12.41,
+          -11.76,
+          9.48,
+          67.96
+        ]
+      }
+    },
+    {
+      "id": "ancient-rune-of-witchcraft",
+      "primaryValue": 0.01279,
+      "volumePrimaryValue": 0.2175,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.02,
+      "sparkline": {
+        "totalChange": -1.02,
+        "data": [
+          null,
+          null,
+          0,
+          0.09,
+          -7.21,
+          -25.07,
+          -1.02
+        ]
+      }
+    },
+    {
+      "id": "glacial-rune",
+      "primaryValue": 0.01174,
+      "volumePrimaryValue": 0.9134,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.11,
+      "sparkline": {
+        "totalChange": -9.73,
+        "data": [
+          null,
+          null,
+          0,
+          13.28,
+          -21.23,
+          -3.29,
+          -9.73
+        ]
+      }
+    },
+    {
+      "id": "greater-rune-of-nobility",
+      "primaryValue": 0.1259,
+      "volumePrimaryValue": 0.9026,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.1036,
+      "sparkline": {
+        "totalChange": 48.48,
+        "data": [
+          null,
+          null,
+          0,
+          -49.72,
+          -33.27,
+          -44.91,
+          48.48
+        ]
+      }
+    },
+    {
+      "id": "resolve-rune",
+      "primaryValue": 0.01416,
+      "volumePrimaryValue": 0.1109,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.9216,
+      "sparkline": {
+        "totalChange": -0.78,
+        "data": [
+          null,
+          null,
+          0,
+          15.68,
+          18.1,
+          109.1,
+          -0.78
+        ]
+      }
+    },
+    {
+      "id": "rune-of-confrontation",
+      "primaryValue": 0.0117,
+      "volumePrimaryValue": 0.05655,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.12,
+      "sparkline": {
+        "totalChange": -7.6,
+        "data": [
+          null,
+          null,
+          0,
+          -3.14,
+          -1.24,
+          -4.57,
+          -7.6
+        ]
+      }
+    },
+    {
+      "id": "storm-rune",
+      "primaryValue": 0.01558,
+      "volumePrimaryValue": 1.46,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.8378,
+      "sparkline": {
+        "totalChange": 39.19,
+        "data": [
+          null,
+          null,
+          0,
+          19.58,
+          0.46,
+          53.33,
+          39.19
+        ]
+      }
+    },
+    {
+      "id": "warding-rune-of-obsession",
+      "primaryValue": 0.02272,
+      "volumePrimaryValue": 0.1022,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.5745,
+      "sparkline": {
+        "totalChange": 24.98,
+        "data": [
+          null,
+          null,
+          0,
+          -28.21,
+          -16.35,
+          -16.59,
+          24.98
+        ]
+      }
+    },
+    {
+      "id": "farruls-rune-of-grace",
+      "primaryValue": 0.01842,
+      "volumePrimaryValue": 0.8134,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.7086,
+      "sparkline": {
+        "totalChange": 20.97,
+        "data": [
+          null,
+          null,
+          0,
+          17.07,
+          76.55,
+          76.42,
+          20.97
+        ]
+      }
+    },
+    {
+      "id": "greater-body-rune",
+      "primaryValue": 0.01193,
+      "volumePrimaryValue": 4.83,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.09,
+      "sparkline": {
+        "totalChange": -35.37,
+        "data": [
+          null,
+          null,
+          0,
+          -5.37,
+          -42.58,
+          -39.75,
+          -35.37
+        ]
+      }
+    },
+    {
+      "id": "greater-charging-rune",
+      "primaryValue": 0.04923,
+      "volumePrimaryValue": 3.54,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.2651,
+      "sparkline": {
+        "totalChange": 209.3,
+        "data": [
+          null,
+          null,
+          0,
+          47.36,
+          91.25,
+          86.95,
+          209.3
+        ]
+      }
+    },
+    {
+      "id": "greater-glacial-rune",
+      "primaryValue": 0.006715,
+      "volumePrimaryValue": 7.51,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.94,
+      "sparkline": {
+        "totalChange": -70.28,
+        "data": [
+          null,
+          null,
+          0,
+          -3.55,
+          -47.56,
+          -62.72,
+          -70.28
+        ]
+      }
+    },
+    {
+      "id": "greater-iron-rune",
+      "primaryValue": 0.04626,
+      "volumePrimaryValue": 423.7,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.2821,
+      "sparkline": {
+        "totalChange": 105.7,
+        "data": [
+          null,
+          null,
+          0,
+          100.3,
+          166.0,
+          174.4,
+          105.7
+        ]
+      }
+    },
+    {
+      "id": "greater-mind-rune",
+      "primaryValue": 0.004717,
+      "volumePrimaryValue": 0.4371,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 2.77,
+      "sparkline": {
+        "totalChange": -46.85,
+        "data": [
+          null,
+          null,
+          0,
+          -39.29,
+          -52.26,
+          -45.52,
+          -46.85
+        ]
+      }
+    },
+    {
+      "id": "greater-rebirth-rune",
+      "primaryValue": 0.004207,
+      "volumePrimaryValue": 0.3001,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 3.1,
+      "sparkline": {
+        "totalChange": -52.16,
+        "data": [
+          null,
+          null,
+          0,
+          -27.66,
+          -30.23,
+          -37.33,
+          -52.16
+        ]
+      }
+    },
+    {
+      "id": "greater-rune-of-alacrity",
+      "primaryValue": 0.6482,
+      "volumePrimaryValue": 48.72,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.02013,
+      "sparkline": {
+        "totalChange": 37.98,
+        "data": [
+          null,
+          null,
+          0,
+          100.5,
+          157.8,
+          134.6,
+          37.98
+        ]
+      }
+    },
+    {
+      "id": "greater-rune-of-tithing",
+      "primaryValue": 0.372,
+      "volumePrimaryValue": 20.21,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.03508,
+      "sparkline": {
+        "totalChange": 90.06,
+        "data": [
+          null,
+          null,
+          0,
+          81.08,
+          195.4,
+          82.62,
+          90.06
+        ]
+      }
+    },
+    {
+      "id": "greater-storm-rune",
+      "primaryValue": 0.00778,
+      "volumePrimaryValue": 10.7,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.68,
+      "sparkline": {
+        "totalChange": -59.44,
+        "data": [
+          null,
+          null,
+          0,
+          1.78,
+          -45.78,
+          -55.74,
+          -59.44
+        ]
+      }
+    },
+    {
+      "id": "greater-ward-rune",
+      "primaryValue": 0.05538,
+      "volumePrimaryValue": 10.87,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.2356,
+      "sparkline": {
+        "totalChange": 130.4,
+        "data": [
+          null,
+          null,
+          0,
+          17.43,
+          -2.74,
+          37.23,
+          130.4
+        ]
+      }
+    },
+    {
+      "id": "hedgewitch-assandras-rune-of-wisdom",
+      "primaryValue": 0.2271,
+      "volumePrimaryValue": 142.7,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.05747,
+      "sparkline": {
+        "totalChange": -1.1,
+        "data": [
+          null,
+          null,
+          0,
+          9.8,
+          0.57,
+          1.43,
+          -1.1
+        ]
+      }
+    },
+    {
+      "id": "inspiration-rune",
+      "primaryValue": 0.01595,
+      "volumePrimaryValue": 0.02392,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.8182,
+      "sparkline": {
+        "totalChange": 22.22,
+        "data": [
+          null,
+          null,
+          0,
+          -19.58,
+          -2.17,
+          15.06,
+          22.22
+        ]
+      }
+    },
+    {
+      "id": "ire-of-aldur",
+      "primaryValue": 0.1019,
+      "volumePrimaryValue": 4.57,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.1281,
+      "sparkline": {
+        "totalChange": 95.17,
+        "data": [
+          null,
+          null,
+          0,
+          341.7,
+          143.0,
+          173.6,
+          95.17
+        ]
+      }
+    },
+    {
+      "id": "katlas-gloom",
+      "primaryValue": 0.1943,
+      "volumePrimaryValue": 3.04,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.06714,
+      "sparkline": {
+        "totalChange": 73.76,
+        "data": [
+          null,
+          null,
+          null,
+          0,
+          63.39,
+          178.4,
+          73.76
+        ]
+      }
+    },
+    {
+      "id": "lady-hestras-rune-of-winter",
+      "primaryValue": 0.0113,
+      "volumePrimaryValue": 0.4763,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.16,
+      "sparkline": {
+        "totalChange": -55.7,
+        "data": [
+          null,
+          null,
+          0,
+          -18.93,
+          -22.34,
+          -19.04,
+          -55.7
+        ]
+      }
+    },
+    {
+      "id": "lesser-adept-rune",
+      "primaryValue": 0.04679,
+      "volumePrimaryValue": 0.5459,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.2789,
+      "sparkline": {
+        "totalChange": 258.9,
+        "data": [
+          null,
+          null,
+          0,
+          8.92,
+          85.15,
+          241.4,
+          258.9
+        ]
+      }
+    },
+    {
+      "id": "lesser-body-rune",
+      "primaryValue": 0.006448,
+      "volumePrimaryValue": 0.1827,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 2.02,
+      "sparkline": {
+        "totalChange": 51.89,
+        "data": [
+          null,
+          null,
+          0,
+          45.66,
+          55.85,
+          283.8,
+          51.89
+        ]
+      }
+    },
+    {
+      "id": "lesser-glacial-rune",
+      "primaryValue": 0.008801,
+      "volumePrimaryValue": 0.5002,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.48,
+      "sparkline": {
+        "totalChange": -9.76,
+        "data": [
+          null,
+          null,
+          0,
+          -36.12,
+          -33.24,
+          -5.9,
+          -9.76
+        ]
+      }
+    },
+    {
+      "id": "lesser-inspiration-rune",
+      "primaryValue": 0.01305,
+      "volumePrimaryValue": 0.05002,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1,
+      "sparkline": {
+        "totalChange": 80.0,
+        "data": [
+          null,
+          null,
+          null,
+          0,
+          -19.94,
+          25.29,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "lesser-iron-rune",
+      "primaryValue": 0.01504,
+      "volumePrimaryValue": 3.06,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.8677,
+      "sparkline": {
+        "totalChange": 138.1,
+        "data": [
+          null,
+          null,
+          0,
+          34.01,
+          115.2,
+          184.1,
+          138.1
+        ]
+      }
+    },
+    {
+      "id": "lesser-mind-rune",
+      "primaryValue": 0.003262,
+      "volumePrimaryValue": 0.002175,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 4,
+      "sparkline": {
+        "totalChange": -31.82,
+        "data": [
+          null,
+          null,
+          0,
+          -27.49,
+          -39.74,
+          -28.7,
+          -31.82
+        ]
+      }
+    },
+    {
+      "id": "lesser-robust-rune",
+      "primaryValue": 0.0396,
+      "volumePrimaryValue": 0.9569,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.3295,
+      "sparkline": {
+        "totalChange": 126.2,
+        "data": [
+          null,
+          null,
+          0,
+          41.42,
+          21.04,
+          97.62,
+          126.2
+        ]
+      }
+    },
+    {
+      "id": "lesser-storm-rune",
+      "primaryValue": 0.02412,
+      "volumePrimaryValue": 2.12,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.541,
+      "sparkline": {
+        "totalChange": 233.0,
+        "data": [
+          null,
+          null,
+          0,
+          -2.0,
+          6.89,
+          85.57,
+          233.0
+        ]
+      }
+    },
+    {
+      "id": "lesser-vision-rune",
+      "primaryValue": 0.00435,
+      "volumePrimaryValue": 0.002175,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 3,
+      "sparkline": {
+        "totalChange": -33.33,
+        "data": [
+          null,
+          null,
+          0,
+          -40.2,
+          -46.26,
+          -39.68,
+          -33.33
+        ]
+      }
+    },
+    {
+      "id": "mind-rune",
+      "primaryValue": 0.01109,
+      "volumePrimaryValue": 0.03697,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.18,
+      "sparkline": {
+        "totalChange": 38.91,
+        "data": [
+          null,
+          null,
+          0,
+          -42.42,
+          -34.12,
+          -23.74,
+          38.91
+        ]
+      }
+    },
+    {
+      "id": "passion-of-aldur",
+      "primaryValue": 0.04598,
+      "volumePrimaryValue": 0.9809,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.2838,
+      "sparkline": {
+        "totalChange": -68.54,
+        "data": [
+          null,
+          null,
+          0,
+          -11.51,
+          -34.93,
+          -62.74,
+          -68.54
+        ]
+      }
+    },
+    {
+      "id": "perfect-adept-rune",
+      "primaryValue": 2,
+      "volumePrimaryValue": 1.67,
+      "maxVolumeCurrency": "divine",
+      "maxVolumeRate": 0.5,
+      "sparkline": {
+        "totalChange": 8.51,
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          8.51
+        ]
+      }
+    },
+    {
+      "id": "perfect-body-rune",
+      "primaryValue": 1,
+      "volumePrimaryValue": 0.5,
+      "maxVolumeCurrency": "divine",
+      "maxVolumeRate": 1,
+      "sparkline": {
+        "totalChange": -50,
         "data": [
           null,
           null,
           null,
           null,
           0,
-          -4.04,
-          178.2
+          null,
+          -50
+        ]
+      }
+    },
+    {
+      "id": "perfect-desert-rune",
+      "primaryValue": 1.32,
+      "volumePrimaryValue": 14.04,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.009915,
+      "sparkline": {
+        "totalChange": 11.76,
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          0,
+          25.92,
+          11.76
+        ]
+      }
+    },
+    {
+      "id": "perfect-iron-rune",
+      "primaryValue": 1.25,
+      "volumePrimaryValue": 175.1,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.01041,
+      "sparkline": {
+        "totalChange": 100.4,
+        "data": [
+          null,
+          null,
+          null,
+          0,
+          105.8,
+          122.1,
+          100.4
+        ]
+      }
+    },
+    {
+      "id": "perfect-resolve-rune",
+      "primaryValue": 2,
+      "volumePrimaryValue": 1.67,
+      "maxVolumeCurrency": "divine",
+      "maxVolumeRate": 0.5,
+      "sparkline": {
+        "totalChange": 0,
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "perfect-robust-rune",
+      "primaryValue": 2,
+      "volumePrimaryValue": 1.0,
+      "maxVolumeCurrency": "divine",
+      "maxVolumeRate": 0.5,
+      "sparkline": {
+        "totalChange": 0,
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "perfect-storm-rune",
+      "primaryValue": 1.28,
+      "volumePrimaryValue": 32.58,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.01021,
+      "sparkline": {
+        "totalChange": 15.19,
+        "data": [
+          null,
+          null,
+          null,
+          0,
+          38.23,
+          36.36,
+          15.19
+        ]
+      }
+    },
+    {
+      "id": "rebirth-rune",
+      "primaryValue": 0.01305,
+      "volumePrimaryValue": 0.03045,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1,
+      "sparkline": {
+        "totalChange": 42.79,
+        "data": [
+          null,
+          null,
+          0,
+          -20.67,
+          27.87,
+          24.94,
+          42.79
+        ]
+      }
+    },
+    {
+      "id": "rune-of-accumulation",
+      "primaryValue": 0.03805,
+      "volumePrimaryValue": 4.53,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.3429,
+      "sparkline": {
+        "totalChange": 20.59,
+        "data": [
+          null,
+          null,
+          0,
+          0.7,
+          -20.89,
+          -9.31,
+          20.59
+        ]
+      }
+    },
+    {
+      "id": "rune-of-culmination",
+      "primaryValue": 0.04553,
+      "volumePrimaryValue": 2.08,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.2866,
+      "sparkline": {
+        "totalChange": 256.6,
+        "data": [
+          null,
+          null,
+          0,
+          -4.39,
+          77.87,
+          246.0,
+          256.6
+        ]
+      }
+    },
+    {
+      "id": "rune-of-reach",
+      "primaryValue": 0.02409,
+      "volumePrimaryValue": 0.3654,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.5417,
+      "sparkline": {
+        "totalChange": 61.03,
+        "data": [
+          null,
+          null,
+          0,
+          -14.49,
+          -14.72,
+          12.4,
+          61.03
+        ]
+      }
+    },
+    {
+      "id": "rune-of-renown",
+      "primaryValue": 0.02684,
+      "volumePrimaryValue": 2.04,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.4861,
+      "sparkline": {
+        "totalChange": 58.49,
+        "data": [
+          null,
+          null,
+          0,
+          67.98,
+          93.64,
+          69.3,
+          58.49
+        ]
+      }
+    },
+    {
+      "id": "rune-of-the-hunt",
+      "primaryValue": 0.02127,
+      "volumePrimaryValue": 6.1,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.6135,
+      "sparkline": {
+        "totalChange": -0.83,
+        "data": [
+          null,
+          null,
+          0,
+          -2.73,
+          8.24,
+          6.36,
+          -0.83
+        ]
+      }
+    },
+    {
+      "id": "rune-of-the-prism",
+      "primaryValue": 0.0294,
+      "volumePrimaryValue": 3.39,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.4439,
+      "sparkline": {
+        "totalChange": 47.49,
+        "data": [
+          null,
+          null,
+          0,
+          -7.17,
+          -12.53,
+          15.76,
+          47.49
+        ]
+      }
+    },
+    {
+      "id": "rune-of-vital-flame",
+      "primaryValue": 0.01078,
+      "volumePrimaryValue": 0.04132,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.21,
+      "sparkline": {
+        "totalChange": -13.04,
+        "data": [
+          null,
+          null,
+          0,
+          -19.19,
+          -32.94,
+          -13.33,
+          -13.04
+        ]
+      }
+    },
+    {
+      "id": "rune-of-vitality",
+      "primaryValue": 0.03792,
+      "volumePrimaryValue": 0.809,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.3441,
+      "sparkline": {
+        "totalChange": 116.4,
+        "data": [
+          null,
+          null,
+          0,
+          35.18,
+          89.23,
+          90.0,
+          116.4
+        ]
+      }
+    },
+    {
+      "id": "saqawals-rune-of-memory",
+      "primaryValue": 0.05163,
+      "volumePrimaryValue": 6.5,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.2528,
+      "sparkline": {
+        "totalChange": 22.93,
+        "data": [
+          null,
+          null,
+          0,
+          0.92,
+          -2.94,
+          43.33,
+          22.93
+        ]
+      }
+    },
+    {
+      "id": "stone-rune",
+      "primaryValue": 0.008699,
+      "volumePrimaryValue": 0.00435,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.5,
+      "sparkline": {
+        "totalChange": 14.61,
+        "data": [
+          null,
+          null,
+          0,
+          -22.64,
+          -42.7,
+          -35.53,
+          14.61
+        ]
+      }
+    },
+    {
+      "id": "thane-myrks-rune-of-summer",
+      "primaryValue": 0.03026,
+      "volumePrimaryValue": 0.696,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.4312,
+      "sparkline": {
+        "totalChange": -20.0,
+        "data": [
+          null,
+          null,
+          0,
+          -8.64,
+          -37.54,
+          -38.76,
+          -20.0
+        ]
+      }
+    },
+    {
+      "id": "the-greatwolfs-rune-of-claws",
+      "primaryValue": 0.156,
+      "volumePrimaryValue": 110.4,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.08363,
+      "sparkline": {
+        "totalChange": 154.9,
+        "data": [
+          null,
+          null,
+          0,
+          80.65,
+          168.2,
+          200.7,
+          154.9
+        ]
+      }
+    },
+    {
+      "id": "vision-rune",
+      "primaryValue": 0.01305,
+      "volumePrimaryValue": 0.01957,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1,
+      "sparkline": {
+        "totalChange": 58.59,
+        "data": [
+          null,
+          null,
+          0,
+          14.82,
+          32.69,
+          47.71,
+          58.59
+        ]
+      }
+    },
+    {
+      "id": "warding-rune-of-annihilation",
+      "primaryValue": 0.02263,
+      "volumePrimaryValue": 0.4676,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.5767,
+      "sparkline": {
+        "totalChange": 74.65,
+        "data": [
+          null,
+          null,
+          0,
+          7.95,
+          17.04,
+          25.95,
+          74.65
+        ]
+      }
+    },
+    {
+      "id": "warding-rune-of-bodyguards",
+      "primaryValue": 0.05467,
+      "volumePrimaryValue": 2.69,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.2387,
+      "sparkline": {
+        "totalChange": 319.0,
+        "data": [
+          null,
+          null,
+          0,
+          32.01,
+          169.9,
+          190.6,
+          319.0
+        ]
+      }
+    },
+    {
+      "id": "warding-rune-of-courage",
+      "primaryValue": 0.01165,
+      "volumePrimaryValue": 0.1087,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.12,
+      "sparkline": {
+        "totalChange": 0.45,
+        "data": [
+          null,
+          null,
+          0,
+          10.71,
+          2.97,
+          -1.17,
+          0.45
+        ]
+      }
+    },
+    {
+      "id": "warding-rune-of-desperation",
+      "primaryValue": 0.01305,
+      "volumePrimaryValue": 0.01305,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1,
+      "sparkline": {
+        "totalChange": 9.09,
+        "data": [
+          null,
+          null,
+          0,
+          3.43,
+          -11.72,
+          -7.27,
+          9.09
+        ]
+      }
+    },
+    {
+      "id": "warding-rune-of-disintegration",
+      "primaryValue": 0.02247,
+      "volumePrimaryValue": 0.2023,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.5806,
+      "sparkline": {
+        "totalChange": 72.22,
+        "data": [
+          null,
+          null,
+          0,
+          -3.71,
+          10.09,
+          26.91,
+          72.22
         ]
       }
     },
     {
       "id": "warding-rune-of-glancing",
-      "primaryValue": 2.15,
-      "volumePrimaryValue": 33.0,
+      "primaryValue": 0.03552,
+      "volumePrimaryValue": 0.4263,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.4646,
+      "maxVolumeRate": 0.3673,
       "sparkline": {
-        "totalChange": 78.88,
+        "totalChange": 111.7,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          137.4,
-          78.88
+          121.5,
+          87.84,
+          54.78,
+          111.7
         ]
       }
     },
     {
       "id": "warding-rune-of-protection",
-      "primaryValue": 0.9793,
-      "volumePrimaryValue": 31.5,
+      "primaryValue": 0.01204,
+      "volumePrimaryValue": 0.2066,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.02,
+      "maxVolumeRate": 1.08,
       "sparkline": {
-        "totalChange": -0.17,
+        "totalChange": -5.01,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -4.49,
-          -0.17
+          -3.71,
+          -1.53,
+          -4.43,
+          -5.01
         ]
       }
     },
     {
       "id": "warding-rune-of-salvaging",
-      "primaryValue": 1.33,
-      "volumePrimaryValue": 4.67,
+      "primaryValue": 0.01849,
+      "volumePrimaryValue": 0.07394,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.75,
+      "maxVolumeRate": 0.7059,
       "sparkline": {
-        "totalChange": 31.76,
+        "totalChange": 39.94,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          34.82,
-          31.76
+          37.01,
+          61.03,
+          36.51,
+          39.94
         ]
       }
     },
     {
       "id": "warding-rune-of-symbiosis",
-      "primaryValue": 0.9592,
-      "volumePrimaryValue": 7.83,
+      "primaryValue": 0.0121,
+      "volumePrimaryValue": 0.1109,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.04,
+      "maxVolumeRate": 1.08,
       "sparkline": {
-        "totalChange": 0.97,
+        "totalChange": -4.08,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          1.1,
-          0.97
+          -1.77,
+          1.81,
+          -2.15,
+          -4.08
         ]
       }
     },
     {
       "id": "ward-rune",
-      "primaryValue": 3.41,
-      "volumePrimaryValue": 46.67,
+      "primaryValue": 0.06012,
+      "volumePrimaryValue": 1.07,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.2929,
+      "maxVolumeRate": 0.217,
       "sparkline": {
-        "totalChange": 70.74,
+        "totalChange": 120.0,
+        "data": [
+          null,
+          null,
+          0,
+          19.95,
+          72.36,
+          70.23,
+          120.0
+        ]
+      }
+    },
+    {
+      "id": "lesser-rebirth-rune",
+      "primaryValue": 0.01305,
+      "volumePrimaryValue": 0.00435,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1,
+      "sparkline": {
+        "totalChange": 125.0,
         "data": [
           null,
           null,
           null,
-          null,
           0,
-          30.58,
-          70.74
+          -1.05,
+          61.9,
+          125.0
         ]
       }
     }
@@ -2637,13 +2732,6 @@
       "detailsId": "cadigans-epiphany"
     },
     {
-      "id": "ancient-rune-of-witchcraft",
-      "name": "Ancient Rune of Witchcraft",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRW5kZ2FtZVJ1bmU5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/24ef732cf3/EndgameRune9.png",
-      "category": "Runes",
-      "detailsId": "ancient-rune-of-witchcraft"
-    },
-    {
       "id": "countess-seskes-rune-of-archery",
       "name": "Countess Seske's Rune of Archery",
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/8e738ce3cb/NewRune14.png",
@@ -2663,6 +2751,13 @@
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTEwIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/96c722e7d3/NewRune10.png",
       "category": "Runes",
       "detailsId": "craiceanns-rune-of-recovery"
+    },
+    {
+      "id": "craiceanns-rune-of-warding",
+      "name": "Craiceann's Rune of Warding",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTYiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/677fca20e0/NewRune6.png",
+      "category": "Runes",
+      "detailsId": "craiceanns-rune-of-warding"
     },
     {
       "id": "farruls-rune-of-the-chase",
@@ -2698,13 +2793,6 @@
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTEzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d0e9100877/NewRune13.png",
       "category": "Runes",
       "detailsId": "fenumus-rune-of-spinning"
-    },
-    {
-      "id": "glacial-rune",
-      "name": "Glacial Rune",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQ29sZFJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/499bfe179a/ColdRune.png",
-      "category": "Runes",
-      "detailsId": "glacial-rune"
     },
     {
       "id": "greater-adept-rune",
@@ -2791,6 +2879,13 @@
       "detailsId": "masterwork-rune"
     },
     {
+      "id": "robust-rune",
+      "name": "Robust Rune",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvU3RyZW5ndGhSdW5lIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/1e585207d2/StrengthRune.png",
+      "category": "Runes",
+      "detailsId": "robust-rune"
+    },
+    {
       "id": "rune-of-acrobatics",
       "name": "Rune of Acrobatics",
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lMyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/88b5625697/EarlyMythicRune3.png",
@@ -2833,13 +2928,6 @@
       "detailsId": "saqawals-rune-of-the-sky"
     },
     {
-      "id": "storm-rune",
-      "name": "Storm Rune",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/98319b3998/LightningRune.png",
-      "category": "Runes",
-      "detailsId": "storm-rune"
-    },
-    {
       "id": "thane-girts-rune-of-wildness",
       "name": "Thane Girt's Rune of Wildness",
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE1Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d76b01cd40/NewRune15.png",
@@ -2875,20 +2963,6 @@
       "detailsId": "warding-rune-of-armature"
     },
     {
-      "id": "warding-rune-of-courage",
-      "name": "Warding Rune of Courage",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkOSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3a80888429/RunicWard9.png",
-      "category": "Runes",
-      "detailsId": "warding-rune-of-courage"
-    },
-    {
-      "id": "warding-rune-of-heart",
-      "name": "Warding Rune of Heart",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkMTQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/eafc6ac83e/RunicWard14.png",
-      "category": "Runes",
-      "detailsId": "warding-rune-of-heart"
-    },
-    {
       "id": "warding-rune-of-hollowing",
       "name": "Warding Rune of Hollowing",
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkMjQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1248d249b1/RunicWard24.png",
@@ -2915,13 +2989,6 @@
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvV2FyZFJlZ2VuZXJhdGlvbk5vcm1hbCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2c850d510c/WardRegenerationNormal.png",
       "category": "Runes",
       "detailsId": "charging-rune"
-    },
-    {
-      "id": "craiceanns-rune-of-warding",
-      "name": "Craiceann's Rune of Warding",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTYiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/677fca20e0/NewRune6.png",
-      "category": "Runes",
-      "detailsId": "craiceanns-rune-of-warding"
     },
     {
       "id": "desert-rune",
@@ -2952,6 +3019,13 @@
       "detailsId": "medveds-tending"
     },
     {
+      "id": "perfect-charging-rune",
+      "name": "Perfect Charging Rune",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvV2FyZFJlZ2VuZXJhdGlvblBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/77fdb3f9be/WardRegenerationPerfect.png",
+      "category": "Runes",
+      "detailsId": "perfect-charging-rune"
+    },
+    {
       "id": "perfect-glacial-rune",
       "name": "Perfect Glacial Rune",
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVDb2xkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/5f8f2f9b29/PerfectRuneCold.png",
@@ -2959,11 +3033,11 @@
       "detailsId": "perfect-glacial-rune"
     },
     {
-      "id": "robust-rune",
-      "name": "Robust Rune",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvU3RyZW5ndGhSdW5lIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/1e585207d2/StrengthRune.png",
+      "id": "perfect-vision-rune",
+      "name": "Perfect Vision Rune",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVBY2N1cmFjeSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/4b7c49d286/PerfectRuneAccuracy.png",
       "category": "Runes",
-      "detailsId": "robust-rune"
+      "detailsId": "perfect-vision-rune"
     },
     {
       "id": "serles-triumph",
@@ -2973,6 +3047,20 @@
       "detailsId": "serles-triumph"
     },
     {
+      "id": "thruds-might",
+      "name": "Thrud's Might",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lRmlyZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/4e68367277/GameWarpRuneFire.png",
+      "category": "Runes",
+      "detailsId": "thruds-might"
+    },
+    {
+      "id": "uhtreds-sidereus",
+      "name": "Uhtred's Sidereus",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lVGltZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/63a40dc79d/GameWarpRuneTime.png",
+      "category": "Runes",
+      "detailsId": "uhtreds-sidereus"
+    },
+    {
       "id": "voranas-carnage",
       "name": "Vorana's Carnage",
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lUGh5c2ljYWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/c3f3a5bf14/GameWarpRunePhysical.png",
@@ -2980,18 +3068,39 @@
       "detailsId": "voranas-carnage"
     },
     {
+      "id": "warding-rune-of-equinox",
+      "name": "Warding Rune of Equinox",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkMjAiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/d636760a41/RunicWard20.png",
+      "category": "Runes",
+      "detailsId": "warding-rune-of-equinox"
+    },
+    {
+      "id": "warding-rune-of-heart",
+      "name": "Warding Rune of Heart",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkMTQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/eafc6ac83e/RunicWard14.png",
+      "category": "Runes",
+      "detailsId": "warding-rune-of-heart"
+    },
+    {
+      "id": "ancient-rune-of-witchcraft",
+      "name": "Ancient Rune of Witchcraft",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRW5kZ2FtZVJ1bmU5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/24ef732cf3/EndgameRune9.png",
+      "category": "Runes",
+      "detailsId": "ancient-rune-of-witchcraft"
+    },
+    {
+      "id": "glacial-rune",
+      "name": "Glacial Rune",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQ29sZFJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/499bfe179a/ColdRune.png",
+      "category": "Runes",
+      "detailsId": "glacial-rune"
+    },
+    {
       "id": "greater-rune-of-nobility",
       "name": "Greater Rune of Nobility",
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZVNwZWNpYWw0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/5ffcde6ca9/LightningRuneSpecial4.png",
       "category": "Runes",
       "detailsId": "greater-rune-of-nobility"
-    },
-    {
-      "id": "lesser-rebirth-rune",
-      "name": "Lesser Rebirth Rune",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlmZVJlY292ZXJ5UnVuZVRpZXIxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6ef2915508/LifeRecoveryRuneTier1.png",
-      "category": "Runes",
-      "detailsId": "lesser-rebirth-rune"
     },
     {
       "id": "resolve-rune",
@@ -3006,6 +3115,13 @@
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lMTMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/159530efbe/EarlyMythicRune13.png",
       "category": "Runes",
       "detailsId": "rune-of-confrontation"
+    },
+    {
+      "id": "storm-rune",
+      "name": "Storm Rune",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/98319b3998/LightningRune.png",
+      "category": "Runes",
+      "detailsId": "storm-rune"
     },
     {
       "id": "warding-rune-of-obsession",
@@ -3204,6 +3320,20 @@
       "detailsId": "passion-of-aldur"
     },
     {
+      "id": "perfect-adept-rune",
+      "name": "Perfect Adept Rune",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVEZXh0ZXJpdHkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/33ddcdf769/PerfectRuneDexterity.png",
+      "category": "Runes",
+      "detailsId": "perfect-adept-rune"
+    },
+    {
+      "id": "perfect-body-rune",
+      "name": "Perfect Body Rune",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVMaWZlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/77d2019212/PerfectRuneLife.png",
+      "category": "Runes",
+      "detailsId": "perfect-body-rune"
+    },
+    {
       "id": "perfect-desert-rune",
       "name": "Perfect Desert Rune",
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVGaXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b398960637/PerfectRuneFire.png",
@@ -3218,18 +3348,25 @@
       "detailsId": "perfect-iron-rune"
     },
     {
+      "id": "perfect-resolve-rune",
+      "name": "Perfect Resolve Rune",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVJbnRlbGxpZ2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/9c387ac5f1/PerfectRuneIntelligence.png",
+      "category": "Runes",
+      "detailsId": "perfect-resolve-rune"
+    },
+    {
+      "id": "perfect-robust-rune",
+      "name": "Perfect Robust Rune",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVTdHJlbmd0aCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab65433f7e/PerfectRuneStrength.png",
+      "category": "Runes",
+      "detailsId": "perfect-robust-rune"
+    },
+    {
       "id": "perfect-storm-rune",
       "name": "Perfect Storm Rune",
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVMaWdodG5pbmciLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/d08ab44bac/PerfectRuneLightning.png",
       "category": "Runes",
       "detailsId": "perfect-storm-rune"
-    },
-    {
-      "id": "perfect-ward-rune",
-      "name": "Perfect Ward Rune",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvQWRkZWRXYXJkUGVyZmVjdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/aea05784dd/AddedWardPerfect.png",
-      "category": "Runes",
-      "detailsId": "perfect-ward-rune"
     },
     {
       "id": "rebirth-rune",
@@ -3323,20 +3460,6 @@
       "detailsId": "the-greatwolfs-rune-of-claws"
     },
     {
-      "id": "thruds-might",
-      "name": "Thrud's Might",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lRmlyZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/4e68367277/GameWarpRuneFire.png",
-      "category": "Runes",
-      "detailsId": "thruds-might"
-    },
-    {
-      "id": "uhtreds-sidereus",
-      "name": "Uhtred's Sidereus",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lVGltZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/63a40dc79d/GameWarpRuneTime.png",
-      "category": "Runes",
-      "detailsId": "uhtreds-sidereus"
-    },
-    {
       "id": "vision-rune",
       "name": "Vision Rune",
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQWNjdXJhY3lSdW5lIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/8e7841f0ef/AccuracyRune.png",
@@ -3358,6 +3481,13 @@
       "detailsId": "warding-rune-of-bodyguards"
     },
     {
+      "id": "warding-rune-of-courage",
+      "name": "Warding Rune of Courage",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkOSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3a80888429/RunicWard9.png",
+      "category": "Runes",
+      "detailsId": "warding-rune-of-courage"
+    },
+    {
       "id": "warding-rune-of-desperation",
       "name": "Warding Rune of Desperation",
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkNCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2662ce564a/RunicWard4.png",
@@ -3370,13 +3500,6 @@
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkMyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/54ed17499a/RunicWard3.png",
       "category": "Runes",
       "detailsId": "warding-rune-of-disintegration"
-    },
-    {
-      "id": "warding-rune-of-equinox",
-      "name": "Warding Rune of Equinox",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkMjAiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/d636760a41/RunicWard20.png",
-      "category": "Runes",
-      "detailsId": "warding-rune-of-equinox"
     },
     {
       "id": "warding-rune-of-glancing",
@@ -3412,6 +3535,13 @@
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvQWRkZWRXYXJkTm9ybWFsIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6666f53dc9/AddedWardNormal.png",
       "category": "Runes",
       "detailsId": "ward-rune"
+    },
+    {
+      "id": "lesser-rebirth-rune",
+      "name": "Lesser Rebirth Rune",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlmZVJlY292ZXJ5UnVuZVRpZXIxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6ef2915508/LifeRecoveryRuneTier1.png",
+      "category": "Runes",
+      "detailsId": "lesser-rebirth-rune"
     }
   ]
 }

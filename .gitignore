@@ -5,3 +5,4 @@ youtube_cookies*.txt
 __pycache__/
 *.py[cod]
 data/logs/
+data/raw/grindinggear_github/repos/

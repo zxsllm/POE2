@@ -1,0 +1,33 @@
+{
+  "snapshot_time_utc": "2026-06-01T12:52:34+00:00",
+  "source": "poe2wiki Cargo passive_skills table, filtered by is_atlas_passive=1",
+  "source_api": "https://www.poe2wiki.net/api.php",
+  "poe2db_reference_page": "https://poe2db.tw/Atlas_passive_skill",
+  "node_rows": 853,
+  "edge_rows": 523,
+  "sub_tree_counts": {
+    "Abyss": 51,
+    "Boss": 1,
+    "Breach": 39,
+    "Delirium": 38,
+    "Expedition": 17,
+    "Generic": 624,
+    "Incursion": 42,
+    "Ritual": 41
+  },
+  "node_type_counts": {
+    "choice_option": 20,
+    "icon_only": 15,
+    "keystone": 33,
+    "notable": 382,
+    "small": 395,
+    "start": 8
+  },
+  "outputs": {
+    "raw_json": "data\\raw\\poe2wiki\\poe2_atlas_passive_skills.json",
+    "poe2db_html": "data\\raw\\poe2db\\Atlas_passive_skill.html",
+    "nodes_csv": "data\\processed\\passive_tree\\poe2_atlas_passive_nodes.csv",
+    "edges_csv": "data\\processed\\passive_tree\\poe2_atlas_passive_edges.csv"
+  },
+  "known_gap": "This source includes passive text and connections, but not official atlas tree coordinates."
+}

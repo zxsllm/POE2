@@ -1,0 +1,524 @@
+from_id,from_name,to_id,to_name
+AtlasAzmeriSpirit2,Azmeri Spirit Chance,AtlasAzmeriSpiritNotable2,Spirit-Touched Spoils
+AtlasAzmeriSpirit2,Azmeri Spirit Chance,AtlasAzmeriSpiritNotable16__,Sacred Sap
+AtlasAzmeriSpirit2,Azmeri Spirit Chance,AtlasAzmeriSpiritNotable6,Grip of the Wilds
+AtlasAzmeriSpirit4,Cleansed Areas: Sacred Spirit Chance,AtlasAzmeriSpiritNotable12,The Chosen Children
+AtlasAzmeriSpirit4,Cleansed Areas: Sacred Spirit Chance,AtlasCleansedNotable4,Freed From Corruption
+AtlasAzmeriSpirit6,Azmeri Spirit Chance,AtlasAzmeriSpiritNotable9,Spoils of the Hunt
+AtlasAzmeriSpirit6,Azmeri Spirit Chance,AtlasAzmeriSpiritNotable11,Spill the Sap
+AtlasAzmeriSpirit7,Azmeri Spirit Chance,AtlasAzmeriSpiritNotable10,Quickened Flow
+AtlasAzmeriSpirit7,Azmeri Spirit Chance,AtlasAzmeriSpiritNotable13,Those Who Hear
+AtlasAzmeriSpiritEssenceChance,Essence Chance,AtlasDeadlyBossDropsExtraRandomLineage4,Memories of the Karui
+AtlasAzmeriSpiritEssenceChance,Essence Chance,AtlasEssenceNotable1,Massive Crystals
+AtlasAzmeriSpiritEssenceNotable,Burst of Energy,AtlasEssence7,Essence Chance
+AtlasAzmeriSpiritNotable10,Quickened Flow,AtlasGenericSmall76,Azmeri Spirit Chance
+AtlasAzmeriSpiritNotable10,Quickened Flow,AtlasGenericSmall6,Item Rarity
+AtlasAzmeriSpiritNotable11,Spill the Sap,AtlasGenericSmall79,Azmeri Spirit Chance
+AtlasAzmeriSpiritNotable11,Spill the Sap,AtlasGenericSmall78_,Azmeri Spirit Chance
+AtlasAzmeriSpiritNotable12,The Chosen Children,AtlasGenericSmall76,Azmeri Spirit Chance
+AtlasAzmeriSpiritNotable13,Those Who Hear,AtlasMagicMonster9_,Magic Packs
+AtlasAzmeriSpiritNotable14_,Hunt the Apex,AtlasGenericSmall77,Azmeri Spirit Chance
+AtlasAzmeriSpiritNotable14_,Hunt the Apex,AtlasHybridLeagueSmall5,Azmeri Spirit and Strongbox Chance
+AtlasAzmeriSpiritNotable15,Unseen Rivers,AtlasAzmeriSpiritNotable8,Worthy Hunter
+AtlasAzmeriSpiritNotable2,Spirit-Touched Spoils,AtlasHybridLeagueSmall4,Azmeri Spirit and Shrine Chance
+AtlasAzmeriSpiritNotable3,Light of the Draíocht,AtlasGenericSmall75,Azmeri Spirit Chance
+AtlasAzmeriSpiritNotable6,Grip of the Wilds,AtlasGenericSmall77,Azmeri Spirit Chance
+AtlasAzmeriSpiritNotable6,Grip of the Wilds,AtlasBiomeGrass1,Grass Biome: Azmeri Spirit Chance
+AtlasAzmeriSpiritNotable7,Viridi's Sacrifice,AtlasGenericSmall87_,Azmeri Spirit and Strongbox Chance
+AtlasAzmeriSpiritNotable7,Viridi's Sacrifice,AtlasDeadlyBossDropsExtraRandomLineage3,Memories of the Ezomytes
+AtlasAzmeriSpiritNotable8,Worthy Hunter,AtlasGenericSmall79,Azmeri Spirit Chance
+AtlasAzmeriSpiritNotable9,Spoils of the Hunt,AtlasRareMonsterChance2,Rare Monsters
+AtlasBiomeCity1,City Biome: Rare Monster Modifiers,AtlasBiomeCityNotable3_,Dread Lieutenants
+AtlasBiomeCity1,City Biome: Rare Monster Modifiers,AtlasBiomeCityNotable1,Industrial Improvements
+AtlasBiomeCity2,City Biome: Tablet Effect,AtlasBiomeCityNotable9,Guild Craftsmen
+AtlasBiomeCity2,City Biome: Tablet Effect,AtlasBiomeCityNotable13,Hope in Despair
+AtlasBiomeCity2,City Biome: Tablet Effect,AtlasRogueExiles4,City Biome: Rogue Exile Chance
+AtlasBiomeCity3,City Biome: Rare Monster Modifiers,AtlasBiomeCityNotable1,Industrial Improvements
+AtlasBiomeCity3,City Biome: Rare Monster Modifiers,AtlasBiomeCityNotable6,Warring Survivors
+AtlasBiomeCity4_,City Biome: Summoning Circle Chance,AtlasBiomeCityNotable14,Serle's Legacy
+AtlasBiomeCity4_,City Biome: Summoning Circle Chance,AtlasBiomeCityNotable1,Industrial Improvements
+AtlasBiomeCity5,City Biome: Summoning Circle Chance,AtlasBiomeCityNotable8,Bring Me Your Leader
+AtlasBiomeCity5,City Biome: Summoning Circle Chance,AtlasBiomeCityNotable14,Serle's Legacy
+AtlasBiomeCity6,City Biome: Tablet Effect,AtlasBiomeCityNotable1,Industrial Improvements
+AtlasBiomeCity6,City Biome: Tablet Effect,AtlasGenericSmall32,Tablet Effect
+AtlasBiomeCity7,City Biome: Tablet Effect,AtlasBiomeCityNotable9,Guild Craftsmen
+AtlasBiomeCity7,City Biome: Tablet Effect,AtlasBiomeCityNotable3_,Dread Lieutenants
+AtlasBiomeCity7,City Biome: Tablet Effect,AtlasBiomeCityNotable15,Monuments in Time
+AtlasBiomeCity7,City Biome: Tablet Effect,AtlasBiomeCityNotable4,Just Another Day in Wraeclast
+AtlasBiomeCityNotable10,History of the Faridun,AtlasBiomeCityNotable13,Hope in Despair
+AtlasBiomeCityNotable11,History of the Ezomytes,AtlasBiomeCityNotable14,Serle's Legacy
+AtlasBiomeCityNotable12,History of the Vaal,AtlasBiomeCityNotable15,Monuments in Time
+AtlasBiomeCityNotable13,Hope in Despair,AtlasShrines1,Shrine Chance
+AtlasBiomeCityNotable13,Hope in Despair,AtlasUniqueMonsterDropRarity6,Unique Monster Item Rarity
+AtlasBiomeCityNotable15,Monuments in Time,AtlasRareMonsterModifiersChance2,Rare Monster Modifiers Chance
+AtlasBiomeCityNotable3_,Dread Lieutenants,AtlasRarity1,Item Rarity
+AtlasBiomeCityNotable5_,Urban Sprawl,AtlasRogueExiles4,City Biome: Rogue Exile Chance
+AtlasBiomeCityNotable5_,Urban Sprawl,AtlasMagicMonster9_,Magic Packs
+AtlasBiomeCityNotable6,Warring Survivors,AtlasBiomeCityNotable7,Warlord's Vendetta
+AtlasBiomeDesert1,Desert Biome: Essence Chance,AtlasBiomeDesertNotable1,Arid Stability
+AtlasBiomeDesert1,Desert Biome: Essence Chance,AtlasEssence6,Essence Chance
+AtlasBiomeDesert2,Desert Biome: Rare Monster Chance,AtlasBiomeDesertNotable2,Survival of the Fittest
+AtlasBiomeDesert2,Desert Biome: Rare Monster Chance,AtlasBiomeDesertNotable3,Harsh Adaptations
+AtlasBiomeDesert3,Desert Biome: Rare Monster Modifiers Chance,AtlasBiomeDesertNotable3,Harsh Adaptations
+AtlasBiomeDesert3,Desert Biome: Rare Monster Modifiers Chance,AtlasRareMonsterModifiersChance1,Rare Monster Modifiers Chance
+AtlasBiomeDesert3,Desert Biome: Rare Monster Modifiers Chance,AtlasBiomeDesertNotable1,Arid Stability
+AtlasBiomeDesertNotable2,Survival of the Fittest,AtlasGenericSmall3,Item Rarity
+AtlasBiomeForest2,Forest Biome: Rare Beast Modifiers Chance,AtlasBiomeForestNotable1,Evolutionary Pressures
+AtlasBiomeForest2,Forest Biome: Rare Beast Modifiers Chance,AtlasBiomeForestNotable2,Call of the Spirit
+AtlasBiomeForest3,Forest Biome: Azmeri Spirit Chance,AtlasBiomeForestNotable3_,The Hunt Goes On
+AtlasBiomeForest3,Forest Biome: Azmeri Spirit Chance,AtlasBiomeForestNotable2,Call of the Spirit
+AtlasBiomeForest3,Forest Biome: Azmeri Spirit Chance,AtlasUniqueMonsterDropRarity9_,Unique Monster Item Rarity
+AtlasBiomeForestNotable1,Evolutionary Pressures,AtlasRareMonsterChance8,Rare Monsters
+AtlasBiomeForestNotable2,Call of the Spirit,AtlasGenericSmall102,Rogue Exile Chance
+AtlasBiomeGenericNotable1,Apex Predators,AtlasRareMonsterChance8,Rare Monsters
+AtlasBiomeGenericNotable1,Apex Predators,AtlasContentTypeSelector1,The Chosen Path
+AtlasBiomeGenericNotable1,Apex Predators,AtlasRareMonsterChance7,Rare Monsters
+AtlasBiomeGenericNotable1,Apex Predators,AtlasRareMonsterModifiersChance3,Rare Monster Modifiers Chance
+AtlasBiomeGenericNotable2,Plentiful Lands,AtlasMagicMonster5,Magic Packs
+AtlasBiomeGenericNotable2,Plentiful Lands,AtlasGenericSmall38,Pack Size
+AtlasBiomeGenericNotable2,Plentiful Lands,AtlasMagicMonster17,Magic Packs
+AtlasBiomeGenericNotable2,Plentiful Lands,AtlasMonsterPackSizeSelector1,The Journey Ahead
+AtlasBiomeGenericNotable3,Between Sand and Sea,AtlasTabletNotable3,Archaeological Interest
+AtlasBiomeGenericNotable3,Between Sand and Sea,AtlasMonsterPackSizeSelector1,The Journey Ahead
+AtlasBiomeGenericNotable4,Highs and Lows,AtlasGenericSmall3,Item Rarity
+AtlasBiomeGenericNotable4,Highs and Lows,AtlasGenericSmall1,Item Rarity
+AtlasBiomeGenericNotable4,Highs and Lows,AtlasMonsterPackSizeSelector1,The Journey Ahead
+AtlasBiomeGenericNotable4,Highs and Lows,AtlasRareMonsterModifiersChance3,Rare Monster Modifiers Chance
+AtlasBiomeGenericNotable5,Hidden Things in Shaded Places,AtlasBiomeGrass3,Grass Biome: Summoning Circle Chance
+AtlasBiomeGenericNotable5,Hidden Things in Shaded Places,AtlasContentTypeSelector1,The Chosen Path
+AtlasBiomeGenericNotable5,Hidden Things in Shaded Places,AtlasGenericSmall38,Pack Size
+AtlasBiomeGenericNotable5,Hidden Things in Shaded Places,AtlasUniqueMonsterDropRarity3,Unique Monster Item Rarity
+AtlasBiomeGrass1,Grass Biome: Azmeri Spirit Chance,AtlasBiomeGrassNotable2_,Whispers of the Waving Grains
+AtlasBiomeGrass1,Grass Biome: Azmeri Spirit Chance,AtlasBiomeGrassNotable1,Moths to the Flame
+AtlasBiomeGrass2_,Grass Biome: Pack Size,AtlasBiomeGrassNotable3,Bounty of the Fields
+AtlasBiomeGrass2_,Grass Biome: Pack Size,AtlasBiomeGrassNotable2_,Whispers of the Waving Grains
+AtlasBiomeGrass3,Grass Biome: Summoning Circle Chance,AtlasBiomeGrassNotable1,Moths to the Flame
+AtlasBiomeGrassNotable2_,Whispers of the Waving Grains,AtlasGenericSmall31,Tablet Effect
+AtlasBiomeMountain1,Mountain Biome: Rare Chest Chance,AtlasBiomeMountainNotable1,Forgotten Heights
+AtlasBiomeMountain1,Mountain Biome: Rare Chest Chance,AtlasGenericNotable14,Treasure Coves
+AtlasBiomeMountain2,Mountain Biome: Strongbox Chance,AtlasGenericNotable14,Treasure Coves
+AtlasBiomeMountain2,Mountain Biome: Strongbox Chance,AtlasBiomeMountainNotable2,Closer to the Heavens
+AtlasBiomeMountain2,Mountain Biome: Strongbox Chance,AtlasBiomeMountainNotable3___,Favoured Treasures
+AtlasBiomeMountain3,Mountain Biome: Shrine Chance,AtlasShrinesNotable10,Offerings to the Unknown
+AtlasBiomeMountain3,Mountain Biome: Shrine Chance,AtlasBiomeMountainNotable2,Closer to the Heavens
+AtlasBiomeMountainNotable1,Forgotten Heights,AtlasRarity4_,Item Rarity
+AtlasBiomeMountainNotable3___,Favoured Treasures,AtlasStrongbox7,Strongbox Chance
+AtlasBiomeSwamp1,Swamp Biome: Essence Chance,AtlasBiomeSwampNotable1,Mysterious Transference
+AtlasBiomeSwamp1,Swamp Biome: Essence Chance,AtlasEssenceNotable6,Flawless Patterns
+AtlasBiomeSwamp2,Swamp Biome: Increased Summoning Circle Chance,AtlasBiomeSwampNotable2,Boss of the Bog
+AtlasBiomeSwamp2,Swamp Biome: Increased Summoning Circle Chance,AtlasUniqueMonsterDropRarity10,Unique Monster Item Rarity
+AtlasBiomeSwamp2,Swamp Biome: Increased Summoning Circle Chance,AtlasStoneCircle6,Summoning Circle Chance
+AtlasBiomeSwamp3,Swamp Biome: Unique Monster Item Rarity,AtlasBiomeSwampNotable3,Mysterious Charms and Trinkets
+AtlasBiomeSwamp3,Swamp Biome: Unique Monster Item Rarity,AtlasUniqueMonsterDropRarity11,Unique Monster Item Rarity
+AtlasBiomeSwamp3,Swamp Biome: Unique Monster Item Rarity,AtlasBiomeSwampNotable1,Mysterious Transference
+AtlasBiomeSwampNotable1,Mysterious Transference,AtlasBiomeSwampNotable2,Boss of the Bog
+AtlasBiomeWater1,Water Biome: Magic Pack Size,AtlasBiomeWaterNotable2_,Something in the Water
+AtlasBiomeWater1,Water Biome: Magic Pack Size,AtlasBiomeWaterNotable1,Thriving Waters
+AtlasBiomeWater2,Water Biome: Item Rarity,AtlasMagicMonster8,Magic Packs
+AtlasBiomeWater2,Water Biome: Item Rarity,AtlasBiomeWaterNotable2_,Something in the Water
+AtlasBiomeWater2,Water Biome: Item Rarity,AtlasBiomeWaterNotable3,Cult of the Rains
+AtlasBiomeWater3,Water Biome: Shrine Chance,AtlasBiomeWaterNotable3,Cult of the Rains
+AtlasBiomeWater3,Water Biome: Shrine Chance,AtlasShrines6,Shrine Chance
+AtlasBiomeWaterNotable1,Thriving Waters,AtlasMagicMonster5,Magic Packs
+AtlasCleansed1,Additional Cleansed Packs,AtlasExceptionalBodyArmour__,Exceptional Vestments
+AtlasCleansed1,Additional Cleansed Packs,AtlasCleansedNotable5__,Hidden Scars
+AtlasCleansed1,Additional Cleansed Packs,AtlasCleansedNotable6,From Distances Untold
+AtlasCleansed2,Additional Cleansed Packs,AtlasUniqueNotable3_,Verdant Growth
+AtlasCleansed2,Additional Cleansed Packs,AtlasExceptionalBodyArmour__,Exceptional Vestments
+AtlasCleansed2,Additional Cleansed Packs,AtlasCleansedNotable5__,Hidden Scars
+AtlasCleansed3_,Additional Cleansed Packs,AtlasCleansedNotable5__,Hidden Scars
+AtlasCleansed3_,Additional Cleansed Packs,AtlasMagicMonster12,Magic Packs
+AtlasCleansed4,Additional Cleansed Packs,AtlasCleansedNotable4,Freed From Corruption
+AtlasCleansed4,Additional Cleansed Packs,AtlasStrongbox5,Strongbox Chance
+AtlasCleansed4,Additional Cleansed Packs,AtlasExceptionalBodyArmour__,Exceptional Vestments
+AtlasContentTypeSelector1,The Chosen Path,AtlasUniqueMonsterDropRarity3,Unique Monster Item Rarity
+AtlasContentTypeSelector1,The Chosen Path,AtlasRareMonsterChance7,Rare Monsters
+AtlasContentTypeSelector1,The Chosen Path,AtlasTabletNotable5,Specialised Seeker
+AtlasContentTypeSelector1,The Chosen Path,AtlasWaystoneNotable3,Valuable Paths
+AtlasCorruption1,Corruption Areas: Rare Monster Modifier Chance,AtlasMapBossNotable7_,Cataclysm's Wake
+AtlasCorruption1,Corruption Areas: Rare Monster Modifier Chance,AtlasRareMonsterChance4__,Rare Monsters
+AtlasCorruption2,Corruption Areas: Rare Monster Modifier Chance,AtlasCorruptionNotable3,Heart of Corruption
+AtlasCorruption2,Corruption Areas: Rare Monster Modifier Chance,AtlasExceptionalWeapons,Exceptional Armaments
+AtlasCorruption2,Corruption Areas: Rare Monster Modifier Chance,AtlasMapBossNotable7_,Cataclysm's Wake
+AtlasCorruption3,Corruption Areas: Rare Monster Modifier Chance,AtlasStrongbox1,Corruption Areas: Strongbox Chance
+AtlasCorruption3,Corruption Areas: Rare Monster Modifier Chance,AtlasEssence9_,Corruption Areas: Essence Chance
+AtlasCorruption3,Corruption Areas: Rare Monster Modifier Chance,AtlasExceptionalWeapons,Exceptional Armaments
+AtlasCorruption6,Corruption Areas: Rare Monster Modifier Chance,AtlasMapBossNotable7_,Cataclysm's Wake
+AtlasCorruption6,Corruption Areas: Rare Monster Modifier Chance,AtlasCorruptionNotable2,Corrupted Mutations
+AtlasCorruption6,Corruption Areas: Rare Monster Modifier Chance,AtlasExceptionalWeapons,Exceptional Armaments
+AtlasDeadlyBossDropsExtraRandomLineage1,Memories of the Vaal,AtlasStrongboxNotable13,An Appropriate Vault
+AtlasDeadlyBossDropsExtraRandomLineage1,Memories of the Vaal,AtlasMagicMonster13,Magic Packs
+AtlasDeadlyBossDropsExtraRandomLineage2,Memories of the Maraketh,AtlasMagicMonster13,Magic Packs
+AtlasDeadlyBossDropsExtraRandomLineage2,Memories of the Maraketh,AtlasGenericSmall6,Item Rarity
+AtlasDeadlyBossDropsExtraRandomLineage3,Memories of the Ezomytes,AtlasUniqueMonsterDropRarity13,Unique Monster Item Rarity
+AtlasDeadlyBossDropsExtraRandomLineage4,Memories of the Karui,AtlasUniqueMonsterDropRarity13,Unique Monster Item Rarity
+AtlasEssence4_,Essence Chance,AtlasEssenceNotable4,Greater Pattern
+AtlasEssence4_,Essence Chance,AtlasEssenceNotable13,Crystalline Patterns
+AtlasEssence4_,Essence Chance,AtlasEssenceNotable6,Flawless Patterns
+AtlasEssence5_,Essence Chance,AtlasUniqueNotable2,Mysteries of Silence
+AtlasEssence5_,Essence Chance,AtlasEssenceNotable9,Intensifying Energies
+AtlasEssence5_,Essence Chance,AtlasEssenceNotable1,Massive Crystals
+AtlasEssence6,Essence Chance,AtlasEssenceNotable8_,Man Trap
+AtlasEssence6,Essence Chance,AtlasEssenceNotable4,Greater Pattern
+AtlasEssence7,Essence Chance,AtlasEssenceNotable1,Massive Crystals
+AtlasEssence7,Essence Chance,AtlasGenericNotable29,Harmonic Corruption
+AtlasEssence8_,Essence Chance,AtlasEssenceNotable10_,Inexplicable Alchemy
+AtlasEssence8_,Essence Chance,AtlasMapBossNotable1_,Overlord's Domain
+AtlasEssence9_,Corruption Areas: Essence Chance,AtlasGenericNotable29,Harmonic Corruption
+AtlasEssenceNotable11,Essence Dowsing,AtlasEssenceNotable7,Crystalline Overgrowth
+AtlasEssenceNotable12,Corrupted Lattices,AtlasGenericNotable29,Harmonic Corruption
+AtlasEssenceNotable2,Imprisoned Monstrosities,AtlasGenericSmall18,Essence Chance
+AtlasEssenceNotable2,Imprisoned Monstrosities,AtlasGenericSmall17,Essence Chance
+AtlasEssenceNotable2,Imprisoned Monstrosities,AtlasGenericSmall71,Essence Chance
+AtlasEssenceNotable3,Trapped Subordinate,AtlasRareMonsterChance3,Rare Monsters
+AtlasEssenceNotable3,Trapped Subordinate,AtlasGenericSmall18,Essence Chance
+AtlasEssenceNotable6,Flawless Patterns,AtlasHybridLeagueSmall2_,Essence and Summoning Circle Chance
+AtlasEssenceNotable7,Crystalline Overgrowth,AtlasGenericSmall17,Essence Chance
+AtlasEssenceNotable8_,Man Trap,AtlasHybridLeagueSmall1,Rogue Exile and Essence Chance
+AtlasEssenceNotable9,Intensifying Energies,AtlasRareMonsterModifiersChance2,Rare Monster Modifiers Chance
+AtlasExceptionalBoots,Exceptional Footwear,AtlasRareMonsterModifiersChance6,Rare Monster Modifiers Chance
+AtlasExceptionalBoots,Exceptional Footwear,AtlasRarity1,Item Rarity
+AtlasExceptionalGloves,Exceptional Handiwork,AtlasMagicMonster9_,Magic Packs
+AtlasExceptionalHelmets,Exceptional Adornments,AtlasRareMonsterModifiersChance2,Rare Monster Modifiers Chance
+AtlasGenericNotable1,Rising Danger,AtlasRareMonsterModifiersChance8,Rare Monster Modifiers Chance
+AtlasGenericNotable1,Rising Danger,AtlasRareMonsterChance3,Rare Monsters
+AtlasGenericNotable1,Rising Danger,AtlasRareMonsterModifiersChance5,Rare Monster Modifiers Chance
+AtlasGenericNotable14,Treasure Coves,AtlasMagicMonster7,Magic Packs
+AtlasGenericNotable2,Expanding Hordes,AtlasMagicMonster6,Magic Packs
+AtlasGenericNotable2,Expanding Hordes,AtlasGenericSmall13,Magic Packs
+AtlasGenericNotable2,Expanding Hordes,AtlasMagicMonster3,Magic Packs
+AtlasGenericNotable32,Mystic Guardians,AtlasGenericSmall65_,Shrine Chance
+AtlasGenericNotable32,Mystic Guardians,AtlasShrines3,Shrine Chance
+AtlasGenericNotable36,Hidden Compartments,AtlasHybridLeagueSmall6,Shrine and Strongbox Chance
+AtlasGenericNotable36,Hidden Compartments,AtlasStrongbox7,Strongbox Chance
+AtlasGenericNotable40,Keen Crafters,AtlasMapBossNotable2,Fit for a King
+AtlasGenericNotable40,Keen Crafters,AtlasRogueExilesNotable13,Well-equipped Opponents
+AtlasGenericNotable40,Keen Crafters,AtlasGenericSmall103,Rogue Exile Chance
+AtlasGenericNotable5,Favoured Disciple,AtlasShrines4__,Shrine Chance
+AtlasGenericNotable5,Favoured Disciple,AtlasShrines2,Shrine Chance
+AtlasGenericNotable6,Twin Threats,AtlasRareMonsterModifiersChance8,Rare Monster Modifiers Chance
+AtlasGenericNotable6,Twin Threats,AtlasRareMonsterChance2,Rare Monsters
+AtlasGenericNotable6,Twin Threats,AtlasRareMonsterModifiersChance5,Rare Monster Modifiers Chance
+AtlasGenericNotable7,Bountiful Bloodlines,AtlasGenericSmall13,Magic Packs
+AtlasGenericNotable7,Bountiful Bloodlines,AtlasMagicMonster3,Magic Packs
+AtlasGenericNotable7,Bountiful Bloodlines,AtlasStrongboxNotable1,Drawn to Riches
+AtlasGenericSmall1,Item Rarity,AtlasMonsterPackSizeSelector1,The Journey Ahead
+AtlasGenericSmall1,Item Rarity,AtlasRareMonsterModifiersChance3,Rare Monster Modifiers Chance
+AtlasGenericSmall10,Shrine Chance,AtlasShrinesNotable10,Offerings to the Unknown
+AtlasGenericSmall10,Shrine Chance,AtlasShrinesNotable8,Gathered Masses
+AtlasGenericSmall10,Shrine Chance,AtlasShrinesNotable4_,Fabled Showdown
+AtlasGenericSmall102,Rogue Exile Chance,AtlasRogueExilesNotable8,The Deadliest Hunt
+AtlasGenericSmall103,Rogue Exile Chance,AtlasRogueExilesNotable2,Competing Explorers
+AtlasGenericSmall105,Rogue Exile Chance,AtlasRogueExilesNotable6,Escalating Rivalry
+AtlasGenericSmall105,Rogue Exile Chance,AtlasRogueExilesNotable5,Famous Locals
+AtlasGenericSmall13,Magic Packs,AtlasMagicMonster4,Magic Packs
+AtlasGenericSmall13,Magic Packs,AtlasGenericSmall65_,Shrine Chance
+AtlasGenericSmall20,Rogue Exile Chance,AtlasRogueExilesNotable1,Here for the Same Reason
+AtlasGenericSmall20,Rogue Exile Chance,AtlasRogueExilesNotable5,Famous Locals
+AtlasGenericSmall29,Tablet Effect,AtlasTabletNotable4,Propagating Secrets
+AtlasGenericSmall29,Tablet Effect,AtlasTabletNotable6,Reverse Transcription
+AtlasGenericSmall29,Tablet Effect,AtlasTabletNotable3,Archaeological Interest
+AtlasGenericSmall31,Tablet Effect,AtlasGenericSmall77,Azmeri Spirit Chance
+AtlasGenericSmall31,Tablet Effect,AtlasTabletNotable9,Eons of Contamination
+AtlasGenericSmall32,Tablet Effect,AtlasTabletNotable4,Propagating Secrets
+AtlasGenericSmall32,Tablet Effect,AtlasTabletNotable6,Reverse Transcription
+AtlasGenericSmall36,Strongbox Chance,AtlasStrongboxNotable15,Royal Craftsmanship
+AtlasGenericSmall36,Strongbox Chance,AtlasMapBossNotable5,Overlord's Influence
+AtlasGenericSmall38,Pack Size,AtlasMapBossNotable5,Overlord's Influence
+AtlasGenericSmall38,Pack Size,AtlasMagicMonster17,Magic Packs
+AtlasGenericSmall38,Pack Size,AtlasUniqueMonsterDropRarity3,Unique Monster Item Rarity
+AtlasGenericSmall39_,Pack Size,AtlasMagicMonsterNotable3,Multiplying Monstrosities
+AtlasGenericSmall39_,Pack Size,AtlasMagicMonsterNotable5,Befit the Challenge
+AtlasGenericSmall40,Strongbox Chance,AtlasStrongboxNotable1,Drawn to Riches
+AtlasGenericSmall40,Strongbox Chance,AtlasStrongboxNotable2,Guarded Wealth
+AtlasGenericSmall46,Rogue Exile Chance,AtlasRogueExilesNotable2,Competing Explorers
+AtlasGenericSmall46,Rogue Exile Chance,AtlasRogueExilesNotable9,Wealthy Exiles
+AtlasGenericSmall63_,Strongbox Chance,AtlasStrongboxNotable5_,Living Metal
+AtlasGenericSmall63_,Strongbox Chance,AtlasStrongboxNotable11,Intriguing Designs
+AtlasGenericSmall66,Strongbox Chance,AtlasStrongboxNotable2,Guarded Wealth
+AtlasGenericSmall66,Strongbox Chance,AtlasStrongboxNotable14,Inlaid Inscriptions
+AtlasGenericSmall71,Essence Chance,AtlasGenericStart,
+AtlasGenericSmall75,Azmeri Spirit Chance,AtlasMapBossNotable5,Overlord's Influence
+AtlasGenericSmall78_,Azmeri Spirit Chance,AtlasGenericStart,
+AtlasGenericSmall87_,Azmeri Spirit and Strongbox Chance,AtlasStrongboxNotable16,Pandora's Box
+AtlasGenericSmall88,Shrine Chance,AtlasStrongboxShrineNotable,Twice-Answered Prayers
+AtlasGenericSmall88,Shrine Chance,AtlasMapBossNotable5,Overlord's Influence
+AtlasHybridLeagueSmall1,Rogue Exile and Essence Chance,AtlasRogueExilesNotable10,Competitive Archaeology
+AtlasHybridLeagueSmall2_,Essence and Summoning Circle Chance,AtlasStoneCircleNotable1,Energised Precipitate
+AtlasHybridLeagueSmall3,Rogue Exile and Summoning Circle Chance,AtlasStoneCircleNotable10,Distant Origins
+AtlasHybridLeagueSmall3,Rogue Exile and Summoning Circle Chance,AtlasRogueExilesNotable4_,Uncommon Alliances
+AtlasHybridLeagueSmall4,Azmeri Spirit and Shrine Chance,AtlasShrinesNotable9,Curious Spirits
+AtlasHybridLeagueSmall5,Azmeri Spirit and Strongbox Chance,AtlasStrongboxNotable5_,Living Metal
+AtlasHybridLeagueSmall6,Shrine and Strongbox Chance,AtlasShrinesNotable10,Offerings to the Unknown
+AtlasMagicMonster1,Magic Packs,AtlasMagicMonsterNotable6,Evolving Throngs
+AtlasMagicMonster1,Magic Packs,AtlasMagicMonsterNotable3,Multiplying Monstrosities
+AtlasMagicMonster1,Magic Packs,AtlasMagicMonsterNotable4,Infused Flesh
+AtlasMagicMonster12,Magic Packs,AtlasMagicMonster8,Magic Packs
+AtlasMagicMonster12,Magic Packs,AtlasRarity4_,Item Rarity
+AtlasMagicMonster13,Magic Packs,AtlasRarity2,Item Rarity
+AtlasMagicMonster13,Magic Packs,AtlasUniqueNotable4,Shattered Questions
+AtlasMagicMonster17,Magic Packs,AtlasMonsterPackSizeSelector1,The Journey Ahead
+AtlasMagicMonster2,Magic Packs,AtlasStrongboxNotable11,Intriguing Designs
+AtlasMagicMonster2,Magic Packs,AtlasMagicMonsterNotable5,Befit the Challenge
+AtlasMagicMonster2,Magic Packs,AtlasTowerRadius,Atop the World
+AtlasMagicMonster4,Magic Packs,AtlasRareMonsterChance6_,Rare Monsters
+AtlasMagicMonster6,Magic Packs,AtlasRareMonsterModifiersCap1,Adaptive Biology
+AtlasMagicMonster7,Magic Packs,AtlasMagicMonsterNotable3,Multiplying Monstrosities
+AtlasMapBossNotable1_,Overlord's Domain,AtlasStoneCircle2,Summoning Circle Chance
+AtlasMapBossNotable1_,Overlord's Domain,AtlasRogueExiles5,Rogue Exile Chance
+AtlasMapBossNotable1_,Overlord's Domain,AtlasRareMonsterModifiersChance3,Rare Monster Modifiers Chance
+AtlasMapBossNotable2,Fit for a King,AtlasUniqueMonsterDropRarity2,Unique Monster Item Rarity
+AtlasMapBossNotable2,Fit for a King,AtlasUniqueMonsterDropRarity1,Unique Monster Item Rarity
+AtlasMapBossNotable3,Hard-Won Treasures,AtlasUniqueMonsterDropRarity5,Unique Monster Item Rarity
+AtlasMapBossNotable8,Pathkeepers,AtlasUniqueMonsterDropRarity1,Unique Monster Item Rarity
+AtlasMapBossNotable8,Pathkeepers,AtlasUniqueMonsterDropRarity2,Unique Monster Item Rarity
+AtlasMapBossNotable8,Pathkeepers,AtlasUniqueMonsterDropRarity4,Unique Monster Item Rarity
+AtlasRareMonsterChance1,Rare Monsters,AtlasRareMonsterModifiersChance9,Rare Monster Modifiers Chance
+AtlasRareMonsterChance1,Rare Monsters,AtlasTabletNotable10,Eons of Domination
+AtlasRareMonsterChance2,Rare Monsters,AtlasRareMonsterChance6_,Rare Monsters
+AtlasRareMonsterChance3,Rare Monsters,AtlasRareMonsterChance5_,Rare Monsters
+AtlasRareMonsterChance4__,Rare Monsters,AtlasUniqueMonsterDropRarity11,Unique Monster Item Rarity
+AtlasRareMonsterChance4__,Rare Monsters,AtlasRareMonsterModifiersChance1,Rare Monster Modifiers Chance
+AtlasRareMonsterChance5_,Rare Monsters,AtlasUniqueMonsterDropRarity7,Unique Monster Item Rarity
+AtlasRareMonsterChance7,Rare Monsters,AtlasRareMonsterModifiersChance3,Rare Monster Modifiers Chance
+AtlasRareMonsterModifiersCap1,Adaptive Biology,AtlasTabletNotable9,Eons of Contamination
+AtlasRareMonsterModifiersCap2,Mutating Monsters,AtlasTabletNotable10,Eons of Domination
+AtlasRareMonsterModifiersCap2,Mutating Monsters,AtlasUniqueMonsterDropRarity4,Unique Monster Item Rarity
+AtlasRareMonsterModifiersChance4,Rare Monster Modifiers Chance,AtlasRareNotable2,To the Strong Go the Spoils
+AtlasRareMonsterModifiersChance4,Rare Monster Modifiers Chance,AtlasRareMonsterModifiersChance9,Rare Monster Modifiers Chance
+AtlasRareMonsterModifiersChance6,Rare Monster Modifiers Chance,AtlasUniqueNotable1,Greater Gifts
+AtlasRareMonsterModifiersChance7,Rare Monster Modifiers Chance,AtlasRarePackAdditionalRareChance1,Additional Rare Monster Chance
+AtlasRareMonsterModifiersChance7,Rare Monster Modifiers Chance,AtlasRareNotable4,Lethal Variants
+AtlasRareMonsterModifiersChance7,Rare Monster Modifiers Chance,AtlasUniqueMonsterDropRarity10,Unique Monster Item Rarity
+AtlasRareMonsterModifiersChance7,Rare Monster Modifiers Chance,AtlasRareNotable5,Nemesis Rising
+AtlasRareMonsterModifiersChance8,Rare Monster Modifiers Chance,AtlasRareMonsterModifiersMin1,No Simple Battles
+AtlasRareMonsterModifiersChance9,Rare Monster Modifiers Chance,AtlasStoneCircleNotable4,Lord of the Runes
+AtlasRareMonsterModifiersMin1,No Simple Battles,AtlasWaystoneNotable3,Valuable Paths
+AtlasRareMonsterModifiersMin1,No Simple Battles,AtlasTabletNotable5,Specialised Seeker
+AtlasRareNotable2,To the Strong Go the Spoils,AtlasRarePackAdditionalRareChance1,Additional Rare Monster Chance
+AtlasRarity1,Item Rarity,AtlasUniqueNotable1,Greater Gifts
+AtlasRarity2,Item Rarity,AtlasWaystoneNotable1,Enigmatic Intensification
+AtlasRarity2,Item Rarity,AtlasWaystoneNotable4,Risk and Reward
+AtlasRogueExiles1_,Rogue Exile Chance,AtlasRogueExilesNotable9,Wealthy Exiles
+AtlasRogueExiles1_,Rogue Exile Chance,AtlasGenericStart,
+AtlasRogueExiles2,Rogue Exile Chance,AtlasRogueExilesNotable8,The Deadliest Hunt
+AtlasRogueExiles2,Rogue Exile Chance,AtlasRogueExilesNotable4_,Uncommon Alliances
+AtlasRogueExiles2,Rogue Exile Chance,AtlasUniqueMonsterDropRarity9_,Unique Monster Item Rarity
+AtlasRogueExiles3,Rogue Exile Chance,AtlasRogueExilesNotable10,Competitive Archaeology
+AtlasRogueExiles3,Rogue Exile Chance,AtlasRogueExilesNotable12,Legendary Duels
+AtlasRogueExiles3,Rogue Exile Chance,AtlasRogueExilesNotable8,The Deadliest Hunt
+AtlasRogueExiles4,City Biome: Rogue Exile Chance,AtlasRogueExilesNotable5,Famous Locals
+AtlasRogueExiles5,Rogue Exile Chance,AtlasRogueExilesNotable3,Dressed in Fineries
+AtlasShrines1,Shrine Chance,AtlasShrinesNotable3,Convenient Beliefs
+AtlasShrines2,Shrine Chance,AtlasShrinesNotable2,Seasonal Blessing
+AtlasShrines3,Shrine Chance,AtlasShrinesNotable2,Seasonal Blessing
+AtlasShrines4__,Shrine Chance,AtlasGenericStart,
+AtlasShrines6,Shrine Chance,AtlasShrinesNotable9,Curious Spirits
+AtlasShrines6,Shrine Chance,AtlasShrinesNotable8,Gathered Masses
+AtlasShrinesNotable11,Divined Blessing,AtlasShrinesNotable2,Seasonal Blessing
+AtlasStoneCircle1,Summoning Circle Chance,AtlasStoneCircleNotable2,Challenging Foe
+AtlasStoneCircle1,Summoning Circle Chance,AtlasGenericStart,
+AtlasStoneCircle2,Summoning Circle Chance,AtlasStoneCircleNotable7,Danger in the Wilds
+AtlasStoneCircle4,Summoning Circle Chance,AtlasStoneCircleNotable4,Lord of the Runes
+AtlasStoneCircle4,Summoning Circle Chance,AtlasStoneCircleNotable10,Distant Origins
+AtlasStoneCircle5,Summoning Circle Chance,AtlasUniqueMonsterDropRarity1,Unique Monster Item Rarity
+AtlasStoneCircle5,Summoning Circle Chance,AtlasStoneCircleNotable5,Overheard Summons
+AtlasStoneCircle5,Summoning Circle Chance,AtlasStoneCircleNotable9,Runic Flare
+AtlasStoneCircle6,Summoning Circle Chance,AtlasStoneCircleNotable1,Energised Precipitate
+AtlasStoneCircle6,Summoning Circle Chance,AtlasStoneCircleNotable4,Lord of the Runes
+AtlasStoneCircle8,Summoning Circle Chance,AtlasStoneCircleNotable9,Runic Flare
+AtlasStoneCircle8,Summoning Circle Chance,AtlasStoneCircleNotable2,Challenging Foe
+AtlasStoneCircleNotable6,Blood on the Stones,AtlasStoneCircleNotable9,Runic Flare
+AtlasStrongbox1,Corruption Areas: Strongbox Chance,AtlasStrongboxNotable9,Enemy's Hoard
+AtlasStrongbox2_,Strongbox Chance,AtlasStrongboxNotable6,Symbiotic Strongboxes
+AtlasStrongbox2_,Strongbox Chance,AtlasStrongboxNotable8_,Bardiyan Craftsmanship
+AtlasStrongbox3,Strongbox Chance,AtlasStrongboxNotable9,Enemy's Hoard
+AtlasStrongbox3,Strongbox Chance,AtlasStrongboxNotable16,Pandora's Box
+AtlasStrongbox4,Strongbox Chance,AtlasStrongboxNotable13,An Appropriate Vault
+AtlasStrongbox4,Strongbox Chance,AtlasStrongboxNotable8_,Bardiyan Craftsmanship
+AtlasStrongbox5,Strongbox Chance,AtlasStrongboxNotable8_,Bardiyan Craftsmanship
+AtlasStrongbox6,Strongbox Chance,AtlasStrongboxNotable14,Inlaid Inscriptions
+AtlasStrongbox6,Strongbox Chance,AtlasGenericStart,
+AtlasStrongbox7,Strongbox Chance,AtlasStrongboxNotable11,Intriguing Designs
+AtlasStrongbox8,Strongbox Chance,AtlasStrongboxNotable10,Craftsman's Creed
+AtlasStrongbox8,Strongbox Chance,AtlasStrongboxNotable4,Enchanted Locks
+AtlasStrongbox8,Strongbox Chance,AtlasStrongboxNotable12_,Specialised Containers
+AtlasStrongboxNotable14,Inlaid Inscriptions,AtlasStrongboxNotable4,Enchanted Locks
+AtlasTabletNotable1,Controlled Climates,AtlasUniqueMonsterDropRarity5,Unique Monster Item Rarity
+AtlasTabletNotable10,Eons of Domination,AtlasUniqueMonsterDropRarity9_,Unique Monster Item Rarity
+AtlasTabletNotable7,Partial Translation,AtlasUniqueMonsterNotable1,Fabled Treasures
+AtlasTabletNotable8,Curiously Durable Stone,AtlasUniqueMonsterNotable1,Fabled Treasures
+AtlasTabletNotable9,Eons of Contamination,AtlasTowerRadius,Atop the World
+AtlasUniqueMonsterDropRarity1,Unique Monster Item Rarity,AtlasUniqueMonsterDropRarity7,Unique Monster Item Rarity
+AtlasUniqueMonsterDropRarity13,Unique Monster Item Rarity,AtlasUniqueMonsterDropRarity5,Unique Monster Item Rarity
+AtlasUniqueMonsterDropRarity6,Unique Monster Item Rarity,AtlasUniqueMonsterNotable1,Fabled Treasures
+AtlasAbyssNotable1,Stir the Swarm,AtlasAbyssSmall17,Depths Chance
+AtlasAbyssNotable1,Stir the Swarm,AtlasAbyssSmall13,Depths Chance
+AtlasAbyssNotable10,Ghastly Relics,AtlasAbyssSmall4,Depths Chance
+AtlasAbyssNotable10,Ghastly Relics,AtlasAbyssSmall7,Depths Chance
+AtlasAbyssNotable11,Blessing of the Source,AtlasAbyssSmall11_,Depths Chance
+AtlasAbyssNotable12,From Below,AtlasAbyssSmall8,Depths Chance
+AtlasAbyssNotable12,From Below,AtlasAbyssSmall6_,Depths Chance
+AtlasAbyssNotable13,Dark Depths,AtlasAbyssSmall9,Depths Chance
+AtlasAbyssNotable13,Dark Depths,AtlasAbyssSmall13,Depths Chance
+AtlasAbyssNotable13,Dark Depths,AtlasAbyssSmall8,Depths Chance
+AtlasAbyssNotable14__,Lord of the Pit,AtlasAbyssSmall5,Depths Chance
+AtlasAbyssNotable14__,Lord of the Pit,AtlasAbyssSmall4,Depths Chance
+AtlasAbyssNotable15_,Strange Aversions,AtlasAbyssSmall2_,Depths Chance
+AtlasAbyssNotable15_,Strange Aversions,AtlasAbyssSmall1,Depths Chance
+AtlasAbyssNotable16,Rotting Bones,AtlasAbyssSmall3,Depths Chance
+AtlasAbyssNotable16,Rotting Bones,AtlasAbyssSmall15,Depths Chance
+AtlasAbyssNotable16,Rotting Bones,AtlasAbyssSmall2_,Depths Chance
+AtlasAbyssNotable17,Armaments of Evil,AtlasAbyssSmall16,Depths Chance
+AtlasAbyssNotable18,Endless War,AtlasAbyssSmall17,Depths Chance
+AtlasAbyssNotable2,Abyssal Ire,AtlasAbyssSmall12,Depths Chance
+AtlasAbyssNotable2,Abyssal Ire,AtlasAbyssSmall3,Depths Chance
+AtlasAbyssNotable3,Close to the Surface,AtlasAbyssSmall12,Depths Chance
+AtlasAbyssNotable4_,Sprawling Rupture,AtlasAbyssSmall10,Depths Chance
+AtlasAbyssNotable4_,Sprawling Rupture,AtlasAbyssSmall14_,Depths Chance
+AtlasAbyssNotable4_,Sprawling Rupture,AtlasAbyssSmall5,Depths Chance
+AtlasAbyssNotable5,Unholy Influence,AtlasAbyssSmall16,Depths Chance
+AtlasAbyssNotable5,Unholy Influence,AtlasAbyssSmall14_,Depths Chance
+AtlasAbyssNotable6,Dark Bloodlines,AtlasAbyssSmall10,Depths Chance
+AtlasAbyssNotable7,Shadow of Undeath,AtlasAbyssSmall11_,Depths Chance
+AtlasAbyssNotable7,Shadow of Undeath,AtlasAbyssSmall9,Depths Chance
+AtlasAbyssNotable8,Balance of Power,AtlasAbyssSmall3,Depths Chance
+AtlasAbyssNotable9,Vile Treasures,AtlasAbyssSmall15,Depths Chance
+AtlasAbyssSmall1,Depths Chance,AtlasAbyssStart,
+AtlasAbyssSmall6_,Depths Chance,AtlasAbyssStart,
+AtlasAbyssSmall7,Depths Chance,AtlasAbyssStart,
+AtlasBreachNotable1,Reactive Hiveseeding,AtlasBreachSmall11,Hiveblood Quantity
+AtlasBreachNotable10,Flesh Flower,AtlasBreachSmall13,Hiveblood Quantity
+AtlasBreachNotable11_,Diverse Control,AtlasBreachSmall8,Wombgift Quantity
+AtlasBreachNotable11_,Diverse Control,AtlasBreachSmall1,Wombgift Quantity
+AtlasBreachNotable11_,Diverse Control,AtlasBreachSmall9,Hiveblood Quantity
+AtlasBreachNotable12,Provoke the Swarm,AtlasBreachSmall5,Wombgift Quantity
+AtlasBreachNotable12,Provoke the Swarm,AtlasBreachSmall12,Hiveblood Quantity
+AtlasBreachNotable13,Sole Purpose,AtlasBreachSmall5,Wombgift Quantity
+AtlasBreachNotable14,Reality Wound,AtlasBreachSmall14,Hiveblood Quantity
+AtlasBreachNotable14,Reality Wound,AtlasBreachSmall4,Wombgift Quantity
+AtlasBreachNotable15,Moment of Risk,AtlasBreachSmall15,Hiveblood Quantity
+AtlasBreachNotable15,Moment of Risk,AtlasBreachSmall7,Wombgift Quantity
+AtlasBreachNotable16,Breeding Program,AtlasBreachSmall7,Wombgift Quantity
+AtlasBreachNotable16,Breeding Program,AtlasBreachSmall2_,Wombgift Quantity
+AtlasBreachNotable16,Breeding Program,AtlasBreachSmall16,Hiveblood Quantity
+AtlasBreachNotable16,Breeding Program,AtlasBreachSmall4,Wombgift Quantity
+AtlasBreachNotable2,Growing Wealth,AtlasBreachSmall8,Wombgift Quantity
+AtlasBreachNotable3,Essence Transference,AtlasBreachSmall2_,Wombgift Quantity
+AtlasBreachNotable4,Exquisite Design,AtlasBreachSmall1,Wombgift Quantity
+AtlasBreachNotable5,Tear Open the Rift,AtlasBreachSmall14,Hiveblood Quantity
+AtlasBreachNotable6,Shape the Chains,AtlasBreachSmall15,Hiveblood Quantity
+AtlasBreachNotable7,Swelling Hives,AtlasBreachSmall11,Hiveblood Quantity
+AtlasBreachNotable7,Swelling Hives,AtlasBreachSmall12,Hiveblood Quantity
+AtlasBreachNotable7,Swelling Hives,AtlasBreachSmall3,Wombgift Quantity
+AtlasBreachNotable8,Frantic Invasion,AtlasBreachSmall13,Hiveblood Quantity
+AtlasBreachNotable8,Frantic Invasion,AtlasBreachSmall10,Hiveblood Quantity
+AtlasBreachNotable8,Frantic Invasion,AtlasBreachSmall6,Wombgift Quantity
+AtlasBreachNotable9,Study the Chains,AtlasBreachSmall10,Hiveblood Quantity
+AtlasBreachSmall16,Hiveblood Quantity,AtlasBreachStart,
+AtlasBreachSmall3,Wombgift Quantity,AtlasBreachStart,
+AtlasBreachSmall6,Wombgift Quantity,AtlasBreachStart,
+AtlasBreachSmall9,Hiveblood Quantity,AtlasBreachStart,
+AtlasDeliriumNotable1,The mirrors... the mirrors!,AtlasDeliriumSmall1,Grand Mirror Chance
+AtlasDeliriumNotable1,The mirrors... the mirrors!,AtlasDeliriumSmall9,Grand Mirror Chance
+AtlasDeliriumNotable1,The mirrors... the mirrors!,AtlasDeliriumSmall18,Grand Mirror Chance
+AtlasDeliriumNotable10,Recurring Nightmares,AtlasDeliriumSmall13,Grand Mirror Chance
+AtlasDeliriumNotable10,Recurring Nightmares,AtlasDeliriumSmall14__,Grand Mirror Chance
+AtlasDeliriumNotable11_,Is this about me... or you?,AtlasDeliriumSmall16,Grand Mirror Chance
+AtlasDeliriumNotable12,I see your true nature now!,AtlasDeliriumSmall1,Grand Mirror Chance
+AtlasDeliriumNotable12,I see your true nature now!,AtlasDeliriumSmall2_,Grand Mirror Chance
+AtlasDeliriumNotable13,You thought you were free?,AtlasDeliriumSmall16,Grand Mirror Chance
+AtlasDeliriumNotable13,You thought you were free?,AtlasDeliriumSmall4_,Grand Mirror Chance
+AtlasDeliriumNotable14,There's nowhere to hide...,AtlasDeliriumSmall4_,Grand Mirror Chance
+AtlasDeliriumNotable14,There's nowhere to hide...,AtlasDeliriumSmall11,Grand Mirror Chance
+AtlasDeliriumNotable14,There's nowhere to hide...,AtlasDeliriumSmall3,Grand Mirror Chance
+AtlasDeliriumNotable15,Are you sure you want to do that?,AtlasDeliriumSmall10,Grand Mirror Chance
+AtlasDeliriumNotable16,I know your childhood fears...,AtlasDeliriumSmall11,Grand Mirror Chance
+AtlasDeliriumNotable17,You can't scare me anymore!,AtlasDeliriumSmall12,Grand Mirror Chance
+AtlasDeliriumNotable2,Is that the best you've got?!,AtlasDeliriumSmall2_,Grand Mirror Chance
+AtlasDeliriumNotable3,You can't just wake up from this one.,AtlasDeliriumSmall10,Grand Mirror Chance
+AtlasDeliriumNotable3,You can't just wake up from this one.,AtlasDeliriumSmall13,Grand Mirror Chance
+AtlasDeliriumNotable3,You can't just wake up from this one.,AtlasDeliriumSmall5,Grand Mirror Chance
+AtlasDeliriumNotable5,Come on! Face me!,AtlasDeliriumSmall12,Grand Mirror Chance
+AtlasDeliriumNotable5,Come on! Face me!,AtlasDeliriumSmall14__,Grand Mirror Chance
+AtlasDeliriumNotable5,Come on! Face me!,AtlasDeliriumSmall8,Grand Mirror Chance
+AtlasDeliriumNotable6,Get out of my head!,AtlasDeliriumSmall6_,Grand Mirror Chance
+AtlasDeliriumNotable7_,These demons are all your own...,AtlasDeliriumSmall7,Grand Mirror Chance
+AtlasDeliriumNotable9,I'm not alone anymore!,AtlasDeliriumSmall9,Grand Mirror Chance
+AtlasDeliriumSmall18,Grand Mirror Chance,AtlasDeliriumStart,
+AtlasDeliriumSmall3,Grand Mirror Chance,AtlasDeliriumStart,
+AtlasDeliriumSmall5,Grand Mirror Chance,AtlasDeliriumStart,
+AtlasDeliriumSmall6_,Grand Mirror Chance,AtlasDeliriumStart,
+AtlasDeliriumSmall7,Grand Mirror Chance,AtlasDeliriumStart,
+AtlasDeliriumSmall8,Grand Mirror Chance,AtlasDeliriumStart,
+AtlasIncursionNotable1,Training and Preparation,AtlasIncursionSmall18,Reduced Destabilization
+AtlasIncursionNotable1,Training and Preparation,AtlasIncursionSmall19,Reduced Destabilization
+AtlasIncursionNotable1,Training and Preparation,AtlasIncursionSmall5,Reduced Destabilization
+AtlasIncursionNotable1,Training and Preparation,AtlasIncursionSmall1,Reduced Destabilization
+AtlasIncursionNotable10,Atziri's Assets,AtlasIncursionSmall10,Reduced Destabilization
+AtlasIncursionNotable11,Bloodrite Vestments,AtlasIncursionSmall10,Reduced Destabilization
+AtlasIncursionNotable11,Bloodrite Vestments,AtlasIncursionSmall12,Reduced Destabilization
+AtlasIncursionNotable11,Bloodrite Vestments,AtlasIncursionSmall5,Reduced Destabilization
+AtlasIncursionNotable13,Military Reinforcements,AtlasIncursionSmall15,Reduced Destabilization
+AtlasIncursionNotable13,Military Reinforcements,AtlasIncursionSmall13,Reduced Destabilization
+AtlasIncursionNotable14,Offerings to the Queen,AtlasIncursionSmall11__,Reduced Destabilization
+AtlasIncursionNotable14,Offerings to the Queen,AtlasIncursionSmall13,Reduced Destabilization
+AtlasIncursionNotable14,Offerings to the Queen,AtlasIncursionSmall9,Reduced Destabilization
+AtlasIncursionNotable15,Loyal Gatekeepers,AtlasIncursionSmall15,Reduced Destabilization
+AtlasIncursionNotable16,Riches of the Empire,AtlasIncursionSmall12,Reduced Destabilization
+AtlasIncursionNotable17_,Efficient Arteries,AtlasIncursionSmall3,Reduced Destabilization
+AtlasIncursionNotable17_,Efficient Arteries,AtlasIncursionSmall17_,Reduced Destabilization
+AtlasIncursionNotable17_,Efficient Arteries,AtlasIncursionSmall19,Reduced Destabilization
+AtlasIncursionNotable18,Patrolling Legions,AtlasIncursionSmall15,Reduced Destabilization
+AtlasIncursionNotable18,Patrolling Legions,AtlasIncursionSmall11__,Reduced Destabilization
+AtlasIncursionNotable19,The Lost Architect,AtlasIncursionSmall7_,Reduced Destabilization
+AtlasIncursionNotable2,Stolen Authority,AtlasIncursionSmall7_,Reduced Destabilization
+AtlasIncursionNotable2,Stolen Authority,AtlasIncursionSmall16,Reduced Destabilization
+AtlasIncursionNotable3,Xipocado's Machinations,AtlasIncursionSmall3,Reduced Destabilization
+AtlasIncursionNotable4,Power Relays,AtlasIncursionSmall18,Reduced Destabilization
+AtlasIncursionNotable5_,Transcendent Progress,AtlasIncursionSmall17_,Reduced Destabilization
+AtlasIncursionNotable6_,Secrets of the Ancients,AtlasIncursionSmall6,Reduced Destabilization
+AtlasIncursionNotable6_,Secrets of the Ancients,AtlasIncursionSmall4,Reduced Destabilization
+AtlasIncursionNotable7,Protected Treasures,AtlasIncursionSmall2,Reduced Destabilization
+AtlasIncursionNotable7,Protected Treasures,AtlasIncursionSmall8,Reduced Destabilization
+AtlasIncursionNotable8,Royal Prerogative,AtlasIncursionSmall6,Reduced Destabilization
+AtlasIncursionNotable9,Expanded Designs,AtlasIncursionSmall4,Reduced Destabilization
+AtlasIncursionNotable9,Expanded Designs,AtlasIncursionSmall2,Reduced Destabilization
+AtlasIncursionSmall1,Reduced Destabilization,AtlasIncursionStart_,
+AtlasIncursionSmall16,Reduced Destabilization,AtlasIncursionStart_,
+AtlasIncursionSmall8,Reduced Destabilization,AtlasIncursionStart_,
+AtlasIncursionSmall9,Reduced Destabilization,AtlasIncursionStart_,
+AtlasRitualNotable1,From the Mists,AtlasRitualSmall10,Increased Tribute
+AtlasRitualNotable1,From the Mists,AtlasRitualSmall4,Increased Tribute
+AtlasRitualNotable10_,Ancient Enmities,AtlasRitualSmall14,Increased Tribute
+AtlasRitualNotable11,Bring Forth the Unseen,AtlasRitualSmall8,Increased Tribute
+AtlasRitualNotable12,Royal Tithe,AtlasRitualSmall13_,Increased Tribute
+AtlasRitualNotable12,Royal Tithe,AtlasRitualSmall6,Increased Tribute
+AtlasRitualNotable12,Royal Tithe,AtlasRitualSmall5,Increased Tribute
+AtlasRitualNotable12,Royal Tithe,AtlasRitualSmall16,Increased Tribute
+AtlasRitualNotable13,Prayer and Pledge,AtlasRitualSmall15_,Increased Tribute
+AtlasRitualNotable14,Ongoing Chants,AtlasRitualSmall6,Increased Tribute
+AtlasRitualNotable15,Umbral Gathering,AtlasRitualSmall16,Increased Tribute
+AtlasRitualNotable16_,Magnanimous Offerings,AtlasRitualSmall17,Increased Tribute
+AtlasRitualNotable18,Mysterious Rites,AtlasRitualSmall18,Increased Tribute
+AtlasRitualNotable19,Hour of the Nameless,AtlasRitualSmall13_,Increased Tribute
+AtlasRitualNotable2,Invigorated Sacrifices,AtlasRitualSmall10,Increased Tribute
+AtlasRitualNotable3_,Spreading Darkness,AtlasRitualSmall9,Increased Tribute
+AtlasRitualNotable4,Tempting Offers,AtlasRitualSmall15_,Increased Tribute
+AtlasRitualNotable4,Tempting Offers,AtlasRitualSmall11,Increased Tribute
+AtlasRitualNotable4,Tempting Offers,AtlasRitualSmall17,Increased Tribute
+AtlasRitualNotable4,Tempting Offers,AtlasRitualSmall12,Increased Tribute
+AtlasRitualNotable4,Tempting Offers,AtlasRitualSmall1,Increased Tribute
+AtlasRitualNotable5_,Reborn in Shadow,AtlasRitualSmall7,Increased Tribute
+AtlasRitualNotable5_,Reborn in Shadow,AtlasRitualSmall4,Increased Tribute
+AtlasRitualNotable5_,Reborn in Shadow,AtlasRitualSmall8,Increased Tribute
+AtlasRitualNotable5_,Reborn in Shadow,AtlasRitualSmall3,Increased Tribute
+AtlasRitualNotable6,Traveller's Woe,AtlasRitualSmall9,Increased Tribute
+AtlasRitualNotable6,Traveller's Woe,AtlasRitualSmall18,Increased Tribute
+AtlasRitualNotable6,Traveller's Woe,AtlasRitualSmall7,Increased Tribute
+AtlasRitualNotable7,Between Two Worlds,AtlasRitualSmall14,Increased Tribute
+AtlasRitualNotable7,Between Two Worlds,AtlasRitualSmall11,Increased Tribute
+AtlasRitualNotable8,Patient Devotion,AtlasRitualSmall12,Increased Tribute
+AtlasRitualSmall1,Increased Tribute,AtlasRitualStart,
+AtlasRitualSmall3,Increased Tribute,AtlasRitualStart,
+AtlasRitualSmall5,Increased Tribute,AtlasRitualStart,

@@ -2,18 +2,18 @@
   "core": {
     "items": [
       {
-        "id": "exalted",
-        "name": "Exalted Orb",
-        "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
-        "category": "Currency",
-        "detailsId": "exalted-orb"
-      },
-      {
         "id": "divine",
         "name": "Divine Orb",
         "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
         "category": "Currency",
         "detailsId": "divine-orb"
+      },
+      {
+        "id": "exalted",
+        "name": "Exalted Orb",
+        "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+        "category": "Currency",
+        "detailsId": "exalted-orb"
       },
       {
         "id": "chaos",
@@ -24,1586 +24,1581 @@
       }
     ],
     "rates": {
-      "divine": 0.01747,
-      "chaos": 1.29
+      "exalted": 76.63,
+      "chaos": 30.11
     },
-    "primary": "exalted",
-    "secondary": "divine"
+    "primary": "divine",
+    "secondary": "exalted"
   },
   "lines": [
     {
-      "id": "essence-of-electricity",
-      "primaryValue": 1.94,
-      "volumePrimaryValue": 21.33,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.5156,
-      "sparkline": {
-        "totalChange": 12.82,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -12.46,
-          12.82
-        ]
-      }
-    },
-    {
-      "id": "essence-of-insulation",
-      "primaryValue": 1.69,
-      "volumePrimaryValue": 94.67,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.5933,
-      "sparkline": {
-        "totalChange": -12.85,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -0.64,
-          -12.85
-        ]
-      }
-    },
-    {
-      "id": "greater-essence-of-alacrity",
-      "primaryValue": 0.6409,
-      "volumePrimaryValue": 111.8,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.56,
-      "sparkline": {
-        "totalChange": -43.66,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -13.29,
-          -43.66
-        ]
-      }
-    },
-    {
-      "id": "greater-essence-of-command",
-      "primaryValue": 1.39,
-      "volumePrimaryValue": 398.0,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.7219,
-      "sparkline": {
-        "totalChange": 6.32,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          6.98,
-          6.32
-        ]
-      }
-    },
-    {
-      "id": "greater-essence-of-enhancement",
-      "primaryValue": 1.53,
-      "volumePrimaryValue": 2492,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.6529,
-      "sparkline": {
-        "totalChange": -10.68,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -14.56,
-          -10.68
-        ]
-      }
-    },
-    {
-      "id": "greater-essence-of-flames",
-      "primaryValue": 0.5652,
-      "volumePrimaryValue": 64.33,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.77,
-      "sparkline": {
-        "totalChange": -54.72,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -39.67,
-          -54.72
-        ]
-      }
-    },
-    {
-      "id": "greater-essence-of-grounding",
-      "primaryValue": 2.31,
-      "volumePrimaryValue": 3403,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.4335,
-      "sparkline": {
-        "totalChange": -17.93,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          0.45,
-          -17.93
-        ]
-      }
-    },
-    {
-      "id": "greater-essence-of-ice",
-      "primaryValue": 0.5969,
-      "volumePrimaryValue": 128.3,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.68,
-      "sparkline": {
-        "totalChange": -62.18,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -38.93,
-          -62.18
-        ]
-      }
-    },
-    {
-      "id": "greater-essence-of-insulation",
-      "primaryValue": 2.48,
-      "volumePrimaryValue": 3461,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.4026,
-      "sparkline": {
-        "totalChange": -18.53,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -0.11,
-          -18.53
-        ]
-      }
-    },
-    {
-      "id": "greater-essence-of-opulence",
-      "primaryValue": 6.71,
-      "volumePrimaryValue": 5086,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.149,
-      "sparkline": {
-        "totalChange": 124.1,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          27.98,
-          124.1
-        ]
-      }
-    },
-    {
-      "id": "greater-essence-of-ruin",
-      "primaryValue": 5.35,
-      "volumePrimaryValue": 3630,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.1869,
-      "sparkline": {
-        "totalChange": 123.3,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          98.56,
-          123.3
-        ]
-      }
-    },
-    {
-      "id": "greater-essence-of-sorcery",
-      "primaryValue": 0.4899,
-      "volumePrimaryValue": 117.7,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 2.04,
-      "sparkline": {
-        "totalChange": -48.91,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -20.21,
-          -48.91
-        ]
-      }
-    },
-    {
-      "id": "greater-essence-of-the-body",
-      "primaryValue": 0.4269,
-      "volumePrimaryValue": 191.8,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 2.34,
-      "sparkline": {
-        "totalChange": -59.83,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -21.24,
-          -59.83
-        ]
-      }
-    },
-    {
-      "id": "perfect-essence-of-abrasion",
-      "primaryValue": 1.65,
-      "volumePrimaryValue": 432.2,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.607,
-      "sparkline": {
-        "totalChange": -73.07,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -51.46,
-          -73.07
-        ]
-      }
-    },
-    {
-      "id": "perfect-essence-of-battle",
-      "primaryValue": 15.32,
-      "volumePrimaryValue": 17242,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.06526,
-      "sparkline": {
-        "totalChange": -57.07,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -17.79,
-          -57.07
-        ]
-      }
-    },
-    {
-      "id": "perfect-essence-of-electricity",
-      "primaryValue": 1.31,
-      "volumePrimaryValue": 72.67,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.7661,
-      "sparkline": {
-        "totalChange": -69.36,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -52.35,
-          -69.36
-        ]
-      }
-    },
-    {
-      "id": "perfect-essence-of-enhancement",
-      "primaryValue": 1.89,
-      "volumePrimaryValue": 842.7,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.5303,
-      "sparkline": {
-        "totalChange": -45.58,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -26.04,
-          -45.58
-        ]
-      }
-    },
-    {
-      "id": "perfect-essence-of-haste",
-      "primaryValue": 2.25,
-      "volumePrimaryValue": 438.7,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.4453,
-      "sparkline": {
-        "totalChange": -72.16,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -50.77,
-          -72.16
-        ]
-      }
-    },
-    {
-      "id": "perfect-essence-of-opulence",
-      "primaryValue": 1.03,
-      "volumePrimaryValue": 15.83,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.9684,
-      "sparkline": {
-        "totalChange": -37.31,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -10.56,
-          -37.31
-        ]
-      }
-    },
-    {
-      "id": "perfect-essence-of-thawing",
-      "primaryValue": 0.5643,
-      "volumePrimaryValue": 13.17,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.77,
-      "sparkline": {
-        "totalChange": -48.98,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -28.51,
-          -48.98
-        ]
-      }
-    },
-    {
-      "id": "perfect-essence-of-the-body",
-      "primaryValue": 0.8017,
-      "volumePrimaryValue": 47.83,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.25,
-      "sparkline": {
-        "totalChange": -38.73,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -26.44,
-          -38.73
-        ]
-      }
-    },
-    {
-      "id": "perfect-essence-of-the-infinite",
-      "primaryValue": 0.9371,
-      "volumePrimaryValue": 22.33,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.07,
-      "sparkline": {
-        "totalChange": 9.24,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          12.89,
-          9.24
-        ]
-      }
-    },
-    {
-      "id": "essence-of-sorcery",
-      "primaryValue": 1.31,
-      "volumePrimaryValue": 22.0,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.7652,
-      "sparkline": {
-        "totalChange": -21.28,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -12.26,
-          -21.28
-        ]
-      }
-    },
-    {
-      "id": "perfect-essence-of-command",
-      "primaryValue": 1.27,
-      "volumePrimaryValue": 29.17,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.7886,
-      "sparkline": {
-        "totalChange": -43.22,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -16.88,
-          -43.22
-        ]
-      }
-    },
-    {
-      "id": "essence-of-abrasion",
-      "primaryValue": 3.72,
-      "volumePrimaryValue": 441.2,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.269,
-      "sparkline": {
-        "totalChange": -45.32,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -19.41,
-          -45.32
-        ]
-      }
-    },
-    {
-      "id": "essence-of-alacrity",
-      "primaryValue": 1.5,
-      "volumePrimaryValue": 9.5,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.6667,
-      "sparkline": {
-        "totalChange": -13.08,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -1.92,
-          -13.08
-        ]
-      }
-    },
-    {
-      "id": "essence-of-command",
-      "primaryValue": 2.4,
-      "volumePrimaryValue": 30.0,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.4167,
-      "sparkline": {
-        "totalChange": 41.29,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          32.82,
-          41.29
-        ]
-      }
-    },
-    {
-      "id": "essence-of-flames",
-      "primaryValue": 0.6,
-      "volumePrimaryValue": 4.5,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.67,
-      "sparkline": {
-        "totalChange": -54.35,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -29.71,
-          -54.35
-        ]
-      }
-    },
-    {
-      "id": "essence-of-grounding",
-      "primaryValue": 1.5,
-      "volumePrimaryValue": 102.0,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.6683,
-      "sparkline": {
-        "totalChange": -23.84,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -3.45,
-          -23.84
-        ]
-      }
-    },
-    {
-      "id": "essence-of-haste",
-      "primaryValue": 1.36,
-      "volumePrimaryValue": 55.0,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.7333,
-      "sparkline": {
-        "totalChange": -34.69,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -22.37,
-          -34.69
-        ]
-      }
-    },
-    {
-      "id": "essence-of-horror",
-      "primaryValue": 12.27,
-      "volumePrimaryValue": 1015,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.08149,
-      "sparkline": {
-        "totalChange": -26.68,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -4.43,
-          -26.68
-        ]
-      }
-    },
-    {
-      "id": "essence-of-hysteria",
-      "primaryValue": 79.84,
-      "volumePrimaryValue": 8863,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.01252,
-      "sparkline": {
-        "totalChange": 48.44,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          39.26,
-          48.44
-        ]
-      }
-    },
-    {
-      "id": "essence-of-ice",
-      "primaryValue": 0.9444,
-      "volumePrimaryValue": 11.33,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.06,
-      "sparkline": {
-        "totalChange": -49.78,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -53.1,
-          -49.78
-        ]
-      }
-    },
-    {
-      "id": "essence-of-insanity",
-      "primaryValue": 4.43,
-      "volumePrimaryValue": 194.0,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.2259,
-      "sparkline": {
-        "totalChange": -24.43,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -17.83,
-          -24.43
-        ]
-      }
-    },
-    {
-      "id": "essence-of-opulence",
-      "primaryValue": 2.96,
-      "volumePrimaryValue": 135.5,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.3383,
-      "sparkline": {
-        "totalChange": 63.01,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          20.97,
-          63.01
-        ]
-      }
-    },
-    {
-      "id": "essence-of-seeking",
-      "primaryValue": 1.36,
-      "volumePrimaryValue": 32.33,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.7371,
-      "sparkline": {
-        "totalChange": 15.52,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          20.38,
-          15.52
-        ]
-      }
-    },
-    {
-      "id": "essence-of-thawing",
-      "primaryValue": 1.59,
-      "volumePrimaryValue": 100.5,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.6285,
-      "sparkline": {
-        "totalChange": -32.63,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -17.56,
-          -32.63
-        ]
-      }
-    },
-    {
-      "id": "essence-of-the-abyss",
-      "primaryValue": 2.32,
-      "volumePrimaryValue": 1616,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.4313,
-      "sparkline": {
-        "totalChange": 78.95,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          8.9,
-          78.95
-        ]
-      }
-    },
-    {
-      "id": "essence-of-the-body",
-      "primaryValue": 2.3,
-      "volumePrimaryValue": 226.3,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.4345,
-      "sparkline": {
-        "totalChange": 30.66,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          11.37,
-          30.66
-        ]
-      }
-    },
-    {
-      "id": "essence-of-the-infinite",
-      "primaryValue": 1.76,
-      "volumePrimaryValue": 13.5,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.5679,
-      "sparkline": {
-        "totalChange": 18.55,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          11.44,
-          18.55
-        ]
-      }
-    },
-    {
-      "id": "essence-of-the-mind",
-      "primaryValue": 0.8889,
-      "volumePrimaryValue": 1.33,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.12,
-      "sparkline": {
-        "totalChange": 51.58,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          38.59,
-          51.58
-        ]
-      }
-    },
-    {
-      "id": "essence-of-battle",
-      "primaryValue": 1,
-      "volumePrimaryValue": 0.5,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1,
-      "sparkline": {
-        "totalChange": 0,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          0,
-          0
-        ]
-      }
-    },
-    {
       "id": "essence-of-delirium",
-      "primaryValue": 2.63,
-      "volumePrimaryValue": 83.0,
+      "primaryValue": 0.02606,
+      "volumePrimaryValue": 1.59,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.3795,
+      "maxVolumeRate": 0.5007,
       "sparkline": {
-        "totalChange": -45.99,
+        "totalChange": -55.73,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -47.18,
-          -45.99
-        ]
-      }
-    },
-    {
-      "id": "essence-of-enhancement",
-      "primaryValue": 2.26,
-      "volumePrimaryValue": 109.8,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.4431,
-      "sparkline": {
-        "totalChange": 24.01,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          6.43,
-          24.01
+          -43.96,
+          -43.14,
+          -42.91,
+          -55.73
         ]
       }
     },
     {
       "id": "essence-of-ruin",
-      "primaryValue": 1.64,
-      "volumePrimaryValue": 17.5,
+      "primaryValue": 0.02782,
+      "volumePrimaryValue": 0.4915,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.6095,
+      "maxVolumeRate": 0.469,
       "sparkline": {
-        "totalChange": 17.96,
+        "totalChange": 45.4,
         "data": [
           null,
           null,
+          0,
+          27.94,
+          16.48,
+          92.05,
+          45.4
+        ]
+      }
+    },
+    {
+      "id": "essence-of-sorcery",
+      "primaryValue": 0.03156,
+      "volumePrimaryValue": 0.4524,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.4135,
+      "sparkline": {
+        "totalChange": 33.29,
+        "data": [
           null,
           null,
           0,
-          32.39,
-          17.96
+          -21.85,
+          -30.27,
+          39.15,
+          33.29
         ]
       }
     },
     {
       "id": "essence-of-the-breach",
-      "primaryValue": 3.0,
-      "volumePrimaryValue": 314.7,
+      "primaryValue": 0.0532,
+      "volumePrimaryValue": 15.73,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.3337,
+      "maxVolumeRate": 0.2453,
       "sparkline": {
-        "totalChange": -62.16,
+        "totalChange": -58.53,
         "data": [
           null,
           null,
+          0,
+          -63.71,
+          -65.29,
+          -60.84,
+          -58.53
+        ]
+      }
+    },
+    {
+      "id": "greater-essence-of-alacrity",
+      "primaryValue": 0.007733,
+      "volumePrimaryValue": 1.36,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.69,
+      "sparkline": {
+        "totalChange": -46.32,
+        "data": [
           null,
           null,
           0,
-          -57.75,
-          -62.16
+          -12.29,
+          -35.38,
+          -36.66,
+          -46.32
+        ]
+      }
+    },
+    {
+      "id": "greater-essence-of-command",
+      "primaryValue": 0.01447,
+      "volumePrimaryValue": 5.15,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.9016,
+      "sparkline": {
+        "totalChange": -14.51,
+        "data": [
+          null,
+          null,
+          0,
+          4.44,
+          -4.6,
+          -3.63,
+          -14.51
+        ]
+      }
+    },
+    {
+      "id": "greater-essence-of-enhancement",
+      "primaryValue": 0.01378,
+      "volumePrimaryValue": 22.02,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.9472,
+      "sparkline": {
+        "totalChange": -47.18,
+        "data": [
+          null,
+          null,
+          0,
+          -27.41,
+          -27.49,
+          -30.6,
+          -47.18
+        ]
+      }
+    },
+    {
+      "id": "greater-essence-of-flames",
+      "primaryValue": 0.004203,
+      "volumePrimaryValue": 0.5415,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 3.1,
+      "sparkline": {
+        "totalChange": -84.95,
+        "data": [
+          null,
+          null,
+          0,
+          -65.61,
+          -72.07,
+          -79.51,
+          -84.95
+        ]
+      }
+    },
+    {
+      "id": "greater-essence-of-grounding",
+      "primaryValue": 0.0238,
+      "volumePrimaryValue": 32.09,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.5483,
+      "sparkline": {
+        "totalChange": -33.97,
+        "data": [
+          null,
+          null,
+          0,
+          1.7,
+          -18.86,
+          -28.3,
+          -33.97
+        ]
+      }
+    },
+    {
+      "id": "greater-essence-of-ice",
+      "primaryValue": 0.006576,
+      "volumePrimaryValue": 1.12,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.98,
+      "sparkline": {
+        "totalChange": -68.81,
+        "data": [
+          null,
+          null,
+          0,
+          -42.41,
+          -63.69,
+          -62.88,
+          -68.81
+        ]
+      }
+    },
+    {
+      "id": "greater-essence-of-insulation",
+      "primaryValue": 0.02434,
+      "volumePrimaryValue": 34.74,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.5361,
+      "sparkline": {
+        "totalChange": -38.5,
+        "data": [
+          null,
+          null,
+          0,
+          -0.5,
+          -20.9,
+          -29.59,
+          -38.5
+        ]
+      }
+    },
+    {
+      "id": "greater-essence-of-opulence",
+      "primaryValue": 0.1634,
+      "volumePrimaryValue": 184.2,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.07987,
+      "sparkline": {
+        "totalChange": 312.9,
+        "data": [
+          null,
+          null,
+          0,
+          27.6,
+          121.1,
+          199.0,
+          312.9
+        ]
+      }
+    },
+    {
+      "id": "greater-essence-of-ruin",
+      "primaryValue": 0.06552,
+      "volumePrimaryValue": 53.58,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.1992,
+      "sparkline": {
+        "totalChange": 103.0,
+        "data": [
+          null,
+          null,
+          0,
+          97.64,
+          111.7,
+          116.6,
+          103.0
+        ]
+      }
+    },
+    {
+      "id": "greater-essence-of-sorcery",
+      "primaryValue": 0.005125,
+      "volumePrimaryValue": 1.37,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 2.55,
+      "sparkline": {
+        "totalChange": -83.06,
+        "data": [
+          null,
+          null,
+          0,
+          -67.47,
+          -77.21,
+          -81.97,
+          -83.06
+        ]
+      }
+    },
+    {
+      "id": "greater-essence-of-the-body",
+      "primaryValue": 0.003375,
+      "volumePrimaryValue": 1.37,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 3.87,
+      "sparkline": {
+        "totalChange": -75.62,
+        "data": [
+          null,
+          null,
+          0,
+          -23.89,
+          -55.11,
+          -66.93,
+          -75.62
+        ]
+      }
+    },
+    {
+      "id": "lesser-essence-of-command",
+      "primaryValue": 0.05742,
+      "volumePrimaryValue": 0.09569,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.2273,
+      "sparkline": {
+        "totalChange": 359.1,
+        "data": [
+          null,
+          null,
+          0,
+          -1.56,
+          37.65,
+          216.9,
+          359.1
+        ]
+      }
+    },
+    {
+      "id": "perfect-essence-of-abrasion",
+      "primaryValue": 0.0251,
+      "volumePrimaryValue": 7.42,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.5199,
+      "sparkline": {
+        "totalChange": -65.01,
+        "data": [
+          null,
+          null,
+          0,
+          -47.61,
+          -65.58,
+          -60.16,
+          -65.01
+        ]
+      }
+    },
+    {
+      "id": "perfect-essence-of-battle",
+      "primaryValue": 0.1134,
+      "volumePrimaryValue": 158.6,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.115,
+      "sparkline": {
+        "totalChange": -75.87,
+        "data": [
+          null,
+          null,
+          0,
+          -19.62,
+          -56.9,
+          -70.42,
+          -75.87
+        ]
+      }
+    },
+    {
+      "id": "perfect-essence-of-command",
+      "primaryValue": 0.01689,
+      "volumePrimaryValue": 0.9091,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.7727,
+      "sparkline": {
+        "totalChange": -35.04,
+        "data": [
+          null,
+          null,
+          0,
+          -11.0,
+          -31.48,
+          -17.72,
+          -35.04
+        ]
+      }
+    },
+    {
+      "id": "perfect-essence-of-electricity",
+      "primaryValue": 0.01322,
+      "volumePrimaryValue": 0.8308,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.9869,
+      "sparkline": {
+        "totalChange": -71.5,
+        "data": [
+          null,
+          null,
+          0,
+          -42.93,
+          -60.96,
+          -65.74,
+          -71.5
+        ]
+      }
+    },
+    {
+      "id": "perfect-essence-of-enhancement",
+      "primaryValue": 0.02558,
+      "volumePrimaryValue": 16.3,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.5101,
+      "sparkline": {
+        "totalChange": -48.78,
+        "data": [
+          null,
+          null,
+          0,
+          -34.17,
+          -51.23,
+          -46.85,
+          -48.78
+        ]
+      }
+    },
+    {
+      "id": "perfect-essence-of-haste",
+      "primaryValue": 0.02424,
+      "volumePrimaryValue": 6.62,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.5383,
+      "sparkline": {
+        "totalChange": -76.22,
+        "data": [
+          null,
+          null,
+          0,
+          -51.3,
+          -71.85,
+          -78.13,
+          -76.22
+        ]
+      }
+    },
+    {
+      "id": "perfect-essence-of-opulence",
+      "primaryValue": 0.01597,
+      "volumePrimaryValue": 0.5589,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.8171,
+      "sparkline": {
+        "totalChange": -30.31,
+        "data": [
+          null,
+          null,
+          0,
+          -15.27,
+          -31.76,
+          -41.14,
+          -30.31
+        ]
+      }
+    },
+    {
+      "id": "perfect-essence-of-thawing",
+      "primaryValue": 0.008764,
+      "volumePrimaryValue": 0.09787,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.49,
+      "sparkline": {
+        "totalChange": -40.09,
+        "data": [
+          null,
+          null,
+          0,
+          -30.96,
+          -45.83,
+          -60.42,
+          -40.09
+        ]
+      }
+    },
+    {
+      "id": "perfect-essence-of-the-body",
+      "primaryValue": 0.009888,
+      "volumePrimaryValue": 0.5307,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.32,
+      "sparkline": {
+        "totalChange": -39.35,
+        "data": [
+          null,
+          null,
+          0,
+          -24.73,
+          -41.08,
+          -42.26,
+          -39.35
+        ]
+      }
+    },
+    {
+      "id": "perfect-essence-of-the-infinite",
+      "primaryValue": 0.007891,
+      "volumePrimaryValue": 0.3893,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.65,
+      "sparkline": {
+        "totalChange": -37.16,
+        "data": [
+          null,
+          null,
+          0,
+          1.08,
+          -15.71,
+          -32.77,
+          -37.16
+        ]
+      }
+    },
+    {
+      "id": "essence-of-flames",
+      "primaryValue": 0.01196,
+      "volumePrimaryValue": 0.02392,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.09,
+      "sparkline": {
+        "totalChange": -38.83,
+        "data": [
+          null,
+          null,
+          0,
+          -38.34,
+          -48.99,
+          -44.55,
+          -38.83
+        ]
+      }
+    },
+    {
+      "id": "perfect-essence-of-ruin",
+      "primaryValue": 0.02079,
+      "volumePrimaryValue": 0.3915,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.6278,
+      "sparkline": {
+        "totalChange": 59.29,
+        "data": [
+          null,
+          null,
+          0,
+          -3.54,
+          -0.35,
+          17.94,
+          59.29
+        ]
+      }
+    },
+    {
+      "id": "essence-of-abrasion",
+      "primaryValue": 0.06328,
+      "volumePrimaryValue": 4.42,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.2062,
+      "sparkline": {
+        "totalChange": -32.68,
+        "data": [
+          null,
+          null,
+          0,
+          -24.63,
+          -47.68,
+          -42.33,
+          -32.68
+        ]
+      }
+    },
+    {
+      "id": "essence-of-alacrity",
+      "primaryValue": 0.0234,
+      "volumePrimaryValue": 0.1131,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.5577,
+      "sparkline": {
+        "totalChange": 0.34,
+        "data": [
+          null,
+          null,
+          0,
+          -10.8,
+          -20.6,
+          73.86,
+          0.34
+        ]
+      }
+    },
+    {
+      "id": "essence-of-command",
+      "primaryValue": 0.02802,
+      "volumePrimaryValue": 0.3175,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.4658,
+      "sparkline": {
+        "totalChange": 21.17,
+        "data": [
+          null,
+          null,
+          0,
+          28.68,
+          12.67,
+          19.97,
+          21.17
+        ]
+      }
+    },
+    {
+      "id": "essence-of-grounding",
+      "primaryValue": 0.03631,
+      "volumePrimaryValue": 0.7808,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.3593,
+      "sparkline": {
+        "totalChange": 40.14,
+        "data": [
+          null,
+          null,
+          0,
+          -5.08,
+          -24.91,
+          -16.95,
+          40.14
+        ]
+      }
+    },
+    {
+      "id": "essence-of-haste",
+      "primaryValue": 0.01855,
+      "volumePrimaryValue": 0.3741,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.7035,
+      "sparkline": {
+        "totalChange": -38.67,
+        "data": [
+          null,
+          null,
+          0,
+          -28.23,
+          -37.79,
+          -39.63,
+          -38.67
+        ]
+      }
+    },
+    {
+      "id": "essence-of-horror",
+      "primaryValue": 0.178,
+      "volumePrimaryValue": 35.33,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.07332,
+      "sparkline": {
+        "totalChange": -24.69,
+        "data": [
+          null,
+          null,
+          0,
+          -13.57,
+          -23.3,
+          -23.79,
+          -24.69
+        ]
+      }
+    },
+    {
+      "id": "essence-of-hysteria",
+      "primaryValue": 1.01,
+      "volumePrimaryValue": 284.0,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.01295,
+      "sparkline": {
+        "totalChange": 57.6,
+        "data": [
+          null,
+          null,
+          0,
+          54.58,
+          68.52,
+          89.06,
+          57.6
+        ]
+      }
+    },
+    {
+      "id": "essence-of-ice",
+      "primaryValue": 0.01329,
+      "volumePrimaryValue": 0.1196,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.9818,
+      "sparkline": {
+        "totalChange": -44.24,
+        "data": [
+          null,
+          null,
+          0,
+          -50.97,
+          -47.31,
+          -46.05,
+          -44.24
+        ]
+      }
+    },
+    {
+      "id": "essence-of-insanity",
+      "primaryValue": 0.05059,
+      "volumePrimaryValue": 4.73,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.2579,
+      "sparkline": {
+        "totalChange": -34.29,
+        "data": [
+          null,
+          null,
+          0,
+          -18.6,
+          -24.06,
+          -23.99,
+          -34.29
+        ]
+      }
+    },
+    {
+      "id": "essence-of-insulation",
+      "primaryValue": 0.02895,
+      "volumePrimaryValue": 0.8395,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.4508,
+      "sparkline": {
+        "totalChange": 13.75,
+        "data": [
+          null,
+          null,
+          0,
+          -2.09,
+          -15.74,
+          -12.0,
+          13.75
+        ]
+      }
+    },
+    {
+      "id": "essence-of-opulence",
+      "primaryValue": 0.07122,
+      "volumePrimaryValue": 3.22,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.1832,
+      "sparkline": {
+        "totalChange": 233.5,
+        "data": [
+          null,
+          null,
+          0,
+          37.51,
+          69.03,
+          174.7,
+          233.5
+        ]
+      }
+    },
+    {
+      "id": "essence-of-seeking",
+      "primaryValue": 0.02184,
+      "volumePrimaryValue": 0.535,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.5976,
+      "sparkline": {
+        "totalChange": 21.7,
+        "data": [
+          null,
+          null,
+          0,
+          -1.21,
+          30.35,
+          194.3,
+          21.7
+        ]
+      }
+    },
+    {
+      "id": "essence-of-thawing",
+      "primaryValue": 0.02085,
+      "volumePrimaryValue": 0.6046,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.6259,
+      "sparkline": {
+        "totalChange": -24.18,
+        "data": [
+          null,
+          null,
+          0,
+          -9.0,
+          -25.45,
+          -26.96,
+          -24.18
+        ]
+      }
+    },
+    {
+      "id": "essence-of-the-abyss",
+      "primaryValue": 0.03685,
+      "volumePrimaryValue": 56.19,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.3541,
+      "sparkline": {
+        "totalChange": 131.1,
+        "data": [
+          null,
+          null,
+          0,
+          18.71,
+          97.73,
+          121.7,
+          131.1
+        ]
+      }
+    },
+    {
+      "id": "essence-of-the-body",
+      "primaryValue": 0.0297,
+      "volumePrimaryValue": 1.58,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.4394,
+      "sparkline": {
+        "totalChange": 32.19,
+        "data": [
+          null,
+          null,
+          0,
+          13.86,
+          13.96,
+          30.91,
+          32.19
+        ]
+      }
+    },
+    {
+      "id": "essence-of-the-infinite",
+      "primaryValue": 0.03846,
+      "volumePrimaryValue": 0.1218,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.3393,
+      "sparkline": {
+        "totalChange": 115.5,
+        "data": [
+          null,
+          null,
+          0,
+          15.92,
+          29.72,
+          40.67,
+          115.5
+        ]
+      }
+    },
+    {
+      "id": "essence-of-the-mind",
+      "primaryValue": 0.009787,
+      "volumePrimaryValue": 0.01957,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.33,
+      "sparkline": {
+        "totalChange": 17.76,
+        "data": [
+          null,
+          null,
+          0,
+          30.43,
+          20.4,
+          18.79,
+          17.76
+        ]
+      }
+    },
+    {
+      "id": "essence-of-electricity",
+      "primaryValue": 0.0158,
+      "volumePrimaryValue": 0.2001,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.8261,
+      "sparkline": {
+        "totalChange": -35.21,
+        "data": [
+          null,
+          null,
+          0,
+          -19.8,
+          -0.07,
+          -39.29,
+          -35.21
+        ]
+      }
+    },
+    {
+      "id": "essence-of-enhancement",
+      "primaryValue": 0.03373,
+      "volumePrimaryValue": 1.1,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.3869,
+      "sparkline": {
+        "totalChange": 57.74,
+        "data": [
+          null,
+          null,
+          0,
+          18.19,
+          11.82,
+          18.9,
+          57.74
         ]
       }
     },
     {
       "id": "lesser-essence-of-alacrity",
-      "primaryValue": 1.5,
-      "volumePrimaryValue": 16.0,
+      "primaryValue": 0.02108,
+      "volumePrimaryValue": 0.04567,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.6667,
+      "maxVolumeRate": 0.619,
       "sparkline": {
-        "totalChange": 12.68,
+        "totalChange": 14.22,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          11.15,
-          12.68
+          4.0,
+          5.07,
+          25.02,
+          14.22
         ]
       }
     },
     {
       "id": "lesser-essence-of-opulence",
-      "primaryValue": 7.11,
-      "volumePrimaryValue": 10.67,
+      "primaryValue": 0.04959,
+      "volumePrimaryValue": 0.124,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.1406,
+      "maxVolumeRate": 0.2632,
       "sparkline": {
-        "totalChange": 467.1,
+        "totalChange": 197.9,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          84.01,
-          467.1
+          56.31,
+          155.5,
+          222.8,
+          197.9
         ]
       }
     },
     {
-      "id": "perfect-essence-of-alacrity",
-      "primaryValue": 1.18,
-      "volumePrimaryValue": 16.17,
+      "id": "lesser-essence-of-the-mind",
+      "primaryValue": 0.00435,
+      "volumePrimaryValue": 0.008699,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.8454,
-      "sparkline": {
-        "totalChange": 6.42,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          43.4,
-          6.42
-        ]
-      }
-    },
-    {
-      "id": "greater-essence-of-abrasion",
-      "primaryValue": 2.59,
-      "volumePrimaryValue": 5437,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.3866,
-      "sparkline": {
-        "totalChange": -57.68,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -32.6,
-          -57.68
-        ]
-      }
-    },
-    {
-      "id": "greater-essence-of-battle",
-      "primaryValue": 0.3071,
-      "volumePrimaryValue": 12.33,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 3.26,
-      "sparkline": {
-        "totalChange": -64.55,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -50.29,
-          -64.55
-        ]
-      }
-    },
-    {
-      "id": "greater-essence-of-electricity",
-      "primaryValue": 0.606,
-      "volumePrimaryValue": 144.3,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.65,
-      "sparkline": {
-        "totalChange": -68.2,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -52.73,
-          -68.2
-        ]
-      }
-    },
-    {
-      "id": "greater-essence-of-haste",
-      "primaryValue": 1.67,
-      "volumePrimaryValue": 1409,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.5983,
-      "sparkline": {
-        "totalChange": -54.52,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -32.08,
-          -54.52
-        ]
-      }
-    },
-    {
-      "id": "greater-essence-of-seeking",
-      "primaryValue": 3.96,
-      "volumePrimaryValue": 4682,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.2527,
-      "sparkline": {
-        "totalChange": 160.9,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          15.71,
-          160.9
-        ]
-      }
-    },
-    {
-      "id": "greater-essence-of-thawing",
-      "primaryValue": 2.52,
-      "volumePrimaryValue": 3576,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.3964,
-      "sparkline": {
-        "totalChange": -18.2,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -5.69,
-          -18.2
-        ]
-      }
-    },
-    {
-      "id": "greater-essence-of-the-infinite",
-      "primaryValue": 0.8563,
-      "volumePrimaryValue": 97.33,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.17,
-      "sparkline": {
-        "totalChange": -16.26,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          11.35,
-          -16.26
-        ]
-      }
-    },
-    {
-      "id": "greater-essence-of-the-mind",
-      "primaryValue": 0.2058,
-      "volumePrimaryValue": 47.0,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 4.86,
-      "sparkline": {
-        "totalChange": -63.35,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -38.68,
-          -63.35
-        ]
-      }
-    },
-    {
-      "id": "lesser-essence-of-abrasion",
-      "primaryValue": 1.54,
-      "volumePrimaryValue": 38.0,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.6491,
-      "sparkline": {
-        "totalChange": -17.74,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -17.85,
-          -17.74
-        ]
-      }
-    },
-    {
-      "id": "lesser-essence-of-battle",
-      "primaryValue": 0.5,
-      "volumePrimaryValue": 0.1667,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 2,
+      "maxVolumeRate": 3,
       "sparkline": {
         "totalChange": 0,
         "data": [
           null,
           null,
           null,
-          null,
           0,
-          0,
+          18.71,
+          3.79,
           0
         ]
       }
     },
     {
-      "id": "lesser-essence-of-command",
-      "primaryValue": 1.14,
-      "volumePrimaryValue": 4.0,
+      "id": "perfect-essence-of-alacrity",
+      "primaryValue": 0.01963,
+      "volumePrimaryValue": 2.25,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.875,
+      "maxVolumeRate": 0.6647,
       "sparkline": {
-        "totalChange": 21.75,
+        "totalChange": 36.39,
         "data": [
           null,
           null,
+          0,
+          40.77,
+          6.92,
+          82.82,
+          36.39
+        ]
+      }
+    },
+    {
+      "id": "greater-essence-of-abrasion",
+      "primaryValue": 0.02114,
+      "volumePrimaryValue": 39.93,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.6173,
+      "sparkline": {
+        "totalChange": -78.06,
+        "data": [
           null,
           null,
           0,
-          -0.56,
-          21.75
+          -45.42,
+          -62.88,
+          -72.15,
+          -78.06
+        ]
+      }
+    },
+    {
+      "id": "greater-essence-of-battle",
+      "primaryValue": 0.002092,
+      "volumePrimaryValue": 0.1457,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 6.24,
+      "sparkline": {
+        "totalChange": -80.93,
+        "data": [
+          null,
+          null,
+          0,
+          -50.64,
+          -65.91,
+          -72.77,
+          -80.93
+        ]
+      }
+    },
+    {
+      "id": "greater-essence-of-electricity",
+      "primaryValue": 0.006569,
+      "volumePrimaryValue": 1.12,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.99,
+      "sparkline": {
+        "totalChange": -70.79,
+        "data": [
+          null,
+          null,
+          0,
+          -49.34,
+          -62.82,
+          -68.02,
+          -70.79
+        ]
+      }
+    },
+    {
+      "id": "greater-essence-of-haste",
+      "primaryValue": 0.02488,
+      "volumePrimaryValue": 22.12,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.5244,
+      "sparkline": {
+        "totalChange": -45.97,
+        "data": [
+          null,
+          null,
+          0,
+          -28.72,
+          -45.18,
+          -46.85,
+          -45.97
+        ]
+      }
+    },
+    {
+      "id": "greater-essence-of-seeking",
+      "primaryValue": 0.04576,
+      "volumePrimaryValue": 59.95,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.2852,
+      "sparkline": {
+        "totalChange": 134.9,
+        "data": [
+          null,
+          null,
+          0,
+          22.73,
+          172.1,
+          212.1,
+          134.9
+        ]
+      }
+    },
+    {
+      "id": "greater-essence-of-thawing",
+      "primaryValue": 0.02308,
+      "volumePrimaryValue": 36.67,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.5654,
+      "sparkline": {
+        "totalChange": -42.1,
+        "data": [
+          null,
+          null,
+          0,
+          -5.8,
+          -21.63,
+          -34.02,
+          -42.1
+        ]
+      }
+    },
+    {
+      "id": "greater-essence-of-the-infinite",
+      "primaryValue": 0.007865,
+      "volumePrimaryValue": 1.45,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 1.66,
+      "sparkline": {
+        "totalChange": -40.81,
+        "data": [
+          null,
+          null,
+          0,
+          11.13,
+          -19.65,
+          36.79,
+          -40.81
+        ]
+      }
+    },
+    {
+      "id": "greater-essence-of-the-mind",
+      "primaryValue": 0.002096,
+      "volumePrimaryValue": 0.3284,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 6.23,
+      "sparkline": {
+        "totalChange": -70.31,
+        "data": [
+          null,
+          null,
+          0,
+          -38.38,
+          -62.02,
+          -64.53,
+          -70.31
+        ]
+      }
+    },
+    {
+      "id": "lesser-essence-of-abrasion",
+      "primaryValue": 0.02244,
+      "volumePrimaryValue": 0.5198,
+      "maxVolumeCurrency": "exalted",
+      "maxVolumeRate": 0.5816,
+      "sparkline": {
+        "totalChange": -16.84,
+        "data": [
+          null,
+          null,
+          0,
+          -26.16,
+          -23.4,
+          -30.99,
+          -16.84
         ]
       }
     },
     {
       "id": "lesser-essence-of-electricity",
-      "primaryValue": 0.9231,
-      "volumePrimaryValue": 2.0,
+      "primaryValue": 0.01305,
+      "volumePrimaryValue": 0.02827,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.08,
+      "maxVolumeRate": 1,
       "sparkline": {
-        "totalChange": 1.48,
+        "totalChange": 7.24,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -0.27,
-          1.48
+          -2.96,
+          -5.28,
+          -2.17,
+          7.24
         ]
       }
     },
     {
       "id": "lesser-essence-of-enhancement",
-      "primaryValue": 0.7576,
-      "volumePrimaryValue": 8.33,
+      "primaryValue": 0.01004,
+      "volumePrimaryValue": 0.0435,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.32,
+      "maxVolumeRate": 1.3,
       "sparkline": {
-        "totalChange": -12.35,
+        "totalChange": -9.36,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -18.54,
-          -12.35
+          -17.51,
+          -5.36,
+          -15.76,
+          -9.36
         ]
       }
     },
     {
       "id": "lesser-essence-of-flames",
-      "primaryValue": 0.9333,
-      "volumePrimaryValue": 2.33,
+      "primaryValue": 0.01223,
+      "volumePrimaryValue": 0.03262,
       "maxVolumeCurrency": "exalted",
       "maxVolumeRate": 1.07,
       "sparkline": {
-        "totalChange": 16.97,
+        "totalChange": 14.8,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          8.62,
-          16.97
+          6.12,
+          -4.35,
+          2.04,
+          14.8
         ]
       }
     },
     {
       "id": "lesser-essence-of-grounding",
-      "primaryValue": 0.8462,
-      "volumePrimaryValue": 1.83,
+      "primaryValue": 0.01196,
+      "volumePrimaryValue": 0.02392,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.18,
+      "maxVolumeRate": 1.09,
       "sparkline": {
-        "totalChange": -25.14,
+        "totalChange": -17.48,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          1.64,
-          -25.14
+          0.63,
+          -20.56,
+          -12.98,
+          -17.48
         ]
       }
     },
     {
       "id": "lesser-essence-of-haste",
-      "primaryValue": 2.33,
-      "volumePrimaryValue": 7.0,
+      "primaryValue": 0.04828,
+      "volumePrimaryValue": 0.1609,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.4286,
+      "maxVolumeRate": 0.2703,
       "sparkline": {
-        "totalChange": 29.89,
+        "totalChange": 78.62,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          6.63,
-          29.89
+          -9.35,
+          -9.83,
+          77.08,
+          78.62
         ]
       }
     },
     {
       "id": "lesser-essence-of-ice",
-      "primaryValue": 1,
-      "volumePrimaryValue": 1.67,
+      "primaryValue": 0.0103,
+      "volumePrimaryValue": 0.03262,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1,
+      "maxVolumeRate": 1.27,
       "sparkline": {
-        "totalChange": 2.67,
+        "totalChange": -19.11,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -7.93,
-          2.67
+          -8.12,
+          -6.66,
+          -7.79,
+          -19.11
         ]
       }
     },
     {
       "id": "lesser-essence-of-insulation",
-      "primaryValue": 0.6571,
-      "volumePrimaryValue": 3.83,
+      "primaryValue": 0.009243,
+      "volumePrimaryValue": 0.03697,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.52,
+      "maxVolumeRate": 1.41,
       "sparkline": {
-        "totalChange": -27.38,
+        "totalChange": -9.18,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -6.03,
-          -27.38
+          9.97,
+          -10.53,
+          -6.58,
+          -9.18
         ]
       }
     },
     {
       "id": "lesser-essence-of-ruin",
-      "primaryValue": 7,
-      "volumePrimaryValue": 3.5,
+      "primaryValue": 0.01305,
+      "volumePrimaryValue": 0.008699,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.1429,
+      "maxVolumeRate": 1,
       "sparkline": {
-        "totalChange": 328.6,
+        "totalChange": -45.45,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          17.59,
-          328.6
+          -10.23,
+          82.5,
+          72.86,
+          -45.45
         ]
       }
     },
     {
       "id": "lesser-essence-of-seeking",
-      "primaryValue": 1,
-      "volumePrimaryValue": 2.17,
+      "primaryValue": 0.01566,
+      "volumePrimaryValue": 0.01305,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1,
+      "maxVolumeRate": 0.8333,
       "sparkline": {
-        "totalChange": -25.71,
+        "totalChange": -19.11,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -9.39,
-          -25.71
+          -21.76,
+          -39.59,
+          65.02,
+          -19.11
         ]
       }
     },
     {
       "id": "lesser-essence-of-sorcery",
-      "primaryValue": 0.9444,
-      "volumePrimaryValue": 2.83,
+      "primaryValue": 0.03291,
+      "volumePrimaryValue": 0.1261,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.06,
+      "maxVolumeRate": 0.3966,
       "sparkline": {
-        "totalChange": -5.72,
+        "totalChange": 140.9,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -7.44,
-          -5.72
+          -10.85,
+          -15.78,
+          -13.83,
+          140.9
         ]
       }
     },
     {
       "id": "lesser-essence-of-thawing",
-      "primaryValue": 1,
-      "volumePrimaryValue": 4.17,
+      "primaryValue": 0.01223,
+      "volumePrimaryValue": 0.03262,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1,
+      "maxVolumeRate": 1.07,
       "sparkline": {
-        "totalChange": -11.8,
+        "totalChange": -17.02,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -11.77,
-          -11.8
+          -11.48,
+          -2.41,
+          -26.53,
+          -17.02
         ]
       }
     },
     {
       "id": "lesser-essence-of-the-body",
-      "primaryValue": 0.6875,
-      "volumePrimaryValue": 1.83,
+      "primaryValue": 0.01631,
+      "volumePrimaryValue": 0.06525,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.45,
+      "maxVolumeRate": 0.8,
       "sparkline": {
-        "totalChange": -9.89,
+        "totalChange": 61.87,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          11.33,
-          -9.89
+          11.31,
+          -11.44,
+          -3.25,
+          61.87
         ]
       }
     },
     {
       "id": "lesser-essence-of-the-infinite",
-      "primaryValue": 0.8333,
-      "volumePrimaryValue": 0.8333,
+      "primaryValue": 0.02175,
+      "volumePrimaryValue": 0.02175,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.2,
+      "maxVolumeRate": 0.6,
       "sparkline": {
-        "totalChange": -16.67,
+        "totalChange": 66.67,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -7.84,
-          -16.67
+          -6.35,
+          -3.25,
+          9.72,
+          66.67
         ]
       }
     },
     {
       "id": "perfect-essence-of-flames",
-      "primaryValue": 0.944,
-      "volumePrimaryValue": 36.5,
+      "primaryValue": 0.01025,
+      "volumePrimaryValue": 0.4067,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.06,
+      "maxVolumeRate": 1.27,
       "sparkline": {
-        "totalChange": -66.38,
+        "totalChange": -67.29,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -47.03,
-          -66.38
+          -39.67,
+          -53.99,
+          -59.87,
+          -67.29
         ]
       }
     },
     {
       "id": "perfect-essence-of-grounding",
-      "primaryValue": 0.7857,
-      "volumePrimaryValue": 7.33,
+      "primaryValue": 0.008156,
+      "volumePrimaryValue": 0.1522,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.27,
+      "maxVolumeRate": 1.6,
       "sparkline": {
-        "totalChange": -42.38,
+        "totalChange": -53.12,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -30.95,
-          -42.38
+          -29.86,
+          -42.09,
+          -54.29,
+          -53.12
         ]
       }
     },
     {
       "id": "perfect-essence-of-ice",
-      "primaryValue": 1.48,
-      "volumePrimaryValue": 110.3,
+      "primaryValue": 0.01513,
+      "volumePrimaryValue": 1.14,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.6767,
+      "maxVolumeRate": 0.8626,
       "sparkline": {
-        "totalChange": -71.47,
+        "totalChange": -77.27,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -51.04,
-          -71.47
+          -51.15,
+          -70.69,
+          -72.08,
+          -77.27
         ]
       }
     },
     {
       "id": "perfect-essence-of-insulation",
-      "primaryValue": 1.52,
-      "volumePrimaryValue": 87.17,
+      "primaryValue": 0.01587,
+      "volumePrimaryValue": 0.8678,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.6577,
+      "maxVolumeRate": 0.8221,
       "sparkline": {
-        "totalChange": -18.29,
+        "totalChange": -46.53,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          16.01,
-          -18.29
-        ]
-      }
-    },
-    {
-      "id": "perfect-essence-of-ruin",
-      "primaryValue": 0.9813,
-      "volumePrimaryValue": 17.5,
-      "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 1.02,
-      "sparkline": {
-        "totalChange": -1.87,
-        "data": [
-          null,
-          null,
-          null,
-          null,
-          0,
-          -4.24,
-          -1.87
+          -3.87,
+          -34.87,
+          -49.01,
+          -46.53
         ]
       }
     },
     {
       "id": "perfect-essence-of-seeking",
-      "primaryValue": 2.19,
-      "volumePrimaryValue": 58.0,
+      "primaryValue": 0.02026,
+      "volumePrimaryValue": 1.4,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.4569,
+      "maxVolumeRate": 0.644,
       "sparkline": {
-        "totalChange": 98.97,
+        "totalChange": 42.5,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          65.95,
-          98.97
+          72.88,
+          71.69,
+          105.5,
+          42.5
         ]
       }
     },
     {
       "id": "perfect-essence-of-sorcery",
-      "primaryValue": 4.52,
-      "volumePrimaryValue": 2922,
+      "primaryValue": 0.04477,
+      "volumePrimaryValue": 32.38,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.2211,
+      "maxVolumeRate": 0.2915,
       "sparkline": {
-        "totalChange": -79.22,
+        "totalChange": -80.65,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          -53.51,
-          -79.22
+          -46.25,
+          -71.63,
+          -76.62,
+          -80.65
         ]
       }
     },
     {
       "id": "perfect-essence-of-the-mind",
-      "primaryValue": 1.68,
-      "volumePrimaryValue": 397.2,
+      "primaryValue": 0.01877,
+      "volumePrimaryValue": 6.85,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 0.5963,
+      "maxVolumeRate": 0.6953,
       "sparkline": {
-        "totalChange": 9.76,
+        "totalChange": -9.03,
         "data": [
           null,
           null,
-          null,
-          null,
           0,
-          18.68,
-          9.76
+          14.25,
+          4.01,
+          -5.86,
+          -9.03
         ]
       }
     },
     {
-      "id": "lesser-essence-of-the-mind",
-      "primaryValue": 0.5,
-      "volumePrimaryValue": 1.67,
+      "id": "essence-of-battle",
+      "primaryValue": 0.01305,
+      "volumePrimaryValue": 0.002175,
       "maxVolumeCurrency": "exalted",
-      "maxVolumeRate": 2,
+      "maxVolumeRate": 1,
       "sparkline": {
-        "totalChange": 50.0,
+        "totalChange": 0,
         "data": [
           null,
           null,
-          null,
-          null,
-          null,
           0,
-          50.0
+          0,
+          -27.6,
+          -18.57,
+          0
         ]
       }
     }
   ],
   "items": [
     {
-      "id": "essence-of-electricity",
-      "name": "Essence of Electricity",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWdodG5pbmdFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/2c3725fdad/LightningEssence.png",
+      "id": "essence-of-delirium",
+      "name": "Essence of Delirium",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db3JydXB0ZWRFc3NlbmNlRGVsaXJpdW0iLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/d67329e6ed/CorruptedEssenceDelirium.png",
       "category": "Essences",
-      "detailsId": "essence-of-electricity"
+      "detailsId": "essence-of-delirium"
     },
     {
-      "id": "essence-of-insulation",
-      "name": "Essence of Insulation",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GaXJlUmVzaXN0YW5jZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/228d48a458/FireResistanceEssence.png",
+      "id": "essence-of-ruin",
+      "name": "Essence of Ruin",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DaGFvc0Vzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5f0d3c7014/ChaosEssence.png",
       "category": "Essences",
-      "detailsId": "essence-of-insulation"
+      "detailsId": "essence-of-ruin"
+    },
+    {
+      "id": "essence-of-sorcery",
+      "name": "Essence of Sorcery",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DYXN0ZXJFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6bb099115a/CasterEssence.png",
+      "category": "Essences",
+      "detailsId": "essence-of-sorcery"
+    },
+    {
+      "id": "essence-of-the-breach",
+      "name": "Essence of the Breach",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9CcmVhY2hFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/60e81fa5eb/BreachEssence.png",
+      "category": "Essences",
+      "detailsId": "essence-of-the-breach"
     },
     {
       "id": "greater-essence-of-alacrity",
@@ -1683,6 +1678,13 @@
       "detailsId": "greater-essence-of-the-body"
     },
     {
+      "id": "lesser-essence-of-command",
+      "name": "Lesser Essence of Command",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BbGx5RXNzZW5jZUxlc3NlciIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3681453df4/AllyEssenceLesser.png",
+      "category": "Essences",
+      "detailsId": "lesser-essence-of-command"
+    },
+    {
       "id": "perfect-essence-of-abrasion",
       "name": "Perfect Essence of Abrasion",
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9QaHlzaWNhbEVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9690e5eb39/PhysicalEssencePerfect.png",
@@ -1695,6 +1697,13 @@
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BdHRhY2tFc3NlbmNlUGVyZmVjdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/4e86ee5d8d/AttackEssencePerfect.png",
       "category": "Essences",
       "detailsId": "perfect-essence-of-battle"
+    },
+    {
+      "id": "perfect-essence-of-command",
+      "name": "Perfect Essence of Command",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BbGx5RXNzZW5jZVBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/0e06dceedc/AllyEssencePerfect.png",
+      "category": "Essences",
+      "detailsId": "perfect-essence-of-command"
     },
     {
       "id": "perfect-essence-of-electricity",
@@ -1746,18 +1755,18 @@
       "detailsId": "perfect-essence-of-the-infinite"
     },
     {
-      "id": "essence-of-sorcery",
-      "name": "Essence of Sorcery",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DYXN0ZXJFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6bb099115a/CasterEssence.png",
+      "id": "essence-of-flames",
+      "name": "Essence of Flames",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GaXJlRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/add6c12f64/FireEssence.png",
       "category": "Essences",
-      "detailsId": "essence-of-sorcery"
+      "detailsId": "essence-of-flames"
     },
     {
-      "id": "perfect-essence-of-command",
-      "name": "Perfect Essence of Command",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BbGx5RXNzZW5jZVBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/0e06dceedc/AllyEssencePerfect.png",
+      "id": "perfect-essence-of-ruin",
+      "name": "Perfect Essence of Ruin",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DaGFvc0Vzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/ab17828e71/ChaosEssencePerfect.png",
       "category": "Essences",
-      "detailsId": "perfect-essence-of-command"
+      "detailsId": "perfect-essence-of-ruin"
     },
     {
       "id": "essence-of-abrasion",
@@ -1779,13 +1788,6 @@
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BbGx5RXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/7150f695c2/AllyEssence.png",
       "category": "Essences",
       "detailsId": "essence-of-command"
-    },
-    {
-      "id": "essence-of-flames",
-      "name": "Essence of Flames",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GaXJlRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/add6c12f64/FireEssence.png",
-      "category": "Essences",
-      "detailsId": "essence-of-flames"
     },
     {
       "id": "essence-of-grounding",
@@ -1828,6 +1830,13 @@
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db3JydXB0ZWRFc3NlbmNlSW5zYW5pdHkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2231419c93/CorruptedEssenceInsanity.png",
       "category": "Essences",
       "detailsId": "essence-of-insanity"
+    },
+    {
+      "id": "essence-of-insulation",
+      "name": "Essence of Insulation",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GaXJlUmVzaXN0YW5jZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/228d48a458/FireResistanceEssence.png",
+      "category": "Essences",
+      "detailsId": "essence-of-insulation"
     },
     {
       "id": "essence-of-opulence",
@@ -1879,18 +1888,11 @@
       "detailsId": "essence-of-the-mind"
     },
     {
-      "id": "essence-of-battle",
-      "name": "Essence of Battle",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BdHRhY2tFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/3cece29e19/AttackEssence.png",
+      "id": "essence-of-electricity",
+      "name": "Essence of Electricity",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWdodG5pbmdFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/2c3725fdad/LightningEssence.png",
       "category": "Essences",
-      "detailsId": "essence-of-battle"
-    },
-    {
-      "id": "essence-of-delirium",
-      "name": "Essence of Delirium",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db3JydXB0ZWRFc3NlbmNlRGVsaXJpdW0iLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/d67329e6ed/CorruptedEssenceDelirium.png",
-      "category": "Essences",
-      "detailsId": "essence-of-delirium"
+      "detailsId": "essence-of-electricity"
     },
     {
       "id": "essence-of-enhancement",
@@ -1898,20 +1900,6 @@
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9EZWZlbmNlc0Vzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e1e5c1ccb8/DefencesEssence.png",
       "category": "Essences",
       "detailsId": "essence-of-enhancement"
-    },
-    {
-      "id": "essence-of-ruin",
-      "name": "Essence of Ruin",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DaGFvc0Vzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5f0d3c7014/ChaosEssence.png",
-      "category": "Essences",
-      "detailsId": "essence-of-ruin"
-    },
-    {
-      "id": "essence-of-the-breach",
-      "name": "Essence of the Breach",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9CcmVhY2hFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/60e81fa5eb/BreachEssence.png",
-      "category": "Essences",
-      "detailsId": "essence-of-the-breach"
     },
     {
       "id": "lesser-essence-of-alacrity",
@@ -1926,6 +1914,13 @@
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9SYXJpdHlSZXNpc3RhbmNlRXNzZW5jZUxlc3NlciIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/9d85275442/RarityResistanceEssenceLesser.png",
       "category": "Essences",
       "detailsId": "lesser-essence-of-opulence"
+    },
+    {
+      "id": "lesser-essence-of-the-mind",
+      "name": "Lesser Essence of the Mind",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9NYW5hRXNzZW5jZUxlc3NlciIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/35a1d11465/ManaEssenceLesser.png",
+      "category": "Essences",
+      "detailsId": "lesser-essence-of-the-mind"
     },
     {
       "id": "perfect-essence-of-alacrity",
@@ -1996,20 +1991,6 @@
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9QaHlzaWNhbEVzc2VuY2VMZXNzZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/21723a9133/PhysicalEssenceLesser.png",
       "category": "Essences",
       "detailsId": "lesser-essence-of-abrasion"
-    },
-    {
-      "id": "lesser-essence-of-battle",
-      "name": "Lesser Essence of Battle",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BdHRhY2tFc3NlbmNlTGVzc2VyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/7cff2d5df7/AttackEssenceLesser.png",
-      "category": "Essences",
-      "detailsId": "lesser-essence-of-battle"
-    },
-    {
-      "id": "lesser-essence-of-command",
-      "name": "Lesser Essence of Command",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BbGx5RXNzZW5jZUxlc3NlciIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3681453df4/AllyEssenceLesser.png",
-      "category": "Essences",
-      "detailsId": "lesser-essence-of-command"
     },
     {
       "id": "lesser-essence-of-electricity",
@@ -2131,13 +2112,6 @@
       "detailsId": "perfect-essence-of-insulation"
     },
     {
-      "id": "perfect-essence-of-ruin",
-      "name": "Perfect Essence of Ruin",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DaGFvc0Vzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/ab17828e71/ChaosEssencePerfect.png",
-      "category": "Essences",
-      "detailsId": "perfect-essence-of-ruin"
-    },
-    {
       "id": "perfect-essence-of-seeking",
       "name": "Perfect Essence of Seeking",
       "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Dcml0aWNhbEVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/3d5125e9d6/CriticalEssencePerfect.png",
@@ -2159,11 +2133,11 @@
       "detailsId": "perfect-essence-of-the-mind"
     },
     {
-      "id": "lesser-essence-of-the-mind",
-      "name": "Lesser Essence of the Mind",
-      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9NYW5hRXNzZW5jZUxlc3NlciIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/35a1d11465/ManaEssenceLesser.png",
+      "id": "essence-of-battle",
+      "name": "Essence of Battle",
+      "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BdHRhY2tFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/3cece29e19/AttackEssence.png",
       "category": "Essences",
-      "detailsId": "lesser-essence-of-the-mind"
+      "detailsId": "essence-of-battle"
     }
   ]
 }

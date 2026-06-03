@@ -14,6 +14,7 @@
 - Python 脚本统一放在 `scripts/python/`。
 - Windows 辅助脚本和计划任务入口统一放在 `scripts/windows/`。
 - HTML 报告按装备部位生成到 `reports/<slot>/`，例如弓报告固定放在 `reports/bow/`。
+- 异界/Atlas 分析报告固定放在 `reports/atlas/`。
 - 报告截图、图表和其他报告资产按装备部位生成到 `reports/<slot>/assets/`，例如弓资产固定放在 `reports/bow/assets/`。
 - 原始抓取数据统一放在 `data/raw/`；这里保存网页、接口 JSON、站点脚本等原文，不能直接作为报告计算入口。
 - poe.ninja 原始接口响应固定放在 `data/raw/poe_ninja/`；研究页面结构用的 HTML/JS 固定放在 `data/raw/poe_ninja/site_research/`；清洗后的价格表固定放在 `data/processed/prices/poe_ninja/by_type/`，每个类型一个 CSV。
@@ -21,6 +22,11 @@
 - PoE2DB 清洗后的全量词缀表固定放在 `data/processed/mods/poe2db_mods.csv`。
 - PoE2DB 清洗后的全量基底表固定放在 `data/processed/items/poe2db_base_items.csv`。
 - Path of Crafting 清洗后的词缀表固定放在 `data/processed/mods/pathofcrafting/modifiers.csv`。
+- GGG 官方 PoE2 天赋树原始快照固定放在 `data/raw/poe2_skilltree/`。
+- GGG 官方 PoE2 天赋树清洗后的表固定放在 `data/processed/passive_tree/`。
+- poe2wiki/Cargo 导出的 PoE2 异界天赋树原始快照固定放在 `data/raw/poe2wiki/`。
+- PoE2 异界天赋树清洗后的节点和连接表固定放在 `data/processed/passive_tree/`。
+- GGG GitHub 公开仓库镜像和仓库清单固定放在 `data/raw/grindinggear_github/`。
 - 清洗流程的摘要/元数据固定放在 `data/processed/metadata/`。
 - 报告专用的中间表固定放在 `data/processed/reports/<slot>/`，例如弓伤害图表数据放在 `data/processed/reports/bow/`。
 - 不要同时保存同一批清洗数据的 CSV 和 JSON；清洗后的规范格式默认使用 CSV，只有摘要/元数据使用 JSON。
